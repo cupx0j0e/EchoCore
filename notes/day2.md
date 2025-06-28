@@ -1,4 +1,4 @@
-# Blog Day 1 (0.0.2)
+# Blog Day 2 (0.0.2)
 
 ## Keywords
 ### Verilog
