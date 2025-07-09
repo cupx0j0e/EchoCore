@@ -21,4 +21,5 @@ It controls the timing of when each transducer element sends a pulse which steer
 Beamforming increases the focus on a specific point thereby increasing the spatial resolution; making it easier to distinguish between closely spaced structures in medical imaging. Beamforming allows one to "steer" the device's listening direction electronically without physically moving the device.
 
 ## Things I accomplished
-
+- Watched some videos about 16 QAM communication
+- Read about beamformers
