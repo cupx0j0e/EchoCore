@@ -1,0 +1,2 @@
+./tb/four_pr_tb.v
+./four_pr.v
