@@ -1,0 +1,8 @@
+[2025-07-23 06:00:22 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+Time = 0 | in_sig = 0 | out_sig = 0
+Time = 10 | in_sig = 1 | out_sig = 1
+Time = 20 | in_sig = 0 | out_sig = 0
+Time = 30 | in_sig = 1 | out_sig = 1
+Time = 40 | in_sig = 0 | out_sig = 0
+testbench.sv:28: $finish called at 50 (1s)
+Done
