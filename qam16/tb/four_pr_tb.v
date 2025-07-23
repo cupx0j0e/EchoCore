@@ -3,6 +3,7 @@
 module four_pr_tb();
     reg clk, reset;
     wire [3:0] q;
+    wire [3:0] cnt;
 
     initial begin
         #0 clk = 1'b1;
@@ -18,13 +19,14 @@ module four_pr_tb();
         #0 reset = 1'b1;
         #10 reset = 1'b0;
 
-        #90 $finish;
+        #1000 $finish;
     end
 
-    four_pv uut(
+    four_pr uut(
         .clk(clk),
         .reset(reset),
-        .q(q)
+        .q(q),
+        .cnt(cnt)
     );
 
 endmodule
