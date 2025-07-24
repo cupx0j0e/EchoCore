@@ -39,6 +39,7 @@ module upsamp_tb ();
 
     upsampler uut(
         .clk(clk),
+        .reset(reset),
         .count(count),
         .iout(i_out),
         .qout(q_out),
