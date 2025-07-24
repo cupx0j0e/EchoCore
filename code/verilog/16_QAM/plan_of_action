@@ -1,0 +1,37 @@
+
+✔️ Transmitter Side
+
+    Start with random binary data
+    ➤ Like 4 bits: 1010, 0101, etc.
+
+    Map it to a 2D point in the 16-QAM grid
+    ➤ Example: 1010 → I = +3, Q = +3
+
+    Make it "continuous" using:
+
+        Zero padding (adds gaps to space things out)
+
+        RRC Filter (makes the signal smooth like a real-world wave)
+
+    Send the I and Q data over two "channels":
+
+        I → mix with cosine wave (cos)
+
+        Q → mix with sine wave (sin)
+
+    Add them together
+    ➤ Result: A complex-looking waveform carrying your binary data
+
+    Send it to the receiver (through air, fiber, etc.)
+
+✔️ Receiver Side 
+
+    Receive the waveform
+
+    Mix it with cos & sin again to recover I & Q
+
+    Filter it again to clean it up
+
+    Sample and detect the I & Q values
+
+    Map them back to 4-bit binary data
