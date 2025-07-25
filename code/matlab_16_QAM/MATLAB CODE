@@ -1,16 +1,17 @@
-MATLAB CODE
-
 % create symbols dictionary
 values = [-3-3j, -1-3j, 3-3j, 1-3j, -3-1j, -1-1j, 3-1j, 1-1j, ...
 -3+3j, -1+3j, 3+3j, 1+3j, -3+1j, -1+1j, 3+1j, 1+1j];
+
 % create symbols
 nSymbols = 1000;
 qamType = 16;
-frame = values(int8((qamType-1) * rand(1,nSymbols))+1)
+frame = values(int8((qamType-1) * rand(1,nSymbols))+1)      % creates the 4x4 grid 
+
 % apply zero stuffing to upsample the signal
 upFactor = 10;
-frameUp = upsample(frame,upFactor)
-% rrc filter
+frameUp = upsample(frame,upFactor)                          % inserts zeros between the discrete signals
+
+% rrc filter (converts to continuous signal)
 filtlen = 5;
 rolloff = 0.25;
 b = rcosdesign(rolloff,filtlen,upFactor);
@@ -20,9 +21,11 @@ frameUpFiltIm = filter(b,1,imag(frameUp));
 figure
 plot(frameUpFiltRe, frameUpFiltIm);
 grid on
->> % scatter plot
+
+% scatter plot
 txvect = frameUpFiltRe + j*frameUpFiltIm;
 
+% to see practically where the signals lie wrt the 16 points
 % STEP 1: Delay compensation
 delay = filtlen * upFactor / 2;  % e.g., 5 * 10 / 2 = 25
 maxSafeSymbols = floor((length(txvect) - delay) / upFactor);
@@ -35,5 +38,5 @@ recoveredSymbols = txvect(samplePoints);
 
 % STEP 4: Plot cleaned constellation
 scatterplot(recoveredSymbols);
-title('✅ Clean QAM16 Constellation After Delay Compensation');
+title('QAM16 Constellation After Delay Compensation');
 grid on;
