@@ -19,19 +19,20 @@ module tb_top_tx;
   // Clock generation: 100 MHz (10ns period)
   always #5 clk = ~clk;
 
-  initial begin
-    $display("Starting simulation...");
-    
-    // Reset for 20 ns
-    #20 reset = 0;
+initial begin
+  $display("Starting simulation...");
 
-    // Let the DUT run
-    #500;
+  // Hold reset high for 100 ns
+  reset = 1;
+  #100;
+  reset = 0;
 
-    // End simulation
-    $display("Simulation finished.");
-    $stop;
-  end
+  // Let the DUT run for some time
+  #1000;
+
+  $display("Simulation finished.");
+  $stop;
+end
 
 endmodule
 

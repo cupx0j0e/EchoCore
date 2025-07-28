@@ -89,8 +89,9 @@ module top_tx (
     );
 
     // Output upper 16 bits of 48-bit FIR output
-    assign dout_i = fir_i_pout[47:32];
-    assign dout_q = fir_q_pout[47:32];
+    assign dout_i = { {12{i_up[3]}}, i_up };  // Sign-extend to 16 bits
+assign dout_q = { {12{q_up[3]}}, q_up };
+
 
 endmodule
 
