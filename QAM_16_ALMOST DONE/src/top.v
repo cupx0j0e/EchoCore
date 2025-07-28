@@ -29,7 +29,7 @@ module top_tx (
     four_pr inst1 (
         .clk(clk),
         .reset(reset),
-        .data(data),
+        .q(data),
         .cnt(count)
     );
 
@@ -41,7 +41,6 @@ module top_tx (
 
     upsampler inst3 (
         .clk(clk),
-        .reset(reset),
         .count(count),
         .iout(i_out),
         .qout(q_out),
