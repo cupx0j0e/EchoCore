@@ -1,5 +1,7 @@
 module rrc_filter #(
-    parameter TAPS = 11
+    parameter TAPS = 11,
+    parameter signed [7:0] coeffs [0:TAPS-1] = '{4, 6, 8, 10, 12, 14, 12, 10, 8, 6, 4}
+
 )(
     input clk,
     input rst,
@@ -8,24 +10,9 @@ module rrc_filter #(
 );
 
     reg signed [7:0] shift_reg [0:TAPS-1];
-    reg signed [7:0] coeffs [0:TAPS-1];
     reg signed [15:0] acc;
     integer i;
 
-    // Initialize coefficients 
-    initial begin
-        coeffs[0]  = 4;
-        coeffs[1]  = 6;
-        coeffs[2]  = 8;
-        coeffs[3]  = 10;
-        coeffs[4]  = 12;
-        coeffs[5]  = 14;
-        coeffs[6]  = 12;
-        coeffs[7]  = 10;
-        coeffs[8]  = 8;
-        coeffs[9]  = 6;
-        coeffs[10] = 4;
-    end
 
     always @(posedge clk or posedge rst) begin
         if (rst) begin
