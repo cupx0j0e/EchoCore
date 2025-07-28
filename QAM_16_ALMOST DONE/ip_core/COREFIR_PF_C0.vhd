@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Mon Jul 28 11:41:48 2025
+-- Created by SmartDesign Mon Jul 28 22:53:57 2025
 -- Version: 2025.1 2025.1.0.14
 ----------------------------------------------------------------------
 
@@ -13,11 +13,11 @@
 --create_and_configure_core -core_vlnv {Actel:DirectCore:COREFIR_PF:3.0.121} -component_name {COREFIR_PF_C0} -params {\
 --"CFG_ARCH:1"  \
 --"COEF_RAM:false"  \
---"COEF_SETS:2"  \
+--"COEF_SETS:1"  \
 --"COEF_SYMM:1"  \
 --"COEF_TYPE:0"  \
 --"COEF_UNSIGN:false"  \
---"COEF_WIDTH:16"  \
+--"COEF_WIDTH:12"  \
 --"COEF_WIDTH_REQ:16"  \
 --"COEFFS:coefficient_set_1
 --4
@@ -26,13 +26,6 @@
 --10
 --12
 --14
---coefficient_set_2
---14
---12
---10
---8
---6
---4
 --"  \
 --"CTRL_LAYOUT:0"  \
 --"DATA_RAM:false"  \
@@ -91,8 +84,6 @@ entity COREFIR_PF_C0 is
     port(
         -- Inputs
         CLK         : in  std_logic;
-        COEF_ON     : in  std_logic;
-        COEF_SEL    : in  std_logic_vector(3 downto 0);
         DATAI       : in  std_logic_vector(3 downto 0);
         DATAI_VALID : in  std_logic;
         NGRST       : in  std_logic;
@@ -114,11 +105,11 @@ component COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
     generic( 
         CFG_ARCH       : integer := 1 ;
         COEF_RAM       : integer := 0 ;
-        COEF_SETS      : integer := 2 ;
+        COEF_SETS      : integer := 1 ;
         COEF_SYMM      : integer := 1 ;
         COEF_TYPE      : integer := 0 ;
         COEF_UNSIGN    : integer := 0 ;
-        COEF_WIDTH     : integer := 16 ;
+        COEF_WIDTH     : integer := 12 ;
         COEF_WIDTH_REQ : integer := 16 ;
         DATA_RAM       : integer := 0 ;
         DATA_UNSIGN    : integer := 0 ;
@@ -146,7 +137,7 @@ component COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
         AXI4_S_DATAI_TVALID   : in  std_logic;
         AXI4_S_TDATAI         : in  std_logic_vector(7 downto 0);
         CLK                   : in  std_logic;
-        COEFI                 : in  std_logic_vector(15 downto 0);
+        COEFI                 : in  std_logic_vector(11 downto 0);
         COEFI_VALID           : in  std_logic;
         COEF_ON               : in  std_logic;
         COEF_REF              : in  std_logic;
@@ -180,9 +171,10 @@ signal FIRO_net_1       : std_logic_vector(47 downto 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
-signal COEFI_const_net_0: std_logic_vector(15 downto 0);
+signal COEFI_const_net_0: std_logic_vector(11 downto 0);
 signal VCC_net          : std_logic;
 signal GND_net          : std_logic;
+signal COEF_SEL_const_net_0: std_logic_vector(3 downto 0);
 signal AXI4_S_TDATAI_const_net_0: std_logic_vector(7 downto 0);
 signal AXI4_S_COEFI_const_net_0: std_logic_vector(15 downto 0);
 signal AXI4_S_CONFIGI_const_net_0: std_logic_vector(7 downto 0);
@@ -191,9 +183,10 @@ begin
 ----------------------------------------------------------------------
 -- Constant assignments
 ----------------------------------------------------------------------
- COEFI_const_net_0          <= B"0000000000000000";
+ COEFI_const_net_0          <= B"000000000000";
  VCC_net                    <= '1';
  GND_net                    <= '0';
+ COEF_SEL_const_net_0       <= B"0000";
  AXI4_S_TDATAI_const_net_0  <= B"00000000";
  AXI4_S_COEFI_const_net_0   <= B"0000000000000000";
  AXI4_S_CONFIGI_const_net_0 <= B"00000000";
@@ -212,11 +205,11 @@ COREFIR_PF_C0_0 : COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
     generic map( 
         CFG_ARCH       => ( 1 ),
         COEF_RAM       => ( 0 ),
-        COEF_SETS      => ( 2 ),
+        COEF_SETS      => ( 1 ),
         COEF_SYMM      => ( 1 ),
         COEF_TYPE      => ( 0 ),
         COEF_UNSIGN    => ( 0 ),
-        COEF_WIDTH     => ( 16 ),
+        COEF_WIDTH     => ( 12 ),
         COEF_WIDTH_REQ => ( 16 ),
         DATA_RAM       => ( 0 ),
         DATA_UNSIGN    => ( 0 ),
@@ -241,8 +234,8 @@ COREFIR_PF_C0_0 : COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
         DATAI_VALID           => DATAI_VALID,
         COEFI                 => COEFI_const_net_0, -- tied to X"0" from definition
         COEFI_VALID           => VCC_net, -- tied to '1' from definition
-        COEF_ON               => COEF_ON,
-        COEF_SEL              => COEF_SEL,
+        COEF_ON               => GND_net, -- tied to '0' from definition
+        COEF_SEL              => COEF_SEL_const_net_0, -- tied to X"0" from definition
         COEF_REF              => GND_net, -- tied to '0' from definition
         RCLK                  => VCC_net, -- tied to '1' from definition
         AXI4_S_DATAI_TVALID   => GND_net, -- tied to '0' from definition

@@ -1,6 +1,7 @@
 module upsampler (
     input clk,
-    input [3:0] count,
+    input reset,
+    input [3:0] count,  // 0 to 10
     input signed [3:0] iout,
     input signed [3:0] qout,
     output reg signed [3:0] iup,
@@ -8,16 +9,19 @@ module upsampler (
 );
 
     always @(posedge clk) begin
-        case (count)
-            4'b0000: begin
+        if (reset) begin
+            iup <= 4'sd0;
+            qup <= 4'sd0;
+        end else begin
+            if (count == 4'd0) begin
                 iup <= iout;
                 qup <= qout;
-            end 
-            default: begin
+            end else begin
                 iup <= 4'sd0;
                 qup <= 4'sd0;
             end
-        endcase
+        end
     end
 
 endmodule
+

@@ -1,40 +1,40 @@
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
 
-Date      :  Mon Jul 28 11:41:48 2025
-Project   :  /home/jessica/Desktop/LIBERO/trial
+Date      :  Mon Jul 28 22:53:57 2025
+Project   :  /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff
 Component :  COREFIR_PF_C0
 Family    :  PolarFireSoC
 
 
 HDL source files for all Synthesis and Simulation tools:
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/coreFir.mon
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/simple_fir_inData.txt
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/simpleFIR_inData.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_fir_basic_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/coreFir.mon
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/simple_fir_inData.txt
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/simpleFIR_inData.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_fir_basic_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
 
 Stimulus files for all Simulation tools:
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/bhvFirG5_tb.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/bhvKit.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/bhv_pack.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/decimation_bhvKit.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/decimation_bhv_pack.vhd
-    /home/jessica/Desktop/LIBERO/trial/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/decimation_rtl_pack.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/bhvFirG5_tb.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/bhvKit.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/bhv_pack.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/decimation_bhvKit.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/decimation_bhv_pack.vhd
+    /home/jessica/Desktop/LIBERO_final_fs/final_ip_core_6_coeff/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/decimation_rtl_pack.vhd
 

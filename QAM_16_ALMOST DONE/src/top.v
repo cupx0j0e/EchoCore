@@ -1,3 +1,4 @@
+// top_tx.v
 module top_tx (
     input clk,
     input reset,
@@ -6,7 +7,7 @@ module top_tx (
 );
 
     wire [3:0] data, count;
-    
+
     wire signed [3:0] i_out;
     wire signed [3:0] q_out;
 
@@ -23,9 +24,7 @@ module top_tx (
     wire signed [47:0] fir_q_pout;
     wire               fir_q_valid;
 
-    parameter TAPS = 11;
-
-
+    // Instantiate symbol generator (LFSR + mod-11 counter)
     four_pr inst1 (
         .clk(clk),
         .reset(reset),
@@ -33,14 +32,17 @@ module top_tx (
         .cnt(count)
     );
 
+    // Symbol mapper (map 4-bit data to I/Q constellation points)
     symmap inst2 (
         .data(data),
         .Iout(i_out),
         .Qout(q_out)
     );
 
+    // Upsampler by 11 (insert 10 zeros between samples)
     upsampler inst3 (
         .clk(clk),
+        .reset(reset),
         .count(count),
         .iout(i_out),
         .qout(q_out),
@@ -48,17 +50,19 @@ module top_tx (
         .qup(q_up)
     );
 
-    assign fir_i_datai       = { {8{i_up[3]}}, i_up }; 
-    assign fir_q_datai       = { {8{q_up[3]}}, q_up };
+    // Sign-extend 4-bit I/Q to 12-bit FIR input
+    assign fir_i_datai = { {8{i_up[3]}}, i_up };
+    assign fir_q_datai = { {8{q_up[3]}}, q_up };
 
-    assign fir_i_datai_valid = 1'b1;  
-    assign fir_q_datai_valid = 1'b1;
+    // Optional: gate valid signal only when real data present
+    assign fir_i_datai_valid = (count == 4'd0);
+    assign fir_q_datai_valid = (count == 4'd0);
 
-
+    // FIR Filter for I branch
     COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5 fir_i (
         .clk(clk),
-        .nGrst(1'b0),
-        .rstn(reset),
+        .nGrst(~reset),
+        .rstn(~reset),
         .datai(fir_i_datai),
         .datai_valid(fir_i_datai_valid),
         .pout(fir_i_pout),
@@ -69,10 +73,11 @@ module top_tx (
         .firo_valid(fir_i_valid)
     );
 
+    // FIR Filter for Q branch
     COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5 fir_q (
         .clk(clk),
-        .nGrst(1'b0),
-        .rstn(reset),
+        .nGrst(~reset),
+        .rstn(~reset),
         .datai(fir_q_datai),
         .datai_valid(fir_q_datai_valid),
         .pout(fir_q_pout),
@@ -83,7 +88,7 @@ module top_tx (
         .firo_valid(fir_q_valid)
     );
 
-
+    // Output upper 16 bits of 48-bit FIR output
     assign dout_i = fir_i_pout[47:32];
     assign dout_q = fir_q_pout[47:32];
 
