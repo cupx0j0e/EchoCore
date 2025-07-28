@@ -8,7 +8,6 @@ module tb_top_tx;
   wire signed [15:0] dout_i;
   wire signed [15:0] dout_q;
 
-  // Instantiate the DUT
   top_tx uut (
     .clk(clk),
     .reset(reset),
@@ -16,18 +15,15 @@ module tb_top_tx;
     .dout_q(dout_q)
   );
 
-  // Clock generation: 100 MHz (10ns period)
   always #5 clk = ~clk;
 
 initial begin
   $display("Starting simulation...");
 
-  // Hold reset high for 100 ns
   reset = 1;
   #100;
   reset = 0;
 
-  // Let the DUT run for some time
   #1000;
 
   $display("Simulation finished.");
