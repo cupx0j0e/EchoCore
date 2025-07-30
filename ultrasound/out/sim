@@ -1,0 +1,30 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x61c60d0afdf0 .scope module, "readrf_vals" "readrf_vals" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 1 "reset";
+o0x786cf9aa5018 .functor BUFZ 1, C4<z>; HiZ drive
+v0x61c60d0b1350_0 .net "clk", 0 0, o0x786cf9aa5018;  0 drivers
+o0x786cf9aa5048 .functor BUFZ 1, C4<z>; HiZ drive
+v0x61c60d0b17b0_0 .net "reset", 0 0, o0x786cf9aa5048;  0 drivers
+v0x61c60d0b1ba0 .array "rf_vals", 24099 0, 15 0;
+    .scope S_0x61c60d0afdf0;
+T_0 ;
+    %vpi_call 2 9 "$dumpfile", "./readrf_vals.vcb" {0 0 0};
+    %vpi_call 2 10 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x61c60d0afdf0 {0 0 0};
+    %vpi_call 2 11 "$readmemh", "RF_DATA_24100.txt", v0x61c60d0b1ba0, 32'sb00000000000000000000000000000000, 32'sb00000000000000000101111000100011 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "readrf_vals.v";
