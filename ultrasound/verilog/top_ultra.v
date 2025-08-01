@@ -1,11 +1,11 @@
 module top_ultra #(
-    parameter SAMPLE_DELAY = 8'd3,
+    parameter SAMPLE_DELAY = 7'd3,
     parameter DATA_WIDTH = 16
 ) (
     input clk,
     input reset,
     output [DATA_WIDTH-1:0] file_v,
-    output [7:0] delay_v,
+    output [6:0] delay_v,
     output [DATA_WIDTH-1:0] dout
 );
 
