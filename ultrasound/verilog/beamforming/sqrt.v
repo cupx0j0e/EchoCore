@@ -3,10 +3,10 @@ module sqrt (
     input reset,
     input [31:0] din,
     output reg [15:0] dout,
-    output [3:0] cstate
+    output [3:0] cstate,
+    output reg valid
 );
 
-reg [31:0] x;
 reg [15:0] y_curr, y_next, quotient;
 reg [16:0] sum;
 reg [3:0] iter, state, next_state;
@@ -15,15 +15,32 @@ parameter IDLE = 0, DIVIDE = 1, ADD = 2, SHIFT = 3, UPDATE = 4, CHECK = 5, HALT 
 
 always @(*) begin
     case (state)
-        IDLE: next_state = DIVIDE;
+        IDLE: begin
+            valid = 1'b0;
+            y_curr = din >> 1;
+            iter = 0;
+            next_state = DIVIDE;
+        end
 
-        DIVIDE: next_state = ADD;
+        DIVIDE: begin
+            quotient = din / y_curr;
+            next_state = ADD;
+        end
 
-        ADD: next_state = SHIFT;
+        ADD: begin
+            sum = y_curr + quotient;
+            next_state = SHIFT;
+        end
 
-        SHIFT: next_state = UPDATE;
+        SHIFT: begin
+            y_next = sum >> 1;
+            next_state = UPDATE;
+        end
 
-        UPDATE: next_state = CHECK;
+        UPDATE: begin
+            y_curr = y_next;
+            next_state = CHECK;
+        end
 
         CHECK: begin
             if (iter <= 4) begin
@@ -33,45 +50,26 @@ always @(*) begin
             end
         end
 
-        HALT: next_state = IDLE;
+        HALT: begin
+            dout = y_curr;
+            valid = 1'b1;
+            next_state = IDLE;
+        end
     endcase
 end
 
 always @(posedge clk or posedge reset) begin
     if (reset) begin
         state <= IDLE;
-        x <= 0;
         y_curr <= 16'd0;
         quotient <= 16'd0;
         sum <= 17'd0;
         iter <= 4'd0;
+        valid <= 1'b0;
     end else begin
         case (state)
-            IDLE: begin
-                x <= din;
-                y_curr <= x >> 1;
-                iter <= 0;
-            end
-
-            DIVIDE: begin
-                quotient <= x / y_curr;
-            end
-
-            ADD: begin
-                sum <= y_curr + quotient;
-            end
-
-            SHIFT: begin
-                y_next <= sum >> 1;
-            end
-
             UPDATE: begin
-                y_curr <= y_next;
                 iter <= iter + 1;
-            end
-
-            HALT: begin
-                dout <= y_curr;
             end
         endcase
 
