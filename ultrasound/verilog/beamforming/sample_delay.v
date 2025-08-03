@@ -1,6 +1,6 @@
 module sample_delay #(
     parameter DATA_WIDTH = 16,
-    parameter MAX_DELAY = 128,
+    parameter MAX_DELAY = 256,
     parameter ADDR_WIDTH = $clog2(MAX_DELAY)
 ) (
     input clk,

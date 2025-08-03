@@ -10,6 +10,7 @@ module desymmap (
             -4'sd1: data[3:2] = 2'b01;
             4'sd3: data[3:2] = 2'b11;
             4'sd1: data[3:2] = 2'b10;
+            default: data[3:2] = 2'b00;
         endcase
 
         case (q_down)
@@ -17,6 +18,7 @@ module desymmap (
             -4'sd1: data[1:0] = 2'b01;
             4'sd3: data[1:0] = 2'b11;
             4'sd1: data[1:0] = 2'b10;
+            default: data[1:0] = 2'b00;
         endcase
     end
     

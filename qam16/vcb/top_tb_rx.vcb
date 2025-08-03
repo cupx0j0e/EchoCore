@@ -1,5 +1,5 @@
 $date
-	Sat Jul 26 17:25:40 2025
+	Sat Jul 26 18:19:55 2025
 $end
 $version
 	Icarus Verilog
@@ -74,7 +74,7 @@ $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-bx H
+b0 H
 b0 G
 b0 F
 b0 E
@@ -101,7 +101,7 @@ b1 1
 b0 0
 b1101 /
 b0 .
-bx -
+b0 -
 b0 ,
 b1111 +
 b0 *
@@ -111,7 +111,7 @@ b0 '
 1&
 1%
 b0 $
-bx #
+b0 #
 b0 "
 b0 !
 $end

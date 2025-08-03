@@ -2,7 +2,7 @@
 
 module symmap_tb ();
     reg clk, reset;
-    wire [3:0] q;
+    wire [3:0] q, cnt;
     wire signed [3:0] i_out;
     wire signed [3:0] q_out;
 
@@ -18,19 +18,20 @@ module symmap_tb ();
         #0 reset = 1'b1;
         #10 reset = 1'b0;
 
-        #90 $finish;
+        #1000 $finish;
     end
 
     four_pr puut(
         .clk(clk),
         .reset(reset),
-        .q(q)
+        .data(q),
+        .cnt(cnt)
     );
 
     symmap uut(
         .data(q),
-        .I_out(i_out),
-        .Q_out(q_out)
+        .Iout(i_out),
+        .Qout(q_out)
     );
 
 endmodule

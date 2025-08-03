@@ -2,13 +2,13 @@
 
 module top_ultra_tb ();
 
-parameter SAMPLE_DELAY = 8'd0;
+parameter SAMPLE_DELAY = 7'd3;
 parameter DATA_WIDTH = 16;
 
 reg clk;
 reg reset = 1'b1;
 wire [DATA_WIDTH-1:0] dout, val;
-wire [7:0] delay_v;
+wire [6:0] delay_v;
 
 initial begin
     #0 clk = 1'b1;

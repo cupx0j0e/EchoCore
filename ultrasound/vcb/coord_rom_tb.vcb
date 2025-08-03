@@ -1,0 +1,96 @@
+$date
+	Sat Aug  2 15:58:16 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module coord_rom_tb $end
+$var wire 16 ! zout [15:0] $end
+$var wire 16 " xout [15:0] $end
+$var reg 4 # addr [3:0] $end
+$var reg 1 $ clk $end
+$scope module uut $end
+$var wire 4 % addr [3:0] $end
+$var wire 1 $ clk $end
+$var reg 16 & x_out [15:0] $end
+$var reg 16 ' z_out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+bx &
+b100 %
+0$
+b100 #
+bx "
+bx !
+$end
+#5
+b10100001 !
+b10100001 '
+b10110000001000 "
+b10110000001000 &
+1$
+#10
+0$
+b1010 #
+b1010 %
+#15
+b110010011 !
+b110010011 '
+1$
+#20
+0$
+#25
+1$
+#30
+0$
+b1000 #
+b1000 %
+#35
+b101000010 !
+b101000010 '
+1$
+#40
+0$
+#45
+1$
+#50
+0$
+#55
+1$
+#60
+0$
+#65
+1$
+#70
+0$
+#75
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+0$
+#105
+1$
+#110
+0$
+#115
+1$
+#120
+0$
+#125
+1$
+#130
+0$
