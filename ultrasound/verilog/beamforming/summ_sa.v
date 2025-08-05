@@ -1,7 +1,7 @@
 module summ_sa #(
-    DATA_WIDTH = 16,
-    NUM_CHANNELS = 4,
-    SUM_WIDTH = DATA_WIDTH + $clog2(NUM_CHANNELS)
+    parameter DATA_WIDTH = 16,
+    parameter NUM_CHANNELS = 4,
+    parameter SUM_WIDTH = DATA_WIDTH + $clog2(NUM_CHANNELS)
 ) (
     input clk,
     input reset,
@@ -19,7 +19,6 @@ module summ_sa #(
         if (reset) begin
             sum_result <= 0;
             accumulator <= 0;
-            cycle_counter <= 0;
         end else begin
             if (start_sum) begin
                 accumulator <= 0;

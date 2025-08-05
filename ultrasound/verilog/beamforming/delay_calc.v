@@ -6,14 +6,15 @@ module delay_calc (
     input [15:0] x_f,
     input [15:0] z_i,
     input [15:0] z_f,
-    output [7:0] delay_out
-    output done,
+    output reg [7:0] delay_out,
+    output [3:0] debug_state,
+    output reg done
 );
 
 reg [15:0] dx, dz;
 reg [31:0] dx2, dz2;
 reg [31:0] sum_sq;
-reg [15:0] sqrt_out;
+wire [15:0] sqrt_out;
 
 reg enable;
 wire [3:0] csv;
@@ -33,9 +34,9 @@ sqrt uut(
 );
 
 always @(*) begin
-    case (state):
+    case (state)
         IDLE: begin
-            next_state = (start == 1) ? SUM : IDLE;
+            next_state = (start == 1) ? SUB : IDLE;
         end
 
         SUB: begin
@@ -59,6 +60,7 @@ always @(*) begin
         end
 
         DONE: begin
+            next_state = IDLE;
         end
     endcase 
 end
@@ -80,8 +82,8 @@ always @(posedge clk ) begin
             end
 
             SUB: begin
-                dx <= xi - xf;
-                dz <= zi - zf;
+                dx <= x_i - x_f;
+                dz <= z_i - z_f;
             end
 
             SQUARE: begin
@@ -106,8 +108,10 @@ always @(posedge clk ) begin
             end
         endcase
 
-        state <= next_state
+        state <= next_state;
     end
 end
-    
+
+   assign debug_state = state;
+
 endmodule

@@ -1,0 +1,108 @@
+$date
+	Tue Aug  5 15:18:52 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module summ_sa_tb $end
+$var wire 1 ! valid $end
+$var wire 18 " sum_result [17:0] $end
+$var reg 1 # clk $end
+$var reg 16 $ delayed_sample [15:0] $end
+$var reg 1 % done_channel $end
+$var reg 1 & reset $end
+$var reg 1 ' start_sum $end
+$var reg 1 ( sum_en $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 16 ) delayed_sample [15:0] $end
+$var wire 1 % done_channel $end
+$var wire 1 & reset $end
+$var wire 1 ' start_sum $end
+$var wire 1 ( sum_en $end
+$var reg 18 * accumulator [17:0] $end
+$var reg 18 + sum_result [17:0] $end
+$var reg 1 ! valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+b0 )
+0(
+0'
+1&
+0%
+b0 $
+0#
+bx "
+x!
+$end
+#5
+b0 *
+b0 "
+b0 +
+1#
+#10
+0#
+0&
+#15
+0!
+1#
+#20
+0#
+1'
+#25
+1#
+#30
+0#
+b11101101 $
+b11101101 )
+1(
+0'
+#35
+b11101101 *
+1#
+#40
+0#
+b11111000011 $
+b11111000011 )
+#45
+b100010110000 *
+1#
+#50
+0#
+b1111101 $
+b1111101 )
+#55
+b100100101101 *
+1#
+#60
+0#
+b1010001101110 $
+b1010001101110 )
+#65
+b1110110011011 *
+1#
+#70
+0#
+1%
+0(
+#75
+1!
+b1110110011011 "
+b1110110011011 +
+1#
+#80
+0#
+0%
+#85
+0!
+1#
+#90
+0#

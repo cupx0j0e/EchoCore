@@ -1,6 +1,6 @@
 module summ_p #(
-    DATA_WIDTH = 16,
-    NUM_CHANNELS = 4
+    parameter DATA_WIDTH = 16,
+    parameter NUM_CHANNELS = 4
 ) (
     input clk,
     input reset,

@@ -1,4 +1,4 @@
-module delay_controller #(
+module delay_con #(
     parameter DATA_WIDTH = 16,
     parameter NUM_CHANNELS = 16,
     parameter MAX_DELAY = 256
@@ -16,8 +16,9 @@ module delay_controller #(
     // Channel index
     reg [$clog2(NUM_CHANNELS)-1:0] channel_idx;
 
-    // Delay values storage
+    // Delay values
     reg [7:0] delay_values [0:NUM_CHANNELS-1];
+    reg [DATA_WIDTH-1:0] rf_latched [0:NUM_CHANNELS-1];
 
     // FSM states
     localparam IDLE = 0, LOAD_COORD = 1, START_CALC = 2,
@@ -50,6 +51,7 @@ module delay_controller #(
 
             if (state == STORE) begin
                 delay_values[channel_idx] <= delay_out;
+                rf_latched[channel_idx] <= din_flat[(channel_idx+1)*DATA_WIDTH-1 -: DATA_WIDTH];
             end
 
             if (state == INCREMENT) begin
@@ -76,7 +78,7 @@ module delay_controller #(
         endcase
     end
 
-    // Instantiate coord ROM
+    // Coordinate ROM instance
     coord_rom #(
         .NUM_CHANNELS(NUM_CHANNELS)
     ) coord_inst (
@@ -86,7 +88,7 @@ module delay_controller #(
         .z_out(z_i)
     );
 
-    // Instantiate delay calculator
+    // Delay calculator instance
     delay_calc delay_calc_inst (
         .clk(clk),
         .reset(reset),
@@ -103,7 +105,6 @@ module delay_controller #(
     genvar i;
     generate
         for (i = 0; i < NUM_CHANNELS; i = i + 1) begin : sample_array
-            wire [DATA_WIDTH-1:0] din_i = din_flat[(i+1)*DATA_WIDTH-1 -: DATA_WIDTH];
             wire [DATA_WIDTH-1:0] dout_i;
 
             sample_delay #(
@@ -112,7 +113,7 @@ module delay_controller #(
             ) sd_inst (
                 .clk(clk),
                 .reset(reset),
-                .din(din_i),
+                .din(rf_latched[i]),
                 .delay(delay_values[i]),
                 .dout(dout_i)
             );

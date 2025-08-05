@@ -37,7 +37,7 @@ always @(*) begin
         end
 
         CHECK: begin
-            if (iter <= 20) begin
+            if (iter <= 10) begin
                 next_state = DIVIDE;
             end else begin
                 next_state = HALT;
@@ -45,7 +45,6 @@ always @(*) begin
         end
 
         HALT: begin
-            next_state = IDLE;
         end
     endcase
 end

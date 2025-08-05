@@ -12,8 +12,8 @@ reg [15:0] x_rom [0:NUM_CHANNELS-1];
 reg [15:0] z_rom [0:NUM_CHANNELS-1];
 
 initial begin
-    $readmemh("data/X_65536.txt", x_rom);
-    $readmemh("data/Z1.txt", z_rom);
+    $readmemh("data/X_4.txt", x_rom);
+    $readmemh("data/Z_4.txt", z_rom);
 end
 
 always @(posedge clk ) begin

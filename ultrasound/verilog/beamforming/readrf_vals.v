@@ -4,11 +4,11 @@ module readrf_vals (
     output reg [15:0] val
 );
 
-reg [15:0] rf_vals [0:24099];
+reg [15:0] rf_vals [0:3];
 reg [15:0] count = 0;
 
 initial begin
-    $readmemh("data/RF_DATA_24100.txt", rf_vals, 0, 24099);
+    $readmemh("data/RF_DATA_4.txt", rf_vals, 0, 3);
 end
 
 always @(posedge clk ) begin

@@ -1,4 +1,4 @@
-module top_beamformer #(
+module top_bf #(
     parameter DATA_WIDTH = 16,
     parameter NUM_CHANNELS = 16,
     parameter MAX_DELAY = 256,
@@ -11,27 +11,36 @@ module top_beamformer #(
     input [15:0] z_f,
     input [NUM_CHANNELS*DATA_WIDTH-1:0] rf_data_flat,
     output [SUM_WIDTH-1:0] beamformed_output,
-    output reg valid
+    output reg valid,
+    output [1:0] debug_state
 );
 
-    // Internal wires
-    wire [NUM_CHANNELS*DATA_WIDTH-1:0] delayed_flat;
-    wire ready;
-    wire [SUM_WIDTH-1:0] sum_result;
+    // FSM states
+    localparam IDLE = 2'd0,
+               WAIT_DELAY = 2'd1,
+               SUMMING = 2'd2,
+               DONE = 2'd3;
 
-    // Serial summation control
+    reg [1:0] state, next_state;
+    assign debug_state = state;
+
+    // Control signals
     reg start_sum, sum_en;
     reg [$clog2(NUM_CHANNELS):0] channel_counter;
-    reg [1:0] state, next_state;
 
-    localparam IDLE = 0, SUMMING = 1, DONE = 2;
-
-    // Extract current delayed sample from flattened array
+    // Delayed samples from delay controller
+    wire [NUM_CHANNELS*DATA_WIDTH-1:0] delayed_flat;
     wire [DATA_WIDTH-1:0] current_sample;
-    assign current_sample = delayed_flat[(channel_counter+1)*DATA_WIDTH-1 -: DATA_WIDTH];
+    assign current_sample = delayed_flat[(NUM_CHANNELS - 1 - channel_counter)*DATA_WIDTH +: DATA_WIDTH];
 
-    // Delay Controller Instance
-    delay_controller #(
+    // Beamformed output wire from summ_sa
+    wire [SUM_WIDTH-1:0] sum_result;
+
+    // Ready signal from delay controller
+    wire ready;
+
+    // === Delay Controller ===
+    delay_con #(
         .DATA_WIDTH(DATA_WIDTH),
         .NUM_CHANNELS(NUM_CHANNELS),
         .MAX_DELAY(MAX_DELAY)
@@ -46,7 +55,7 @@ module top_beamformer #(
         .ready(ready)
     );
 
-    // Serial Summation Instance
+    // === Serial Adder ===
     summ_sa #(
         .DATA_WIDTH(DATA_WIDTH),
         .NUM_CHANNELS(NUM_CHANNELS),
@@ -59,10 +68,10 @@ module top_beamformer #(
         .delayed_sample(current_sample),
         .done_channel(channel_counter == NUM_CHANNELS),
         .sum_result(beamformed_output),
-        .valid() // We control valid manually
+        .valid() // unused here
     );
 
-    // FSM: Sequential logic
+    // === FSM: Sequential ===
     always @(posedge clk) begin
         if (reset) begin
             state <= IDLE;
@@ -86,28 +95,34 @@ module top_beamformer #(
         end
     end
 
-    // FSM: Combinational next state & control
+    // === FSM: Combinational ===
     always @(*) begin
+        // Default signal values
         start_sum = 0;
         sum_en = 0;
         next_state = state;
 
         case (state)
             IDLE: begin
-                if (ready) begin
+                if (start)
+                    next_state = WAIT_DELAY;
+            end
+
+            WAIT_DELAY: begin
+                if (ready)
                     next_state = SUMMING;
-                    start_sum = 1;
-                end
             end
 
             SUMMING: begin
                 sum_en = 1;
+                if (channel_counter == 0)
+                    start_sum = 1;
                 if (channel_counter == NUM_CHANNELS)
                     next_state = DONE;
             end
 
             DONE: begin
-                next_state = DONE; // Hold
+                next_state = DONE; // Hold result
             end
         endcase
     end
