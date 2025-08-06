@@ -15,12 +15,12 @@ module delay_con #(
 );
     reg [NUM_CHANNELS-1:0] enable_buff;
     wire [NUM_CHANNELS-1:0] valid_buff;
+
     // Channel index
-    reg [$clog2(NUM_CHANNELS)-1:0] channel_idx, j;
+    reg [$clog2(NUM_CHANNELS)-1:0] channel_idx;
 
     // Delay values
     reg [7:0] delay_values [0:NUM_CHANNELS-1];
-    reg [DATA_WIDTH-1:0] rf_latched [0:NUM_CHANNELS-1];
 
     // FSM states
     localparam IDLE = 0, LOAD_COORD = 1, START_CALC = 2,
@@ -43,10 +43,7 @@ module delay_con #(
             channel_idx <= 0;
             calc_start <= 0;
             ready <= 0;
-
-            // for (j = 0; j < NUM_CHANNELS; j = j+1) begin
-            //     enable_buff[j] <= 1'b0;
-            // end
+            enable_buff <= 0;
         end else begin
             state <= next_state;
 
@@ -57,8 +54,6 @@ module delay_con #(
 
             if (state == STORE) begin
                 delay_values[channel_idx] <= delay_out;
-                rf_latched[channel_idx] <= din_flat[(channel_idx+1)*DATA_WIDTH-1 -: DATA_WIDTH];
-                enable_buff[channel_idx] <= 1'b1;
             end
 
             if (state == INCREMENT) begin
@@ -66,11 +61,8 @@ module delay_con #(
             end
 
             if (state == DONE) begin
-                if (&valid_buff) begin
-                    ready <= 1;
-                end else begin
-                    ready <= 0;
-                end
+                enable_buff <= {NUM_CHANNELS{1'b1}}; // Simultaneous enabling
+                ready <= &valid_buff;
             end
         end
     end
@@ -125,7 +117,7 @@ module delay_con #(
                 .clk(clk),
                 .reset(reset),
                 .enable(enable_buff[i]),
-                .din(rf_latched[i]),
+                .din(enable_buff[i] ? din_flat[(i+1)*DATA_WIDTH-1 -: DATA_WIDTH] : {DATA_WIDTH{1'b0}}),
                 .delay(delay_values[i]),
                 .dout(dout_i),
                 .valid(valid_buff[i])
