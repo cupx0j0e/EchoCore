@@ -26,7 +26,7 @@ module beam_tb();
         #10 reset = 1'b0;
         #10 start = 1'b1;
 
-        #3000 $finish;
+        #5000 $finish;
     end
 
     top_bf #(16, 4, 256) top_mod(

@@ -45,6 +45,7 @@ always @(*) begin
         end
 
         HALT: begin
+            next_state = IDLE;
         end
     endcase
 end
