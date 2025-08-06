@@ -10,11 +10,13 @@ module delay_con #(
     input [15:0] z_f,
     input [NUM_CHANNELS*DATA_WIDTH-1:0] din_flat,
     output [NUM_CHANNELS*DATA_WIDTH-1:0] delayed_flat,
+    output [NUM_CHANNELS-1:0] valid_b,
     output reg ready
 );
-
+    reg [NUM_CHANNELS-1:0] enable_buff;
+    wire [NUM_CHANNELS-1:0] valid_buff;
     // Channel index
-    reg [$clog2(NUM_CHANNELS)-1:0] channel_idx;
+    reg [$clog2(NUM_CHANNELS)-1:0] channel_idx, j;
 
     // Delay values
     reg [7:0] delay_values [0:NUM_CHANNELS-1];
@@ -41,6 +43,10 @@ module delay_con #(
             channel_idx <= 0;
             calc_start <= 0;
             ready <= 0;
+
+            // for (j = 0; j < NUM_CHANNELS; j = j+1) begin
+            //     enable_buff[j] <= 1'b0;
+            // end
         end else begin
             state <= next_state;
 
@@ -52,6 +58,7 @@ module delay_con #(
             if (state == STORE) begin
                 delay_values[channel_idx] <= delay_out;
                 rf_latched[channel_idx] <= din_flat[(channel_idx+1)*DATA_WIDTH-1 -: DATA_WIDTH];
+                enable_buff[channel_idx] <= 1'b1;
             end
 
             if (state == INCREMENT) begin
@@ -59,7 +66,11 @@ module delay_con #(
             end
 
             if (state == DONE) begin
-                ready <= 1;
+                if (&valid_buff) begin
+                    ready <= 1;
+                end else begin
+                    ready <= 0;
+                end
             end
         end
     end
@@ -113,13 +124,16 @@ module delay_con #(
             ) sd_inst (
                 .clk(clk),
                 .reset(reset),
+                .enable(enable_buff[i]),
                 .din(rf_latched[i]),
                 .delay(delay_values[i]),
-                .dout(dout_i)
+                .dout(dout_i),
+                .valid(valid_buff[i])
             );
 
             assign delayed_flat[(i+1)*DATA_WIDTH-1 -: DATA_WIDTH] = dout_i;
         end
     endgenerate
 
+    assign valid_b = valid_buff;
 endmodule

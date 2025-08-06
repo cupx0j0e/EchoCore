@@ -37,6 +37,7 @@ module top_bf #(
     wire [SUM_WIDTH-1:0] sum_result;
 
     // Ready signal from delay controller
+    wire [NUM_CHANNELS-1:0] valid_b;
     wire ready;
 
     // === Delay Controller ===
@@ -52,6 +53,7 @@ module top_bf #(
         .z_f(z_f),
         .din_flat(rf_data_flat),
         .delayed_flat(delayed_flat),
+        .valid_b(valid_b),
         .ready(ready)
     );
 
@@ -114,11 +116,14 @@ module top_bf #(
             end
 
             SUMMING: begin
-                sum_en = 1;
-                if (channel_counter == 0)
+                // if (channel_counter >= 0)
+                //     start_sum = 1;
+                // if (channel_counter == NUM_CHANNELS)
+                //     next_state = DONE;
+                if (&valid_b) begin
+                    sum_en = 1;
                     start_sum = 1;
-                if (channel_counter == NUM_CHANNELS)
-                    next_state = DONE;
+                end
             end
 
             DONE: begin

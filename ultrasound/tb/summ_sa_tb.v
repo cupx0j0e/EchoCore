@@ -63,7 +63,7 @@ module summ_sa_tb;
         // Apply samples
         sum_en = 1;
         delayed_sample = 237; #10;
-        delayed_sample = 1987; #10;
+        delayed_sample = 20; #10;
         delayed_sample = 125; #10;
         delayed_sample = 5230; #10;
         sum_en = 0;
