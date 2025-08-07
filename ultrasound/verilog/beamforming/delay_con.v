@@ -11,6 +11,7 @@ module delay_con #(
     input [NUM_CHANNELS*DATA_WIDTH-1:0] din_flat,
     output [NUM_CHANNELS*DATA_WIDTH-1:0] delayed_flat,
     output [NUM_CHANNELS-1:0] valid_b,
+    output enable,
     output reg ready
 );
     reg [NUM_CHANNELS-1:0] enable_buff;
@@ -128,4 +129,5 @@ module delay_con #(
     endgenerate
 
     assign valid_b = valid_buff;
+    assign enable = &enable_buff;
 endmodule

@@ -9,11 +9,13 @@ module top_bf #(
     input start,
     input [15:0] x_f,
     input [15:0] z_f,
-    input [NUM_CHANNELS*DATA_WIDTH-1:0] rf_data_flat,
+    // input [NUM_CHANNELS*DATA_WIDTH-1:0] f,
     output [SUM_WIDTH-1:0] beamformed_output,
     output reg valid,
     output [1:0] debug_state
 );
+
+    reg [16*4-1:0] rf_data;
 
     // FSM states
     localparam IDLE = 2'd0,
@@ -31,7 +33,7 @@ module top_bf #(
     // Delayed samples from delay controller
     wire [NUM_CHANNELS*DATA_WIDTH-1:0] delayed_flat;
     wire [DATA_WIDTH-1:0] current_sample;
-    assign current_sample = delayed_flat[(NUM_CHANNELS - 1 - channel_counter)*DATA_WIDTH +: DATA_WIDTH];
+    // assign current_sample = delayed_flat[(NUM_CHANNELS - 1 - channel_counter)*DATA_WIDTH +: DATA_WIDTH];
 
     // Beamformed output wire from summ_sa
     wire [SUM_WIDTH-1:0] sum_result;
@@ -39,6 +41,25 @@ module top_bf #(
     // Ready signal from delay controller
     wire [NUM_CHANNELS-1:0] valid_b;
     wire ready;
+
+    wire inc_count;
+    assign inc_count = enable;
+
+    wire enable;
+    wire [15:0] val1;
+    wire [15:0] val2;
+    wire [15:0] val3;
+    wire [15:0] val4;
+
+    readrf_vals read_vals (
+        .clk(clk),
+        .reset(reset),
+        .inc_count(inc_count),
+        .val1(val1),
+        .val2(val2),
+        .val3(val3),
+        .val4(val4)
+    );
 
     // === Delay Controller ===
     delay_con #(
@@ -51,9 +72,10 @@ module top_bf #(
         .start(start),
         .x_f(x_f),
         .z_f(z_f),
-        .din_flat(rf_data_flat),
+        .din_flat(rf_data),
         .delayed_flat(delayed_flat),
         .valid_b(valid_b),
+        .enable(enable),
         .ready(ready)
     );
 
@@ -67,10 +89,10 @@ module top_bf #(
         .reset(reset),
         .start_sum(start_sum),
         .sum_en(sum_en),
-        .delayed_sample(current_sample),
+        .delayed_sample(delayed_flat),
         .done_channel(channel_counter == NUM_CHANNELS),
         .sum_result(beamformed_output),
-        .valid() // unused here
+        .valid(summ_valid) // unused here
     );
 
     // === FSM: Sequential ===
@@ -130,6 +152,9 @@ module top_bf #(
                 next_state = DONE; // Hold result
             end
         endcase
+        rf_data = {val1, val2, val3, val4};
     end
+
+    assign valid_bu = valid_b;
 
 endmodule

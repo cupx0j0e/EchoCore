@@ -6,8 +6,6 @@ module beam_tb();
     wire [17:0] bfout;
     wire [1:0] debug_state;
 
-    reg [16*4-1:0] rf_data = {16'h0010, 16'h0020, 16'h0020, 16'h0010};
-
     initial begin
         #0 clk = 1'b0;
 
@@ -35,7 +33,7 @@ module beam_tb();
         .start(start),
         .x_f(16'b0),
         .z_f(16'b0),
-        .rf_data_flat(rf_data),
+        // .rf_data_flat(rf_data),
         .beamformed_output(bfout),
         .valid(valid),
         .debug_state(debug_state)

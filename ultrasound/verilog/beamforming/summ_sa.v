@@ -7,34 +7,37 @@ module summ_sa #(
     input reset,
     input start_sum,
     input sum_en,
-    input [DATA_WIDTH-1:0] delayed_sample,
-    input done_channel,
+    input [NUM_CHANNELS*DATA_WIDTH-1:0] delayed_sample,
     output reg [SUM_WIDTH-1:0] sum_result,
     output reg valid    
 );
 
-    reg [SUM_WIDTH-1:0] accumulator;
+    integer i;
+    reg [SUM_WIDTH-1:0] sum;
 
-    always @(posedge clk ) begin
+    always @(*) begin
+        if (sum_en) begin
+            sum = 0;
+            for (i = 0; i < NUM_CHANNELS; i = i + 1) begin
+                sum = sum + delayed_sample[i*DATA_WIDTH +: DATA_WIDTH];
+            end
+        end else begin
+            sum = 0;
+        end
+    end
+
+    always @(posedge clk or posedge reset) begin
         if (reset) begin
             sum_result <= 0;
-            accumulator <= 0;
+            valid <= 0;
         end else begin
-            if (start_sum) begin
-                accumulator <= 0;
-            end
-
             if (sum_en) begin
-                accumulator <= accumulator + delayed_sample;
-            end
-
-            if (done_channel) begin
-                sum_result <= accumulator;
-                valid <= 1'b1;
+                sum_result <= sum;
+                valid <= 1;
             end else begin
-                valid <= 1'b0;
+                valid <= 0;
             end
         end
     end
-    
+
 endmodule
