@@ -18,10 +18,10 @@ module delay_con #(
     wire [NUM_CHANNELS-1:0] valid_buff;
 
     // Channel index
-    reg [$clog2(NUM_CHANNELS)-1:0] channel_idx = 0;
+    reg [$clog2(NUM_CHANNELS)-1:0] channel_idx;
 
     // Delay values
-    wire [7:0] delay_values [0:NUM_CHANNELS-1];
+    reg [7:0] delay_values [0:NUM_CHANNELS-1];
 
     // FSM states
     localparam IDLE = 0, LOAD_COORD = 1, START_CALC = 2,
@@ -31,11 +31,10 @@ module delay_con #(
 
     // Coord ROM outputs
     wire [15:0] x_i, z_i;
-    reg [DATA_WIDTH-1:0] x_ic [0:NUM_CHANNELS-1];
-    reg [DATA_WIDTH-1:0] z_ic [0:NUM_CHANNELS-1];
 
     // Delay Calc signals
-    wire [NUM_CHANNELS-1:0] done;
+    wire [7:0] delay_out;
+    wire valid;
     reg calc_start;
 
     // FSM sequential logic
@@ -51,13 +50,21 @@ module delay_con #(
 
             case (state)
                 START_CALC: calc_start <= 1;
-                LOAD_COORD: channel_idx <= channel_idx + 1;
-                DONE: begin
-                    enable_buff <= {NUM_CHANNELS{1'b1}}; // Simultaneous enabling
-                    ready <= &valid_buff;
-                end
                 default:    calc_start <= 0;
             endcase
+
+            if (state == STORE) begin
+                delay_values[channel_idx] <= delay_out;
+            end
+
+            if (state == INCREMENT) begin
+                channel_idx <= channel_idx + 1;
+            end
+
+            if (state == DONE) begin
+                enable_buff <= {NUM_CHANNELS{1'b1}}; // Simultaneous enabling
+                ready <= &valid_buff;
+            end
         end
     end
 
@@ -65,15 +72,14 @@ module delay_con #(
     always @(*) begin
         case (state)
             IDLE:        next_state = start ? LOAD_COORD : IDLE;
-            LOAD_COORD:  next_state = (channel_idx == NUM_CHANNELS-1) ? START_CALC : LOAD_COORD;
+            LOAD_COORD:  next_state = START_CALC;
             START_CALC:  next_state = WAIT_VALID;
-            WAIT_VALID:  next_state = &done ? DONE : WAIT_VALID;
+            WAIT_VALID:  next_state = valid ? STORE : WAIT_VALID;
+            STORE:       next_state = INCREMENT;
+            INCREMENT:   next_state = (channel_idx == NUM_CHANNELS-1) ? DONE : LOAD_COORD;
             DONE:        next_state = DONE;
             default:     next_state = IDLE;
         endcase
-
-        x_ic[channel_idx] = x_i;
-        z_ic[channel_idx] = z_i;
     end
 
     // Coordinate ROM instance
@@ -87,22 +93,17 @@ module delay_con #(
     );
 
     // Delay calculator instance
-    genvar j;
-    generate
-        for (j = 0; j < NUM_CHANNELS; j=j+1) begin: delay_calc_arr
-            delay_calc delay_calc_inst (
-                .clk(clk),
-                .reset(reset),
-                .start(calc_start),
-                .x_i(x_ic[j]),
-                .z_i(z_ic[j]),
-                .x_f(x_f),
-                .z_f(z_f),
-                .done(done[j]),
-                .delay_out(delay_values[j])
-            );
-        end
-    endgenerate
+    delay_calc delay_calc_inst (
+        .clk(clk),
+        .reset(reset),
+        .start(calc_start),
+        .x_i(x_i),
+        .z_i(z_i),
+        .x_f(x_f),
+        .z_f(z_f),
+        .done(valid),
+        .delay_out(delay_out)
+    );
 
     // Sample delay module instantiations
     genvar i;

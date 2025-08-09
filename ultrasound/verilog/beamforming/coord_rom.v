@@ -16,9 +16,9 @@ initial begin
     $readmemh("data/Z_4.txt", z_rom);
 end
 
-always @(posedge clk ) begin
-    x_out <= x_rom[addr];
-    z_out <= z_rom[addr];
+always @(*) begin
+    x_out = x_rom[addr];
+    z_out = z_rom[addr];
 end
 
 endmodule
