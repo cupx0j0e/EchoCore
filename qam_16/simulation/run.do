@@ -1,13 +1,13 @@
 quietly set ACTELLIBNAME PolarFireSoC
 quietly set PROJECT_DIR "/home/jessica/Desktop/final_final_working/qam_16"
 
-if {[file exists postsynth/_info]} {
-   echo "INFO: Simulation library postsynth already exists"
+if {[file exists ../designer/my_design/simulation/postlayout/_info]} {
+   echo "INFO: Simulation library ../designer/my_design/simulation/postlayout already exists"
 } else {
-   file delete -force postsynth 
-   vlib postsynth
+   file delete -force ../designer/my_design/simulation/postlayout 
+   vlib ../designer/my_design/simulation/postlayout
 }
-vmap postsynth postsynth
+vmap postlayout ../designer/my_design/simulation/postlayout
 vmap polarfire "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire"
 if {[file exists CORECORDIC_LIB/_info]} {
    echo "INFO: Simulation library CORECORDIC_LIB already exists"
@@ -24,14 +24,9 @@ if {[file exists COREFIR_PF_LIB/_info]} {
 }
 vmap COREFIR_PF_LIB "COREFIR_PF_LIB"
 
-vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd"
-vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd"
-vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd"
-vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd"
-vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd"
-vlog -sv -work postsynth "${PROJECT_DIR}/synthesis/my_design.v"
-vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work postsynth "${PROJECT_DIR}/stimulus/newtestbench.v"
+vlog -sv -work postlayout "${PROJECT_DIR}/designer/my_design/my_design_ba.v"
+vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work postlayout "${PROJECT_DIR}/stimulus/newtestbench.v"
 
-vsim -L polarfire -L postsynth -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so postsynth.tb_my_design
+vsim -L polarfire -L postlayout -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so -sdfmax /my_design_0=${PROJECT_DIR}/designer/my_design/my_design_slow_lv_ht_ba.sdf +transport_path_delays postlayout.tb_my_design
 add wave /tb_my_design/*
 run 1000ns

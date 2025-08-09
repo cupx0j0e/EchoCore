@@ -14,7 +14,11 @@ KEY VendorTechnology_Package "fcvg484"
 KEY VendorTechnology_Speed "-1"
 KEY VendorTechnology_DieVoltage "1.0"
 KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -403,6 +407,26 @@ SIZE="6521"
 PARENT="<project>/component/work/my_design/my_design.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>/designer/my_design/my_design_ba.v,ba_hdl"
+STATE="utd"
+TIME="1754730068"
+SIZE="6322366"
+ENDFILE
+VALUE "<project>/designer/my_design/my_design_fast_hv_lt_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1754730068"
+SIZE="7588063"
+ENDFILE
+VALUE "<project>/designer/my_design/my_design_slow_lv_ht_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1754730068"
+SIZE="7635341"
+ENDFILE
+VALUE "<project>/designer/my_design/my_design_slow_lv_lt_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1754730068"
+SIZE="7635516"
+ENDFILE
 VALUE "<project>/hdl/combiner.v,hdl"
 STATE="utd"
 TIME="1754679696"
@@ -435,23 +459,28 @@ SIZE="692"
 ENDFILE
 VALUE "<project>/simulation/my_design.vcd,vcd"
 STATE="utd"
-TIME="1754673733"
-SIZE="8159232"
+TIME="1754678496"
+SIZE="8159850"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1754673726"
-SIZE="4756"
+TIME="1754724670"
+SIZE="2007"
+ENDFILE
+VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1754730072"
+SIZE="7664"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postsynth_simulation.log,log"
 STATE="utd"
-TIME="1754680493"
-SIZE="14624"
+TIME="1754724702"
+SIZE="14760"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
 STATE="utd"
-TIME="1754679804"
-SIZE="50242"
+TIME="1754724684"
+SIZE="49946"
 ENDFILE
 VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 STATE="utd"
@@ -625,7 +654,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
-PARAM=" -l tb_my_design_postsynth_simulation.log "
+PARAM=" -l tb_my_design_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -668,19 +697,9 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Post-Synthesis Simulate:tb_my_design_postsynth_simulation.log
-HDL;stimulus/newtestbench.v;0
-HDL;component/work/my_design/my_design.v;0
+ReportsCurrentItem;Place and Route:my_design_glb_net_report.xml
 SmartDesign;my_design;0
-HDL;hdl/modulator.v;0
-HDL;hdl/combiner.v;0
-HDL;hdl/counter.v;0
-HDL;component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd;0
-HDL;component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_fir_basic_g5.vhd;0
-HDL;component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd;0
-StartPage;StartPage;0
-HDL;component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/test/user/coreCordic_tb.v;0
-ACTIVEVIEW;stimulus/newtestbench.v
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "combiner::work","hdl/combiner.v","FALSE","FALSE"

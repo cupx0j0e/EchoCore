@@ -1,4 +1,4 @@
-# Sat Aug  9 00:44:09 2025
+# Sat Aug  9 14:26:42 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -149,11 +149,11 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CP
 @N: BN362 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[12\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[6\]\.par_calc_0.an[1] (in view: work.my_design(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 603MB peak: 603MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 603MB peak: 603MB)
 
 @N: BN362 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[13\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 604MB peak: 604MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 605MB peak: 605MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -199,7 +199,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sat Aug  9 00:44:13 2025
+# Timing report written on Sat Aug  9 14:26:46 2025
 #
 
 
@@ -493,6 +493,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 521MB peak: 610MB)
 
 Process took 0h:00m:04s realtime, 0h:00m:04s cputime
-# Sat Aug  9 00:44:13 2025
+# Sat Aug  9 14:26:47 2025
 
 ###########################################################]

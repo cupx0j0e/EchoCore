@@ -65,7 +65,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sat Aug  9 00:44:05 2025
+# Sat Aug  9 14:26:39 2025
 
 ###########################################################]
 ###########################################################[
@@ -258,7 +258,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sat Aug  9 00:44:05 2025
+# Sat Aug  9 14:26:39 2025
 
 ###########################################################]
 ###########################################################[
@@ -426,6 +426,8 @@ Process completed successfully.
 
 @N|stack limit increased to max
 Verilog syntax check successful!
+File /home/jessica/Desktop/final_final_working/qam_16/component/polarfire_syn_comps.v changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/MSS_syn_comps.v changed - recompiling
 @N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v":1:7:1:14|Synthesizing module combiner in library work.
 Running optimization stage 1 on combiner .......
 Finished optimization stage 1 on combiner (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
@@ -1040,12 +1042,29 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sat Aug  9 00:44:06 2025
+# Sat Aug  9 14:26:39 2025
 
 ###########################################################]
 ###########################################################[
 @N|stack limit increased to max
 @N:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":87:7:87:19|Top entity is set to COREFIR_PF_C0.
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd'.
@@ -1476,10 +1495,10 @@ Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used c
 @N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
 Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
 Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
-Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
 Post processing for corefir_pf_lib.enum_tap_g5.rtl
 Running optimization stage 1 on enum_tap_g5 .......
-Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
 @N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
 @W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
@@ -1758,7 +1777,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sat Aug  9 00:44:06 2025
+# Sat Aug  9 14:26:39 2025
 
 ###########################################################]
 ###########################################################[
@@ -1782,6 +1801,8 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 307R, Built Jul 25 2024 08:38:07, @5544113
 
 @N|Running in 64-bit mode
+File /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/layer0.srs changed - recompiling
+File /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/layer1.srs changed - recompiling
 @W: Z198 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Unbound component debug_INIT_96 of instance debug_init_0 
 @W: Z198 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":493:2:493:13|Unbound component debug_INIT_96 of instance debug_init_0 
 @W: Z198 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Unbound component debug_INIT_16 of instance debug_init_0 
@@ -1820,7 +1841,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Aug  9 00:44:06 2025
+# Sat Aug  9 14:26:40 2025
 
 ###########################################################]
 
@@ -1830,11 +1851,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 37MB peak: 38MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 37MB peak: 37MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Aug  9 00:44:06 2025
+# Sat Aug  9 14:26:40 2025
 
 ###########################################################]
