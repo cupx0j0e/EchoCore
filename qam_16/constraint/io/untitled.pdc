@@ -1,0 +1,29 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.2 2024.2.0.13
+
+# Design Name: my_design 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS025T , Package: FCVG484 , Speed grade: -1 
+
+# Date generated: Sat Aug  9 15:19:26 2025 
+
+
+#
+# IO banks setting
+#
+
+set_iobank -bank_name Bank0 -vcci 1.80 -fixed false
+set_iobank -bank_name Bank1 -vcci 1.80 -fixed false
+
+#
+# I/O constraints
+#
+
+
+#
+# Ports using Dedicated Pins
+#
+

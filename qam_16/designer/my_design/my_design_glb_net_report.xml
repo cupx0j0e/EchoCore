@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)</text>
-<text>Date: Sat Aug  9 14:29:34 2025
+<text>Date: Sat Aug  9 16:02:58 2025
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -92,7 +92,7 @@
  <cell>1805</cell>
  <cell>1</cell>
  <cell>(726, 96)</cell>
- <cell>115</cell>
+ <cell>117</cell>
 </row>
 <row>
  <cell> </cell>
@@ -102,7 +102,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(726, 123)</cell>
- <cell>228</cell>
+ <cell>243</cell>
 </row>
 <row>
  <cell> </cell>
@@ -112,7 +112,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(726, 150)</cell>
- <cell>731</cell>
+ <cell>680</cell>
 </row>
 <row>
  <cell> </cell>
@@ -122,7 +122,7 @@
  <cell></cell>
  <cell>4</cell>
  <cell>(726, 177)</cell>
- <cell>595</cell>
+ <cell>644</cell>
 </row>
 <row>
  <cell> </cell>
@@ -132,7 +132,7 @@
  <cell></cell>
  <cell>5</cell>
  <cell>(726, 204)</cell>
- <cell>136</cell>
+ <cell>121</cell>
 </row>
 </table>
 <text></text>

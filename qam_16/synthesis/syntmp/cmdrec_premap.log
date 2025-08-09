@@ -2,15 +2,15 @@
 relcom:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/m_generic -mp 4 -prjfile ../scratchproject.prs -prodtype synplify_pro -encrypt -pro -rundir ../../synthesis -flow prepass -gcc_prepass -osrd ../synwork/my_design_prem.srd -qsap ../my_design.sap -part MPFS025T -package FCVG484 -grade -1 -async_globalthreshold 800 -continue_on_error -infer_seqShift -seqshift_to_uram 1 -automatic_compile_point -rom_map_logic 1 -polarfire_ram_init 1 -gclkint_threshold 1000 -rgclkint_threshold 100 -clkint_rgclkint_limit 1 -low_power_gated_clock 0 -gclk_resource_count 24 -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -pack_uram_addr_reg 1 -act_wide_mul_size 35 -maxfan 10000 -clock_globalthreshold 2 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -async_clkint_removal 1 -remove_async_clkint 0 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ../synlog/report/my_design_premap.xml -merge_inferred_clocks 0 -top_level_module my_design -implementation synthesis -ovm ../my_design.vm -conchk_prepass ../my_design_cck.rpt -freq 100.000 -tcl ../../designer/my_design/synthesis.fdc ../synwork/my_design_mult.srs -devicelib /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v -ologparam my_design.plg -osyn ../synwork/my_design_prem.srd -prjdir ../ -prjname my_design_syn -log ../synlog/my_design_premap.srr -sn 2023.09 -jobname "premap"
 rc:1 success:1 runtime:1
 file:../scratchproject.prs|io:o|time:1754680445|size:7353|exec:0|csum:
-file:../synwork/my_design_prem.srd|io:o|time:1754729801|size:286198|exec:0|csum:
-file:../my_design.sap|io:o|time:1754729802|size:6309|exec:0|csum:
-file:../my_design.vm|io:o|time:1754729732|size:708555|exec:0|csum:
-file:../my_design_cck.rpt|io:o|time:1754729802|size:3806|exec:0|csum:
-file:../../designer/my_design/synthesis.fdc|io:i|time:1754729797|size:60|exec:0|csum:FFD24B50471D00439981480FA1CCFF4D
-file:../synwork/my_design_mult.srs|io:i|time:1754729801|size:6348|exec:0|csum:FA2CD8E5FB85CE70FFD87EA69FF60647
+file:../synwork/my_design_prem.srd|io:o|time:1754735518|size:286184|exec:0|csum:
+file:../my_design.sap|io:o|time:1754735519|size:6309|exec:0|csum:
+file:../my_design.vm|io:o|time:1754729806|size:708555|exec:0|csum:
+file:../my_design_cck.rpt|io:o|time:1754735519|size:3806|exec:0|csum:
+file:../../designer/my_design/synthesis.fdc|io:i|time:1754735514|size:60|exec:0|csum:C5ADD561D6928F0B82B1AB6571E00257
+file:../synwork/my_design_mult.srs|io:i|time:1754735518|size:6356|exec:0|csum:5A3C4B7C1BFD0F2D47DD13A988290D93
 file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|io:i|time:1721922091|size:41895|exec:0|csum:A940F599900EDB8D3F774E304161A1AB
-file:my_design.plg|io:o|time:1754729801|size:0|exec:0|csum:
-file:../synwork/my_design_prem.srd|io:o|time:1754729801|size:286198|exec:0|csum:
-file:../synlog/my_design_premap.srr|io:o|time:1754729802|size:38134|exec:0|csum:
+file:my_design.plg|io:o|time:1754735518|size:0|exec:0|csum:
+file:../synwork/my_design_prem.srd|io:o|time:1754735518|size:286184|exec:0|csum:
+file:../synlog/my_design_premap.srr|io:o|time:1754735519|size:38134|exec:0|csum:
 file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/m_generic|io:i|time:1721924138|size:124847304|exec:1|csum:4E816089C12F3CAAA8E7B79FDFF84A73
 file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/m_generic|io:i|time:1721922421|size:347|exec:1|csum:04851DFC0CBB288ED81DA3E420127D0D

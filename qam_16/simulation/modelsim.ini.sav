@@ -1,12 +1,13 @@
 [Library]
 others = $MODEL_TECH/../modelsim.ini
 polarfire = /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire
-syncad_vhdl_lib = /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/actel/syncad_vhdl_lib
-
 presynth = presynth
 CORECORDIC_LIB = CORECORDIC_LIB
 COREFIR_PF_LIB = COREFIR_PF_LIB
 postsynth = postsynth
+syncad_vhdl_lib = /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/actel/syncad_vhdl_lib
+
+postlayout = ../designer/my_design/simulation/postlayout
 [vcom]
 VHDL93 = 1
 

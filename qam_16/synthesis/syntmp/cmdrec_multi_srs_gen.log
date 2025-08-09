@@ -1,8 +1,8 @@
 /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter  -link  -top  my_design  -multisrs  /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_comp.srs  -osyn  /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_mult.srs  -log  /home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/my_design_multi_srs_gen.srr 
 relcom:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter -link -top my_design -multisrs ../synwork/my_design_comp.srs -osyn ../synwork/my_design_mult.srs -log ../synlog/my_design_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:../synwork/my_design_comp.srs|io:i|time:1754729800|size:186735|exec:0|csum:F5D01C67B828E831AF49E7D21FEEE987
-file:../synwork/my_design_mult.srs|io:o|time:1754729801|size:6348|exec:0|csum:
-file:../synlog/my_design_multi_srs_gen.srr|io:o|time:1754729801|size:1277|exec:0|csum:
+rc:0 success:1 runtime:1
+file:../synwork/my_design_comp.srs|io:i|time:1754735516|size:186720|exec:0|csum:5C77B26B87BEF76774510DB293DBC822
+file:../synwork/my_design_mult.srs|io:o|time:1754735518|size:6356|exec:0|csum:
+file:../synlog/my_design_multi_srs_gen.srr|io:o|time:1754735518|size:1277|exec:0|csum:
 file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1721922082|size:18297968|exec:1|csum:B8A9CFE3048D668050D1DD180472B74E
 file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter|io:i|time:1721921501|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

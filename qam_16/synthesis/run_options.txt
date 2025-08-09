@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M-3
 #--  Project file /home/jessica/Desktop/final_final_working/qam_16/synthesis/run_options.txt
-#--  Written on Sat Aug  9 14:26:38 2025
+#--  Written on Sat Aug  9 16:01:55 2025
 
 
 #project files

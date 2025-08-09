@@ -16,7 +16,7 @@
 </header>
 <row>
  <cell>0.1</cell>
- <cell>Sat Aug  9 14:29:43 2025</cell>
+ <cell>Sat Aug  9 16:03:07 2025</cell>
  <cell>Designer</cell>
  <cell>v2024.2</cell>
  <cell>2024.2.0.13</cell>
@@ -501,7 +501,7 @@
  <cell>combined_output[43]</cell>
  <cell>GPIO5PB1/CCC_SE_CLKIN_S_11</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -917,7 +917,7 @@
  <cell>combined_output[14]</cell>
  <cell>HSIO28PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -943,7 +943,7 @@
  <cell>combined_output[11]</cell>
  <cell>HSIO26PB0/CLKIN_N_4/CCC_NW_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -995,7 +995,7 @@
  <cell>combined_output[34]</cell>
  <cell>HSIO25NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1021,7 +1021,7 @@
  <cell>combined_output[56]</cell>
  <cell>HSIO22PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1047,7 +1047,7 @@
  <cell>combined_output[47]</cell>
  <cell>HSIO21NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1073,7 +1073,7 @@
  <cell>combined_output[58]</cell>
  <cell>HSIO18NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1125,7 +1125,7 @@
  <cell>combined_output[51]</cell>
  <cell>HSIO11NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1151,7 +1151,7 @@
  <cell>combined_output[54]</cell>
  <cell>HSIO9PB0/DQS/CCC_NE_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1177,7 +1177,7 @@
  <cell>combined_output[24]</cell>
  <cell>HSIO9NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1489,7 +1489,7 @@
  <cell>combined_output[29]</cell>
  <cell>HSIO28NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1515,7 +1515,7 @@
  <cell>combined_output[62]</cell>
  <cell>HSIO26NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1541,7 +1541,7 @@
  <cell>combined_output[50]</cell>
  <cell>HSIO24PB0/CLKIN_N_5</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1567,7 +1567,7 @@
  <cell>combined_output[31]</cell>
  <cell>HSIO24NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1619,7 +1619,7 @@
  <cell>combined_output[21]</cell>
  <cell>HSIO21PB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1645,7 +1645,7 @@
  <cell>combined_output[42]</cell>
  <cell>HSIO18PB0/CLKIN_N_7</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1671,7 +1671,7 @@
  <cell>combined_output[39]</cell>
  <cell>HSIO10PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1697,7 +1697,7 @@
  <cell>combined_output[12]</cell>
  <cell>HSIO10NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1723,7 +1723,7 @@
  <cell>combined_output[63]</cell>
  <cell>HSIO11PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -1879,7 +1879,7 @@
  <cell>DOUT_VALID</cell>
  <cell>GPIO38NB1/DQS</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -2191,7 +2191,7 @@
  <cell>combined_output[38]</cell>
  <cell>GPIO3PB1/CCC_SE_CLKIN_S_10/CCC_SE_PLL1_OUT0</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -3361,7 +3361,7 @@
  <cell>combined_output[30]</cell>
  <cell>GPIO4PB1/CCC_SE_PLL1_OUT1</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -3387,7 +3387,7 @@
  <cell>combined_output[32]</cell>
  <cell>GPIO2NB1/DQS</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -3829,7 +3829,7 @@
  <cell>clk</cell>
  <cell>GPIO0NB1</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Input</cell>
  <cell>None</cell>
@@ -3855,7 +3855,7 @@
  <cell>FIRO_VALID</cell>
  <cell>GPIO0PB1/CLKIN_S_8/CCC_SE_CLKIN_S_8/CCC_SE_PLL0_OUT0</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -3959,7 +3959,7 @@
  <cell>combined_output[40]</cell>
  <cell>GPIO2PB1/DQS/CCC_SE_PLL1_OUT0</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -4453,7 +4453,7 @@
  <cell>FIRO_VALID_0</cell>
  <cell>GPIO1NB1</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -4479,7 +4479,7 @@
  <cell>combined_output[20]</cell>
  <cell>GPIO1PB1/CLKIN_S_9/CCC_SE_CLKIN_S_9</cell>
  <cell>Bank1</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -9497,7 +9497,7 @@
  <cell>combined_output[8]</cell>
  <cell>HSIO35PB0/CCC_NW_CLKIN_N_0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -9549,7 +9549,7 @@
  <cell>combined_output[41]</cell>
  <cell>HSIO17NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -9575,7 +9575,7 @@
  <cell>combined_output[55]</cell>
  <cell>HSIO17PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -9601,7 +9601,7 @@
  <cell>combined_output[36]</cell>
  <cell>HSIO15NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10069,7 +10069,7 @@
  <cell>reset</cell>
  <cell>HSIO34NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Input</cell>
  <cell>None</cell>
@@ -10095,7 +10095,7 @@
  <cell>combined_output[4]</cell>
  <cell>HSIO35NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10147,7 +10147,7 @@
  <cell>combined_output[16]</cell>
  <cell>HSIO31NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10173,7 +10173,7 @@
  <cell>combined_output[35]</cell>
  <cell>HSIO15PB0/DQS/CCC_NE_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10199,7 +10199,7 @@
  <cell>combined_output[53]</cell>
  <cell>HSIO13PB0/CCC_NE_PLL1_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10641,7 +10641,7 @@
  <cell>combined_output[10]</cell>
  <cell>HSIO34PB0/CCC_NW_CLKIN_N_1</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10667,7 +10667,7 @@
  <cell>combined_output[1]</cell>
  <cell>HSIO33NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10693,7 +10693,7 @@
  <cell>combined_output[2]</cell>
  <cell>HSIO33PB0/DQS/CCC_NW_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10719,7 +10719,7 @@
  <cell>combined_output[5]</cell>
  <cell>HSIO31PB0/CCC_NW_PLL1_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10771,7 +10771,7 @@
  <cell>combined_output[33]</cell>
  <cell>HSIO13NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10797,7 +10797,7 @@
  <cell>combined_output[46]</cell>
  <cell>HSIO14NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -10823,7 +10823,7 @@
  <cell>combined_output[22]</cell>
  <cell>HSIO14PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11213,7 +11213,7 @@
  <cell>combined_output[19]</cell>
  <cell>HSIO32NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11265,7 +11265,7 @@
  <cell>combined_output[3]</cell>
  <cell>HSIO30PB0/CLKIN_N_3/CCC_NW_CLKIN_N_3</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11291,7 +11291,7 @@
  <cell>combined_output[0]</cell>
  <cell>HSIO30NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11317,7 +11317,7 @@
  <cell>combined_output[45]</cell>
  <cell>HSIO16NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11343,7 +11343,7 @@
  <cell>combined_output[52]</cell>
  <cell>HSIO16PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11395,7 +11395,7 @@
  <cell>combined_output[15]</cell>
  <cell>HSIO12NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11421,7 +11421,7 @@
  <cell>combined_output[18]</cell>
  <cell>HSIO12PB0/CLKIN_N_9/CCC_NE_CLKIN_N_9</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11447,7 +11447,7 @@
  <cell>combined_output[23]</cell>
  <cell>HSIO8NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11473,7 +11473,7 @@
  <cell>combined_output[49]</cell>
  <cell>HSIO6NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11785,7 +11785,7 @@
  <cell>combined_output[6]</cell>
  <cell>HSIO32PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11811,7 +11811,7 @@
  <cell>combined_output[7]</cell>
  <cell>HSIO29PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11837,7 +11837,7 @@
  <cell>combined_output[37]</cell>
  <cell>HSIO27NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11889,7 +11889,7 @@
  <cell>combined_output[64]</cell>
  <cell>HSIO23PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11915,7 +11915,7 @@
  <cell>combined_output[48]</cell>
  <cell>HSIO23NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11941,7 +11941,7 @@
  <cell>combined_output[17]</cell>
  <cell>HSIO19NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -11967,7 +11967,7 @@
  <cell>combined_output[60]</cell>
  <cell>HSIO19PB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12019,7 +12019,7 @@
  <cell>combined_output[25]</cell>
  <cell>HSIO8PB0/CCC_NE_CLKIN_N_10/CCC_NE_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12045,7 +12045,7 @@
  <cell>combined_output[57]</cell>
  <cell>HSIO6PB0/CCC_NE_CLKIN_N_11</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12383,7 +12383,7 @@
  <cell>combined_output[13]</cell>
  <cell>HSIO29NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12409,7 +12409,7 @@
  <cell>combined_output[26]</cell>
  <cell>HSIO27PB0/DQS/CCC_NW_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12435,7 +12435,7 @@
  <cell>combined_output[27]</cell>
  <cell>HSIO25PB0/CCC_NW_PLL0_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12461,7 +12461,7 @@
  <cell>combined_output[59]</cell>
  <cell>HSIO22NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12513,7 +12513,7 @@
  <cell>combined_output[28]</cell>
  <cell>HSIO20NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12539,7 +12539,7 @@
  <cell>combined_output[44]</cell>
  <cell>HSIO20PB0/CLKIN_N_6</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12565,7 +12565,7 @@
  <cell>combined_output[9]</cell>
  <cell>HSIO7PB0/CCC_NE_PLL0_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
@@ -12591,7 +12591,7 @@
  <cell>combined_output[61]</cell>
  <cell>HSIO7NB0</cell>
  <cell>Bank0</cell>
- <cell>Assigned</cell>
+ <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>

@@ -10,17 +10,17 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: No User PDC file(s) was specified.
+INFO: Reading User PDC file /home/jessica/Desktop/final_final_working/qam_16/constraint/io/user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  Globals Assigner found no global involed in the problem.
-Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 70 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 70 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.2.0
-Design: my_design                       Started: Sat Aug  9 14:29:23 2025
+Design: my_design                       Started: Sat Aug  9 16:02:47 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -31,27 +31,27 @@ End of placement.
 Placer Runtime Summary   :
 Clustering (1 pass)      : 0 seconds
 Placement                : 0 seconds
-Improvement              : 0 seconds
+Improvement              : 1 seconds
 
 Placer completed successfully.
 
 Design: my_design
-Finished: Sat Aug  9 14:29:33 2025
+Finished: Sat Aug  9 16:02:57 2025
 Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:10
 Total Memory Usage: 1046.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: my_design                       Started: Sat Aug  9 14:29:36 2025
+Design: my_design                       Started: Sat Aug  9 16:03:00 2025
 
 
 Router completed successfully.
 
 Design: my_design
-Finished: Sat Aug  9 14:29:41 2025
+Finished: Sat Aug  9 16:03:05 2025
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 777.3 Mbytes
+Total Memory Usage: 776.3 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
@@ -61,15 +61,15 @@ Resource Usage
 | 4LUT          | 2231 | 22956 | 9.72       |
 | DFF           | 2403 | 22956 | 10.47      |
 | I/O Register  | 0    | 106   | 0.00       |
-| Logic Element | 2568 | 22956 | 11.19      |
+| Logic Element | 2566 | 22956 | 11.18      |
 +---------------+------+-------+------------+
 
 I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  0    | 0.00%      |
-| Placed |  70   | 100.00%    |
+| Locked |  70   | 100.00%    |
+| Placed |  0    | 0.00%      |
 +--------+-------+------------+
 
 Completed writing pin report files.

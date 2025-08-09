@@ -407,25 +407,16 @@ SIZE="6521"
 PARENT="<project>/component/work/my_design/my_design.cxf"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "<project>/designer/my_design/my_design_ba.v,ba_hdl"
+VALUE "<project>/constraint/io/untitled.pdc,io_pdc"
 STATE="utd"
-TIME="1754730068"
-SIZE="6322366"
+TIME="1754733207"
+SIZE="446"
 ENDFILE
-VALUE "<project>/designer/my_design/my_design_fast_hv_lt_ba.sdf,ba_sdf"
+VALUE "<project>/constraint/io/user.pdc,io_pdc"
 STATE="utd"
-TIME="1754730068"
-SIZE="7588063"
-ENDFILE
-VALUE "<project>/designer/my_design/my_design_slow_lv_ht_ba.sdf,ba_sdf"
-STATE="utd"
-TIME="1754730068"
-SIZE="7635341"
-ENDFILE
-VALUE "<project>/designer/my_design/my_design_slow_lv_lt_ba.sdf,ba_sdf"
-STATE="utd"
-TIME="1754730068"
-SIZE="7635516"
+TIME="1754735489"
+SIZE="11154"
+IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/hdl/combiner.v,hdl"
 STATE="utd"
@@ -464,18 +455,18 @@ SIZE="8159850"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1754724670"
-SIZE="2007"
+TIME="1754730105"
+SIZE="1526"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1754730072"
-SIZE="7664"
+TIME="1754730268"
+SIZE="7792"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postsynth_simulation.log,log"
 STATE="utd"
-TIME="1754724702"
-SIZE="14760"
+TIME="1754730092"
+SIZE="28426"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
 STATE="utd"
@@ -489,22 +480,22 @@ SIZE="1432"
 ENDFILE
 VALUE "<project>/synthesis/my_design.so,so"
 STATE="utd"
-TIME="1754680453"
+TIME="1754729807"
 SIZE="235"
 ENDFILE
 VALUE "<project>/synthesis/my_design.vm,syn_vm"
 STATE="utd"
-TIME="1754680452"
+TIME="1754729806"
 SIZE="708555"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1754680454"
+TIME="1754729807"
 SIZE="7196"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1754680453"
+TIME="1754729806"
 SIZE="917"
 ENDFILE
 ENDLIST
@@ -515,6 +506,9 @@ LIST "my_design::work"
 FILE "<project>/component/work/my_design/my_design.v,hdl"
 LIST AssociatedStimulus
 VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>/constraint/io/user.pdc,io_pdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
@@ -654,7 +648,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
-PARAM=" -l tb_my_design_postlayout_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -697,7 +691,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Place and Route:my_design_glb_net_report.xml
+ReportsCurrentItem;Generate Bitstream:my_design_generateBitstream.log
+HDL;component/work/my_design/my_design.v;0
+Constraint Manager;Constraint Manager;0
+StartPage;StartPage;0
+HDL;constraint/io/user.pdc;0
 SmartDesign;my_design;0
 ACTIVEVIEW;Reports
 ENDLIST
@@ -1622,6 +1620,8 @@ ACTIVETESTBENCH "tb_my_design::work","stimulus/newtestbench.v","FALSE"
 ENDLIST
 ENDLIST
 LIST IOTabList
+VALUE "constraint/io/untitled.pdc"
+VALUE "constraint/io/user.pdc"
 ENDLIST
 LIST FPTabList
 ENDLIST
