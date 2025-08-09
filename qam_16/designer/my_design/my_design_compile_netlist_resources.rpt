@@ -1,0 +1,157 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+Date: Sat Aug  9 00:44:18 2025
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS025T     |
+| Package                | FCVG484      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | IND          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+-------------------------------------------------------------------------+
+| Topcell | my_design                                                               |
+| Format  | Verilog                                                                 |
+| Source  | /home/jessica/Desktop/final_final_working/qam_16/synthesis/my_design.vm |
++---------+-------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 2231 | 22956 | 9.72       |
+| DFF                       | 2403 | 22956 | 10.47      |
+| I/O Register              | 0    | 324   | 0.00       |
+| User I/O                  | 70   | 108   | 64.81      |
+| -- Single-ended I/O       | 70   | 108   | 64.81      |
+| -- Differential I/O Pairs | 0    | 54    | 0.00       |
+| uSRAM                     | 2    | 204   | 0.98       |
+| LSRAM                     | 0    | 84    | 0.00       |
+| Math                      | 28   | 68    | 41.18      |
+| H-Chip Global             | 1    | 24    | 4.17       |
+| PLL                       | 0    | 8     | 0.00       |
+| DLL                       | 0    | 8     | 0.00       |
+| Transceiver Lanes         | 0    | 4     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+------+
+| Type                  | 4LUT | DFF  |
++-----------------------+------+------+
+| Fabric Logic          | 1199 | 1371 |
+| uSRAM Interface Logic | 24   | 24   |
+| LSRAM Interface Logic | 0    | 0    |
+| Math Interface Logic  | 1008 | 1008 |
+| Total Used            | 2231 | 2403 |
++-----------------------+------+------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 15     | 1    |
+| 16     | 10   |
+| 17     | 10   |
+| 19     | 28   |
+| 65     | 1    |
+| Total  | 50   |
++--------+------+
+
+Detailed Math Chains Resource Usage
++--------+------+
+| Length | Used |
+| 3      | 2    |
+| 5      | 2    |
+| 6      | 2    |
+| Total  | 6    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 68           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------+
+| Fanout | Type    | Name                |
++--------+---------+---------------------+
+| 1805   | INT_NET | Net   : NN_1        |
+|        |         | Driver: I_1/U0_RGB1 |
+|        |         | Source: NETLIST     |
++--------+---------+---------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                  |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+| 1485   | INT_NET | Net   : reset_c                                                                                                                       |
+|        |         | Driver: reset_ibuf                                                                                                                    |
+| 96     | INT_NET | Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola                    |
+|        |         | Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2] |
+| 96     | INT_NET | Net   : COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola                    |
+|        |         | Driver: COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2] |
+| 55     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_8_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[7].par_calc_0/an[17]                            |
+| 55     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_12_[17]                                             |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[11].par_calc_0/an[17]                           |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_9_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[8].par_calc_0/an[17]                            |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_13_[17]                                             |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[12].par_calc_0/an[17]                           |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_14_[17]                                             |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[13].par_calc_0/an[17]                           |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_6_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[5].par_calc_0/an[17]                            |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_7_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[6].par_calc_0/an[17]                            |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                  |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+| 1485   | INT_NET | Net   : reset_c                                                                                                                       |
+|        |         | Driver: reset_ibuf                                                                                                                    |
+| 96     | INT_NET | Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola                    |
+|        |         | Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2] |
+| 96     | INT_NET | Net   : COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola                    |
+|        |         | Driver: COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2] |
+| 55     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_8_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[7].par_calc_0/an[17]                            |
+| 55     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_12_[17]                                             |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[11].par_calc_0/an[17]                           |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_9_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[8].par_calc_0/an[17]                            |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_13_[17]                                             |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[12].par_calc_0/an[17]                           |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_14_[17]                                             |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[13].par_calc_0/an[17]                           |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_6_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[5].par_calc_0/an[17]                            |
+| 54     | INT_NET | Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_7_[17]                                              |
+|        |         | Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[6].par_calc_0/an[17]                            |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------+
+

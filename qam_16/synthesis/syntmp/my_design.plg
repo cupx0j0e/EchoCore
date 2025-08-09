@@ -1,0 +1,12 @@
+@P:  Worst Slack : 5.434
+@P:  my_design|clk - Estimated Frequency : 219.0 MHz
+@P:  my_design|clk - Requested Frequency : 100.0 MHz
+@P:  my_design|clk - Estimated Period : 4.566
+@P:  my_design|clk - Requested Period : 10.000
+@P:  my_design|clk - Slack : 5.434
+@P: my_design Part : mpfs025tfcvg484-1
+@P: my_design Register bits  : 1371 
+@P: my_design DSP Blocks  : 28
+@P: my_design I/O primitives : 70
+@P: my_design RAM64x12 :  2
+@P:  CPU Time : 0h:00m:04s

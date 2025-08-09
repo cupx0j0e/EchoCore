@@ -1,0 +1,16 @@
+Project Name: qam_16
+Location: /home/jessica/Desktop/final_final_working/qam_16
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS025T-1FCVG484I
+Family         : PolarFireSoC
+Die            : MPFS025T
+Package        : FCVG484
+Speed          : -1
+Core Voltage   : 1.0
+Range          : IND

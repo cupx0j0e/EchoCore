@@ -1,0 +1,689 @@
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":87:7:87:19|Synthesizing work.corefir_pf_c0.rtl.
+@W: CD276 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":68:4:68:15|Map for port coef_on_slot of component corefir_pf_c0_corefir_pf_c0_0_corefir_pf not found
+@W: CD730 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":209:0:209:14|Component declaration has 30 ports but entity declares 31 ports
+@W: CD326 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":209:0:209:14|Port coef_on_slot of entity corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_corefir_pf is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":20:7:20:46|Synthesizing corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_corefir_pf.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":142:9:142:14|Signal readyi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":145:9:145:17|Signal datai_act is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":146:9:146:17|Signal coefi_act is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":147:9:147:20|Signal coef_sel_act is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":148:9:148:23|Signal datai_valid_act is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":149:9:149:23|Signal coefi_valid_act is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":149:25:149:36|Signal coef_ref_act is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":150:9:150:19|Signal coef_on_act is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd":33:7:33:47|Synthesizing corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":55:7:55:21|Synthesizing corefir_pf_lib.enum_fir_adv_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":231:9:231:26|Signal row_taps_array_dbg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":232:9:232:17|Signal cin_w_dbg is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":235:9:235:11|Signal p_w_1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":237:9:237:17|Signal ddly_symm_0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":238:9:238:22|Signal ddly_forw_test is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":239:9:239:22|Signal ddly_symm_test is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":244:9:244:26|Signal coef_on_tick_minus is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":245:9:245:30|Signal coefi_valid_tick_minus is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":247:9:247:17|Signal coefi_dly is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":471:7:471:25|Synthesizing corefir_pf_lib.enum_g5_latency_adv.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":297:7:297:20|Synthesizing corefir_pf_lib.enum_kitcounts.rtl.
+Post processing for corefir_pf_lib.enum_kitcounts.rtl
+Running optimization stage 1 on enum_kitCountS .......
+Finished optimization stage 1 on enum_kitCountS (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_bit_reg.rtl
+Running optimization stage 1 on enum_kitDelay_bit_reg .......
+Finished optimization stage 1 on enum_kitDelay_bit_reg (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":386:7:386:18|Synthesizing corefir_pf_lib.enum_kitedge.rtl.
+Post processing for corefir_pf_lib.enum_kitedge.rtl
+Running optimization stage 1 on enum_kitEdge .......
+Finished optimization stage 1 on enum_kitEdge (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_bit_reg.rtl
+Running optimization stage 1 on enum_kitDelay_bit_reg .......
+Finished optimization stage 1 on enum_kitDelay_bit_reg (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Post processing for corefir_pf_lib.enum_g5_latency_adv.rtl
+Running optimization stage 1 on enum_g5_latency_adv .......
+Finished optimization stage 1 on enum_g5_latency_adv (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":35:7:35:26|Synthesizing corefir_pf_lib.enum_dly_line_18x192.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":78:9:78:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":79:9:79:17|Signal uram_dout is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for corefir_pf_lib.enum_dly_line_18x192.rtl
+Running optimization stage 1 on enum_dly_line_18x192 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":47:4:47:7|Bit 0 of signal dout is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":47:4:47:7|Bit 1 of signal dout is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":47:4:47:7|Bit 2 of signal dout is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":47:4:47:7|Bit 3 of signal dout is floating -- simulation mismatch possible.
+Finished optimization stage 1 on enum_dly_line_18x192 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":35:7:35:26|Synthesizing corefir_pf_lib.enum_dly_line_18x192.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":78:9:78:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":79:9:79:17|Signal uram_dout is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":91:7:91:23|Synthesizing corefir_pf_lib.enum_kitdelay_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_reg.rtl
+Running optimization stage 1 on enum_kitDelay_reg .......
+Finished optimization stage 1 on enum_kitDelay_reg (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+Post processing for corefir_pf_lib.enum_dly_line_18x192.rtl
+Running optimization stage 1 on enum_dly_line_18x192 .......
+Finished optimization stage 1 on enum_dly_line_18x192 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":39:7:39:17|Synthesizing corefir_pf_lib.enum_row_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":166:9:166:23|Signal symm_datai_syst is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":91:7:91:23|Synthesizing corefir_pf_lib.enum_kitdelay_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_reg.rtl
+Running optimization stage 1 on enum_kitDelay_reg .......
+Finished optimization stage 1 on enum_kitDelay_reg (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":153:7:153:32|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg_attr.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_bit_reg_attr.rtl
+Running optimization stage 1 on enum_kitDelay_bit_reg_attr .......
+Finished optimization stage 1 on enum_kitDelay_bit_reg_attr (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":153:7:153:32|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg_attr.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_bit_reg_attr.rtl
+Running optimization stage 1 on enum_kitDelay_bit_reg_attr .......
+Finished optimization stage 1 on enum_kitDelay_bit_reg_attr (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":37:7:37:21|Synthesizing corefir_pf_lib.enum_tap_nibble.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":246:9:246:16|Signal turnback is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":367:7:367:28|Synthesizing corefir_pf_lib.enum_tap_undernibble_3.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Signal data_w_5 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Signal coef_w_5 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Running optimization stage 1 on MACC_PA_BC_ROM .......
+Finished optimization stage 1 on MACC_PA_BC_ROM (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Synthesizing corefir_pf_lib.debug_init.rtl.
+@W: CD286 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Creating black box for empty architecture debug_INIT 
+Post processing for corefir_pf_lib.debug_init.rtl
+Running optimization stage 1 on debug_INIT .......
+Finished optimization stage 1 on debug_INIT (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 0 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 1 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 2 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 3 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 4 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 5 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 6 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 7 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 8 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 9 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 10 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 11 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 0 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 1 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 2 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 3 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 4 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 5 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 6 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 7 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 8 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 9 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 10 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 11 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 12 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 13 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 14 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 15 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 16 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 17 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 0 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 1 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 2 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 3 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 4 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 5 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 6 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 7 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 8 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 9 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 10 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 11 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 12 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 13 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 14 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 15 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 16 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 17 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 0 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 1 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 2 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 3 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 4 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 5 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 6 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 7 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 8 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 9 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 10 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 11 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 0 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 1 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 2 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 3 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 4 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 5 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 6 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 7 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 8 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 9 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 10 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 11 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 12 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 13 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 14 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 15 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 16 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 17 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 0 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 1 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 2 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 3 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 4 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 5 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 6 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 7 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 8 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 9 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 10 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 11 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 12 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 13 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 14 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 15 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 16 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 17 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 0 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 1 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 2 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 3 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 4 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 5 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 6 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 7 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 8 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 9 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 10 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 11 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 0 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 1 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 2 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 3 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 4 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 5 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 6 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 7 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 8 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 9 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 10 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 11 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 12 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 13 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 14 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 15 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 16 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 17 of input a of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 0 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 1 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 2 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 3 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 4 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 5 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 6 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 7 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 8 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":181:2:181:22|Bit 9 of input d of instance MACC_PA_BC_ROM_wrap_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+Only the first 100 messages of id 'CL245' are reported. To see all messages use 'report_messages -log /home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/my_design_compiler.srr -id CL245' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL245} -count unlimited' in the Tcl shell.
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 0 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 1 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 2 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 3 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 4 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 5 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 6 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 7 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 8 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 9 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 10 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 11 of signal coefo_w is floating -- simulation mismatch possible.
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 0 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 1 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 2 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 3 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 4 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 5 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 6 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 7 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 8 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 9 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 10 of signal coefo_w is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Bit 11 of signal coefo_w is floating -- simulation mismatch possible.
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Synthesizing corefir_pf_lib.debug_init.rtl.
+@W: CD286 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Creating black box for empty architecture debug_INIT 
+Post processing for corefir_pf_lib.debug_init.rtl
+Running optimization stage 1 on debug_INIT .......
+Finished optimization stage 1 on debug_INIT (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+Post processing for corefir_pf_lib.enum_tap_undernibble_3.rtl
+Running optimization stage 1 on enum_tap_undernibble_3 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 0 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 1 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 2 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 3 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 4 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 5 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 6 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 7 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 8 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 9 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 10 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 11 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 12 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 13 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 14 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 15 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 16 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Bit 17 of signal data_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 0 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 1 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 2 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 3 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 4 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 5 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 6 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 7 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 8 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 9 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 10 of signal coef_w_5 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Bit 11 of signal coef_w_5 is floating -- simulation mismatch possible.
+Finished optimization stage 1 on enum_tap_undernibble_3 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+Post processing for corefir_pf_lib.enum_tap_nibble.rtl
+Running optimization stage 1 on enum_tap_nibble .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":246:9:246:16|Bit 0 of signal turnback is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":246:9:246:16|Bit 1 of signal turnback is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":246:9:246:16|Bit 2 of signal turnback is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":246:9:246:16|Bit 3 of signal turnback is floating -- simulation mismatch possible.
+Finished optimization stage 1 on enum_tap_nibble (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+Post processing for corefir_pf_lib.enum_row_g5.rtl
+Running optimization stage 1 on enum_row_g5 .......
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":166:9:166:23|Bit 0 of signal symm_datai_syst is floating -- simulation mismatch possible.
+@W: CL252 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":166:9:166:23|Bit 1 of signal symm_datai_syst is floating -- simulation mismatch possible.
+
+Only the first 100 messages of id 'CL252' are reported. To see all messages use 'report_messages -log /home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/my_design_compiler.srr -id CL252' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL252} -count unlimited' in the Tcl shell.
+Finished optimization stage 1 on enum_row_g5 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":39:7:39:17|Synthesizing corefir_pf_lib.enum_row_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":166:9:166:23|Signal symm_datai_syst is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":37:7:37:21|Synthesizing corefir_pf_lib.enum_tap_nibble.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":246:9:246:16|Signal turnback is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":367:7:367:28|Synthesizing corefir_pf_lib.enum_tap_undernibble_3.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":481:9:481:14|Signal data_w_6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":482:9:482:14|Signal coef_w_6 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":127:9:127:14|Signal mcanda is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":129:9:129:19|Signal symm_data18 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":132:9:132:26|Signal dbg_top_init_array is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":134:9:134:13|Signal rstnn is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":135:9:135:15|Signal coefo_w is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+Post processing for corefir_pf_lib.macc_pa_bc_rom_wrap.rtl
+Running optimization stage 1 on MACC_PA_BC_ROM_wrap .......
+Finished optimization stage 1 on MACC_PA_BC_ROM_wrap (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+Post processing for corefir_pf_lib.enum_tap_g5.rtl
+Running optimization stage 1 on enum_tap_g5 .......
+Finished optimization stage 1 on enum_tap_g5 (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Synthesizing corefir_pf_lib.debug_init.rtl.
+@W: CD286 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Creating black box for empty architecture debug_INIT 
+Post processing for corefir_pf_lib.debug_init.rtl
+Running optimization stage 1 on debug_INIT .......
+Finished optimization stage 1 on debug_INIT (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.enum_tap_undernibble_3.rtl
+Running optimization stage 1 on enum_tap_undernibble_3 .......
+Finished optimization stage 1 on enum_tap_undernibble_3 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.enum_tap_nibble.rtl
+Running optimization stage 1 on enum_tap_nibble .......
+Finished optimization stage 1 on enum_tap_nibble (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.enum_row_g5.rtl
+Running optimization stage 1 on enum_row_g5 .......
+Finished optimization stage 1 on enum_row_g5 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":46:7:46:17|Synthesizing corefir_pf_lib.enum_pad_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":91:7:91:23|Synthesizing corefir_pf_lib.enum_kitdelay_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_reg.rtl
+Running optimization stage 1 on enum_kitDelay_reg .......
+Finished optimization stage 1 on enum_kitDelay_reg (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_bit_reg.rtl
+Running optimization stage 1 on enum_kitDelay_bit_reg .......
+Finished optimization stage 1 on enum_kitDelay_bit_reg (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.enum_pad_g5.rtl
+Running optimization stage 1 on enum_pad_g5 .......
+@W: CL240 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":73:4:73:24|Signal coefi_valid_minus_row is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on enum_pad_g5 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+Post processing for corefir_pf_lib.enum_kitdelay_bit_reg.rtl
+Running optimization stage 1 on enum_kitDelay_bit_reg .......
+Finished optimization stage 1 on enum_kitDelay_bit_reg (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.enum_fir_adv_g5.rtl
+Running optimization stage 1 on enum_fir_adv_g5 .......
+Finished optimization stage 1 on enum_fir_adv_g5 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5.rtl
+Running optimization stage 1 on COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5 .......
+Finished optimization stage 1 on COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_corefir_pf.rtl
+Running optimization stage 1 on COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF .......
+@W: CL240 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":86:1:86:21|Signal AXI4_M_CONFIGO_TVALID is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":83:1:83:21|Signal AXI4_S_CONFIGI_TREADY is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":79:1:79:19|Signal AXI4_S_COEFI_TREADY is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":74:1:74:19|Signal AXI4_M_DATAO_TVALID is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":71:1:71:19|Signal AXI4_S_DATAI_TREADY is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Post processing for work.corefir_pf_c0.rtl
+Running optimization stage 1 on COREFIR_PF_C0 .......
+Finished optimization stage 1 on COREFIR_PF_C0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_bit_reg_5 .......
+Finished optimization stage 2 on enum_kitDelay_bit_reg_5 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_bit_reg_2 .......
+Finished optimization stage 2 on enum_kitDelay_bit_reg_2 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_reg_4_7 .......
+@N: CL135 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Found sequential shift delayLine with address depth of 7 words and data bit width of 4.
+Finished optimization stage 2 on enum_kitDelay_reg_4_7 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_pad_g5_3_2_2_0_0_0_12_0_4 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":66:4:66:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":72:4:72:14|Input coefi_valid is unused.
+Finished optimization stage 2 on enum_pad_g5_3_2_2_0_0_0_12_0_4 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on debug_INIT_96 .......
+Finished optimization stage 2 on debug_INIT_96 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_10layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_10layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_5layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_5layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_9layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_9layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_6layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_6layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_8layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_8layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_7layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_7layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_7layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_7layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_8layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_8layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_6layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_6layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_9layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_9layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_5layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_5layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_10layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_10layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1 .......
+Finished optimization stage 2 on enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":75:4:75:26|Input symm_datai_minus_nibble is unused.
+Finished optimization stage 2 on enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_row_g5_work_corefir_pf_c0_rtl_0layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":76:4:76:22|Input symm_data_minus_row is unused.
+Finished optimization stage 2 on enum_row_g5_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on debug_INIT_80 .......
+Finished optimization stage 2 on debug_INIT_80 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_4layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_4layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_0layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_3layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_3layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_1layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_1layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_2layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_2layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_2layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_2layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_1layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_1layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_3layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_3layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on debug_INIT_16 .......
+Finished optimization stage 2 on debug_INIT_16 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM .......
+Finished optimization stage 2 on MACC_PA_BC_ROM (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_0layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+Finished optimization stage 2 on MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_4layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+Finished optimization stage 2 on enum_tap_g5_work_corefir_pf_c0_rtl_4layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1 .......
+Finished optimization stage 2 on enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":75:4:75:26|Input symm_datai_minus_nibble is unused.
+Finished optimization stage 2 on enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_bit_reg_attr_3 .......
+Finished optimization stage 2 on enum_kitDelay_bit_reg_attr_3 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_bit_reg_attr_2 .......
+Finished optimization stage 2 on enum_kitDelay_bit_reg_attr_2 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_reg_48_2 .......
+Finished optimization stage 2 on enum_kitDelay_reg_48_2 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_row_g5_work_corefir_pf_c0_rtl_1layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":76:4:76:22|Input symm_data_minus_row is unused.
+Finished optimization stage 2 on enum_row_g5_work_corefir_pf_c0_rtl_1layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_reg_4_11 .......
+@N: CL135 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Found sequential shift delayLine with address depth of 11 words and data bit width of 4.
+Finished optimization stage 2 on enum_kitDelay_reg_4_11 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_dly_line_18x192_4_11_1_0 .......
+Finished optimization stage 2 on enum_dly_line_18x192_4_11_1_0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_dly_line_18x192_4_0_0_0 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":42:4:42:8|Input nGrst is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":43:4:43:6|Input rst is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":44:4:44:6|Input clk is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":45:4:45:12|Input din_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":46:4:46:6|Input din is unused.
+Finished optimization stage 2 on enum_dly_line_18x192_4_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_bit_reg_3 .......
+Finished optimization stage 2 on enum_kitDelay_bit_reg_3 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitEdge_1 .......
+Finished optimization stage 2 on enum_kitEdge_1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitDelay_bit_reg_7 .......
+Finished optimization stage 2 on enum_kitDelay_bit_reg_7 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_kitCountS_5_10_1 .......
+Finished optimization stage 2 on enum_kitCountS_5_10_1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_g5_latency_adv_11_2_3_2_2_2_6 .......
+Finished optimization stage 2 on enum_g5_latency_adv_11_2_3_2_2_2_6 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1 .......
+Finished optimization stage 2 on enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5_1_11_0_1_0_0_12_0_4_0_0_3_2_2_1_1_1_4_2 .......
+Finished optimization stage 2 on COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5_1_11_0_1_0_0_12_0_4_0_0_3_2_2_1_1_1_4_2 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF_work_corefir_pf_c0_rtl_0layer1 .......
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":64:4:64:11|Input COEF_REF is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":67:4:67:7|Input RCLK is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":70:1:70:19|Input AXI4_S_DATAI_TVALID is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":72:1:72:13|Input AXI4_S_TDATAI is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":75:1:75:19|Input AXI4_M_DATAO_TREADY is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":78:1:78:19|Input AXI4_S_COEFI_TVALID is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":80:1:80:12|Input AXI4_S_COEFI is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":82:1:82:21|Input AXI4_S_CONFIGI_TVALID is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":84:1:84:14|Input AXI4_S_CONFIGI is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":87:1:87:21|Input AXI4_M_CONFIGO_TREADY is unused.
+Finished optimization stage 2 on COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF_work_corefir_pf_c0_rtl_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on COREFIR_PF_C0 .......
+Finished optimization stage 2 on COREFIR_PF_C0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/layer1.duruntime
+
+

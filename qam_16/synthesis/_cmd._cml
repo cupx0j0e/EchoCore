@@ -1,0 +1,1 @@
+-link -encrypt -top my_design -osyn /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_comp.srs /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/layer0.srs /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/layer1.srs  -jobname linker  

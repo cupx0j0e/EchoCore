@@ -1,0 +1,242 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N|stack limit increased to max
+@N:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":87:7:87:19|Top entity is set to COREFIR_PF_C0.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd'.
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N|stack limit increased to max
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N|stack limit increased to max
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v":1:7:1:14|Synthesizing module combiner in library work.
+@N: CG775 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Component CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC not found in library "work" or "__hyper__lib__", but found in library CORECORDIC_LIB
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":116:7:116:19|Synthesizing module cordic_countS in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":451:7:451:27|Synthesizing module cordic_init_kickstart in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":609:7:609:31|Synthesizing module cordic_coarse_pre_rotator in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":507:7:507:26|Synthesizing module cordic_dp_bits_trans in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":307:7:307:23|Synthesizing module cordic_kitRndEven in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":710:7:710:32|Synthesizing module cordic_coarse_post_rotator in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":98:7:98:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":30:7:30:19|Synthesizing module CORECORDIC_C0 in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v":1:7:1:13|Synthesizing module four_pr in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v":1:7:1:15|Synthesizing module modulator in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v":1:7:1:19|Synthesizing module phase_counter in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v":1:7:1:12|Synthesizing module symmap in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v":1:7:1:15|Synthesizing module upsampler in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v":9:7:9:15|Synthesizing module my_design in library work.
+@N: CG794 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v":121:14:121:28|Using module COREFIR_PF_C0 from library work
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":718:27:718:28|Input au is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":373:25:373:30|Input validi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:23:116:27|Input DIN_X is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:30:116:34|Input DIN_Y is unused.
+@N|stack limit increased to max
+@N:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":87:7:87:19|Top entity is set to COREFIR_PF_C0.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd'.
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":87:7:87:19|Synthesizing work.corefir_pf_c0.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":20:7:20:46|Synthesizing corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_corefir_pf.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd":33:7:33:47|Synthesizing corefir_pf_lib.corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":55:7:55:21|Synthesizing corefir_pf_lib.enum_fir_adv_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":471:7:471:25|Synthesizing corefir_pf_lib.enum_g5_latency_adv.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":297:7:297:20|Synthesizing corefir_pf_lib.enum_kitcounts.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":386:7:386:18|Synthesizing corefir_pf_lib.enum_kitedge.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":35:7:35:26|Synthesizing corefir_pf_lib.enum_dly_line_18x192.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":35:7:35:26|Synthesizing corefir_pf_lib.enum_dly_line_18x192.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":91:7:91:23|Synthesizing corefir_pf_lib.enum_kitdelay_reg.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":39:7:39:17|Synthesizing corefir_pf_lib.enum_row_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":91:7:91:23|Synthesizing corefir_pf_lib.enum_kitdelay_reg.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":153:7:153:32|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg_attr.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":153:7:153:32|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg_attr.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":37:7:37:21|Synthesizing corefir_pf_lib.enum_tap_nibble.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":367:7:367:28|Synthesizing corefir_pf_lib.enum_tap_undernibble_3.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Synthesizing corefir_pf_lib.debug_init.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Synthesizing corefir_pf_lib.debug_init.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":39:7:39:17|Synthesizing corefir_pf_lib.enum_row_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":37:7:37:21|Synthesizing corefir_pf_lib.enum_tap_nibble.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":367:7:367:28|Synthesizing corefir_pf_lib.enum_tap_undernibble_3.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":34:7:34:17|Synthesizing corefir_pf_lib.enum_tap_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":117:7:117:25|Synthesizing corefir_pf_lib.macc_pa_bc_rom_wrap.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":434:7:434:16|Synthesizing corefir_pf_lib.debug_init.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":46:7:46:17|Synthesizing corefir_pf_lib.enum_pad_g5.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":91:7:91:23|Synthesizing corefir_pf_lib.enum_kitdelay_reg.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+@N: CD630 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":42:7:42:27|Synthesizing corefir_pf_lib.enum_kitdelay_bit_reg.rtl.
+@N: CL135 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Found sequential shift delayLine with address depth of 7 words and data bit width of 4.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":66:4:66:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":72:4:72:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":75:4:75:26|Input symm_datai_minus_nibble is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":76:4:76:22|Input symm_data_minus_row is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":136:4:136:11|Input nGrst_B2 is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":54:4:54:14|Input coefi_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":57:4:57:13|Input symm_datai is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":59:4:59:8|Input coefi is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":62:4:62:11|Input coef_sel is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":75:4:75:26|Input symm_datai_minus_nibble is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":76:4:76:22|Input symm_data_minus_row is unused.
+@N: CL135 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Found sequential shift delayLine with address depth of 11 words and data bit width of 4.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":42:4:42:8|Input nGrst is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":43:4:43:6|Input rst is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":44:4:44:6|Input clk is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":45:4:45:12|Input din_valid is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":46:4:46:6|Input din is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":64:4:64:11|Input COEF_REF is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":67:4:67:7|Input RCLK is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":70:1:70:19|Input AXI4_S_DATAI_TVALID is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":72:1:72:13|Input AXI4_S_TDATAI is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":75:1:75:19|Input AXI4_M_DATAO_TREADY is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":78:1:78:19|Input AXI4_S_COEFI_TVALID is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":80:1:80:12|Input AXI4_S_COEFI is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":82:1:82:21|Input AXI4_S_CONFIGI_TVALID is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":84:1:84:14|Input AXI4_S_CONFIGI is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":87:1:87:21|Input AXI4_M_CONFIGO_TREADY is unused.
+@N|Running in 64-bit mode
+

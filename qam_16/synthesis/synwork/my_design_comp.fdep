@@ -1,0 +1,321 @@
+#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/_verilog_hintfile|-top|my_design|-layerid|0|-orig_srs|/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/Desktop/final_final_working/qam_16/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_ver":1721969462
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/_verilog_hintfile":1754680445
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":1721922091
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/umr_capim.v":1721920057
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_objects.v":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1721921486
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/polarfire_syn_comps.v":1754680444
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v":1754679696
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v":1754679672
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v":1754679766
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/MSS_syn_comps.v":1754680444
+#OPTIONS:"|-mixedhdl|-top|work.COREFIR_PF_C0|-mpparams|/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/_mh_params|-layerid|1|-orig_srs|/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_vhdl":1721969498
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/location.map":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std_textio.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/numeric.vhd":1721922073
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/umr_capim.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/arith.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/unsigned.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/hyperents.vhd":1721921486
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":1754672795
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.vhd":1721922091
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":1754677741
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":1754672795
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd":1754672795
+0			"/home/jessica/Desktop/final_final_working/qam_16/component/polarfire_syn_comps.v" verilog
+1			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
+2			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
+3			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
+4			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
+5			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
+6			"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v" verilog
+7			"/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v" verilog
+8			"/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v" verilog
+9			"/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v" verilog
+10			"/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v" verilog
+11			"/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v" verilog
+12			"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v" verilog
+13			"/home/jessica/Desktop/final_final_working/qam_16/component/MSS_syn_comps.v" verilog
+14			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd" vhdl
+15			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd" vhdl
+16			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd" vhdl
+17			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd" vhdl
+18			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd" vhdl
+19			"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd" vhdl
+20			"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd" vhdl
+21			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd" vhdl
+22			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd" vhdl
+23			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd" vhdl
+24			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd" vhdl
+25			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd" vhdl
+26			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd" vhdl
+27			"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd" vhdl
+28			"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd" vhdl
+29			"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd" vhdl
+30			"/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 1 2
+4 3 2
+5 4
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 30 11 10 9 8 7 5 6
+13 -1
+14 -1
+15 14
+16 -1
+17 16
+18 16 17
+19 -1
+20 16 19 18 26 21 17
+21 16 17
+22 16
+23 16 22 17
+24 16 23 17
+25 16 24 17
+26 16 17 25
+27 -1
+28 27 16 20
+29 14 15 28
+30 29
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 4 3
+3 4
+4 5
+5 12
+6 12
+7 12
+8 12
+9 12
+10 12
+11 12
+12 -1
+13 -1
+14 15 29
+15 29
+16 17 18 20 21 22 23 24 25 26 28
+17 21 23 24 25 26 18 20
+18 20
+19 20
+20 28
+21 20
+22 23
+23 24
+24 25
+25 26
+26 20
+27 28
+28 29
+29 30
+30 12
+#Design Unit to File Association
+module work corefir_pf_c0 30
+arch work corefir_pf_c0 rtl 30
+module corefir_pf_lib corefir_pf_c0_corefir_pf_c0_0_corefir_pf 29
+arch corefir_pf_lib corefir_pf_c0_corefir_pf_c0_0_corefir_pf rtl 29
+module corefir_pf_lib corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5 28
+arch corefir_pf_lib corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5 rtl 28
+module corefir_pf_lib enum_row_g5 26
+arch corefir_pf_lib enum_row_g5 rtl 26
+module corefir_pf_lib enum_tap_nibble 25
+arch corefir_pf_lib enum_tap_nibble rtl 25
+module corefir_pf_lib enum_tap_undernibble_1 24
+arch corefir_pf_lib enum_tap_undernibble_1 rtl 24
+module corefir_pf_lib enum_tap_undernibble_2 24
+arch corefir_pf_lib enum_tap_undernibble_2 rtl 24
+module corefir_pf_lib enum_tap_undernibble_3 24
+arch corefir_pf_lib enum_tap_undernibble_3 rtl 24
+module corefir_pf_lib enum_tap_g5 23
+arch corefir_pf_lib enum_tap_g5 rtl 23
+module corefir_pf_lib macc_pa_bc_rom_wrap 22
+arch corefir_pf_lib macc_pa_bc_rom_wrap rtl 22
+module corefir_pf_lib enum_pad_g5 21
+arch corefir_pf_lib enum_pad_g5 rtl 21
+module corefir_pf_lib enum_fir_adv_g5 20
+arch corefir_pf_lib enum_fir_adv_g5 rtl 20
+module corefir_pf_lib enum_g5_latency_adv 20
+arch corefir_pf_lib enum_g5_latency_adv rtl 20
+module corefir_pf_lib enum_dly_line_18x192 18
+arch corefir_pf_lib enum_dly_line_18x192 rtl 18
+module corefir_pf_lib enum_uram_shift_reg_18x192 18
+arch corefir_pf_lib enum_uram_shift_reg_18x192 rtl 18
+module corefir_pf_lib uram_wrap 18
+arch corefir_pf_lib uram_wrap rtl 18
+module corefir_pf_lib infer_dly_line_18x192 18
+arch corefir_pf_lib infer_dly_line_18x192 infer 18
+module corefir_pf_lib g5_uram12x64 18
+arch corefir_pf_lib g5_uram12x64 def_arch 18
+module corefir_pf_lib g5_uram12x128 18
+arch corefir_pf_lib g5_uram12x128 def_arch 18
+module corefir_pf_lib g5_uram12x192 18
+arch corefir_pf_lib g5_uram12x192 def_arch 18
+module corefir_pf_lib g5_uram18x64 18
+arch corefir_pf_lib g5_uram18x64 def_arch 18
+module corefir_pf_lib g5_uram18x128 18
+arch corefir_pf_lib g5_uram18x128 def_arch 18
+module corefir_pf_lib g5_uram18x192 18
+arch corefir_pf_lib g5_uram18x192 def_arch 18
+module corefir_pf_lib enum_kitdelay_bit_reg 17
+arch corefir_pf_lib enum_kitdelay_bit_reg rtl 17
+module corefir_pf_lib enum_kitdelay_reg 17
+arch corefir_pf_lib enum_kitdelay_reg rtl 17
+module corefir_pf_lib enum_kitdelay_bit_reg_attr 17
+arch corefir_pf_lib enum_kitdelay_bit_reg_attr rtl 17
+module corefir_pf_lib enum_kitdelay_reg_attr 17
+arch corefir_pf_lib enum_kitdelay_reg_attr rtl 17
+module corefir_pf_lib enum_kitdelay_reg_cond 17
+arch corefir_pf_lib enum_kitdelay_reg_cond rtl 17
+module corefir_pf_lib enum_kitcounts 17
+arch corefir_pf_lib enum_kitcounts rtl 17
+module corefir_pf_lib enum_signext 17
+arch corefir_pf_lib enum_signext rtl 17
+module corefir_pf_lib enum_kitedge 17
+arch corefir_pf_lib enum_kitedge rtl 17
+module corefir_pf_lib debug_init 17
+arch corefir_pf_lib debug_init rtl 17
+module corefir_pf_lib corefir_kitdelay_bit_reg 15
+arch corefir_pf_lib corefir_kitdelay_bit_reg rtl 15
+module corefir_pf_lib corefir_kitdelay_reg 15
+arch corefir_pf_lib corefir_kitdelay_reg rtl 15
+module corefir_pf_lib corefir_kitrndup 15
+arch corefir_pf_lib corefir_kitrndup rtl 15
+module corefir_pf_lib corefir_kitrndeven 15
+arch corefir_pf_lib corefir_kitrndeven rtl 15
+module corefir_pf_lib corefir_kitroundtop 15
+arch corefir_pf_lib corefir_kitroundtop rtl 15
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC 4
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par 3
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator 3
+module CORECORDIC_LIB cordic_par_calc 2
+module CORECORDIC_LIB cordic_word_calc 2
+module CORECORDIC_LIB cordic_coarse_post_rotator 2
+module CORECORDIC_LIB cordic_coarse_pre_rotator 2
+module CORECORDIC_LIB cordic_dp_bits_trans 2
+module CORECORDIC_LIB cordic_init_kickstart 2
+module CORECORDIC_LIB cordic_signExt 2
+module CORECORDIC_LIB cordic_kitRoundTop 2
+module CORECORDIC_LIB cordic_kitRndEven 2
+module CORECORDIC_LIB cordic_kitRndSymm 2
+module CORECORDIC_LIB cordic_kitRndUp 2
+module CORECORDIC_LIB cordicSm 2
+module CORECORDIC_LIB cordic_countS 2
+module CORECORDIC_LIB cordic_kitDelay_reg 2
+module CORECORDIC_LIB cordic_kitDelay_bit_reg 2
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cROM_par 1
+module work MSS 13
+module work my_design 12
+module work upsampler 11
+module work symmap 10
+module work phase_counter 9
+module work modulator 8
+module work four_pr 7
+module work combiner 6
+module work CORECORDIC_C0 5
+module work CLKBUF_DIFF_ODT 0
+module work CLKBUF_DIFF 0
+module work PFSOC_SCSM 0
+module work CORELNKTMR_V 0
+module work XCVR 0
+module work XCVR_VV 0
+module work XCVR_TEST 0
+module work XCVR_REF_CLK 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_PMA 0
+module work XCVR_PIPE 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK 0
+module work XCVR_8B10B 0
+module work XCVR_64B6XB 0
+module work VREFCTRL 0
+module work VREFBANKDYN 0
+module work VOLTAGEDETECT 0
+module work USPI 0
+module work UPROM 0
+module work TX_PLL 0
+module work TVS 0
+module work TAMPER 0
+module work SYS_SERVICES 0
+module work SYSRESET 0
+module work SYSCTRL_RESET_STATUS 0
+module work SCB 0
+module work QUADRST 0
+module work QUADRST_PCIE 0
+module work PLL 0
+module work PF_SPI 0
+module work PCIE 0
+module work PCIE_COMMON 0
+module work OSC_RC2MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC160MHZ 0
+module work LANERST 0
+module work LANECTRL 0
+module work IOD 0
+module work INIT 0
+module work ICB_NGMUX 0
+module work ICB_MUXING 0
+module work ICB_INT 0
+module work ICB_CLKSTOP 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKINT 0
+module work ICB_CLKDIV 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_BANKCLK 0
+module work HS_IO_CLK 0
+module work GPSS_COMMON 0
+module work GLITCHDETECT 0
+module work ENFORCE 0
+module work DRI 0
+module work DLL 0
+module work DEBUG 0
+module work CRYPTO_SOC 0
+module work CRYPTO 0
+module work CRN_INT 0
+module work CRN_COMMON 0
+module work BANKEN 0
+module work BANKCTRL_HSIO 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRLM 0
+module work APBS 0
+module work APBM 0

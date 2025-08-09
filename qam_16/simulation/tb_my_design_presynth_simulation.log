@@ -1,0 +1,590 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap polarfire /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library CORECORDIC_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap CORECORDIC_LIB CORECORDIC_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREFIR_PF_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap COREFIR_PF_LIB COREFIR_PF_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v 
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+# 
+# Top level modules:
+# 	CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v 
+# -- Compiling module cordic_kitDelay_bit_reg
+# -- Compiling module cordic_kitDelay_reg
+# -- Compiling module cordic_countS
+# -- Compiling module cordicSm
+# -- Compiling module cordic_kitRndUp
+# -- Compiling module cordic_kitRndSymm
+# -- Compiling module cordic_kitRndEven
+# -- Compiling module cordic_kitRoundTop
+# -- Compiling module cordic_init_kickstart
+# -- Compiling module cordic_dp_bits_trans
+# -- Compiling module cordic_coarse_pre_rotator
+# -- Compiling module cordic_coarse_post_rotator
+# -- Compiling module cordic_signExt
+# -- Compiling module cordic_word_calc
+# -- Compiling module cordic_par_calc
+# 
+# Top level modules:
+# 	cordicSm
+# 	cordic_kitRoundTop
+# 	cordic_init_kickstart
+# 	cordic_dp_bits_trans
+# 	cordic_coarse_pre_rotator
+# 	cordic_coarse_post_rotator
+# 	cordic_word_calc
+# 	cordic_par_calc
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v 
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+# 
+# Top level modules:
+# 	CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v 
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+# 
+# Top level modules:
+# 	CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v 
+# -- Compiling module CORECORDIC_C0
+# 
+# Top level modules:
+# 	CORECORDIC_C0
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package corefir_rtl_pack
+# -- Compiling package body corefir_rtl_pack
+# -- Loading package corefir_rtl_pack
+# ** Warning: /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd(469): Function 'running_sum_basic' may complete without a RETURN at line 466.
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package corefir_rtl_pack
+# -- Compiling entity corefir_kitDelay_bit_reg
+# -- Compiling architecture rtl of corefir_kitDelay_bit_reg
+# -- Compiling entity corefir_kitDelay_reg
+# -- Compiling architecture rtl of corefir_kitDelay_reg
+# -- Compiling entity corefir_kitRndUp
+# -- Compiling architecture rtl of corefir_kitRndUp
+# -- Compiling entity corefir_kitRndEven
+# -- Compiling architecture rtl of corefir_kitRndEven
+# ** Warning: /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd(279): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# -- Compiling entity corefir_kitRoundTop
+# -- Compiling architecture rtl of corefir_kitRoundTop
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package enum_rtl_pack
+# -- Compiling package body enum_rtl_pack
+# -- Loading package enum_rtl_pack
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_kitDelay_bit_reg
+# -- Compiling architecture rtl of enum_kitDelay_bit_reg
+# -- Compiling entity enum_kitDelay_reg
+# -- Compiling architecture rtl of enum_kitDelay_reg
+# -- Compiling entity enum_kitDelay_bit_reg_attr
+# -- Compiling architecture rtl of enum_kitDelay_bit_reg_attr
+# -- Compiling entity enum_kitDelay_reg_attr
+# -- Compiling architecture rtl of enum_kitDelay_reg_attr
+# -- Compiling entity enum_kitDelay_reg_cond
+# -- Compiling architecture rtl of enum_kitDelay_reg_cond
+# -- Compiling entity enum_kitCountS
+# -- Compiling architecture rtl of enum_kitCountS
+# -- Compiling entity enum_signExt
+# -- Compiling architecture rtl of enum_signExt
+# -- Compiling entity enum_kitEdge
+# -- Compiling architecture rtl of enum_kitEdge
+# -- Compiling entity debug_INIT
+# -- Compiling architecture rtl of debug_INIT
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_dly_line_18x192
+# -- Compiling architecture rtl of enum_dly_line_18x192
+# -- Compiling entity enum_uram_shift_reg_18x192
+# -- Compiling architecture rtl of enum_uram_shift_reg_18x192
+# -- Compiling entity uram_wrap
+# -- Compiling architecture rtl of uram_wrap
+# -- Compiling entity infer_dly_line_18x192
+# -- Compiling architecture infer of infer_dly_line_18x192
+# -- Compiling entity g5_uram12x64
+# -- Compiling architecture DEF_ARCH of g5_uram12x64
+# -- Compiling entity g5_uram12x128
+# -- Compiling architecture DEF_ARCH of g5_uram12x128
+# -- Compiling entity g5_uram12x192
+# -- Compiling architecture DEF_ARCH of g5_uram12x192
+# -- Compiling entity g5_uram18x64
+# -- Compiling architecture DEF_ARCH of g5_uram18x64
+# -- Compiling entity g5_uram18x128
+# -- Compiling architecture DEF_ARCH of g5_uram18x128
+# -- Compiling entity g5_uram18x192
+# -- Compiling architecture DEF_ARCH of g5_uram18x192
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Loading package COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs
+# -- Compiling entity enum_fir_adv_g5
+# -- Compiling architecture rtl of enum_fir_adv_g5
+# -- Compiling entity enum_g5_latency_adv
+# -- Compiling architecture rtl of enum_g5_latency_adv
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_pad_g5
+# -- Compiling architecture rtl of enum_pad_g5
+# End time: 12:58:22 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:22 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity MACC_PA_BC_ROM_wrap
+# -- Compiling architecture rtl of MACC_PA_BC_ROM_wrap
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_tap_g5
+# -- Compiling architecture rtl of enum_tap_g5
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_tap_undernibble_1
+# -- Compiling architecture rtl of enum_tap_undernibble_1
+# -- Compiling entity enum_tap_undernibble_2
+# -- Compiling architecture rtl of enum_tap_undernibble_2
+# -- Compiling entity enum_tap_undernibble_3
+# -- Compiling architecture rtl of enum_tap_undernibble_3
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_tap_nibble
+# -- Compiling architecture rtl of enum_tap_nibble
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_row_g5
+# -- Compiling architecture rtl of enum_row_g5
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Loading package COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params
+# -- Compiling entity COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5
+# -- Compiling architecture rtl of COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package corefir_rtl_pack
+# -- Compiling entity COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
+# -- Compiling architecture rtl of COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity COREFIR_PF_C0
+# -- Compiling architecture RTL of COREFIR_PF_C0
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v 
+# -- Compiling module combiner
+# 
+# Top level modules:
+# 	combiner
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v 
+# -- Compiling module four_pr
+# 
+# Top level modules:
+# 	four_pr
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v 
+# -- Compiling module modulator
+# 
+# Top level modules:
+# 	modulator
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v 
+# -- Compiling module phase_counter
+# 
+# Top level modules:
+# 	phase_counter
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v 
+# -- Compiling module symmap
+# 
+# Top level modules:
+# 	symmap
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v 
+# -- Compiling module upsampler
+# 
+# Top level modules:
+# 	upsampler
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v 
+# -- Compiling module my_design
+# 
+# Top level modules:
+# 	my_design
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd 
+# -- Loading package STANDARD
+# -- Compiling package coreparameters_tgi
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 12:58:23 on Aug 09,2025
+# vlog -reportprogress 300 "+incdir+/home/jessica/Desktop/final_final_working/qam_16/stimulus" -sv -work presynth /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v 
+# -- Compiling module tb_my_design
+# 
+# Top level modules:
+# 	tb_my_design
+# End time: 12:58:23 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" presynth.tb_my_design 
+# Start time: 12:58:23 on Aug 09,2025
+# //  ModelSim Microsemi Pro 2024.2 May 20 2024 Linux 6.8.0-65-generic
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading presynth.tb_my_design
+# Loading presynth.my_design
+# Loading presynth.combiner
+# Loading presynth.CORECORDIC_C0
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+# Loading CORECORDIC_LIB.cordic_init_kickstart
+# Loading CORECORDIC_LIB.cordic_countS
+# Loading presynth.four_pr
+# Loading presynth.modulator
+# Loading presynth.phase_counter
+# Loading presynth.symmap
+# Loading presynth.upsampler
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+# Loading CORECORDIC_LIB.cordic_coarse_pre_rotator
+# Loading CORECORDIC_LIB.cordic_kitDelay_reg
+# Loading CORECORDIC_LIB.cordic_dp_bits_trans
+# Loading CORECORDIC_LIB.cordic_signExt
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
+# Loading CORECORDIC_LIB.cordic_kitDelay_bit_reg
+# Loading CORECORDIC_LIB.cordic_kitRoundTop
+# Loading CORECORDIC_LIB.cordic_coarse_post_rotator
+# Loading CORECORDIC_LIB.cordic_par_calc
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+# Loading CORECORDIC_LIB.cordic_kitRndEven
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.corefir_pf_c0(rtl)
+# Loading ieee.numeric_std(body)
+# Loading COREFIR_PF_LIB.corefir_rtl_pack(body)
+# Loading COREFIR_PF_LIB.corefir_pf_c0_corefir_pf_c0_0_corefir_pf(rtl)
+# Loading COREFIR_PF_LIB.enum_rtl_pack(body)
+# Loading COREFIR_PF_LIB.corefir_pf_c0_corefir_pf_c0_0_enum_params
+# Loading COREFIR_PF_LIB.corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5(rtl)
+# Loading COREFIR_PF_LIB.corefir_pf_c0_corefir_pf_c0_0_enumfir_coefs
+# Loading COREFIR_PF_LIB.enum_fir_adv_g5(rtl)
+# Loading COREFIR_PF_LIB.enum_kitdelay_bit_reg(rtl)
+# Loading COREFIR_PF_LIB.enum_pad_g5(rtl)
+# Loading COREFIR_PF_LIB.enum_kitdelay_reg(rtl)
+# Loading COREFIR_PF_LIB.enum_row_g5(rtl)
+# Loading COREFIR_PF_LIB.enum_tap_nibble(rtl)
+# Loading COREFIR_PF_LIB.debug_init(rtl)
+# Loading COREFIR_PF_LIB.enum_tap_undernibble_3(rtl)
+# Loading COREFIR_PF_LIB.enum_tap_g5(rtl)
+# Loading COREFIR_PF_LIB.macc_pa_bc_rom_wrap(rtl)
+# Loading polarfire.MACC_PA_BC_ROM
+# Loading polarfire.ROM16x18
+# Loading polarfire.PIPE_REG_BYPASS
+# Loading polarfire.MACC_IP
+# Loading polarfire.OUTPUT_PMOS
+# Loading polarfire.MACC_PA_COMB
+# Loading polarfire.CFG4
+# Loading polarfire.SLE_Prim
+# Loading COREFIR_PF_LIB.enum_kitdelay_bit_reg_attr(rtl)
+# Loading COREFIR_PF_LIB.enum_dly_line_18x192(rtl)
+# Loading COREFIR_PF_LIB.enum_g5_latency_adv(rtl)
+# Loading COREFIR_PF_LIB.enum_kitedge(rtl)
+# Loading COREFIR_PF_LIB.enum_kitcounts(rtl)
+# Loading polarfire.UDP_MUX2
+# Loading polarfire.UDP_DFF
+# Loading polarfire.UDP_DL
+# Loading /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+# ** Warning: (vsim-8683) Uninitialized out port /tb_my_design/uut/COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/enum_pad_g5_0/coefi_dly(11 downto 0) has no driver.
+# This port will contribute value (XXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_my_design/uut/COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/enum_pad_g5_0/coefi_valid_minus_row has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_my_design/uut/COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/enum_pad_g5_0/coefi_dly(11 downto 0) has no driver.
+# This port will contribute value (XXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_my_design/uut/COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/enum_pad_g5_0/coefi_valid_minus_row has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design/uut/COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/latency_0/syst_counter_0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design/uut/COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/latency_0/syst_counter_0
+# Time=0 | rst=1 | four_pr=xxxx | symmap_i=  x | symmap_q=  x | up_i=  x | up_q=  x | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    x | mod_q=                    x | combined=                   x
+# Time=5000 | rst=1 | four_pr=0001 | symmap_i= -3 | symmap_q= -1 | up_i=  x | up_q=  x | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    0 | mod_q=                    0 | combined=                   0
+# Time=15000 | rst=1 | four_pr=0001 | symmap_i= -3 | symmap_q= -1 | up_i= -3 | up_q= -1 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    0 | mod_q=                    0 | combined=                   0
+# Time=50000 | rst=0 | four_pr=0001 | symmap_i= -3 | symmap_q= -1 | up_i= -3 | up_q= -1 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    0 | mod_q=                    0 | combined=                   0
+# Time=55000 | rst=0 | four_pr=1100 | symmap_i=  3 | symmap_q= -3 | up_i= -3 | up_q= -1 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    x | mod_q=                    x | combined=                   0
+# Time=65000 | rst=0 | four_pr=1100 | symmap_i=  3 | symmap_q= -3 | up_i=  0 | up_q=  0 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    x | mod_q=                    x | combined=                   x
+# Time=165000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  3 | up_q= -3 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    x | mod_q=                    x | combined=                   x
+# Time=175000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    x | mod_i=                    x | mod_q=                    x | combined=                   x
+# Time=195000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=              0 | fir_q=              0 | cordic_x=    x | cordic_y=    X | mod_i=                    x | mod_q=                    x | combined=                   x
+# Time=205000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=              0 | fir_q=              0 | cordic_x= 8192 | cordic_y=    0 | mod_i=                    x | mod_q=                    x | combined=                   x
+# Time=215000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=              0 | fir_q=              0 | cordic_x= 8192 | cordic_y=    0 | mod_i=                    0 | mod_q=                    0 | combined=                   x
+# Time=225000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=              0 | fir_q=              0 | cordic_x= 8192 | cordic_y=    0 | mod_i=                    0 | mod_q=                    0 | combined=                   0
+# Time=245000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976708145 | fir_q=281474976709819 | cordic_x= 8192 | cordic_y=    0 | mod_i=                    0 | mod_q=                    0 | combined=                   0
+# Time=255000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976705301 | fir_q=281474976708871 | cordic_x= 8192 | cordic_y=    1 | mod_i=            -20570112 | mod_q=                    0 | combined=                   0
+# Time=265000 | rst=0 | four_pr=0110 | symmap_i= -1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976704737 | fir_q=281474976708683 | cordic_x= 8192 | cordic_y=    3 | mod_i=            -43868160 | mod_q=                -1785 | combined=36893488147398533120
+# Time=275000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i= -1 | up_q=  1 | fir_i=281474976704389 | fir_q=281474976708567 | cordic_x= 8192 | cordic_y=    4 | mod_i=            -48488448 | mod_q=                -5919 | combined=36893488147375233287
+# Time=285000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976704278 | fir_q=281474976708530 | cordic_x= 8192 | cordic_y=    6 | mod_i=            -51339264 | mod_q=                -8356 | combined=36893488147370608865
+# Time=295000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976704413 | fir_q=281474976708575 | cordic_x= 8192 | cordic_y=    8 | mod_i=            -52248576 | mod_q=               -12756 | combined=36893488147367755612
+# Time=305000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976704782 | fir_q=281474976708698 | cordic_x= 8192 | cordic_y=    9 | mod_i=            -51142656 | mod_q=               -16648 | combined=36893488147366841900
+# Time=315000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976705361 | fir_q=281474976708891 | cordic_x= 8192 | cordic_y=   11 | mod_i=            -48119808 | mod_q=               -17622 | combined=36893488147367943928
+# Time=325000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976706111 | fir_q=281474976709141 | cordic_x= 8192 | cordic_y=   12 | mod_i=            -43376640 | mod_q=               -19415 | combined=36893488147370965802
+# Time=335000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976708589 | fir_q=281474976709967 | cordic_x= 8192 | cordic_y=   14 | mod_i=            -37232640 | mod_q=               -18180 | combined=36893488147375707177
+# Time=345000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           1656 | fir_q=281474976709000 | cordic_x= 8192 | cordic_y=   16 | mod_i=            -16932864 | mod_q=                -9646 | combined=36893488147381852412
+# Time=355000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           2109 | fir_q=281474976708547 | cordic_x= 8192 | cordic_y=   17 | mod_i=             13565952 | mod_q=               -26496 | combined=36893488147402160722
+# Time=365000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           2511 | fir_q=281474976708145 | cordic_x= 8192 | cordic_y=   19 | mod_i=             17276928 | mod_q=               -35853 | combined=            13539456
+# Time=375000 | rst=0 | four_pr=0011 | symmap_i= -3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           2844 | fir_q=281474976707812 | cordic_x= 8192 | cordic_y=   20 | mod_i=             20570112 | mod_q=               -47709 | combined=            17241075
+# Time=385000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i= -3 | up_q=  3 | fir_i=           3075 | fir_q=281474976707581 | cordic_x= 8192 | cordic_y=   22 | mod_i=             23298048 | mod_q=               -56880 | combined=            20522403
+# Time=395000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           3192 | fir_q=281474976707464 | cordic_x= 8192 | cordic_y=   24 | mod_i=             25190400 | mod_q=               -67650 | combined=            23241168
+# Time=405000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           3186 | fir_q=281474976707470 | cordic_x= 8192 | cordic_y=   25 | mod_i=             26148864 | mod_q=               -76608 | combined=            25122750
+# Time=415000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           3057 | fir_q=281474976707599 | cordic_x= 8192 | cordic_y=   26 | mod_i=             26099712 | mod_q=               -79650 | combined=            26072256
+# Time=425000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           2817 | fir_q=281474976707839 | cordic_x= 8192 | cordic_y=   28 | mod_i=             25042944 | mod_q=               -79482 | combined=            26020062
+# Time=435000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           2478 | fir_q=281474976708178 | cordic_x= 8192 | cordic_y=   29 | mod_i=             23076864 | mod_q=               -78876 | combined=            24963462
+# Time=445000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           2067 | fir_q=281474976708589 | cordic_x= 8192 | cordic_y=   31 | mod_i=             20299776 | mod_q=               -71862 | combined=            22997988
+# Time=455000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976710104 | fir_q=            552 | cordic_x= 8192 | cordic_y=   32 | mod_i=             16932864 | mod_q=               -64077 | combined=            20227914
+# Time=465000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976709953 | fir_q=            703 | cordic_x= 8192 | cordic_y=   34 | mod_i=             -4521984 | mod_q=                17664 | combined=            16868787
+# Time=475000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976709819 | fir_q=            837 | cordic_x= 8192 | cordic_y=   36 | mod_i=             -5758976 | mod_q=                23902 | combined=36893488147414598912
+# Time=485000 | rst=0 | four_pr=1101 | symmap_i=  3 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976709708 | fir_q=            948 | cordic_x= 8192 | cordic_y=   37 | mod_i=             -6856704 | mod_q=                30132 | combined=36893488147413368158
+# Time=495000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  3 | up_q= -1 | fir_i=281474976709631 | fir_q=           1025 | cordic_x= 8192 | cordic_y=   39 | mod_i=             -7766016 | mod_q=                35076 | combined=36893488147412276660
+# Time=505000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709592 | fir_q=           1064 | cordic_x= 8192 | cordic_y=   40 | mod_i=             -8396800 | mod_q=                39975 | combined=36893488147411372292
+# Time=515000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709594 | fir_q=           1062 | cordic_x= 8192 | cordic_y=   42 | mod_i=             -8716288 | mod_q=                42560 | combined=36893488147410746407
+# Time=525000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709637 | fir_q=           1019 | cordic_x= 8192 | cordic_y=   44 | mod_i=             -8699904 | mod_q=                44604 | combined=36893488147410429504
+# Time=535000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709717 | fir_q=            939 | cordic_x= 8192 | cordic_y=   45 | mod_i=             -8347648 | mod_q=                44836 | combined=36893488147410447932
+# Time=545000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709830 | fir_q=            826 | cordic_x= 8192 | cordic_y=   47 | mod_i=             -7692288 | mod_q=                42255 | combined=36893488147410800420
+# Time=555000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709967 | fir_q=            689 | cordic_x= 8192 | cordic_y=   48 | mod_i=             -6766592 | mod_q=                38822 | combined=36893488147411453199
+# Time=565000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976709000 | fir_q=           1656 | cordic_x= 8192 | cordic_y=   50 | mod_i=             -5644288 | mod_q=                33072 | combined=36893488147412375462
+# Time=575000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976708547 | fir_q=           2109 | cordic_x= 8192 | cordic_y=   52 | mod_i=            -13565952 | mod_q=                82800 | combined=36893488147413492016
+# Time=585000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976708145 | fir_q=           2511 | cordic_x= 8192 | cordic_y=   53 | mod_i=            -17276928 | mod_q=               109668 | combined=36893488147405620080
+# Time=595000 | rst=0 | four_pr=1010 | symmap_i=  1 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=281474976707812 | fir_q=           2844 | cordic_x= 8192 | cordic_y=   55 | mod_i=            -20570112 | mod_q=               133083 | combined=36893488147401935972
+# Time=605000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  1 | up_q=  1 | fir_i=281474976707581 | fir_q=           3075 | cordic_x= 8192 | cordic_y=   56 | mod_i=            -23298048 | mod_q=               156420 | combined=36893488147398666203
+# Time=615000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976707464 | fir_q=           3192 | cordic_x= 8192 | cordic_y=   58 | mod_i=            -25190400 | mod_q=               172200 | combined=36893488147395961604
+# Time=625000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976707470 | fir_q=           3186 | cordic_x= 8192 | cordic_y=   60 | mod_i=            -26148864 | mod_q=               185136 | combined=36893488147394085032
+# Time=635000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976707599 | fir_q=           3057 | cordic_x= 8192 | cordic_y=   61 | mod_i=            -26099712 | mod_q=               191160 | combined=36893488147393139504
+# Time=645000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976707839 | fir_q=           2817 | cordic_x= 8192 | cordic_y=   63 | mod_i=            -25042944 | mod_q=               186477 | combined=36893488147393194680
+# Time=655000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976708178 | fir_q=           2478 | cordic_x= 8192 | cordic_y=   64 | mod_i=            -23076864 | mod_q=               177471 | combined=36893488147394246765
+# Time=665000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=281474976708589 | fir_q=           2067 | cordic_x= 8192 | cordic_y=   66 | mod_i=            -20299776 | mod_q=               158592 | combined=36893488147396203839
+# Time=675000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           1656 | fir_q=281474976710104 | cordic_x= 8192 | cordic_y=   68 | mod_i=            -16932864 | mod_q=               136422 | combined=36893488147398962048
+# Time=685000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           2109 | fir_q=281474976709953 | cordic_x= 8192 | cordic_y=   69 | mod_i=             13565952 | mod_q=               -37536 | combined=36893488147402306790
+# Time=695000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           2511 | fir_q=281474976709819 | cordic_x= 8192 | cordic_y=   71 | mod_i=             17276928 | mod_q=               -48507 | combined=            13528416
+# Time=705000 | rst=0 | four_pr=0101 | symmap_i= -1 | symmap_q= -1 | up_i=  0 | up_q=  0 | fir_i=           2844 | fir_q=281474976709708 | cordic_x= 8192 | cordic_y=   72 | mod_i=             20570112 | mod_q=               -59427 | combined=            17228421
+# Time=715000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i= -1 | up_q= -1 | fir_i=           3075 | fir_q=281474976709631 | cordic_x= 8192 | cordic_y=   74 | mod_i=             23298048 | mod_q=               -68256 | combined=            20510685
+# Time=725000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=           3192 | fir_q=281474976709592 | cordic_x= 8192 | cordic_y=   76 | mod_i=             25190400 | mod_q=               -75850 | combined=            23229792
+# Time=735000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=           3186 | fir_q=281474976709594 | cordic_x= 8192 | cordic_y=   77 | mod_i=             26148864 | mod_q=               -80864 | combined=            25114550
+# Time=745000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=           3057 | fir_q=281474976709637 | cordic_x= 8192 | cordic_y=   79 | mod_i=             26099712 | mod_q=               -81774 | combined=            26068000
+# Time=755000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=           2817 | fir_q=281474976709717 | cordic_x= 8192 | cordic_y=   80 | mod_i=             25042944 | mod_q=               -80501 | combined=            26017938
+# Time=765000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=           2478 | fir_q=281474976709830 | cordic_x= 8192 | cordic_y=   82 | mod_i=             23076864 | mod_q=               -75120 | combined=            24962443
+# Time=775000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=           2067 | fir_q=281474976709967 | cordic_x= 8192 | cordic_y=   84 | mod_i=             20299776 | mod_q=               -67732 | combined=            23001744
+# Time=785000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=            552 | fir_q=            552 | cordic_x= 8192 | cordic_y=   85 | mod_i=             16932864 | mod_q=               -57876 | combined=            20232044
+# Time=795000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=            703 | fir_q=            703 | cordic_x= 8192 | cordic_y=   87 | mod_i=              4521984 | mod_q=                46920 | combined=            16874988
+# Time=805000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=            837 | fir_q=            837 | cordic_x= 8192 | cordic_y=   88 | mod_i=              5758976 | mod_q=                61161 | combined=             4568904
+# Time=815000 | rst=0 | four_pr=1110 | symmap_i=  3 | symmap_q=  1 | up_i=  0 | up_q=  0 | fir_i=            948 | fir_q=            948 | cordic_x= 8192 | cordic_y=   90 | mod_i=              6856704 | mod_q=                73656 | combined=             5820137
+# Time=825000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  3 | up_q=  1 | fir_i=           1025 | fir_q=           1025 | cordic_x= 8192 | cordic_y=   91 | mod_i=              7766016 | mod_q=                85320 | combined=             6930360
+# Time=835000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           1064 | fir_q=           1064 | cordic_x= 8192 | cordic_y=   92 | mod_i=              8396800 | mod_q=                93275 | combined=             7851336
+# Time=845000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           1062 | fir_q=           1062 | cordic_x= 8192 | cordic_y=   94 | mod_i=              8716288 | mod_q=                97888 | combined=             8490075
+# Time=855000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=           1019 | fir_q=           1019 | cordic_x= 8192 | cordic_y=   96 | mod_i=              8699904 | mod_q=                99828 | combined=             8814176
+# Time=865000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=            939 | fir_q=            939 | cordic_x= 8192 | cordic_y=   97 | mod_i=              8347648 | mod_q=                97824 | combined=             8799732
+# Time=875000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=            826 | fir_q=            826 | cordic_x= 8192 | cordic_y=   99 | mod_i=              7692288 | mod_q=                91083 | combined=             8445472
+# Time=885000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=            689 | fir_q=            689 | cordic_x= 8192 | cordic_y=  100 | mod_i=              6766592 | mod_q=                81774 | combined=             7783371
+# Time=895000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976710104 | fir_q=281474976710104 | cordic_x= 8192 | cordic_y=  102 | mod_i=              5644288 | mod_q=                68900 | combined=             6848366
+# Time=905000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709953 | fir_q=281474976709953 | cordic_x= 8192 | cordic_y=  104 | mod_i=             -4521984 | mod_q=               -56304 | combined=             5713188
+# Time=915000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709819 | fir_q=281474976709819 | cordic_x= 8192 | cordic_y=  105 | mod_i=             -5758976 | mod_q=               -73112 | combined=36893488147414524944
+# Time=925000 | rst=0 | four_pr=0111 | symmap_i= -1 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709708 | fir_q=281474976709708 | cordic_x= 8192 | cordic_y=  107 | mod_i=             -6856704 | mod_q=               -87885 | combined=36893488147413271144
+# Time=935000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i= -1 | up_q=  3 | fir_i=281474976709631 | fir_q=281474976709631 | cordic_x= 8192 | cordic_y=  108 | mod_i=             -7766016 | mod_q=              -101436 | combined=36893488147412158643
+# Time=945000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709592 | fir_q=281474976709592 | cordic_x= 8192 | cordic_y=  110 | mod_i=             -8396800 | mod_q=              -110700 | combined=36893488147411235780
+# Time=955000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709594 | fir_q=281474976709594 | cordic_x= 8192 | cordic_y=  112 | mod_i=             -8716288 | mod_q=              -117040 | combined=36893488147410595732
+# Time=965000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709637 | fir_q=281474976709637 | cordic_x= 8192 | cordic_y=  113 | mod_i=             -8699904 | mod_q=              -118944 | combined=36893488147410269904
+# Time=975000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709717 | fir_q=281474976709717 | cordic_x= 8192 | cordic_y=  115 | mod_i=             -8347648 | mod_q=              -115147 | combined=36893488147410284384
+# Time=985000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709830 | fir_q=281474976709830 | cordic_x= 8192 | cordic_y=  116 | mod_i=             -7692288 | mod_q=              -107985 | combined=36893488147410640437
+# Time=995000 | rst=0 | four_pr=1111 | symmap_i=  3 | symmap_q=  3 | up_i=  0 | up_q=  0 | fir_i=281474976709967 | fir_q=281474976709967 | cordic_x= 8192 | cordic_y=  118 | mod_i=             -6766592 | mod_q=               -95816 | combined=36893488147411302959
+# End time: 13:01:24 on Aug 09,2025, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 6

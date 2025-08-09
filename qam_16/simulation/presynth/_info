@@ -1,0 +1,289 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jessica/Desktop/final_final_working/qam_16/simulation
+vcombiner
+2/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1754724503
+!i10b 1
+!s100 3gEz0gEUoAjBa<[=:2OZI2
+IFLK;WNONB?2SP6U[?GUg?1
+S1
+R0
+w1754679696
+8/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v
+F/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v
+!i122 111
+Z3 L0 1 17
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OW;L;2024.2;79
+r1
+!s85 0
+31
+Z6 !s108 1754724503.000000
+!s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v|
+!s101 -O0
+!i113 1
+Z7 o-sv -work presynth -O0
+Z8 tCvgOpt 0
+vCORECORDIC_C0
+2/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+R1
+!s110 1754724502
+!i10b 1
+!s100 oi9?c5N7DT_e>I6XYJd;H3
+ID7UMfQOnIAn==3SKO9RR41
+S1
+R0
+w1754672856
+8/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+F/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+!i122 109
+L0 30 93
+R4
+R5
+r1
+!s85 0
+31
+!s108 1754724502.000000
+!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
+!s101 -O0
+!i113 1
+R7
+R8
+n@c@o@r@e@c@o@r@d@i@c_@c0
+Ecorefir_pf_c0
+Z9 w1754672795
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 110
+R0
+Z12 8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
+Z13 F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
+l0
+L87 1
+V4RjQ8@TA4EU2gV;S5lUD82
+!s100 OY>IK[ZKm;gM9zJ>ofbI`1
+Z14 OW;C;2024.2;79
+33
+R2
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd|
+Z16 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd|
+!i113 1
+Z17 o-2008 -explicit -work presynth -O0
+R8
+Artl
+R10
+R11
+DEx4 work 13 corefir_pf_c0 0 22 4RjQ8@TA4EU2gV;S5lUD82
+!i122 110
+l187
+L104 165
+V[Sbzh4`hAU]KOR3]2A_iW2
+!s100 7=OV>CUjdl5EVQHVX<bCV2
+R14
+33
+R2
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R17
+R8
+vfour_pr
+2/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v
+R1
+R2
+!i10b 1
+!s100 CbHReO^H1XfZ>JfGY:PEf0
+I1G<hOZ@ia>Q546;>MkTni0
+S1
+R0
+Z18 w1754672585
+8/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v
+F/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v
+!i122 112
+L0 1 20
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vmodulator
+2/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v
+R1
+R2
+!i10b 1
+!s100 ?U>`<UP3nBjg^kPn27JeH1
+IaaFh`ZJ8S=XXVZh^d0oeS1
+S1
+R0
+w1754679672
+8/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v
+F/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v
+!i122 113
+Z19 L0 1 27
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vmy_design
+2/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v
+R1
+R2
+!i10b 1
+!s100 o9]Bm;T7z@MgGY04GNAW@2
+IMEJIMD>f9]@hogPIXVnid1
+S1
+R0
+w1754679766
+8/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v
+F/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v
+!i122 117
+L0 9 192
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vphase_counter
+2/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v
+R1
+R2
+!i10b 1
+!s100 >0@9PEQ5[PoI1;`oZ6D4W2
+I9c>^JTPz=cDNi:OiXJGVK1
+S1
+R0
+R18
+8/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v
+F/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v
+!i122 114
+R3
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vsymmap
+2/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v
+R1
+R2
+!i10b 1
+!s100 UHYnQ@?DCF9FS29oCg[Pc1
+Ii;L<9N]9:S0]m``zFg=l82
+S1
+R0
+R18
+8/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v
+F/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v
+!i122 115
+L0 1 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vtb_my_design
+2/home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v
+R1
+R2
+!i10b 1
+!s100 G9MLgaTaYKTGmf[=KhQ9B2
+IdY8gGUbn2c8_=0hgAgFoH1
+S1
+R0
+w1754724479
+8/home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v
+F/home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v
+!i122 118
+L0 3 55
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v|
+!s90 -reportprogress|300|+incdir+/home/jessica/Desktop/final_final_working/qam_16/stimulus|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v|
+!s101 -O0
+!i113 1
+R7
+!s92 +incdir+/home/jessica/Desktop/final_final_working/qam_16/stimulus -sv -work presynth -O0
+R8
+vupsampler
+2/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v
+R1
+R2
+!i10b 1
+!s100 0=4S2FXGoiXg35R@a7JQ12
+I0K<LNG7bzJE0TV5aCU;DI0
+S1
+R0
+R18
+8/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v
+F/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v
+!i122 116
+R19
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v|
+!s101 -O0
+!i113 1
+R7
+R8

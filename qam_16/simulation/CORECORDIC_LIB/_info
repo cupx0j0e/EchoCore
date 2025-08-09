@@ -1,0 +1,518 @@
+m255
+K4
+z2
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jessica/Desktop/final_final_working/qam_16/simulation
+vcordic_coarse_post_rotator
+Z1 2/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
+Z2 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z3 !s110 1754724502
+!i10b 1
+!s100 MjDG@m45g0`oYF0QP5HIH3
+I3;3]TPLR0KdnO4mlYhCcV1
+S1
+R0
+Z4 w1754672856
+Z5 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
+Z6 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
+!i122 45
+L0 710 61
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2024.2;79
+r1
+!s85 0
+31
+Z9 !s108 1754724502.000000
+Z10 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v|
+Z11 !s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v|
+!s101 -O0
+!i113 1
+Z12 o-sv -work CORECORDIC_LIB -O0
+Z13 tCvgOpt 0
+vcordic_coarse_pre_rotator
+R1
+R2
+R3
+!i10b 1
+!s100 H90Jc2Y?lG?9Lem;]AzOn1
+IMI=g7WbEOmID;6HPcA?_<3
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 609 74
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_countS
+R1
+R2
+R3
+!i10b 1
+!s100 Qfb8keKm=WRJjXjH3[?[C1
+I=k]Zm;RldLm8@S<c@e^]Q0
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 116 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_count@s
+vcordic_dp_bits_trans
+R1
+R2
+R3
+!i10b 1
+!s100 829l@>798Ucc0lh9:TVc:3
+IA=]Tf`EbXNBQ1oKH83MC_2
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 507 61
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_init_kickstart
+R1
+R2
+R3
+!i10b 1
+!s100 UPJ0Hd[b[Hc6HDR;VnYnh1
+I:cl<mJLBBI3D@U?]A@ZXd2
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 451 26
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_kitDelay_bit_reg
+R1
+R2
+R3
+!i10b 1
+!s100 FccX@GYGh11TKlU5aEHhc2
+IYOV@]BkC8T0KOW<K]c;J23
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 33 31
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@delay_bit_reg
+vcordic_kitDelay_reg
+R1
+R2
+R3
+!i10b 1
+!s100 =6GhBgc[H`ZD>^AfQ>J^N3
+I47Mn10J:dj_bN3X3Ja^5H2
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 73 32
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@delay_reg
+vcordic_kitRndEven
+R1
+R2
+R3
+!i10b 1
+!s100 6K4Rf61:_<RULOQUBL;Y[3
+I_:1H>_]k<;FLa`B1W25Hj3
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 307 45
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@rnd@even
+vcordic_kitRndSymm
+R1
+R2
+R3
+!i10b 1
+!s100 7C[D[zCjGU7NA3oDM[[4W2
+I<1BI2=5M42B6a3YL]EBJT1
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 270 25
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@rnd@symm
+vcordic_kitRndUp
+R1
+R2
+R3
+!i10b 1
+!s100 K2:Ncb:0@SN^BG3oa8R;E3
+II21BIcJUJh75VlbLR?1Cj1
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 249 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@rnd@up
+vcordic_kitRoundTop
+R1
+R2
+R3
+!i10b 1
+!s100 FJcj_6RNXb3a1baBeTVMG3
+I;mhVGXDJJm>RVF^Q5eDi]3
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 365 76
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@round@top
+vcordic_par_calc
+R1
+R2
+R3
+!i10b 1
+!s100 60@gNT<S2=]UZ<C>>]j]C3
+IBX1C;8@>:9ehkClHRHGQc3
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 919 61
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_signExt
+R1
+R2
+R3
+!i10b 1
+!s100 [7nIaTN=eOGzKN<O=mn521
+IBA5GRmUdzk;9o@JBRgb?^3
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 787 42
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_sign@ext
+vcordic_word_calc
+R1
+R2
+R3
+!i10b 1
+!s100 zAG@C0;I6::]IcKIHj1YR0
+IG^:8K=ZZC_4d0d7]_?>eG1
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 842 71
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordicSm
+R1
+R2
+R3
+!i10b 1
+!s100 =X<OLX1Ef]lI;56<A><::0
+I8Y`F5ZcaPkH8bHZKZ@m=l3
+S1
+R0
+R4
+R5
+R6
+!i122 45
+L0 150 85
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic@sm
+vCORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+Z14 2/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
+R2
+R3
+!i10b 1
+!s100 `<Q446ICRA47OMO=_K`Ag2
+I>iVdWmHnZNV;=KcVZJ:PJ2
+S1
+R0
+R4
+Z15 8/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
+Z16 F/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
+!i122 46
+L0 98 141
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v|
+Z18 !s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v|
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_cordic_par
+vCORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
+R14
+R2
+R3
+!i10b 1
+!s100 XD=jf3GKG2QfWLiTD3acF1
+IhH07DLcC3l]l^F7HZYG5m3
+S1
+R0
+R4
+R15
+R16
+!i122 46
+L0 33 62
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_cordic_par_u@rotator
+vCORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+2/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
+R2
+R3
+!i10b 1
+!s100 LVEH<B:lIGHe08_iO8nk92
+IAobPWk]8TKKNZR>;[UC_i1
+S1
+R0
+R4
+8/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
+F/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
+!i122 47
+L0 66 183
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v|
+!s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v|
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_@c@o@r@e@c@o@r@d@i@c
+vCORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+2/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
+R2
+R3
+!i10b 1
+!s100 E`ANdP;fPED^PKoMQekmH0
+ICReO:M6ce2^W<74cJgh3D1
+S1
+R0
+R4
+8/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
+F/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
+!i122 44
+L0 26 31
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v|
+!s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v|
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_c@r@o@m_par

@@ -1,0 +1,81 @@
+RC_INFO analysis: 
+  phy_taps = 11; row_mac_count = 6
+rc_last_row=5; RC_ROWS=2 
+Running non-SYMMETRIC 11-tap 1-set FIR
+
+The following coefficients have been read in:
+
+ Coefficient Set 0
+c[  0] = 552
+c[  1] = 703
+c[  2] = 837
+c[  3] = 948
+c[  4] = 1025
+c[  5] = 1064
+c[  6] = 1062
+c[  7] = 1019
+c[  8] = 939
+c[  9] = 826
+c[ 10] = 689
+
+The following input data have been read in:
+d[  0] = 1
+d[  1] = -2
+d[  2] = -2
+d[  3] = -2
+d[  4] = -2
+d[  5] = -2
+d[  6] = -2
+d[  7] = -2
+d[  8] = -2
+d[  9] = -2
+d[ 10] = -2
+d[ 11] = -2
+d[ 12] = -2
+d[ 13] = -2
+d[ 14] = -2
+d[ 15] = -2
+d[ 16] = -2
+d[ 17] = -2
+d[ 18] = -2
+d[ 19] = -2
+d[ 20] = -2
+d[ 21] = -2
+d[ 22] = -2
+d[ 23] = -2
+d[ 24] = -2
+d[ 25] = -2
+d[ 26] = -2
+d[ 27] = -2
+d[ 28] = -2
+d[ 29] = -2
+d[ 30] = -2
+d[ 31] = -2
+d[ 32] = -2
+d[ 33] = -2
+
+Filtered results after 10 leading zero's:
+ Coef Set 0 
+Firout[  0] = 552
+Firout[  1] = -401
+Firout[  2] = -1673
+Firout[  3] = -3236
+Firout[  4] = -5055
+Firout[  5] = -7066
+Firout[  6] = -9196
+Firout[  7] = -11363
+Firout[  8] = -13481
+Firout[  9] = -15472
+Firout[ 10] = -17261
+Firout[ 11] = -19328
+Firout[ 12] = -19328
+Firout[ 13] = -19328
+Firout[ 14] = -19328
+Firout[ 15] = -19328
+Firout[ 16] = -19328
+Firout[ 17] = -19328
+Firout[ 18] = -19328
+Firout[ 19] = -19328
+Firout[ 20] = -19328
+Firout[ 21] = -19328
+Firout[ 22] = -19328
