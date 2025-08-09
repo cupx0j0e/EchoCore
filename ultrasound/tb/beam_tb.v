@@ -33,9 +33,7 @@ module beam_tb();
         .start(start),
         .x_f(16'b0),
         .z_f(16'b0),
-        // .rf_data_flat(rf_data),
         .beamformed_output(bfout),
-        .valid(valid),
         .debug_state(debug_state)
     );
 
