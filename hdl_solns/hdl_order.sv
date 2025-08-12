@@ -53,4 +53,3 @@ module mat_mul (
   end
 
 endmodule
-
