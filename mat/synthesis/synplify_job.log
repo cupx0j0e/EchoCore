@@ -1,0 +1,90 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "00:02:12    12-Aug-2025",
+	"Working Directory" : "/home/jessica/Desktop/new_libero/mat/synthesis",
+	"CDPL Log file" : "-",
+	"Install" : "/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "00:02:09",
+   "Runtime" : "03s",
+   "Executable Run Time" : "02s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "00:02:09",
+      "Runtime" : "03s",
+      "Executable Run Time" : "02s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "00:02:09",
+         "Runtime" : "02s",
+         "Executable Run Time" : "01s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "00:02:09",
+            "Runtime" : "01s",
+            "Executable Run Time" : "00s",
+            "compiler" : {
+               "executable" : "bin/c_hdl",
+               "Run Directory" : "/home/jessica/Desktop/new_libero/mat/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "00:02:09",
+               "Run Time" : "01s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin/syn_nfilter",
+               "Run Directory" : "/home/jessica/Desktop/new_libero/mat/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "00:02:10",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/jessica/Desktop/new_libero/mat/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "00:02:10",
+            "Run Time" : "01s",
+            "Exe Run Time" : "01s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "00:02:11",
+         "Runtime" : "01s",
+         "Executable Run Time" : "01s",
+         "fpga_mapper" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/jessica/Desktop/new_libero/mat/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "00:02:11",
+            "Run Time" : "01s",
+            "Exe Run Time" : "01s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

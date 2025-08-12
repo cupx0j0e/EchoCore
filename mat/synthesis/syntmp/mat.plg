@@ -1,0 +1,11 @@
+@P:  Worst Slack : NA
+@P:  mat|clk - Estimated Frequency : NA
+@P:  mat|clk - Requested Frequency : 100.0 MHz
+@P:  mat|clk - Estimated Period : NA
+@P:  mat|clk - Requested Period : 10.000
+@P:  mat|clk - Slack : NA
+@P: mat Part : mpfs025tfcvg484-1
+@P: mat Register bits  : 0 
+@P: mat DSP Blocks  : 8
+@P: mat I/O primitives : 98
+@P:  CPU Time : 0h:00m:00s

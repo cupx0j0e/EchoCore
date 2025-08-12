@@ -1,0 +1,6 @@
+#List of actual used RTLs.
+
+File                                                                          Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v"            verilog                      IN PROJECT
+"/home/jessica/Desktop/new_libero/mat/hdl/matmul.v"                        verilog                      IN PROJECT

@@ -1,0 +1,104 @@
+
+                               Synplify Pro (R) 
+
+                Version V-2023.09M-3 for linux64 - Jul 25, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/mbin/synbatch
+Install:     /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+Hostname:    jessica-IdeaPad-Slim-3-14IAH8
+Date:        Mon Aug 11 23:03:45 2025
+Version:     V-2023.09M-3
+
+Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log mat_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server jessica-IdeaPad-Slim-3-14IAH8 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Copied /home/jessica/Desktop/new_libero/mat/synthesis/mat.srr to /home/jessica/Desktop/new_libero/mat/synthesis/backup/mat.srr
+log file: "/home/jessica/Desktop/new_libero/mat/synthesis/mat.srr"
+Running: synthesis in foreground
+
+Running mat_syn|synthesis
+
+Running Flow: compile (Compile) on mat_syn|synthesis
+# Mon Aug 11 23:03:45 2025
+
+Running Flow: compile_flow (Compile Process) on mat_syn|synthesis
+# Mon Aug 11 23:03:45 2025
+
+Running: compiler (Compile Input) on mat_syn|synthesis
+# Mon Aug 11 23:03:45 2025
+Process ID: 7463
+Copied /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_comp.srs to /home/jessica/Desktop/new_libero/mat/synthesis/mat.srs
+
+compiler completed
+# Mon Aug 11 23:03:47 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on mat_syn|synthesis
+# Mon Aug 11 23:03:47 2025
+Process ID: 7512
+
+multi_srs_gen completed
+# Mon Aug 11 23:03:47 2025
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_mult.srs to /home/jessica/Desktop/new_libero/mat/synthesis/mat.srs
+Complete: Compile Process on mat_syn|synthesis
+
+Running: premap (Premap) on mat_syn|synthesis
+# Mon Aug 11 23:03:47 2025
+Process ID: 7528
+
+premap completed with warnings
+# Mon Aug 11 23:03:47 2025
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on mat_syn|synthesis
+
+Running Flow: map (Map) on mat_syn|synthesis
+# Mon Aug 11 23:03:47 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on mat_syn|synthesis
+# Mon Aug 11 23:03:47 2025
+Process ID: 7546
+Copied /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_m.srm to /home/jessica/Desktop/new_libero/mat/synthesis/mat.srm
+
+fpga_mapper completed with warnings
+# Mon Aug 11 23:03:48 2025
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on mat_syn|synthesis
+Complete: Logic Synthesis on mat_syn|synthesis
+TCL script complete: "mat_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

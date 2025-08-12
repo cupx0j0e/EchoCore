@@ -1,0 +1,151 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+Date: Tue Aug 12 00:02:14 2025
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS025T     |
+| Package                | FCVG484      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | IND          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+-------------------------------------------------------+
+| Topcell | mat                                                   |
+| Format  | Verilog                                               |
+| Source  | /home/jessica/Desktop/new_libero/mat/synthesis/mat.vm |
++---------+-------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 320  | 22956 | 1.39       |
+| DFF                       | 288  | 22956 | 1.25       |
+| I/O Register              | 0    | 324   | 0.00       |
+| User I/O                  | 98   | 108   | 90.74      |
+| -- Single-ended I/O       | 98   | 108   | 90.74      |
+| -- Differential I/O Pairs | 0    | 54    | 0.00       |
+| uSRAM                     | 0    | 204   | 0.00       |
+| LSRAM                     | 0    | 84    | 0.00       |
+| Math                      | 8    | 68    | 11.76      |
+| H-Chip Global             | 1    | 24    | 4.17       |
+| PLL                       | 0    | 8     | 0.00       |
+| DLL                       | 0    | 8     | 0.00       |
+| Transceiver Lanes         | 0    | 4     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 32   | 0   |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 288  | 288 |
+| Total Used            | 320  | 288 |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 8      | 4    |
+| Total  | 4    |
++--------+------+
+
+Detailed Math Chains Resource Usage
++--------+------+
+| Length | Used |
+| 1      | 8    |
+| Total  | 8    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 66           | 0           | 0               |
+| Output I/O                    | 32           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------+
+| Fanout | Type    | Name                |
++--------+---------+---------------------+
+| 8      | INT_NET | Net   : NN_1        |
+|        |         | Driver: I_1/U0_RGB1 |
+|        |         | Source: NETLIST     |
++--------+---------+---------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------+
+| Fanout | Type    | Name               |
++--------+---------+--------------------+
+| 8      | INT_NET | Net   : rst_c      |
+|        |         | Driver: rst_ibuf   |
+| 2      | INT_NET | Net   : A_c[31]    |
+|        |         | Driver: A_ibuf[31] |
+| 2      | INT_NET | Net   : A_c[30]    |
+|        |         | Driver: A_ibuf[30] |
+| 2      | INT_NET | Net   : A_c[29]    |
+|        |         | Driver: A_ibuf[29] |
+| 2      | INT_NET | Net   : A_c[28]    |
+|        |         | Driver: A_ibuf[28] |
+| 2      | INT_NET | Net   : A_c[27]    |
+|        |         | Driver: A_ibuf[27] |
+| 2      | INT_NET | Net   : A_c[26]    |
+|        |         | Driver: A_ibuf[26] |
+| 2      | INT_NET | Net   : A_c[25]    |
+|        |         | Driver: A_ibuf[25] |
+| 2      | INT_NET | Net   : A_c[24]    |
+|        |         | Driver: A_ibuf[24] |
+| 2      | INT_NET | Net   : A_c[23]    |
+|        |         | Driver: A_ibuf[23] |
++--------+---------+--------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------+
+| Fanout | Type    | Name               |
++--------+---------+--------------------+
+| 8      | INT_NET | Net   : rst_c      |
+|        |         | Driver: rst_ibuf   |
+| 2      | INT_NET | Net   : A_c[31]    |
+|        |         | Driver: A_ibuf[31] |
+| 2      | INT_NET | Net   : A_c[30]    |
+|        |         | Driver: A_ibuf[30] |
+| 2      | INT_NET | Net   : A_c[29]    |
+|        |         | Driver: A_ibuf[29] |
+| 2      | INT_NET | Net   : A_c[28]    |
+|        |         | Driver: A_ibuf[28] |
+| 2      | INT_NET | Net   : A_c[27]    |
+|        |         | Driver: A_ibuf[27] |
+| 2      | INT_NET | Net   : A_c[26]    |
+|        |         | Driver: A_ibuf[26] |
+| 2      | INT_NET | Net   : A_c[25]    |
+|        |         | Driver: A_ibuf[25] |
+| 2      | INT_NET | Net   : A_c[24]    |
+|        |         | Driver: A_ibuf[24] |
+| 2      | INT_NET | Net   : A_c[23]    |
+|        |         | Driver: A_ibuf[23] |
++--------+---------+--------------------+
+

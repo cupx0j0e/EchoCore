@@ -1,0 +1,37 @@
+Resource Usage Report for mat 
+
+Mapping to part: mpfs025tfcvg484-1
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+
+Carry cells:
+ARI1            32 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    8 of 68 (11%)
+ MACC_PA:         8 MultAdds
+
+I/O ports: 98
+I/O primitives: 98
+INBUF          66 uses
+OUTBUF         32 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    33
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 288; LUTs = 288;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 288 = 288;
+Total number of LUTs after P&R:  33 + 0 + 0 + 288 = 321;
+

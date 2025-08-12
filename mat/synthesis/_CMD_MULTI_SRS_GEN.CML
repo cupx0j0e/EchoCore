@@ -1,0 +1,1 @@
+ -link  -top  mat  -multisrs  /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_comp.srs  -osyn  /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_mult.srs  -log  /home/jessica/Desktop/new_libero/mat/synthesis/synlog/mat_multi_srs_gen.srr 

@@ -1,0 +1,8 @@
+/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter  -link  -top  mat  -multisrs  /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_comp.srs  -osyn  /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_mult.srs  -log  /home/jessica/Desktop/new_libero/mat/synthesis/synlog/mat_multi_srs_gen.srr 
+relcom:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter -link -top mat -multisrs ../synwork/mat_comp.srs -osyn ../synwork/mat_mult.srs -log ../synlog/mat_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/mat_comp.srs|io:i|time:1754937129|size:2658|exec:0|csum:20C5BE0F34D56BFABEF91E5BA5BFF063
+file:../synwork/mat_mult.srs|io:o|time:1754937130|size:1544|exec:0|csum:
+file:../synlog/mat_multi_srs_gen.srr|io:o|time:1754937130|size:1194|exec:0|csum:
+file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1721922082|size:18297968|exec:1|csum:B8A9CFE3048D668050D1DD180472B74E
+file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter|io:i|time:1721921501|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

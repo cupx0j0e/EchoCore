@@ -1,0 +1,9 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: mat
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: matmul
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

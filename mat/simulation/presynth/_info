@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jessica/Desktop/new_libero/mat/simulation
+vmat
+2/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1754933530
+!i10b 1
+!s100 m6J^z7A0jnbbDmjK01cFN3
+IaTa:WBQYG]0b@zA;f62n83
+S1
+R0
+w1754933427
+8/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v
+F/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v
+!i122 1
+L0 9 51
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2024.2;79
+r1
+!s85 0
+31
+Z5 !s108 1754933530.000000
+!s107 /home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v|
+!s101 -O0
+!i113 1
+Z6 o-sv -work presynth -O0
+Z7 tCvgOpt 0
+vmatmul
+2/home/jessica/Desktop/new_libero/mat/hdl/matmul.v
+R1
+R2
+!i10b 1
+!s100 YXeUGLm1;4zGA5fUFL;5U3
+IUzP7NWN9fBZ_EmXDHEO@C3
+S1
+R0
+w1754933160
+8/home/jessica/Desktop/new_libero/mat/hdl/matmul.v
+F/home/jessica/Desktop/new_libero/mat/hdl/matmul.v
+!i122 0
+L0 1 49
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jessica/Desktop/new_libero/mat/hdl/matmul.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/new_libero/mat/hdl/matmul.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vmul_tb
+2/home/jessica/Desktop/new_libero/mat/stimulus/matmul_tb.v
+R1
+R2
+!i10b 1
+!s100 HEiiE8L>UKd?TL4hz`D0a3
+I0mP4_NdbQ6d[iV1O5PXZG0
+S1
+R0
+w1754933505
+8/home/jessica/Desktop/new_libero/mat/stimulus/matmul_tb.v
+F/home/jessica/Desktop/new_libero/mat/stimulus/matmul_tb.v
+!i122 2
+L0 6 95
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jessica/Desktop/new_libero/mat/stimulus/matmul_tb.v|
+!s90 -reportprogress|300|+incdir+/home/jessica/Desktop/new_libero/mat/stimulus|-sv|-work|presynth|/home/jessica/Desktop/new_libero/mat/stimulus/matmul_tb.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+/home/jessica/Desktop/new_libero/mat/stimulus -sv -work presynth -O0
+R7

@@ -1,0 +1,268 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 280R, Built Jun 20 2024 08:33:30, @5482938
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 280R, Built Jun 20 2024 08:33:30, @5482938
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v" (library work)
+@I::"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v" (library work)
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":12833:13:12833:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/polarfire_syn_comps.v":12846:13:12846:25|User defined pragma syn_black_box detected
+
+@I::"/home/jessica/Desktop/new_libero/mat/hdl/matmul.v" (library work)
+@I::"/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v" (library work)
+@I::"/home/jessica/Desktop/new_libero/mat/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/jessica/Desktop/new_libero/mat/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module mat
+@N: CG364 :"/home/jessica/Desktop/new_libero/mat/hdl/matmul.v":1:7:1:12|Synthesizing module matmul in library work.
+Running optimization stage 1 on matmul .......
+Finished optimization stage 1 on matmul (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+@N: CG364 :"/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v":9:7:9:9|Synthesizing module mat in library work.
+Running optimization stage 1 on mat .......
+Finished optimization stage 1 on mat (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+Running optimization stage 2 on mat .......
+Finished optimization stage 2 on mat (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+Running optimization stage 2 on matmul .......
+Finished optimization stage 2 on matmul (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/jessica/Desktop/new_libero/mat/synthesis/synwork/layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 12 00:02:09 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 307R, Built Jul 25 2024 08:38:07, @5544113
+
+@N|Running in 64-bit mode
+File /home/jessica/Desktop/new_libero/mat/synthesis/synwork/layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 192MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 12 00:02:09 2025
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 37MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 12 00:02:09 2025
+
+###########################################################]

@@ -1,0 +1,17 @@
+Selecting top level module mat
+@N: CG364 :"/home/jessica/Desktop/new_libero/mat/hdl/matmul.v":1:7:1:12|Synthesizing module matmul in library work.
+Running optimization stage 1 on matmul .......
+Finished optimization stage 1 on matmul (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+@N: CG364 :"/home/jessica/Desktop/new_libero/mat/component/work/mat/mat.v":9:7:9:9|Synthesizing module mat in library work.
+Running optimization stage 1 on mat .......
+Finished optimization stage 1 on mat (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+Running optimization stage 2 on mat .......
+Finished optimization stage 2 on mat (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+Running optimization stage 2 on matmul .......
+Finished optimization stage 2 on matmul (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/jessica/Desktop/new_libero/mat/synthesis/synwork/layer0.duruntime
+
+

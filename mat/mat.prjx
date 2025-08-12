@@ -1,0 +1,300 @@
+KEY LIBERO "2024.2"
+KEY CAPTURE "2024.2.0.13"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC025T"
+KEY VendorTechnology_Package "fcvg484"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC025T"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "/home/jessica/Desktop/new_libero/mat"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "mat::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>/component/work/mat/mat.cxf,actgen_cxf"
+STATE="utd"
+TIME="1754937120"
+SIZE="2104"
+ENDFILE
+VALUE "<project>/component/work/mat/mat.v,hdl"
+STATE="utd"
+TIME="1754937120"
+SIZE="1599"
+PARENT="<project>/component/work/mat/mat.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/constraint/io/user.pdc,io_pdc"
+STATE="utd"
+TIME="1754934188"
+SIZE="13342"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>/hdl/matmul.v,hdl"
+STATE="utd"
+TIME="1754933593"
+SIZE="1175"
+ENDFILE
+VALUE "<project>/simulation/mul_tb.vcd,vcd"
+STATE="utd"
+TIME="1754933550"
+SIZE="13516"
+ENDFILE
+VALUE "<project>/simulation/run.do,do"
+STATE="utd"
+TIME="1754933528"
+SIZE="785"
+ENDFILE
+VALUE "<project>/stimulus/matmul_tb.v,tb_hdl"
+STATE="utd"
+TIME="1754933505"
+SIZE="3073"
+ENDFILE
+VALUE "<project>/synthesis/mat.so,so"
+STATE="utd"
+TIME="1754937132"
+SIZE="211"
+ENDFILE
+VALUE "<project>/synthesis/mat.vm,syn_vm"
+STATE="utd"
+TIME="1754937132"
+SIZE="31358"
+ENDFILE
+VALUE "<project>/synthesis/mat_syn.prj,prj"
+STATE="utd"
+TIME="1754937132"
+SIZE="2978"
+ENDFILE
+VALUE "<project>/synthesis/mat_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1754937132"
+SIZE="905"
+ENDFILE
+VALUE "<project>/synthesis/synwork/layer0.so,so"
+STATE="utd"
+TIME="1754933555"
+SIZE="154"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "mat::work"
+FILE "<project>/component/work/mat/mat.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>/stimulus/matmul_tb.v,tb_hdl"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>/constraint/io/user.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>/synthesis/mat.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST mat
+VALUE "<project>/stimulus/matmul_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=mul_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/synplify_pro"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
+PARAM=" -l tb_envelope_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/Identify/bin/identify_debugger"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "mat::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>/synthesis/mat.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "mat::work","component/work/mat/mat.v","TRUE","FALSE"
+SUBBLOCK "matmul::work","hdl/matmul.v","FALSE","FALSE"
+ENDLIST
+LIST "matmul::work","hdl/matmul.v","FALSE","FALSE"
+ENDLIST
+LIST "mul_tb::work","stimulus/matmul_tb.v","FALSE","TRUE"
+SUBBLOCK "mat::work","component/work/mat/mat.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "mat::work"
+ACTIVETESTBENCH "mul_tb::work","stimulus/matmul_tb.v","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+VALUE "constraint/io/user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

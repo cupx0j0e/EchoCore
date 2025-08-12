@@ -1,0 +1,1 @@
+-link -encrypt -top mat -osyn /home/jessica/Desktop/new_libero/mat/synthesis/synwork/mat_comp.srs /home/jessica/Desktop/new_libero/mat/synthesis/synwork/layer0.srs  -jobname linker  

@@ -1,0 +1,141 @@
+# Microchip NMAT TXT File
+
+# Version: 2024.2 2024.2.0.13
+
+# Design Name: mat 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS025T , Package: FCVG484 , Speed grade: -1 
+
+# Date generated: Tue Aug 12 00:02:43 2025 
+
+
+#
+# I/O constraints
+#
+
+set_io A[0] A5
+set_io A[1] A6
+set_io A[2] A7
+set_io A[3] A8
+set_io A[4] A10
+set_io A[5] A11
+set_io A[6] A12
+set_io A[7] A13
+set_io A[8] A15
+set_io A[9] A18
+set_io A[10] AA12
+set_io A[11] AA13
+set_io A[12] AA15
+set_io A[13] AA16
+set_io A[14] AA17
+set_io A[15] AA18
+set_io A[16] AA20
+set_io A[17] AA21
+set_io A[18] AA22
+set_io A[19] AB12
+set_io A[20] AB13
+set_io A[21] AB14
+set_io A[22] AB15
+set_io A[23] AB17
+set_io A[24] AB18
+set_io A[25] AB19
+set_io A[26] AB20
+set_io A[27] AB21
+set_io A[28] B4
+set_io A[29] B5
+set_io A[30] B7
+set_io A[31] B8
+set_io B[0] B9
+set_io B[1] B10
+set_io B[2] B12
+set_io B[3] B13
+set_io B[4] B14
+set_io B[5] B15
+set_io B[6] B17
+set_io B[7] B18
+set_io B[8] C4
+set_io B[9] C5
+set_io B[10] C6
+set_io B[11] C7
+set_io B[12] C9
+set_io B[13] C10
+set_io B[14] C11
+set_io B[15] C12
+set_io B[16] C17
+set_io B[17] D6
+set_io B[18] D7
+set_io B[19] D8
+set_io B[20] D9
+set_io B[21] D11
+set_io B[22] D13
+set_io B[23] D14
+set_io B[24] D18
+set_io B[25] D19
+set_io B[26] E14
+set_io B[27] E15
+set_io B[28] E18
+set_io B[29] E19
+set_io B[30] F16
+set_io B[31] F17
+set_io C[0] R12
+set_io C[1] R14
+set_io C[2] R15
+set_io C[3] R16
+set_io C[4] T12
+set_io C[5] T13
+set_io C[6] T15
+set_io C[7] T16
+set_io C[8] T17
+set_io C[9] U12
+set_io C[10] U13
+set_io C[11] U14
+set_io C[12] U15
+set_io C[13] U17
+set_io C[14] U18
+set_io C[15] U19
+set_io C[16] V12
+set_io C[17] V14
+set_io C[18] V15
+set_io C[19] V16
+set_io C[20] V17
+set_io C[21] V19
+set_io C[22] V20
+set_io C[23] V21
+set_io C[24] V22
+set_io C[25] W12
+set_io C[26] W13
+set_io C[27] W14
+set_io C[28] W16
+set_io C[29] W17
+set_io C[30] W18
+set_io C[31] W19
+set_io clk W21
+set_io rst W22
+
+#
+# Core cell constraints
+#
+
+set_location I_1 720 0
+set_location I_1/U0_RGB1 726 123
+set_location matmul_0/temp7_2_muladd_0[7:0]/MACC_PHYS_INST 948 107
+set_location matmul_0/temp4_2_muladd_0[7:0]/MACC_PHYS_INST 840 107
+set_location matmul_0/temp2_2_muladd_0[7:0]/MACC_PHYS_INST 768 80
+set_location matmul_0/temp3_2_muladd_0[7:0]/MACC_PHYS_INST 912 107
+set_location matmul_0/temp0_2_muladd_0[7:0]/MACC_PHYS_INST 768 107
+set_location matmul_0/temp6_2_muladd_0[7:0]/MACC_PHYS_INST 912 134
+set_location matmul_0/temp1_2_muladd_0[7:0]/MACC_PHYS_INST 804 107
+set_location matmul_0/temp5_2_muladd_0[7:0]/MACC_PHYS_INST 876 107
+set_location matmul_0/sum1_0_cry_0 918 108
+set_location matmul_0/sum3_0_cry_0 948 129
+set_location matmul_0/sum0_0_cry_0 804 108
+set_location matmul_0/sum2_0_cry_0 876 108
+set_location I_1/U0_RGB1_RGB0 726 96
+set_location I_1/U0_RGB1_RGB1 726 69
+set_location matmul_0/sum0_0_cry_0_CC_0 804 110
+set_location matmul_0/sum1_0_cry_0_CC_0 918 110
+set_location matmul_0/sum1_0_cry_0_CC_1 924 110
+set_location matmul_0/sum2_0_cry_0_CC_0 876 110
+set_location matmul_0/sum3_0_cry_0_CC_0 948 131

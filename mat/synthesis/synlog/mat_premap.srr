@@ -1,0 +1,109 @@
+# Tue Aug 12 00:02:10 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
+
+Reading constraint file: /home/jessica/Desktop/new_libero/mat/designer/mat/synthesis.fdc
+@L: /home/jessica/Desktop/new_libero/mat/synthesis/mat_scck.rpt 
+See clock summary report "/home/jessica/Desktop/new_libero/mat/synthesis/mat_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 521MB peak: 522MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 521MB peak: 522MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 521MB peak: 522MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 521MB peak: 522MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84,dsps=68 on top level netlist mat 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+
+
+Clock Summary
+******************
+
+          Start       Requested     Requested     Clock        Clock          Clock
+Level     Clock       Frequency     Period        Type         Group          Load 
+-----------------------------------------------------------------------------------
+0 -       mat|clk     100.0 MHz     10.000        inferred     (multiple)     64   
+===================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+            Clock     Source        Clock Pin                 Non-clock Pin     Non-clock Pin
+Clock       Load      Pin           Seq Example               Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------
+mat|clk     64        clk(port)     matmul_0.temp0[7:0].C     -                 I_1.A(CLKINT)
+=============================================================================================
+
+@W: MT530 :"/home/jessica/Desktop/new_libero/mat/hdl/matmul.v":14:2:14:7|Found inferred clock mat|clk which controls 64 sequential elements including matmul_0.temp7[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/jessica/Desktop/new_libero/mat/synthesis/mat.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 568MB peak: 568MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 479MB peak: 568MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Aug 12 00:02:11 2025
+
+###########################################################]

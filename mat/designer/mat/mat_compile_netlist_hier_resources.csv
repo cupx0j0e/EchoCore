@@ -1,0 +1,12 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Interface 4LUT,Interface DFF,Single-Ended I/O,Math (18x18),Chip Globals
+Primitives/Primitives,0,0,0,98,0,1
+matmul_0/Primitives,32,0,0,0,0,0
+matmul_0/temp0_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp1_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp2_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp3_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp4_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp5_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp6_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0
+matmul_0/temp7_2_muladd_0[7:0]/Primitives,0,36,36,0,1,0

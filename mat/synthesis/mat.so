@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>mat</design>
+	<target_verilog>/home/jessica/Desktop/new_libero/mat/synthesis/mat.vm</target_verilog>
+</SynplifyOutput>

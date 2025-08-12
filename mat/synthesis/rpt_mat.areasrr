@@ -1,0 +1,81 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS025TFCVG484-1 (Microchip)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   mat   ########
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  100 %                
+ARI1     32                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block mat:	33 (22.92 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     8                  100 %                
+====================================================
+Total DSP in the block mat:	8 (5.56 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block mat:	1 (0.69 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       98                 100 %                
+=================================================
+Total IO PADS in the block mat:	98 (68.06 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   matmul   ########
+Instance path:   mat.matmul                                 
+============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     32                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block mat.matmul:	32 (22.22 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     8                  100 %                
+====================================================
+Total DSP in the block mat.matmul:	8 (5.56 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,11 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+polarfire = /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire
+syncad_vhdl_lib = /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/actel/syncad_vhdl_lib
+
+presynth = presynth
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

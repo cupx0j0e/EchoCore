@@ -1,0 +1,15 @@
+Software Version: 2024.2.0.13
+Opened '/home/jessica/Desktop/new_libero/mat/designer/mat/mat_fp/mat.pro'
+PDB file '/home/jessica/Desktop/new_libero/mat/designer/mat/mat.pdb' has been loaded successfully.
+DESIGN : mat;  CHECKSUM : 1323;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version: 0
+File/Folder '/home/jessica/Desktop/new_libero/mat/designer/mat/mat.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/jessica/Desktop/new_libero/mat/designer/mat/mat.ppd'; file programs Fabric and sNVM.
+Fabric component bitstream digest: f2bb5d54730a617274275254b553f6f56c5fe352248687a7fec2357f4aa57940
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+Entire bitstream digest: 91b8187b4bd13315fb077b71960c9580281b757233171726ad768d80c4d1ec52
+Finished: Tue Aug 12 00:03:16 2025 (Elapsed time 00:00:09)
+
+Project saved.
+Project closed.
