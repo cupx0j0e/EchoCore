@@ -1,0 +1,8 @@
+/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter  -link  -top  envelope  -multisrs  /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_comp.srs  -osyn  /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_mult.srs  -log  /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synlog/envelope_multi_srs_gen.srr 
+relcom:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter -link -top envelope -multisrs ../synwork/envelope_comp.srs -osyn ../synwork/envelope_mult.srs -log ../synlog/envelope_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:../synwork/envelope_comp.srs|io:i|time:1755081714|size:194144|exec:0|csum:0C19E84B6712A5954087324D85280774
+file:../synwork/envelope_mult.srs|io:o|time:1755081716|size:5368|exec:0|csum:
+file:../synlog/envelope_multi_srs_gen.srr|io:o|time:1755081716|size:1286|exec:0|csum:
+file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1721922082|size:18297968|exec:1|csum:B8A9CFE3048D668050D1DD180472B74E
+file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter|io:i|time:1721921501|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

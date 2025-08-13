@@ -1,0 +1,518 @@
+m255
+K4
+z2
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jessica/Desktop/lultrasound_ibero/envelope_detection/simulation
+vcordic_coarse_post_rotator
+Z1 2/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
+Z2 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z3 !s110 1755081675
+!i10b 1
+!s100 MjDG@m45g0`oYF0QP5HIH3
+Ia^_aWLDG[HCY21GDA;EK_3
+S1
+R0
+Z4 w1754998734
+Z5 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
+Z6 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
+!i122 73
+L0 710 61
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2024.2;79
+r1
+!s85 0
+31
+Z9 !s108 1755081674.000000
+Z10 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v|
+Z11 !s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v|
+!s101 -O0
+!i113 1
+Z12 o-sv -work CORECORDIC_LIB -O0
+Z13 tCvgOpt 0
+vcordic_coarse_pre_rotator
+R1
+R2
+R3
+!i10b 1
+!s100 H90Jc2Y?lG?9Lem;]AzOn1
+I4UVe48c7?59:<7ZV<m_:h3
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 609 74
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_countS
+R1
+R2
+R3
+!i10b 1
+!s100 Qfb8keKm=WRJjXjH3[?[C1
+IjoUZ3WWb`aa@6I:UiAKd33
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 116 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_count@s
+vcordic_dp_bits_trans
+R1
+R2
+R3
+!i10b 1
+!s100 829l@>798Ucc0lh9:TVc:3
+I:h;[0e_z^;Q[j46XcPz_Z3
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 507 61
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_init_kickstart
+R1
+R2
+R3
+!i10b 1
+!s100 UPJ0Hd[b[Hc6HDR;VnYnh1
+IHVEZ9Az1l]D3^6N8S13>43
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 451 26
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_kitDelay_bit_reg
+R1
+R2
+R3
+!i10b 1
+!s100 FccX@GYGh11TKlU5aEHhc2
+I3H_C0`<a1DmTh8Q76:Qff3
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 33 31
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@delay_bit_reg
+vcordic_kitDelay_reg
+R1
+R2
+R3
+!i10b 1
+!s100 =6GhBgc[H`ZD>^AfQ>J^N3
+I0?HkNFMjH8@RBeXFBdCkH3
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 73 32
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@delay_reg
+vcordic_kitRndEven
+R1
+R2
+R3
+!i10b 1
+!s100 6K4Rf61:_<RULOQUBL;Y[3
+IiEDi;Y_PcO7Zczeaa_<jJ2
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 307 45
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@rnd@even
+vcordic_kitRndSymm
+R1
+R2
+R3
+!i10b 1
+!s100 7C[D[zCjGU7NA3oDM[[4W2
+I4FMhPRl`g8_SQP<e;mIQI3
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 270 25
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@rnd@symm
+vcordic_kitRndUp
+R1
+R2
+R3
+!i10b 1
+!s100 K2:Ncb:0@SN^BG3oa8R;E3
+IMa]oRfX:=Sj<?PATZj;IB2
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 249 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@rnd@up
+vcordic_kitRoundTop
+R1
+R2
+R3
+!i10b 1
+!s100 FJcj_6RNXb3a1baBeTVMG3
+I^lEKMTjDRTN9RR:Jm[nkz0
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 365 76
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_kit@round@top
+vcordic_par_calc
+R1
+R2
+R3
+!i10b 1
+!s100 60@gNT<S2=]UZ<C>>]j]C3
+I;:1=]WMXO:2cIjOmgddK90
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 919 61
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordic_signExt
+R1
+R2
+R3
+!i10b 1
+!s100 [7nIaTN=eOGzKN<O=mn521
+Ie:dK@G?E?WGU^4NeToSLk1
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 787 42
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic_sign@ext
+vcordic_word_calc
+R1
+R2
+R3
+!i10b 1
+!s100 zAG@C0;I6::]IcKIHj1YR0
+I8_;D3=9Bg09z:URV66gPX3
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 842 71
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vcordicSm
+R1
+R2
+R3
+!i10b 1
+!s100 =X<OLX1Ef]lI;56<A><::0
+IO8G1TIcE81L=SeQSRLji23
+S1
+R0
+R4
+R5
+R6
+!i122 73
+L0 150 85
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+ncordic@sm
+vCORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+Z14 2/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
+R2
+R3
+!i10b 1
+!s100 `<Q446ICRA47OMO=_K`Ag2
+IeR2Wb_5;3Ea3c1z?F5Lg91
+S1
+R0
+R4
+Z15 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
+Z16 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
+!i122 74
+L0 98 141
+R7
+R8
+r1
+!s85 0
+31
+Z17 !s108 1755081675.000000
+Z18 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v|
+Z19 !s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v|
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_cordic_par
+vCORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
+R14
+R2
+R3
+!i10b 1
+!s100 XD=jf3GKG2QfWLiTD3acF1
+I5M:h=mREAEK^PH^fK64FY2
+S1
+R0
+R4
+R15
+R16
+!i122 74
+L0 33 62
+R7
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_cordic_par_u@rotator
+vCORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+2/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
+R2
+R3
+!i10b 1
+!s100 LVEH<B:lIGHe08_iO8nk92
+Il0hP4aE<@@Ma;Ecmi_1LF3
+S1
+R0
+R4
+8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
+F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
+!i122 75
+L0 66 183
+R7
+R8
+r1
+!s85 0
+31
+R17
+!s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v|
+!s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v|
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_@c@o@r@e@c@o@r@d@i@c
+vCORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+2/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
+R2
+!s110 1755081674
+!i10b 1
+!s100 ]U_`KSKfPm7?8^dhX1`Ui2
+IV8mZQKl3^=foD2gJX`[[M2
+S1
+R0
+R4
+8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
+F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
+!i122 72
+L0 26 31
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v|
+!s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v|
+!s101 -O0
+!i113 1
+R12
+R13
+n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_c@r@o@m_par

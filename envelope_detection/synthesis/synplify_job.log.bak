@@ -1,0 +1,90 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "16:07:19    13-Aug-2025",
+	"Working Directory" : "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis",
+	"CDPL Log file" : "-",
+	"Install" : "/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "16:07:11",
+   "Runtime" : "08s",
+   "Executable Run Time" : "07s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "16:07:11",
+      "Runtime" : "08s",
+      "Executable Run Time" : "07s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:07:11",
+         "Runtime" : "04s",
+         "Executable Run Time" : "03s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "16:07:11",
+            "Runtime" : "03s",
+            "Executable Run Time" : "02s",
+            "compiler" : {
+               "executable" : "bin/c_hdl",
+               "Run Directory" : "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "16:07:11",
+               "Run Time" : "03s",
+               "Exe Run Time" : "02s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin/syn_nfilter",
+               "Run Directory" : "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "16:07:14",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "16:07:14",
+            "Run Time" : "01s",
+            "Exe Run Time" : "01s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:07:15",
+         "Runtime" : "04s",
+         "Executable Run Time" : "04s",
+         "fpga_mapper" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "16:07:15",
+            "Run Time" : "04s",
+            "Exe Run Time" : "04s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

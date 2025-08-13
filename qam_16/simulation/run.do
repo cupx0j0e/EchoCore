@@ -1,13 +1,13 @@
 quietly set ACTELLIBNAME PolarFireSoC
 quietly set PROJECT_DIR "/home/jessica/Desktop/final_final_working/qam_16"
 
-if {[file exists ../designer/my_design/simulation/postlayout/_info]} {
-   echo "INFO: Simulation library ../designer/my_design/simulation/postlayout already exists"
+if {[file exists presynth/_info]} {
+   echo "INFO: Simulation library presynth already exists"
 } else {
-   file delete -force ../designer/my_design/simulation/postlayout 
-   vlib ../designer/my_design/simulation/postlayout
+   file delete -force presynth 
+   vlib presynth
 }
-vmap postlayout ../designer/my_design/simulation/postlayout
+vmap presynth presynth
 vmap polarfire "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire"
 if {[file exists CORECORDIC_LIB/_info]} {
    echo "INFO: Simulation library CORECORDIC_LIB already exists"
@@ -24,9 +24,38 @@ if {[file exists COREFIR_PF_LIB/_info]} {
 }
 vmap COREFIR_PF_LIB "COREFIR_PF_LIB"
 
-vlog -sv -work postlayout "${PROJECT_DIR}/designer/my_design/my_design_ba.v"
-vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work postlayout "${PROJECT_DIR}/stimulus/newtestbench.v"
+vlog -sv -work CORECORDIC_LIB "${PROJECT_DIR}/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v"
+vlog -sv -work CORECORDIC_LIB "${PROJECT_DIR}/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v"
+vlog -sv -work CORECORDIC_LIB "${PROJECT_DIR}/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v"
+vlog -sv -work CORECORDIC_LIB "${PROJECT_DIR}/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/CORECORDIC_C0/CORECORDIC_C0.v"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd"
+vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/combiner.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/four_pr.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/modulator.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/counter.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/symmap.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/upsampler.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/my_design/my_design.v"
+vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd"
+vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work presynth "${PROJECT_DIR}/stimulus/newtestbench.v"
 
-vsim -L polarfire -L postlayout -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so -sdfmax /my_design_0=${PROJECT_DIR}/designer/my_design/my_design_slow_lv_ht_ba.sdf +transport_path_delays postlayout.tb_my_design
+vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so presynth.tb_my_design
 add wave /tb_my_design/*
 run 1000ns

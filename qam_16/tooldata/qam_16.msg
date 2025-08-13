@@ -831,5 +831,3 @@ Implementation;Synthesis||BW156||@W:Option "-name" of set_clock_groups cannot be
 Implementation;Synthesis||MT420||@W:Found inferred clock my_design|clk with period 10.00ns. Please declare a user-defined clock on port clk.||my_design.srr(2316);liberoaction://cross_probe/hdl/file/'<project>/synthesis/my_design.srr'/linenumber/2316||null;null
 Implementation;Place and Route;RootName:my_design
 Implementation;Place and Route||(null)||Please refer to the log file for details about 5 Info(s)||my_design_layout_log.log;liberoaction://open_report/file/my_design_layout_log.log||(null);(null)
-Implementation;Generate Bitstream;RootName:my_design
-Implementation;Generate Bitstream||(null)||Please refer to the log file for details about 2 Info(s)||my_design_generateBitstream.log;liberoaction://open_report/file/my_design_generateBitstream.log||(null);(null)

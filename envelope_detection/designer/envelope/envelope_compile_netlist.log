@@ -1,0 +1,37 @@
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(44677): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 44677
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(44835): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 44835
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(45294): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 45294
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(46079): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 46079
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(46240): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 46240
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(46699): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 46699
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(48756): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 48756
+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm(49072): WARNING: literal value truncated to fit in 288 bits (VERI-1208)
+Warning:  VERI-1208:  literal value truncated to fit in 288 bits. FILE /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm LINE 49072
+
+===============================================================================.
+
+Info: Global design data:
+      Total globals:                       2
+      Globals that cannot be demoted:      0
+      Globals considered for demotion:     2
+
+
+Info: List of globals considered for demotion:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    2301   0      0      'I_2'
+    0      2279   0      'I_1'
+
+Info: Demotion information:
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

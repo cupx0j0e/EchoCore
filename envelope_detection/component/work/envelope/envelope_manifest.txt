@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+
+Date      :  Wed Aug 13 16:09:30 2025
+Project   :  /home/jessica/Desktop/lultrasound_ibero/envelope_detection
+Component :  envelope
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v
+

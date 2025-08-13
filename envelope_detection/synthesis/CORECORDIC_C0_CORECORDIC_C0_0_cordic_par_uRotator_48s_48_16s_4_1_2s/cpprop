@@ -1,0 +1,9 @@
+n CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 2.45824;
+av .compile_point_starttime_stamp "Wed Aug 13 16:11:58 2025";
+av .compile_point_endtime_stamp "Wed Aug 13 16:12:00 2025";
+av .compile_point_realtime_used 2.30934;

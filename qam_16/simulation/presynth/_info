@@ -13,7 +13,7 @@ Z0 d/home/jessica/Desktop/final_final_working/qam_16/simulation
 vcombiner
 2/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1754724503
+Z2 !s110 1755006781
 !i10b 1
 !s100 3gEz0gEUoAjBa<[=:2OZI2
 IFLK;WNONB?2SP6U[?GUg?1
@@ -22,14 +22,14 @@ R0
 w1754679696
 8/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v
 F/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v
-!i122 111
+!i122 121
 Z3 L0 1 17
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OW;L;2024.2;79
 r1
 !s85 0
 31
-Z6 !s108 1754724503.000000
+Z6 !s108 1755006781.000000
 !s107 /home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v|
 !s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v|
 !s101 -O0
@@ -39,7 +39,7 @@ Z8 tCvgOpt 0
 vCORECORDIC_C0
 2/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v
 R1
-!s110 1754724502
+!s110 1755006780
 !i10b 1
 !s100 oi9?c5N7DT_e>I6XYJd;H3
 ID7UMfQOnIAn==3SKO9RR41
@@ -48,14 +48,14 @@ R0
 w1754672856
 8/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v
 F/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v
-!i122 109
+!i122 119
 L0 30 93
 R4
 R5
 r1
 !s85 0
 31
-!s108 1754724502.000000
+!s108 1755006780.000000
 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
 !s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
 !s101 -O0
@@ -67,7 +67,7 @@ Ecorefir_pf_c0
 Z9 w1754672795
 Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 110
+!i122 120
 R0
 Z12 8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
 Z13 F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
@@ -89,7 +89,7 @@ Artl
 R10
 R11
 DEx4 work 13 corefir_pf_c0 0 22 4RjQ8@TA4EU2gV;S5lUD82
-!i122 110
+!i122 120
 l187
 L104 165
 V[Sbzh4`hAU]KOR3]2A_iW2
@@ -116,7 +116,7 @@ R0
 Z18 w1754672585
 8/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v
 F/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v
-!i122 112
+!i122 122
 L0 1 20
 R4
 R5
@@ -142,7 +142,7 @@ R0
 w1754679672
 8/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v
 F/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v
-!i122 113
+!i122 123
 Z19 L0 1 27
 R4
 R5
@@ -168,7 +168,7 @@ R0
 w1754679766
 8/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v
 F/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v
-!i122 117
+!i122 127
 L0 9 192
 R4
 R5
@@ -194,7 +194,7 @@ R0
 R18
 8/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v
 F/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v
-!i122 114
+!i122 124
 R3
 R4
 R5
@@ -220,7 +220,7 @@ R0
 R18
 8/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v
 F/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v
-!i122 115
+!i122 125
 L0 1 23
 R4
 R5
@@ -246,7 +246,7 @@ R0
 w1754724479
 8/home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v
 F/home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v
-!i122 118
+!i122 128
 L0 3 55
 R4
 R5
@@ -273,7 +273,7 @@ R0
 R18
 8/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v
 F/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v
-!i122 116
+!i122 126
 R19
 R4
 R5

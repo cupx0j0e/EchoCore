@@ -28,6 +28,7 @@ data LOC '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my
 data SEG '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design.seg'
 data NMAT_TXT '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design.nmatinit.txt'
 
+data IO_PDC_0 '/home/jessica/Desktop/final_final_working/qam_16/constraint/io/user.pdc'
 data TARGET_IOPDC  '/home/jessica/Desktop/final_final_working/qam_16/constraint/io/user.pdc'
 data TARGET_FPPDC  '/home/jessica/Desktop/final_final_working/qam_16/constraint/fp/user.pdc'
 data TARGET_DEVICES_FOR_MIGRATION 'PA5SOC025T '

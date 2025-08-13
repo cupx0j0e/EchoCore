@@ -20,7 +20,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.2.0
-Design: my_design                       Started: Sat Aug  9 16:02:47 2025
+Design: my_design                       Started: Sat Aug  9 16:36:21 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -36,20 +36,20 @@ Improvement              : 1 seconds
 Placer completed successfully.
 
 Design: my_design
-Finished: Sat Aug  9 16:02:57 2025
-Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:10
+Finished: Sat Aug  9 16:36:32 2025
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
 Total Memory Usage: 1046.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: my_design                       Started: Sat Aug  9 16:03:00 2025
+Design: my_design                       Started: Sat Aug  9 16:36:35 2025
 
 
 Router completed successfully.
 
 Design: my_design
-Finished: Sat Aug  9 16:03:05 2025
+Finished: Sat Aug  9 16:36:40 2025
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
 Total Memory Usage: 776.3 Mbytes
                         o - o - o - o - o - o

@@ -455,8 +455,8 @@ SIZE="8159850"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1754730105"
-SIZE="1526"
+TIME="1755006778"
+SIZE="4756"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
 STATE="utd"
@@ -470,8 +470,8 @@ SIZE="28426"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
 STATE="utd"
-TIME="1754724684"
-SIZE="49946"
+TIME="1755075822"
+SIZE="49947"
 ENDFILE
 VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 STATE="utd"
@@ -480,22 +480,22 @@ SIZE="1432"
 ENDFILE
 VALUE "<project>/synthesis/my_design.so,so"
 STATE="utd"
-TIME="1754729807"
+TIME="1754735524"
 SIZE="235"
 ENDFILE
 VALUE "<project>/synthesis/my_design.vm,syn_vm"
 STATE="utd"
-TIME="1754729806"
+TIME="1754735523"
 SIZE="708555"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1754729807"
+TIME="1754735524"
 SIZE="7196"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1754729806"
+TIME="1754735523"
 SIZE="917"
 ENDFILE
 ENDLIST
@@ -648,7 +648,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
-PARAM=""
+PARAM=" -l tb_envelope_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -690,14 +690,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Generate Bitstream:my_design_generateBitstream.log
-HDL;component/work/my_design/my_design.v;0
-Constraint Manager;Constraint Manager;0
 StartPage;StartPage;0
-HDL;constraint/io/user.pdc;0
-SmartDesign;my_design;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "combiner::work","hdl/combiner.v","FALSE","FALSE"

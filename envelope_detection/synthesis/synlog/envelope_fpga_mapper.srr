@@ -1,0 +1,444 @@
+# Wed Aug 13 16:11:57 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 522MB peak: 522MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Wed Aug 13 16:11:57 2025
+Mapping CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s as a separate process
+Mapping envelope as a separate process
+MCP Status: 2 jobs running
+
+@N: MF106 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v":9:7:9:14|Mapping Top level view:work.envelope(verilog) because 
+		 Interface of Compile Point has changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 586MB peak: 586MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 589MB peak: 589MB)
+
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v":32:4:32:9|RAM delay_line_signext_0.shift_reg_seqshift[47:0] is 8 words by 48 bits.
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] is 8 words by 18 bits.
+@W: FX107 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v":32:4:32:9|RAM delay_line_signext_0.shift_reg_seqshift[46:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":314:4:314:5|Found counter in view:COREFIR_PF_LIB.enum_g5_latency_adv_15_3_3_2_2_2_6(rtl) instance syst_counter_0.count[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 589MB peak: 589MB)
+
+@W: BN132 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[0] because it is equivalent to instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[1] because it is equivalent to instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[2] because it is equivalent to instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":400:4:400:5|Removing instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.end_of_ngrst_0.d_flop1 because it is equivalent to instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":400:4:400:5|Removing instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.end_of_ngrst_0.d_flop2 because it is equivalent to instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 589MB peak: 589MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 589MB peak: 589MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 589MB peak: 589MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 589MB peak: 589MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 589MB peak: 589MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 589MB peak: 589MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 592MB peak: 592MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     6.03ns		 320 /       518
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 592MB peak: 592MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 592MB peak: 592MB)
+
+
+Finished mapping envelope
+MCP Status: 1 jobs running
+
+@N: MF106 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Mapping Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 578MB peak: 578MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 605MB peak: 605MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 608MB peak: 608MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     6.48ns		1599 /      1539
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 608MB peak: 608MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 608MB peak: 608MB)
+
+
+Finished mapping CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s
+Multiprocessing finished at : Wed Aug 13 16:12:01 2025
+Multiprocessing took 0h:00m:03s realtime, 0h:00m:04s cputime
+
+Summary of Compile Points :
+*************************** 
+Name                                                                    Status       Reason                                 Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s     Remapped     Design changed                         Wed Aug 13 16:11:58 2025     Wed Aug 13 16:12:00 2025     0h:00m:02s     0h:00m:02s     No            
+envelope                                                                Remapped     Interface of Compile Point changed     Wed Aug 13 16:11:58 2025     Wed Aug 13 16:12:00 2025     0h:00m:01s     0h:00m:01s     No            
+==================================================================================================================================================================================================================================
+Total number of compile points: 2
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.srr"
+@L: "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope/envelope.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:05s; Memory used current: 663MB peak: 663MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:05s; Memory used current: 665MB peak: 665MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 670MB peak: 670MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 670MB peak: 670MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 670MB peak: 670MB)
+
+Writing Analyst data base /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 670MB peak: 670MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 670MB peak: 670MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 670MB peak: 670MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 670MB peak: 670MB)
+
+@W: MT420 |Found inferred clock envelope|CLK with period 10.00ns. Please declare a user-defined clock on port CLK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Aug 13 16:12:04 2025
+#
+
+
+Top view:               envelope
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 5.455
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+envelope|CLK       100.0 MHz     220.0 MHz     10.000        4.545         5.455     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+envelope|CLK  envelope|CLK  |  10.000      5.455  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: envelope|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                       Starting                                                   Arrival          
+Instance                                                                                                                                               Reference        Type         Pin     Net                  Time        Slack
+                                                                                                                                                       Clock                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi                                                                                                      envelope|CLK     SLE          Q       rstoi                0.218       5.455
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[1]     envelope|CLK     SLE_INIT     Q       tmp1_0[1]            0.218       6.777
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[1]     envelope|CLK     SLE_INIT     Q       tmp1_1[1]            0.218       6.803
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[0]     envelope|CLK     SLE_INIT     Q       tmp1_0[0]            0.218       6.806
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[0]     envelope|CLK     SLE_INIT     Q       tmp1_1[0]            0.218       6.813
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[2]     envelope|CLK     SLE_INIT     Q       tmp1_1[2]            0.218       6.939
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[3]     envelope|CLK     SLE_INIT     Q       tmp1_0[3]            0.218       6.941
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[3]     envelope|CLK     SLE_INIT     Q       tmp1[3]              0.218       6.990
+fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_CF3[2]     envelope|CLK     SLE_INIT     Q       tmp1_0[2]            0.218       7.000
+delay_line_signext_0.shift_reg_CF2[1]                                                                                                                  envelope|CLK     SLE_INIT     Q       shift_reg_CF2[1]     0.218       7.156
+===================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                            Starting                                        Required          
+Instance                                                                                                    Reference        Type     Pin     Net           Time         Slack
+                                                                                                            Clock                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[47]      envelope|CLK     SLE      D       yn_4[47]      10.000       5.455
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[46]      envelope|CLK     SLE      D       yn_4[46]      10.000       5.891
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[10\]\.par_calc_0.xn[47]     envelope|CLK     SLE      D       xn_64[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[11\]\.par_calc_0.xn[47]     envelope|CLK     SLE      D       xn_70[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[9\]\.par_calc_0.xn[47]      envelope|CLK     SLE      D       xn_58[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[13\]\.par_calc_0.xn[47]     envelope|CLK     SLE      D       xn_82[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[4\]\.par_calc_0.xn[47]      envelope|CLK     SLE      D       xn_28[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[8\]\.par_calc_0.xn[47]      envelope|CLK     SLE      D       xn_52[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[6\]\.par_calc_0.xn[47]      envelope|CLK     SLE      D       xn_40[47]     10.000       5.955
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[5\]\.par_calc_0.xn[47]      envelope|CLK     SLE      D       xn_34[47]     10.000       5.955
+==============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      4.545
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.455
+
+    Number of logic level(s):                4
+    Starting point:                          CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi / Q
+    Ending point:                            CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[47] / D
+    The start point is clocked by            envelope|CLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            envelope|CLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi                                                                 SLE      Q        Out     0.218     0.218 r     -         
+rstoi                                                                                                             Net      -        -       0.579     -           5         
+CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi_RNIUH0Q8                                                        CFG2     A        In      -         0.797 r     -         
+CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi_RNIUH0Q8                                                        CFG2     Y        Out     0.051     0.848 r     -         
+N_387_i                                                                                                           Net      -        -       2.003     -           1489      
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.rst_RNIP1T3                               CFG1     A        In      -         2.852 r     -         
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.rst_RNIP1T3                               CFG1     Y        Out     0.046     2.898 f     -         
+N_17_i                                                                                                            Net      -        -       0.836     -           31        
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn_4_cry_46_0     ARI1     C        In      -         3.734 f     -         
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn_4_cry_46_0     ARI1     FCO      Out     0.393     4.127 f     -         
+yn_4_cry_46                                                                                                       Net      -        -       0.000     -           1         
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn_4_s_47         ARI1     FCI      In      -         4.127 f     -         
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn_4_s_47         ARI1     S        Out     0.300     4.427 r     -         
+yn_4[47]                                                                                                          Net      -        -       0.118     -           1         
+CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[47]            SLE      D        In      -         4.545 r     -         
+============================================================================================================================================================================
+Total path delay (propagation time + setup) of 4.545 is 1.009(22.2%) logic and 3.537(77.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 670MB peak: 670MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 670MB peak: 670MB)
+
+---------------------------------------
+Resource Usage Report for envelope 
+
+Mapping to part: mpfs025tfcvg484-1
+Cell usage:
+CLKINT          2 uses
+CFG1           11 uses
+CFG2           135 uses
+CFG3           37 uses
+CFG4           89 uses
+
+Carry cells:
+ARI1            1519 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1938 uses
+SLE_INIT       14 uses - used for Seqshift to URAM mapping
+Total SLE          1952 uses
+
+DSP Blocks:   15 of 68 (22%)
+ MACC_PA_BC_ROM: 15 Mults
+
+I/O ports: 69
+I/O primitives: 69
+INBUF          20 uses
+OUTBUF         49 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Block RAMs (RAM64x12) : 10 - RAMs inferred for SeqShift
+Total Block RAMs (RAM64x12) : 10 of 204 (4%)
+
+Total LUTs:    1791
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 120; LUTs = 120;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 540; LUTs = 540;
+
+Total number of SLEs after P&R:  1952 + 120 + 0 + 540 = 2612;
+Total number of LUTs after P&R:  1791 + 120 + 0 + 540 = 2451;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 581MB peak: 670MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:08s cputime
+# Wed Aug 13 16:12:04 2025
+
+###########################################################]

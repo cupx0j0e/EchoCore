@@ -1,0 +1,137 @@
+#--  Synopsys, Inc.
+#--  Version V-2023.09M-3
+#--  Project file /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope_syn.prj
+#--  Written on Wed Aug 13 16:12:04 2025
+
+
+#project files
+add_file -verilog "../component/polarfire_syn_comps.v"
+add_file -verilog -lib CORECORDIC_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v"
+add_file -verilog -lib CORECORDIC_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v"
+add_file -verilog -lib CORECORDIC_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v"
+add_file -verilog -lib CORECORDIC_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v"
+add_file -verilog "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0.v"
+add_file -verilog "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd"
+add_file -vhdl -lib COREFIR_PF_LIB "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd"
+add_file -vhdl -lib work "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert.vhd"
+add_file -verilog "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v"
+add_file -verilog "../component/MSS_syn_comps.v"
+add_file -fpga_constraint "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/synthesis.fdc"
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+
+#device options
+set_option -technology PolarFireSoC
+set_option -part MPFS025T
+set_option -package FCVG484
+set_option -speed_grade -1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "envelope"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -scm2hydra 0
+set_option -scm2hydra_preserve_rtl_sig 1
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -resolve_multiple_driver 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+set_option -slr_aware_debug 0
+
+# Microchip G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -infer_seqShift 1
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 800
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 1
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
+set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -async_clkint_removal 1
+
+# Microchip PolarFireSoC
+set_option -automatic_compile_point 1
+set_option -rom_map_logic 1
+set_option -polarfire_ram_init 1
+set_option -gclkint_threshold 1000
+set_option -rgclkint_threshold 100
+set_option -clkint_rgclkint_limit 1
+set_option -low_power_gated_clock 0
+set_option -gclk_resource_count 24
+set_option -report_preserve_cdc 1
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+set_option -pack_uram_addr_reg 1
+set_option -act_wide_mul_size 35
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# common_options
+set_option -add_dut_hierarchy 0
+set_option -prepare_readback 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./envelope.vm"
+impl -active "synthesis"
