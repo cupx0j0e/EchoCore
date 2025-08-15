@@ -1,6 +1,6 @@
 module postproc #(
     parameter LOG_WIDTH = 16,
-    parameter COMP_WIDTH = LOG_WIDTH / 2
+    parameter COMP_WIDTH = LOG_WIDTH
 ) (
     input clk,
     input reset,

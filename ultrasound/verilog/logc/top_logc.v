@@ -1,10 +1,10 @@
 module top_logc #(
     parameter DATA_WIDTH = 48,
-    parameter COMP_WIDTH = DATA_WIDTH / 2,
-    parameter NORM_WIDTH = (DATA_WIDTH + $clog2(DATA_WIDTH)),
+    parameter NORM_WIDTH = DATA_WIDTH,
     parameter SHIFT_WIDTH = $clog2(NORM_WIDTH),
-    parameter FRAC_WIDTH = 8,
+    parameter FRAC_WIDTH = NORM_WIDTH / 2,
     parameter LOG_WIDTH = (SHIFT_WIDTH + FRAC_WIDTH + 1),
+    parameter COMP_WIDTH = LOG_WIDTH / 2,
     parameter MIN_THRESHOLD = 0
 ) (
     input  clk,
@@ -16,12 +16,13 @@ module top_logc #(
     wire                    pre_out_valid;
     wire [NORM_WIDTH-1:0]   pre_data_out;
     wire [SHIFT_WIDTH-1:0]  pre_shift_amt;
-    wire                    pre_in_ready;
-    wire                    pre_out_ready;
     wire                    log_out_valid;
     wire [LOG_WIDTH-1:0]    log_out;
+    wire                    pre_in_ready;
+    wire                    pre_out_ready;
     wire                    log_in_ready;
     wire                    log_out_ready;
+
     wire pre_in_valid = 1'b1;
 
     assign pre_out_ready = log_in_ready;

@@ -26,7 +26,7 @@ module log_calc #(
 
     wire [FRAC_WIDTH-1:0] frac_out;
     wire frac_valid;
-    reg frac_in_valid;
+    reg frac_in_valid = 0;
 
     calc_frac #(
         .DATA_WIDTH(NORM_WIDTH),
@@ -51,6 +51,7 @@ module log_calc #(
 
     always @(posedge clk ) begin
         if (reset) begin
+            state <= IDLE;
             data_reg <= 0;
             shift_reg <= 0;
             frac_part <= 0;
@@ -72,12 +73,12 @@ module log_calc #(
                 end
 
                 COMBINE: begin
-                    int_part_scaled <= shift_amt << FRAC_WIDTH;
-                    log_result <= int_part_scaled + frac_part;
+                    int_part_scaled <= shift_reg << FRAC_WIDTH;
                 end
 
                 SEND: begin
-                    log_out <= log_result;
+                    // log_result <= int_part_scaled + frac_part;
+                    log_out <= int_part_scaled + frac_part;
                     out_valid <= 1'b1;
                 end
             endcase
