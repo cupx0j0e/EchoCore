@@ -1,6 +1,6 @@
-module log_compress #(
+module postproc #(
     parameter LOG_WIDTH = 16,
-    parameter COMP_WIDTH = 8
+    parameter COMP_WIDTH = LOG_WIDTH / 2
 ) (
     input clk,
     input reset,

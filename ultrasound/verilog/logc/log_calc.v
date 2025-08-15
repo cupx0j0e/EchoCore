@@ -1,9 +1,8 @@
 module log_calc #(
     parameter NORM_WIDTH = 16,
-    parameter SHIFT_WIDTH = $clog2(NORM_WIDTH),
-    parameter FRAC_WIDTH = ,
-    parameter FRAC_BITS = NORM_WIDTH - 2,
-    parameter LOG_WIDTH = 16
+    parameter LOG_WIDTH = 16,
+    parameter FRAC_WIDTH = 8,
+    parameter SHIFT_WIDTH = $clog2(NORM_WIDTH)
 ) (
     input clk,
     input reset,
@@ -23,12 +22,28 @@ module log_calc #(
     reg [SHIFT_WIDTH-1:0] shift_reg;
     reg [FRAC_WIDTH-1:0] frac_part;
     reg [LOG_WIDTH-1:0] log_result;
-    reg [SHIFT_WIDTH+FRAC_BITS:0] int_part_scaled;
+    reg [SHIFT_WIDTH+FRAC_WIDTH:0] int_part_scaled;
+
+    wire [FRAC_WIDTH-1:0] frac_out;
+    wire frac_valid;
+    reg frac_in_valid;
+
+    calc_frac #(
+        .DATA_WIDTH(NORM_WIDTH),
+        .FRAC_WIDTH(FRAC_WIDTH)
+    ) frac_inst (
+        .clk(clk),
+        .reset(reset),
+        .in_valid(frac_in_valid),
+        .in_data(data_reg),
+        .out_valid(frac_valid),
+        .out_frac(frac_out)
+    );
 
     always @(*) begin
         case (state)
             IDLE: next_state = (in_valid && in_ready) ? CALC_FRAC : IDLE;
-            CALC_FRAC: next_state = COMBINE;
+            CALC_FRAC: next_state = (frac_valid) ? COMBINE : CALC_FRAC;
             COMBINE: next_state = SEND;
             SEND: next_state = (out_ready && out_valid) ? IDLE : SEND;
         endcase
@@ -49,11 +64,15 @@ module log_calc #(
                 end
 
                 CALC_FRAC: begin
-                    //calc frac
+                    frac_in_valid <= 1'b1;
+                    if (frac_valid) begin
+                        frac_part <= frac_out;
+                        frac_in_valid <= 1'b0;
+                    end
                 end
 
                 COMBINE: begin
-                    int_part_scaled <= shift_amt << FRAC_BITS;
+                    int_part_scaled <= shift_amt << FRAC_WIDTH;
                     log_result <= int_part_scaled + frac_part;
                 end
 

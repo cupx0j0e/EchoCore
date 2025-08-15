@@ -1,7 +1,7 @@
 module preproc #(
     parameter DATA_WIDTH = 16,
-    parameter NORM_WIDTH = DATA_WIDTH,
     parameter MIN_THRESHOLD = 1,
+    parameter NORM_WIDTH = DATA_WIDTH + ceil(log2(DATA_WIDTH)),
     parameter SHIFT_WIDTH = $clog2(DATA_WIDTH)
 ) (
     input clk,
