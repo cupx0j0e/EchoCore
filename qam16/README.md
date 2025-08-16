@@ -79,25 +79,25 @@ Upsampled bitsream (factor=5): 1000001000000000000
 After the data is upsampled, it is then passed through a FIR filter. The filter's job is to **limit the signal's bandwidth**.
 
 In data communication, bandwidth refers to the amount of data a particular channel can transmit in a second. This is important because:
-- The spectrum is a scarce resource. Without limiting the bandwidth of a particular channel it is possible for the signal to spread into other transmission channels used by others and intefering communication.
-- If the symbols are sent without filtering, sharp transistions in the stream causes distortion and overlap in other data channels. This is called Inter Symbol Interference.
+- The **spectrum** is a scarce resource. Without limiting the bandwidth of a particular channel it is possible for the signal to spread into other transmission channels used by others and intefering communication.
+- If the symbols are sent without filtering, sharp transistions in the stream causes distortion and overlap in other data channels. This is called **Inter Symbol Interference**.
 
 ![Image depicting FIR filters](./assets/filter.jpeg)
 
 ### Carrier mixing and Summation
-In this pneultimate stage, the baseband I and Q components are multiplied onto sine and cosine waves respectively, Their magnitudes are thus encoded (modulated) onto the amplitude of the waves.
+In this pneultimate stage, the baseband I and Q components are multiplied onto **sine and cosine** waves respectively, Their magnitudes are thus encoded **(modulated)** onto the **amplitude** of the waves.
 
-Once the I and Q components are mixed with their respective sinusoidal waves, they are summed together to form the tramsmitted QAM signal.
+Once the I and Q components are mixed with their respective sinusoidal waves, they are **summed** together to form the tramsmitted QAM signal.
 
-Here's a waveform depicting modulation of the In-phase component onto a sine wave
+Here's a waveform depicting modulation of the **In-phase component** onto a sine wave
 ![Icomp waveform](./assets/icomp.png)
 
-Likewise here's a waveform depicting modulation of the Quadrature component onto a cosine wave
+Likewise here's a waveform depicting modulation of the **Quadrature component** onto a cosine wave
 ![Qcomp waveform](./assets/qcomp.png)
 
-And finally here's a waveform depicting the final output of the entire pipeline i.e. the transmitted 16QAM signal
+And finally here's a waveform depicting the **final output** of the entire pipeline i.e. the transmitted 16QAM signal
 ![mixed output](./assets/mo.png)
 
 ## Resources and Further Reading
-[16QAM implementation on an FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)
+[16QAM implementation on an FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)<br>
 [IEEE paper on 16QAM](https://ieeexplore.ieee.org/document/5438705)
