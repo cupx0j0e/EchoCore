@@ -1,40 +1,55 @@
 module fifo #(
-    parameter DATA_WIDTH = 16,
-    parameter ADDR_WIDTH = 3
+    parameter DATA_WIDTH = 16
 ) (
-    input  wire                  clk,
-    input  wire                  reset,
-    input  wire [DATA_WIDTH-1:0] data_in,
+    input clk,
+    input reset,
+    input [DATA_WIDTH-1:0] data_in,
+    input wr_en,
+    input rd_en,
+
     output wire [DATA_WIDTH-1:0] data_out,
-    output reg  [ADDR_WIDTH:0]   fifo_count,
-    output reg  [ADDR_WIDTH-1:0] rd_ptr,
-    output reg  [ADDR_WIDTH-1:0] wr_ptr
+    output wire [ADDR_WIDTH:0]   fifo_count,
+    output wire out_valid
 );
 
-    localparam DEPTH = 1 << ADDR_WIDTH;
+    localparam DEPTH = 30;
+    localparam ADDR_WIDTH = $clog2(DEPTH);
 
     reg [DATA_WIDTH-1:0] fifo_mem [0:DEPTH-1];
 
-    // Combinational read — instant update when rd_ptr changes
+    reg [ADDR_WIDTH:0] wr_ptr_ext;
+    reg [ADDR_WIDTH:0] rd_ptr_ext;
+
+    wire [ADDR_WIDTH-1:0] wr_ptr;
+    wire [ADDR_WIDTH-1:0] rd_ptr;
+    wire full;
+    wire empty;
+
+    assign wr_ptr = wr_ptr_ext[ADDR_WIDTH-1:0];
+    assign rd_ptr = rd_ptr_ext[ADDR_WIDTH-1:0];
+
     assign data_out = fifo_mem[rd_ptr];
+
+    assign empty = (wr_ptr_ext == rd_ptr_ext);
+
+    assign full = ((wr_ptr_ext[ADDR_WIDTH] != rd_ptr_ext[ADDR_WIDTH]) && (wr_ptr == rd_ptr));
+
+    assign out_valid = !empty;
+
+    assign fifo_count = wr_ptr_ext - rd_ptr_ext;
 
     always @(posedge clk or posedge reset) begin
         if (reset) begin
-            rd_ptr     <= 0;
-            wr_ptr     <= 0;
-            fifo_count <= 0;
+            wr_ptr_ext <= 0;
+            rd_ptr_ext <= 0;
         end else begin
-            // Example: write when FIFO not full
-            if (fifo_count < DEPTH) begin
+            if (wr_en && !full) begin
                 fifo_mem[wr_ptr] <= data_in;
-                wr_ptr <= wr_ptr + 1;
-                fifo_count <= fifo_count + 1;
+                wr_ptr_ext <= wr_ptr_ext + 1;
             end
 
-            // Example: read when FIFO not empty
-            if (fifo_count > 0) begin
-                rd_ptr <= rd_ptr + 1;
-                fifo_count <= fifo_count - 1;
+            if (rd_en && !empty) begin
+                rd_ptr_ext <= rd_ptr_ext + 1;
             end
         end
     end

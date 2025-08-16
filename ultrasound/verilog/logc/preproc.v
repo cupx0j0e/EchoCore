@@ -22,12 +22,13 @@ module preproc #(
 
     reg found = 0;
 
-    localparam IDLE = 0, CALC_ZP = 1, PROCESS = 2, CALC_SHIFT = 3, LOAD_DOUT = 4, SEND = 5;
+    localparam IDLE = 0, LOAD_DATA = 1, CALC_ZP = 2, PROCESS = 3, CALC_SHIFT = 4, LOAD_DOUT = 5, SEND = 6;
     reg [2:0] state, next_state;
 
     always @(*) begin
         case(state)
             IDLE: next_state = (in_ready && in_valid) ? CALC_ZP : IDLE;
+            LOAD_DATA: next_state = CALC_ZP;
             CALC_ZP: next_state = PROCESS;
             PROCESS: next_state = CALC_SHIFT;
             CALC_SHIFT: next_state = LOAD_DOUT;
@@ -45,6 +46,10 @@ module preproc #(
         end else begin
             case(state)
                 IDLE: begin
+                    sample_reg <= data_in;
+                end
+
+                LOAD_DATA: begin
                     sample_reg <= data_in;
                 end
 
@@ -82,7 +87,8 @@ module preproc #(
         end
     end
 
-    assign in_ready = !out_valid || out_ready;
+    // assign in_ready = !out_valid || out_ready;
+    assign in_ready = (state == IDLE);
     assign shift_amt = shift_amt_reg;
 
 endmodule

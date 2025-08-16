@@ -10,6 +10,8 @@ module top_logc #(
     input  clk,
     input  reset,
     input  [DATA_WIDTH-1:0] data_in,
+    input fifo_out_valid,
+    output pre_in_ready,
     output [COMP_WIDTH-1:0] comp_out
 );
 
@@ -18,12 +20,12 @@ module top_logc #(
     wire [SHIFT_WIDTH-1:0]  pre_shift_amt;
     wire                    log_out_valid;
     wire [LOG_WIDTH-1:0]    log_out;
-    wire                    pre_in_ready;
+    // wire                    pre_in_ready;
     wire                    pre_out_ready;
     wire                    log_in_ready;
     wire                    log_out_ready;
 
-    wire pre_in_valid = 1'b1;
+    // wire fifo_out_valid = 1'b1;
 
     assign pre_out_ready = log_in_ready;
     assign log_out_ready = 1'b1;
@@ -35,7 +37,7 @@ module top_logc #(
     ) preproc_inst (
         .clk(clk),
         .reset(reset),
-        .in_valid(pre_in_valid),
+        .in_valid(fifo_out_valid),
         .out_ready(pre_out_ready),
         .data_in(data_in),
         .out_valid(pre_out_valid),

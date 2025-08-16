@@ -4,6 +4,7 @@ import shutil
 # Define folders and extensions
 sort_rules = {
     '.vcb': 'vcb',
+    '.vcd': 'vcb',
     '': 'out',
     '.v': 'verilog'
 }
