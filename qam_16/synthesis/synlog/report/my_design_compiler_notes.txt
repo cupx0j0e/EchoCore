@@ -113,9 +113,6 @@
 @N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":166:31:166:37|Input ARCACHE is unused.
 @N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":167:31:167:36|Input ARPROT is unused.
 @N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":168:31:168:36|Input ARLOCK is unused.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[0] is always 0.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[1] is always 0.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[2] is always 0.
 @N: CL201 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Trying to extract state machine for register state.
 @N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":21:24:21:34|Input S_AXI_BRESP is unused.
 @N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":718:27:718:28|Input au is unused.

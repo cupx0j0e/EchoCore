@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>211</data>
+<data>212</data>
 <report_link name="more">
 <data>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/report/my_design_fpga_mapper_notes.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>584MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1755427658</data>
+<data type="timestamp">1755435723</data>
 </info>
 </job_info>
 </job_run_status>

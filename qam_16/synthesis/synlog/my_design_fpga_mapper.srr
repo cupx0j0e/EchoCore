@@ -1,4 +1,4 @@
-# Sun Aug 17 16:17:37 2025
+# Sun Aug 17 18:32:02 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -48,6 +48,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":11:4:11:9|Removing sequential instance upsampler_0.iup[3:0] (in view: work.my_design(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":8:4:8:9|Removing sequential instance phase_counter_0.phase_angle[15:0] (in view: work.my_design(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.number_bytes_r[7:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1666:4:1666:9|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rdbeat_cnt[8:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1398:10:1398:15|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.genblk2\.ram_rdreq_cntr[8:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":508:5:508:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned[12:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
@@ -174,7 +175,6 @@ NConnInternalConnection caching is on
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[15] (in view: work.my_design(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[14] (in view: work.my_design(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[13] (in view: work.my_design(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[12] (in view: work.my_design(verilog)) because it does not drive other instances.
 
 Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/my_design_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
 @W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift_delayLine_seqshift_0_0 (in view: work.my_design(verilog)) because it does not drive other instances.
@@ -247,7 +247,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sun Aug 17 16:17:38 2025
+# Timing report written on Sun Aug 17 18:32:03 2025
 #
 
 
@@ -439,6 +439,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 496MB peak: 584MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Aug 17 16:17:38 2025
+# Sun Aug 17 18:32:03 2025
 
 ###########################################################]

@@ -65,7 +65,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:33 2025
+# Sun Aug 17 18:31:58 2025
 
 ###########################################################]
 ###########################################################[
@@ -265,7 +265,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:33 2025
+# Sun Aug 17 18:31:58 2025
 
 ###########################################################]
 ###########################################################[
@@ -441,7 +441,7 @@ Process completed successfully.
 @N|stack limit increased to max
 Verilog syntax check successful!
 File /home/jessica/Desktop/github__echocore_jessica/qam_16/component/polarfire_syn_comps.v changed - recompiling
-File /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v changed - recompiling
+File /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v changed - recompiling
 File /home/jessica/Desktop/github__echocore_jessica/qam_16/component/MSS_syn_comps.v changed - recompiling
 @N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":1:7:1:14|Synthesizing module combiner in library work.
 Running optimization stage 1 on combiner .......
@@ -1071,14 +1071,6 @@ Finished optimization stage 2 on modulator (CPU Time 0h:00m:00s, Memory Used cur
 Running optimization stage 2 on four_pr .......
 Finished optimization stage 2 on four_pr (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
 Running optimization stage 2 on custom_axi_master .......
-@W: CL190 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Optimizing register bit axi_address_counter[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Optimizing register bit axi_address_counter[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Optimizing register bit axi_address_counter[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Pruning register bits 2 to 0 of axi_address_counter[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[0] is always 0.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[1] is always 0.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[2] is always 0.
-@W: CL279 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Pruning register bits 2 to 0 of S_AXI_AWADDR[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CL201 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 3 reachable states with original encodings of:
@@ -1209,7 +1201,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 ###########################################################[
@@ -1944,7 +1936,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 ###########################################################[
@@ -2008,7 +2000,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 
@@ -2023,6 +2015,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]

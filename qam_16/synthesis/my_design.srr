@@ -3,7 +3,7 @@
 #OS: Linux 
 #Hostname: jessica-IdeaPad-Slim-3-14IAH8
 
-# Sun Aug 17 16:17:33 2025
+# Sun Aug 17 18:31:58 2025
 
 #Implementation: synthesis
 
@@ -74,7 +74,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:33 2025
+# Sun Aug 17 18:31:58 2025
 
 ###########################################################]
 ###########################################################[
@@ -274,7 +274,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:33 2025
+# Sun Aug 17 18:31:58 2025
 
 ###########################################################]
 ###########################################################[
@@ -450,7 +450,7 @@ Process completed successfully.
 @N|stack limit increased to max
 Verilog syntax check successful!
 File /home/jessica/Desktop/github__echocore_jessica/qam_16/component/polarfire_syn_comps.v changed - recompiling
-File /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v changed - recompiling
+File /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v changed - recompiling
 File /home/jessica/Desktop/github__echocore_jessica/qam_16/component/MSS_syn_comps.v changed - recompiling
 @N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":1:7:1:14|Synthesizing module combiner in library work.
 Running optimization stage 1 on combiner .......
@@ -1080,14 +1080,6 @@ Finished optimization stage 2 on modulator (CPU Time 0h:00m:00s, Memory Used cur
 Running optimization stage 2 on four_pr .......
 Finished optimization stage 2 on four_pr (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
 Running optimization stage 2 on custom_axi_master .......
-@W: CL190 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Optimizing register bit axi_address_counter[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Optimizing register bit axi_address_counter[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Optimizing register bit axi_address_counter[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Pruning register bits 2 to 0 of axi_address_counter[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[0] is always 0.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[1] is always 0.
-@N: CL189 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Register bit S_AXI_AWADDR[2] is always 0.
-@W: CL279 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Pruning register bits 2 to 0 of S_AXI_AWADDR[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CL201 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 3 reachable states with original encodings of:
@@ -1218,7 +1210,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 ###########################################################[
@@ -1953,7 +1945,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 ###########################################################[
@@ -2017,7 +2009,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 
@@ -2032,7 +2024,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 17 16:17:34 2025
+# Sun Aug 17 18:31:59 2025
 
 ###########################################################]
 ###########################################################[
@@ -2063,12 +2055,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 17 16:17:36 2025
+# Sun Aug 17 18:32:00 2025
 
 ###########################################################]
 Premap Report
 
-# Sun Aug 17 16:17:36 2025
+# Sun Aug 17 18:32:00 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -2134,7 +2126,7 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 @W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1(rtl)) because it does not drive other instances.
 NConnInternalConnection caching is on
 @W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":467:2:467:7|User-specified initial value defined for instance CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi is being ignored due to limitations in architecture. 
-@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|User-specified initial value defined for instance custom_axi_master_0.S_AXI_AWADDR_1[31:3] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|User-specified initial value defined for instance custom_axi_master_0.S_AXI_AWADDR[31:0] is being ignored due to limitations in architecture. 
 @W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|User-specified initial value defined for instance custom_axi_master_0.S_AXI_BREADY is being ignored due to limitations in architecture. 
 @W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|User-specified initial value defined for instance custom_axi_master_0.S_AXI_AWVALID is being ignored due to limitations in architecture. 
 @W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|User-specified initial value defined for instance custom_axi_master_0.S_AXI_WDATA[63:0] is being ignored due to limitations in architecture. 
@@ -2166,7 +2158,6 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 @W: MO129 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":467:2:467:7|Sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":50:6:50:11|Sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.pre_rotat_0.coarse_regs.dly_0.genblk1.delayLine[0] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1516:4:1516:9|Sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2.rddata_start_d is reduced to a combinational gate by constant propagation.
-@W: MO129 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Sequential instance custom_axi_master_0.axi_address_counter[3] is reduced to a combinational gate by constant propagation.
 
 Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 601MB peak: 601MB)
 
@@ -2221,6 +2212,7 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":404:2:404:12|Removing instance dly_link_33 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
 @N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":421:4:421:14|Removing instance symm_bus\.1\.dly_link_44 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
 @N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":426:46:426:57|Removing instance converg_round\.kitRndEven_0 (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_0(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v":228:3:228:8|Removing sequential instance AWADDR_slvif[31:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v":228:3:228:8|Removing sequential instance ARBURST_slvif[1:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Removing sequential instance S_AXI_BREADY (in view: work.custom_axi_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":346:58:346:70|Removing instance result_pipe_0 (in view: CORECORDIC_LIB.cordic_kitRndEven_18_16_1_1(verilog)) because it does not drive other instances.
@@ -2268,7 +2260,7 @@ Level     Clock             Frequency     Period        Type         Group      
 ----------------------------------------------------------------------------------------------
 0 -       System            100.0 MHz     10.000        system       system_clkgroup     0    
                                                                                               
-0 -       my_design|clk     100.0 MHz     10.000        inferred     (multiple)          1814 
+0 -       my_design|clk     100.0 MHz     10.000        inferred     (multiple)          1878 
 ==============================================================================================
 
 
@@ -2281,10 +2273,10 @@ Clock             Load      Pin           Seq Example                           
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System            0         -             -                                                                                                  -                 -            
                                                                                                                                                                             
-my_design|clk     1814      clk(port)     COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.latency_0.init_rst.C     -                 I_1.A(CLKINT)
+my_design|clk     1878      clk(port)     COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.latency_0.init_rst.C     -                 I_1.A(CLKINT)
 ============================================================================================================================================================================
 
-@W: MT530 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":9:4:9:9|Found inferred clock my_design|clk which controls 1814 sequential elements including combiner_0.combined_output[63:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":9:4:9:9|Found inferred clock my_design|clk which controls 1878 sequential elements including combiner_0.combined_output[63:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -2308,12 +2300,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 605MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Aug 17 16:17:37 2025
+# Sun Aug 17 18:32:01 2025
 
 ###########################################################]
 Map & Optimize Report
 
-# Sun Aug 17 16:17:37 2025
+# Sun Aug 17 18:32:02 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -2363,6 +2355,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":11:4:11:9|Removing sequential instance upsampler_0.iup[3:0] (in view: work.my_design(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":8:4:8:9|Removing sequential instance phase_counter_0.phase_angle[15:0] (in view: work.my_design(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.number_bytes_r[7:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1666:4:1666:9|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rdbeat_cnt[8:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1398:10:1398:15|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.genblk2\.ram_rdreq_cntr[8:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":508:5:508:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned[12:0] (in view: work.my_design(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
@@ -2489,7 +2482,6 @@ NConnInternalConnection caching is on
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[15] (in view: work.my_design(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[14] (in view: work.my_design(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[13] (in view: work.my_design(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing sequential instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.2\.a_row_higher.inter_advanced\.end_dly_0.delayLine_0[12] (in view: work.my_design(verilog)) because it does not drive other instances.
 
 Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/my_design_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
 @W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift_delayLine_seqshift_0_0 (in view: work.my_design(verilog)) because it does not drive other instances.
@@ -2562,7 +2554,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sun Aug 17 16:17:38 2025
+# Timing report written on Sun Aug 17 18:32:03 2025
 #
 
 
@@ -2754,6 +2746,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 496MB peak: 584MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Aug 17 16:17:38 2025
+# Sun Aug 17 18:32:03 2025
 
 ###########################################################]

@@ -49,7 +49,7 @@ module custom_axi_master (
     always @(posedge clk or posedge reset) begin
         if (reset) begin
             state <= IDLE;
-            axi_address_counter <= 32'h0000_0000;
+            axi_address_counter <= 32'h2000_0000;
             S_AXI_AWVALID <= 1'b0;
             S_AXI_WVALID  <= 1'b0;
             S_AXI_BREADY  <= 1'b0;
