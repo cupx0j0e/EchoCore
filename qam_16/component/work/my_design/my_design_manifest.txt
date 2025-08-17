@@ -1,11 +1,11 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
 
-Date      :  Sat Aug  9 00:32:46 2025
-Project   :  /home/jessica/Desktop/final_final_working/qam_16
+Date      :  Sun Aug 17 15:48:34 2025
+Project   :  /home/jessica/Desktop/github__echocore_jessica/qam_16
 Component :  my_design
 Family    :  PolarFireSoC
 
 
 HDL source files for all Synthesis and Simulation tools:
-    /home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v
+    /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v
 

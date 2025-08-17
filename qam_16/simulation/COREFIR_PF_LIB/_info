@@ -8,38 +8,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/jessica/Desktop/final_final_working/qam_16/simulation
+d/home/jessica/Desktop/final_final_working/qam_16/simulation
 Ecorefir_kitdelay_bit_reg
-Z1 w1754672795
-Z2 DPx4 work 16 corefir_rtl_pack 0 22 3BGJk>`jCOB3U@CO0jePX3
-Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 225
-R0
-Z6 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
-Z7 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
+Z0 w1754672795
+Z1 DPx4 work 16 corefir_rtl_pack 0 22 3BGJk>`jCOB3U@CO0jePX3
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 548
+Z5 d/home/jessica/Desktop/github__echocore_jessica/qam_16/simulation
+Z6 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
+Z7 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
 l0
 L29 1
 VYO>k0E@aa3e?zhUzeCWgV2
 !s100 mC[eFd^ABmoL25Dg]V`3]3
 Z8 OW;C;2024.2;79
 33
-Z9 !s110 1755006780
+Z9 !s110 1755427488
 !i10b 1
-Z10 !s108 1755006780.000000
-Z11 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
-Z12 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
+Z10 !s108 1755427488.000000
+Z11 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
+Z12 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
 !i113 1
 Z13 o-2008 -explicit -work COREFIR_PF_LIB -O0
 Z14 tCvgOpt 0
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 24 corefir_kitdelay_bit_reg 0 22 YO>k0E@aa3e?zhUzeCWgV2
-!i122 225
+!i122 548
 l41
 L36 34
 VzAF[mm]J^eIE8kS6fMQi:0
@@ -55,13 +55,13 @@ R12
 R13
 R14
 Ecorefir_kitdelay_reg
+R0
 R1
 R2
 R3
 R4
+!i122 548
 R5
-!i122 225
-R0
 R6
 R7
 l0
@@ -79,12 +79,12 @@ R12
 R13
 R14
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 20 corefir_kitdelay_reg 0 22 TE11ocAUXG7gel=T;I[]f3
-!i122 225
+!i122 548
 l92
 L87 34
 Vd:VocgT_YcnM^`ccT9b8]1
@@ -100,13 +100,13 @@ R12
 R13
 R14
 Ecorefir_kitrndeven
+R0
 R1
 R2
 R3
 R4
+!i122 548
 R5
-!i122 225
-R0
 R6
 R7
 l0
@@ -124,12 +124,12 @@ R12
 R13
 R14
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 18 corefir_kitrndeven 0 22 GIJNo`P9e``e_>ILbKc6V1
-!i122 225
+!i122 548
 l247
 L234 66
 VQ>mcl1jK06gD?Vd3h3dn[1
@@ -145,13 +145,13 @@ R12
 R13
 R14
 Ecorefir_kitrndup
+R0
 R1
 R2
 R3
 R4
+!i122 548
 R5
-!i122 225
-R0
 R6
 R7
 l0
@@ -169,12 +169,12 @@ R12
 R13
 R14
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 16 corefir_kitrndup 0 22 BMWcKVfjbcC^maPgPm8R@0
-!i122 225
+!i122 548
 l172
 L166 36
 V2Hhmeeg>Nkg=k:S_PkV7C2
@@ -190,13 +190,13 @@ R12
 R13
 R14
 Ecorefir_kitroundtop
+R0
+R2
 R1
 R3
-R2
 R4
+!i122 548
 R5
-!i122 225
-R0
 R6
 R7
 l0
@@ -214,12 +214,12 @@ R12
 R13
 R14
 Artl
-R3
 R2
+R1
+R3
 R4
-R5
 DEx4 work 19 corefir_kitroundtop 0 22 1`1=`6gS:[R2anZHa=C:71
-!i122 225
+!i122 548
 l335
 L333 55
 V27?femLZ3DWIg:l6g0KJ83
@@ -235,127 +235,127 @@ R12
 R13
 R14
 Ecorefir_pf_c0_corefir_pf_c0_0_corefir_pf
+R0
+R2
 R1
 R3
-R2
 R4
+!i122 562
 R5
-!i122 239
-R0
-Z15 8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
-Z16 F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
+Z15 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
+Z16 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
 l0
 L20 1
 V:VNPC@iAg:JL6B81J;ii?0
 !s100 IbfgWXonJz5QcYh]iJHLK0
 R8
 33
-Z17 !s110 1755006781
+R9
 !i10b 1
-Z18 !s108 1755006781.000000
-Z19 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
-Z20 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
+R10
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
+Z18 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
 !i113 1
 R13
 R14
 Artl
-R3
 R2
+R1
+R3
 R4
-R5
 DEx4 work 40 corefir_pf_c0_corefir_pf_c0_0_corefir_pf 0 22 :VNPC@iAg:JL6B81J;ii?0
-!i122 239
+!i122 562
 l279
 L91 630
 V9FI9AeLc5PANX8[zHd@Z<0
 !s100 U[M6bF4HIT4:WgngjM_DJ2
 R8
 33
-R17
+R9
 !i10b 1
+R10
+R17
 R18
-R19
-R20
 !i113 1
 R13
 R14
 Ecorefir_pf_c0_corefir_pf_c0_0_enum_fir_g5
-R1
-Z21 DPx4 work 41 corefir_pf_c0_corefir_pf_c0_0_enum_params 0 22 4F?iZOABBLhO><kBkMSmB3
-R3
-Z22 DPx4 work 13 enum_rtl_pack 0 22 5<Z_Tf^Y;@lJYae_EzoB?1
-R4
-R5
-!i122 238
 R0
-Z23 8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
-Z24 F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
+Z19 DPx4 work 41 corefir_pf_c0_corefir_pf_c0_0_enum_params 0 22 4F?iZOABBLhO><kBkMSmB3
+R2
+Z20 DPx4 work 13 enum_rtl_pack 0 22 5<Z_Tf^Y;@lJYae_EzoB?1
+R3
+R4
+!i122 561
+R5
+Z21 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
+Z22 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
 l0
-Z25 L33 1
+Z23 L33 1
 V_Vd7EMhV45MI<Yfibdg=C2
 !s100 JY@hcchGG3V>`2f3@Vo]C0
 R8
 33
-R17
+R9
 !i10b 1
-R18
-Z26 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
-Z27 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
+R10
+Z24 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
+Z25 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R21
+R19
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 41 corefir_pf_c0_corefir_pf_c0_0_enum_fir_g5 0 22 _Vd7EMhV45MI<Yfibdg=C2
-!i122 238
+!i122 561
 l162
 L69 199
 Vkfh9a0RgFUfYHgGMHdH6E1
 !s100 QQM8XZ3GaKln?9KOaMY6E2
 R8
 33
-R17
+R9
 !i10b 1
-R18
-R26
-R27
+R10
+R24
+R25
 !i113 1
 R13
 R14
 Pcorefir_pf_c0_corefir_pf_c0_0_enum_params
+R3
 R4
-R5
-!i122 237
-R1
+!i122 560
 R0
-8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd
-F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd
+R5
+8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd
+F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd
 l0
 L7 15
 V4F?iZOABBLhO><kBkMSmB3
 !s100 d@i_7Gf0cTL13H_bSBX?G2
 R8
 33
-R17
+R9
 !i10b 1
-R18
-!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd|
-!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd|
+R10
+!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd|
+!s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd|
 !i113 1
 R13
 R14
 Pcorefir_pf_c0_corefir_pf_c0_0_enumfir_coefs
+R3
 R4
-R5
-!i122 229
-R1
+!i122 552
 R0
-8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd
-F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd
+R5
+8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd
+F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd
 l0
 L23 18
 VhTL]0UA0EP?Vd20][bbYR3
@@ -365,20 +365,20 @@ R8
 R9
 !i10b 1
 R10
-!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd|
-!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd|
+!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd|
+!s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd|
 !i113 1
 R13
 R14
 Pcorefir_rtl_pack
+R2
 R3
 R4
-R5
-!i122 224
-R1
+!i122 547
 R0
-Z28 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
-Z29 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
+R5
+Z26 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
+Z27 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
 l0
 L20 111
 V3BGJk>`jCOB3U@CO0jePX3
@@ -388,18 +388,18 @@ R8
 b1
 R9
 !i10b 1
-R10
-Z30 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
-Z31 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
+Z28 !s108 1755427487.000000
+Z29 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
+Z30 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
 !i113 1
 R13
 R14
 Bbody
+R1
 R2
 R3
 R4
-R5
-!i122 224
+!i122 547
 l0
 L132 507
 VaEofA2URE>>3ITlnIUQiG3
@@ -408,40 +408,40 @@ R8
 33
 R9
 !i10b 1
-R10
+R28
+R29
 R30
-R31
 !i113 1
 R13
 R14
 Pcoreparameters_tgi
-!i122 240
-R1
+!i122 563
 R0
-8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
-F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
+R5
+8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
+F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
 l0
 L5 37
 V6j[QUWH7A_Qch]Nc5:U1I2
 !s100 ;H6RhG]NA9W942gVPCbMX3
 R8
 33
-R17
+!s110 1755427489
 !i10b 1
-R18
-!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
-!s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
+!s108 1755427489.000000
+!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
+!s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
 !i113 1
 R13
 R14
 Edebug_init
-R1
-R4
-R5
-!i122 227
 R0
-Z32 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
-Z33 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
+R3
+R4
+!i122 550
+R5
+Z31 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
+Z32 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
 l0
 L434 1
 V<K^LlgA3Y8B_T]g=5]GHR0
@@ -451,16 +451,16 @@ R8
 R9
 !i10b 1
 R10
-Z34 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
-Z35 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
+Z33 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
+Z34 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
 !i113 1
 R13
 R14
 Artl
+R3
 R4
-R5
 DEx4 work 10 debug_init 0 22 <K^LlgA3Y8B_T]g=5]GHR0
-!i122 227
+!i122 550
 l444
 L440 11
 VYRb^`dhFbJz04QGT:Eg_63
@@ -470,21 +470,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_dly_line_18x192
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 551
 R5
-!i122 228
-R0
-Z36 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
-Z37 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
+Z35 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
+Z36 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
 l0
 L35 1
 V6ECiE<OOHg>]D5i<1??cS2
@@ -494,18 +494,18 @@ R8
 R9
 !i10b 1
 R10
-Z38 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
-Z39 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
+Z37 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
+Z38 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 20 enum_dly_line_18x192 0 22 6ECiE<OOHg>]D5i<1??cS2
-!i122 228
+!i122 551
 l81
 L50 89
 V8Q224kGPK3dA9Qg>NVCLF1
@@ -515,22 +515,22 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eenum_fir_adv_g5
-R1
-Z40 DPx4 work 43 corefir_pf_c0_corefir_pf_c0_0_enumfir_coefs 0 22 hTL]0UA0EP?Vd20][bbYR3
-R22
+R0
+Z39 DPx4 work 43 corefir_pf_c0_corefir_pf_c0_0_enumfir_coefs 0 22 hTL]0UA0EP?Vd20][bbYR3
+R20
+R2
 R3
 R4
+!i122 553
 R5
-!i122 230
-R0
-Z41 8/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
-Z42 F/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
+Z40 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
+Z41 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
 l0
 L55 1
 VLL8O0gd`EXAl9[ohDiDR]1
@@ -540,19 +540,19 @@ R8
 R9
 !i10b 1
 R10
-Z43 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
-Z44 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
+Z42 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
+Z43 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R40
-R22
+R39
+R20
+R2
 R3
 R4
-R5
 DEx4 work 15 enum_fir_adv_g5 0 22 LL8O0gd`EXAl9[ohDiDR]1
-!i122 230
+!i122 553
 l255
 L107 350
 V=Z5BWh;U<<8g7aoUc[9:<0
@@ -562,21 +562,21 @@ R8
 R9
 !i10b 1
 R10
+R42
 R43
-R44
 !i113 1
 R13
 R14
 Eenum_g5_latency_adv
-R1
-R3
-R22
-R4
-R5
-!i122 230
 R0
+R2
+R20
+R3
+R4
+!i122 553
+R5
+R40
 R41
-R42
 l0
 L471 1
 V^UGP9<mX6aYcO3Dd<Cbdg0
@@ -586,18 +586,18 @@ R8
 R9
 !i10b 1
 R10
+R42
 R43
-R44
 !i113 1
 R13
 R14
 Artl
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 19 enum_g5_latency_adv 0 22 ^UGP9<mX6aYcO3Dd<Cbdg0
-!i122 230
+!i122 553
 l503
 L490 101
 V:^S=U5K6]BE3;lAz<j;Ph0
@@ -607,21 +607,21 @@ R8
 R9
 !i10b 1
 R10
+R42
 R43
-R44
 !i113 1
 R13
 R14
 Eenum_kitcounts
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 550
 R5
-!i122 227
-R0
+R31
 R32
-R33
 l0
 L297 1
 V0YLDdR0E?oT[NGCfW`N;U0
@@ -631,18 +631,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 14 enum_kitcounts 0 22 0YLDdR0E?oT[NGCfW`N;U0
-!i122 227
+!i122 550
 l308
 L306 21
 V<m^9Z^KGfnO5APoGNCC091
@@ -652,21 +652,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_kitdelay_bit_reg
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 550
 R5
-!i122 227
-R0
+R31
 R32
-R33
 l0
 L42 1
 V<bgRGQTKGYB0l`WXRR[fP2
@@ -676,18 +676,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 21 enum_kitdelay_bit_reg 0 22 <bgRGQTKGYB0l`WXRR[fP2
-!i122 227
+!i122 550
 l54
 L49 34
 V2IWMBAceGge3k:o8k;R3U0
@@ -697,21 +697,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_kitdelay_bit_reg_attr
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 550
 R5
-!i122 227
-R0
+R31
 R32
-R33
 l0
 L153 1
 Vi19An5j=OcFJN9A;j[4<C1
@@ -721,18 +721,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 26 enum_kitdelay_bit_reg_attr 0 22 i19An5j=OcFJN9A;j[4<C1
-!i122 227
+!i122 550
 l167
 L160 36
 V=m>k@V0H3MgTGTSP>MIBY2
@@ -742,21 +742,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_kitdelay_reg
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 550
 R5
-!i122 227
-R0
+R31
 R32
-R33
 l0
 L91 1
 V2go`I<igZVbNz^iGj_Ii23
@@ -766,18 +766,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 17 enum_kitdelay_reg 0 22 2go`I<igZVbNz^iGj_Ii23
-!i122 227
+!i122 550
 l105
 L100 34
 V;DMh3Q7d6g]]c?Wzn0KhD3
@@ -787,21 +787,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_kitdelay_reg_attr
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 550
 R5
-!i122 227
-R0
+R31
 R32
-R33
 l0
 L204 1
 VW=C:PDT9UMQFR:cUczG:X2
@@ -811,18 +811,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_kitdelay_reg_attr 0 22 W=C:PDT9UMQFR:cUczG:X2
-!i122 227
+!i122 550
 l221
 L213 37
 Vl8Fz<4IzCT:UIfNQ4A88g3
@@ -832,21 +832,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_kitdelay_reg_cond
-R1
-R3
-R22
-R4
-R5
-!i122 227
 R0
+R2
+R20
+R3
+R4
+!i122 550
+R5
+R31
 R32
-R33
 l0
 L257 1
 V^O<_f1?gTNi1J?zcmK4ZK2
@@ -856,18 +856,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 22 enum_kitdelay_reg_cond 0 22 ^O<_f1?gTNi1J?zcmK4ZK2
-!i122 227
+!i122 550
 l268
 L267 13
 VS@Y;AahzJRRPB<dNlzAb`1
@@ -877,19 +877,19 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_kitedge
-R1
-R4
-R5
-!i122 227
 R0
+R3
+R4
+!i122 550
+R5
+R31
 R32
-R33
 l0
 L386 1
 VRMZc]4RXLILPHFIGWagbN2
@@ -899,16 +899,16 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
+R3
 R4
-R5
 DEx4 work 12 enum_kitedge 0 22 RMZc]4RXLILPHFIGWagbN2
-!i122 227
+!i122 550
 l395
 L393 21
 VS8TL9YG;;eXZ8c457oR=k2
@@ -918,21 +918,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_pad_g5
-Z45 w1754677741
+Z44 w1754677741
+R2
+R20
 R3
-R22
 R4
+!i122 554
 R5
-!i122 231
-R0
-Z46 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
-Z47 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
+Z45 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
+Z46 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
 l0
 L46 1
 V56h5H3I0`8<97jW:B`54Y2
@@ -942,18 +942,18 @@ R8
 R9
 !i10b 1
 R10
-Z48 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
-Z49 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
+Z47 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
+Z48 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 11 enum_pad_g5 0 22 56h5H3I0`8<97jW:B`54Y2
-!i122 231
+!i122 554
 l79
 L76 82
 VQQ7GUQAIkzaalffL_3P>o1
@@ -963,65 +963,65 @@ R8
 R9
 !i10b 1
 R10
+R47
 R48
-R49
 !i113 1
 R13
 R14
 Eenum_row_g5
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 559
 R5
-!i122 236
-R0
-Z50 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
-Z51 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
+Z49 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
+Z50 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
 l0
 L39 1
 Vg]>FiikSUX;E]lLzlh=zf2
 !s100 ]cSg@inkGO3:0Am6GXIKo3
 R8
 33
-R17
+R9
 !i10b 1
 R10
-Z52 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
-Z53 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
+Z51 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
+Z52 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 11 enum_row_g5 0 22 g]>FiikSUX;E]lLzlh=zf2
-!i122 236
+!i122 559
 l177
 L88 380
 V_=`ZBB@bQ9Q@31z9bEem30
 !s100 Db[3E0:cn1>zET?c8L?lz0
 R8
 33
-R17
+R9
 !i10b 1
 R10
+R51
 R52
-R53
 !i113 1
 R13
 R14
 Penum_rtl_pack
+R2
 R3
 R4
-R5
-!i122 226
-R1
+!i122 549
 R0
-Z54 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
-Z55 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
+R5
+Z53 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
+Z54 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
 l0
 L32 134
 V5<Z_Tf^Y;@lJYae_EzoB?1
@@ -1032,17 +1032,17 @@ b1
 R9
 !i10b 1
 R10
-Z56 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
-Z57 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
+Z55 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
+Z56 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
 !i113 1
 R13
 R14
 Bbody
-R22
+R20
+R2
 R3
 R4
-R5
-!i122 226
+!i122 549
 l0
 L167 490
 V>?6l=55iEi_7F>WfP]AAP1
@@ -1052,21 +1052,21 @@ R8
 R9
 !i10b 1
 R10
+R55
 R56
-R57
 !i113 1
 R13
 R14
 Eenum_signext
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 550
 R5
-!i122 227
-R0
+R31
 R32
-R33
 l0
 L345 1
 V=LGo6gUMA7MIKDaf3S_cb2
@@ -1076,18 +1076,18 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 12 enum_signext 0 22 =LGo6gUMA7MIKDaf3S_cb2
-!i122 227
+!i122 550
 l359
 L355 23
 VjzEmLOO>OfPZSnl`;PNQQ0
@@ -1097,21 +1097,21 @@ R8
 R9
 !i10b 1
 R10
+R33
 R34
-R35
 !i113 1
 R13
 R14
 Eenum_tap_g5
-R1
-R3
-R22
-R4
-R5
-!i122 233
 R0
-Z58 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
-Z59 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
+R2
+R20
+R3
+R4
+!i122 556
+R5
+Z57 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
+Z58 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
 l0
 L34 1
 V]hgJ97`8hS9SN8FL;zeQa1
@@ -1121,18 +1121,18 @@ R8
 R9
 !i10b 1
 R10
-Z60 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
-Z61 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
+Z59 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
+Z60 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 11 enum_tap_g5 0 22 ]hgJ97`8hS9SN8FL;zeQa1
-!i122 233
+!i122 556
 l136
 L71 165
 VE7=`BSgo7hBdWkfZ9`CFh0
@@ -1142,21 +1142,21 @@ R8
 R9
 !i10b 1
 R10
+R59
 R60
-R61
 !i113 1
 R13
 R14
 Eenum_tap_nibble
-R1
-R3
-R22
-R4
-R5
-!i122 235
 R0
-Z62 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
-Z63 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
+R2
+R20
+R3
+R4
+!i122 558
+R5
+Z61 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
+Z62 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
 l0
 L37 1
 VNdRe>z2ZJSWmE02meWGi=1
@@ -1166,18 +1166,18 @@ R8
 R9
 !i10b 1
 R10
-Z64 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
-Z65 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
+Z63 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
+Z64 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 15 enum_tap_nibble 0 22 NdRe>z2ZJSWmE02meWGi=1
-!i122 235
+!i122 558
 l249
 L89 352
 VJ^k54:^n]Kk<lih@5RHbe1
@@ -1187,23 +1187,23 @@ R8
 R9
 !i10b 1
 R10
+R63
 R64
-R65
 !i113 1
 R13
 R14
 Eenum_tap_undernibble_1
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 557
 R5
-!i122 234
-R0
-Z66 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
-Z67 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
+Z65 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
+Z66 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
 l0
-R25
+R23
 VJYlBI6CHWmzT>lld_SXHl1
 !s100 [iLM3V@0AUB]JOH2;mg]m2
 R8
@@ -1211,18 +1211,18 @@ R8
 R9
 !i10b 1
 R10
-Z68 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
-Z69 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
+Z67 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
+Z68 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_tap_undernibble_1 0 22 JYlBI6CHWmzT>lld_SXHl1
-!i122 234
+!i122 557
 l134
 L87 84
 Vf@SZz26=YA5<?@5d=O_DY2
@@ -1232,21 +1232,21 @@ R8
 R9
 !i10b 1
 R10
+R67
 R68
-R69
 !i113 1
 R13
 R14
 Eenum_tap_undernibble_2
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 557
 R5
-!i122 234
-R0
+R65
 R66
-R67
 l0
 L180 1
 VOFV2VSkz5:dB=^1kfU2FR3
@@ -1256,18 +1256,18 @@ R8
 R9
 !i10b 1
 R10
+R67
 R68
-R69
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_tap_undernibble_2 0 22 OFV2VSkz5:dB=^1kfU2FR3
-!i122 234
+!i122 557
 l287
 L232 126
 VaN=BNek^lVP3c[`9zXj0d1
@@ -1277,21 +1277,21 @@ R8
 R9
 !i10b 1
 R10
+R67
 R68
-R69
 !i113 1
 R13
 R14
 Eenum_tap_undernibble_3
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 557
 R5
-!i122 234
-R0
+R65
 R66
-R67
 l0
 L367 1
 V<Z;P04G?R7IhBUnQh^>610
@@ -1301,18 +1301,18 @@ R8
 R9
 !i10b 1
 R10
+R67
 R68
-R69
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_tap_undernibble_3 0 22 <Z;P04G?R7IhBUnQh^>610
-!i122 234
+!i122 557
 l484
 L421 193
 VRXQ`3eb7UBGCNCcHcnhBo2
@@ -1322,21 +1322,21 @@ R8
 R9
 !i10b 1
 R10
+R67
 R68
-R69
 !i113 1
 R13
 R14
 Eenum_uram_shift_reg_18x192
-R1
-R22
+R0
+R20
+R2
 R3
 R4
+!i122 551
 R5
-!i122 228
-R0
+R35
 R36
-R37
 l0
 L147 1
 V8N<4ijA2W>RV[G?oZ]^=M3
@@ -1346,18 +1346,18 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Artl
-R22
+R20
+R2
 R3
 R4
-R5
 DEx4 work 26 enum_uram_shift_reg_18x192 0 22 8N<4ijA2W>RV[G?oZ]^=M3
-!i122 228
+!i122 551
 l189
 L160 103
 VnI>nT9cZ>N6WnKXmG>I<d0
@@ -1367,19 +1367,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eg5_uram12x128
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L685 1
 VPc01d:loZ2SFz:LS_JFW`3
@@ -1389,16 +1389,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram12x128 0 22 Pc01d:loZ2SFz:LS_JFW`3
-!i122 228
+!i122 551
 l772
 L703 209
 Vnd1meN?4oU5gGkj=mT^6Z2
@@ -1408,19 +1408,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eg5_uram12x192
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L921 1
 V3UildN4_aB^B=FFn[Z`4>2
@@ -1430,16 +1430,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram12x192 0 22 3UildN4_aB^B=FFn[Z`4>2
-!i122 228
+!i122 551
 l1014
 L937 261
 Vg>9m^[EWSIb9QVA=^:l4;3
@@ -1449,19 +1449,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eg5_uram12x64
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L582 1
 VY`mjlCcYj0jahm:8`mRP33
@@ -1471,16 +1471,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 12 g5_uram12x64 0 22 Y`mjlCcYj0jahm:8`mRP33
-!i122 228
+!i122 551
 l637
 L598 79
 VV2=<BNXO;o<H`27m?SiD]1
@@ -1490,19 +1490,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eg5_uram18x128
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L1337 1
 VBoGhk6NA44HXXAPhXYTNU1
@@ -1512,16 +1512,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram18x128 0 22 BoGhk6NA44HXXAPhXYTNU1
-!i122 228
+!i122 551
 l1433
 L1355 294
 V9hhYefCbi0bLdcWRa:?^L3
@@ -1531,19 +1531,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eg5_uram18x192
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L1657 1
 VYS9MH_;1cL1ZD4c[6PVkz0
@@ -1553,16 +1553,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram18x192 0 22 YS9MH_;1cL1ZD4c[6PVkz0
-!i122 228
+!i122 551
 l1764
 L1674 377
 V00=M<Z2F11C:eGnfDSC^n0
@@ -1572,19 +1572,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Eg5_uram18x64
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L1207 1
 VcPmVnATY3ZOWQfXGH[VRJ1
@@ -1594,16 +1594,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 12 g5_uram18x64 0 22 cPmVnATY3ZOWQfXGH[VRJ1
-!i122 228
+!i122 551
 l1264
 L1223 106
 Va9M1UVomX46S927mSclHE1
@@ -1613,19 +1613,19 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Einfer_dly_line_18x192
-R1
-R4
-R5
-!i122 228
 R0
+R3
+R4
+!i122 551
+R5
+R35
 R36
-R37
 l0
 L533 1
 V8j0g`oZDQk?3FkelJ4P@e3
@@ -1635,16 +1635,16 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Ainfer
+R3
 R4
-R5
 DEx4 work 21 infer_dly_line_18x192 0 22 8j0g`oZDQk?3FkelJ4P@e3
-!i122 228
+!i122 551
 l550
 L543 24
 VBV_jTJDNVj0zMhJJ3OCa;3
@@ -1654,21 +1654,21 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Emacc_pa_bc_rom_wrap
-R1
-R3
-R22
-R4
-R5
-!i122 232
 R0
-Z70 8/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
-Z71 F/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
+R2
+R20
+R3
+R4
+!i122 555
+R5
+Z69 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
+Z70 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
 l0
 L117 1
 VjK?>9kO;ghTBZm^`Bf3lg2
@@ -1678,18 +1678,18 @@ R8
 R9
 !i10b 1
 R10
-Z72 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
-Z73 !s107 /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
+Z71 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
+Z72 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R20
 R3
-R22
 R4
-R5
 DEx4 work 19 macc_pa_bc_rom_wrap 0 22 jK?>9kO;ghTBZm^`Bf3lg2
-!i122 232
+!i122 555
 l231
 L158 174
 VNBUfGME<_1Uc0@13^dHGL1
@@ -1699,20 +1699,20 @@ R8
 R9
 !i10b 1
 R10
+R71
 R72
-R73
 !i113 1
 R13
 R14
 Euram_wrap
-R1
+R0
+R2
 R3
 R4
+!i122 551
 R5
-!i122 228
-R0
+R35
 R36
-R37
 l0
 L271 1
 VaFBEU[QQVDQG0KMcZgJUT2
@@ -1722,17 +1722,17 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14
 Artl
+R2
 R3
 R4
-R5
 DEx4 work 9 uram_wrap 0 22 aFBEU[QQVDQG0KMcZgJUT2
-!i122 228
+!i122 551
 l388
 L287 238
 V;L7JJfkmFPoRR2d4cfhT^1
@@ -1742,8 +1742,8 @@ R8
 R9
 !i10b 1
 R10
+R37
 R38
-R39
 !i113 1
 R13
 R14

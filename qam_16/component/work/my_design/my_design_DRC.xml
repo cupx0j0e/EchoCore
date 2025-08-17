@@ -5,22 +5,8 @@
   <drc>
     <status>/usr/local/microchip/Libero_SoC_v2024.2/Libero/data/drcreport/warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin CORECORDIC_C0_0:DOUT_VALID</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/my_design/pins/CORECORDIC_C0_0:DOUT_VALID</crossprobe>
-  </drc>
-  <drc>
-    <status>/usr/local/microchip/Libero_SoC_v2024.2/Libero/data/drcreport/warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin COREFIR_PF_C0_0:FIRO_VALID</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/my_design/pins/COREFIR_PF_C0_0:FIRO_VALID</crossprobe>
-  </drc>
-  <drc>
-    <status>/usr/local/microchip/Libero_SoC_v2024.2/Libero/data/drcreport/warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin COREFIR_PF_C0_1:FIRO_VALID</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/my_design/pins/COREFIR_PF_C0_1:FIRO_VALID</crossprobe>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin PF_SRAM_AHBL_AXI_C0_0:AXI4_Slave</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/my_design/pins/PF_SRAM_AHBL_AXI_C0_0:AXI4_Slave</crossprobe>
   </drc>
 </drcreport>

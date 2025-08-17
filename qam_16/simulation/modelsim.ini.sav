@@ -8,6 +8,7 @@ postsynth = postsynth
 postlayout = ../designer/my_design/simulation/postlayout
 syncad_vhdl_lib = /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/actel/syncad_vhdl_lib
 
+COREAXI4DMACONTROLLER_LIB = COREAXI4DMACONTROLLER_LIB
 [vcom]
 VHDL93 = 1
 

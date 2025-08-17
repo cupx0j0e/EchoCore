@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)</text>
-<text>Date: Sat Aug  9 16:02:08 2025
+<text>Date: Sun Aug 17 16:17:41 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -52,7 +52,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>/home/jessica/Desktop/final_final_working/qam_16/synthesis/my_design.vm</cell>
+ <cell>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/my_design.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -74,15 +74,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>2231</cell>
+ <cell>15</cell>
  <cell>22956</cell>
- <cell>9.72</cell>
+ <cell>0.07</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>2403</cell>
+ <cell>21</cell>
  <cell>22956</cell>
- <cell>10.47</cell>
+ <cell>0.09</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -92,15 +92,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>70</cell>
+ <cell>4</cell>
  <cell>108</cell>
- <cell>64.81</cell>
+ <cell>3.70</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>70</cell>
+ <cell>4</cell>
  <cell>108</cell>
- <cell>64.81</cell>
+ <cell>3.70</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -110,9 +110,9 @@
 </row>
 <row>
  <cell>uSRAM</cell>
- <cell>2</cell>
+ <cell>0</cell>
  <cell>204</cell>
- <cell>0.98</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>LSRAM</cell>
@@ -122,9 +122,9 @@
 </row>
 <row>
  <cell>Math</cell>
- <cell>28</cell>
+ <cell>0</cell>
  <cell>68</cell>
- <cell>41.18</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>H-Chip Global</cell>
@@ -172,13 +172,13 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1199</cell>
- <cell>1371</cell>
+ <cell>15</cell>
+ <cell>21</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
- <cell>24</cell>
- <cell>24</cell>
+ <cell>0</cell>
+ <cell>0</cell>
 </row>
 <row>
  <cell>LSRAM Interface Logic</cell>
@@ -187,71 +187,13 @@
 </row>
 <row>
  <cell>Math Interface Logic</cell>
- <cell>1008</cell>
- <cell>1008</cell>
+ <cell>0</cell>
+ <cell>0</cell>
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>2231</cell>
- <cell>2403</cell>
-</row>
-</table>
-<section><name>Detailed Carry Chains Resource Usage</name></section>
-<table>
-<header>
-</header>
-<row>
- <cell>Length</cell>
- <cell>Used</cell>
-</row>
-<row>
  <cell>15</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>10</cell>
-</row>
-<row>
- <cell>17</cell>
- <cell>10</cell>
-</row>
-<row>
- <cell>19</cell>
- <cell>28</cell>
-</row>
-<row>
- <cell>65</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>Total</cell>
- <cell>50</cell>
-</row>
-</table>
-<section><name>Detailed Math Chains Resource Usage</name></section>
-<table>
-<header>
-</header>
-<row>
- <cell>Length</cell>
- <cell>Used</cell>
-</row>
-<row>
- <cell>3</cell>
- <cell>2</cell>
-</row>
-<row>
- <cell>5</cell>
- <cell>2</cell>
-</row>
-<row>
- <cell>6</cell>
- <cell>2</cell>
-</row>
-<row>
- <cell>Total</cell>
- <cell>6</cell>
+ <cell>21</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -270,7 +212,7 @@
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>68</cell>
+ <cell>2</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -301,7 +243,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>1805</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -332,7 +274,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>1485</cell>
+ <cell>22</cell>
  <cell>INT_NET</cell>
  <cell>Net   : reset_c</cell>
 </row>
@@ -342,94 +284,94 @@
  <cell>Driver: reset_ibuf</cell>
 </row>
 <row>
- <cell>96</cell>
+ <cell>7</cell>
  <cell>INT_NET</cell>
- <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/N_4_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/init_rst_RNITUKR7</cell>
 </row>
 <row>
- <cell>96</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/count[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/count_Z[0]</cell>
 </row>
 <row>
- <cell>55</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_8_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/N_124</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[7].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/un1_coef_on_outpi_2_i_o2</cell>
 </row>
 <row>
- <cell>55</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_12_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/N_199</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[11].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/rst_syst_lat_i_a2</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_9_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/N_171_i_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[8].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/N_171_i</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_13_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/count[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[12].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/count_Z[1]</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_14_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/delayLine[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[13].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/dvalid_pipe_3/delayLine_Z[2]</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_6_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/delayLine[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[5].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/dvalid_pipe_3/delayLine_Z[1]</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_7_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/async_rstn</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[6].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/dvalid_pipe_3/delayLine[0]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -440,7 +382,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>1485</cell>
+ <cell>22</cell>
  <cell>INT_NET</cell>
  <cell>Net   : reset_c</cell>
 </row>
@@ -450,94 +392,94 @@
  <cell>Driver: reset_ibuf</cell>
 </row>
 <row>
- <cell>96</cell>
+ <cell>7</cell>
  <cell>INT_NET</cell>
- <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/N_4_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/init_rst_RNITUKR7</cell>
 </row>
 <row>
- <cell>96</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/count[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/count_Z[0]</cell>
 </row>
 <row>
- <cell>55</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_8_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/N_124</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[7].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/un1_coef_on_outpi_2_i_o2</cell>
 </row>
 <row>
- <cell>55</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_12_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/N_199</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[11].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/rst_syst_lat_i_a2</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_9_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/N_171_i_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[8].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/N_171_i</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_13_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/count[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[12].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/latency_0/syst_counter_0/count_Z[1]</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_14_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/delayLine[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[13].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/dvalid_pipe_3/delayLine_Z[2]</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_6_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/delayLine[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[5].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/dvalid_pipe_3/delayLine_Z[1]</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/ai_7_[17]</cell>
+ <cell>Net   : COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/async_rstn</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[6].par_calc_0/an[17]</cell>
+ <cell>Driver: COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/dvalid_pipe_3/delayLine[0]</cell>
 </row>
 </table>
 </doc>

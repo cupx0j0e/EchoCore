@@ -19,13 +19,13 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 307R, Built Jul 25 2024 08:38:07, @5544113
 
 @N|Running in 64-bit mode
-File /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_comp.srs changed - recompiling
+File /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/my_design_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 213MB peak: 213MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 216MB peak: 217MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Aug  9 16:01:58 2025
+# Sun Aug 17 16:17:36 2025
 
 ###########################################################]

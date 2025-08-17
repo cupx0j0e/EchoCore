@@ -16,7 +16,7 @@
 </header>
 <row>
  <cell>0.1</cell>
- <cell>Sat Aug  9 16:36:42 2025</cell>
+ <cell>Sun Aug 17 16:20:02 2025</cell>
  <cell>Designer</cell>
  <cell>v2024.2</cell>
  <cell>2024.2.0.13</cell>
@@ -498,29 +498,29 @@
 </row>
 <row>
  <cell>A18</cell>
- <cell>combined_output[43]</cell>
+ <cell>---</cell>
  <cell>GPIO5PB1/CCC_SE_CLKIN_S_11</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[43]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>A19</cell>
@@ -914,55 +914,55 @@
 </row>
 <row>
  <cell>AA12</cell>
- <cell>combined_output[14]</cell>
+ <cell>---</cell>
  <cell>HSIO28PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[14]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA13</cell>
- <cell>combined_output[11]</cell>
+ <cell>---</cell>
  <cell>HSIO26PB0/CLKIN_N_4/CCC_NW_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[11]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA14</cell>
@@ -992,107 +992,107 @@
 </row>
 <row>
  <cell>AA15</cell>
- <cell>combined_output[34]</cell>
+ <cell>---</cell>
  <cell>HSIO25NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[34]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA16</cell>
- <cell>combined_output[56]</cell>
+ <cell>---</cell>
  <cell>HSIO22PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[56]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA17</cell>
- <cell>combined_output[47]</cell>
+ <cell>---</cell>
  <cell>HSIO21NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[47]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA18</cell>
- <cell>combined_output[58]</cell>
+ <cell>---</cell>
  <cell>HSIO18NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[58]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA19</cell>
@@ -1122,81 +1122,81 @@
 </row>
 <row>
  <cell>AA20</cell>
- <cell>combined_output[51]</cell>
+ <cell>---</cell>
  <cell>HSIO11NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[51]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA21</cell>
- <cell>combined_output[54]</cell>
+ <cell>---</cell>
  <cell>HSIO9PB0/DQS/CCC_NE_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[54]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AA22</cell>
- <cell>combined_output[24]</cell>
+ <cell>---</cell>
  <cell>HSIO9NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[24]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB1</cell>
@@ -1486,107 +1486,107 @@
 </row>
 <row>
  <cell>AB12</cell>
- <cell>combined_output[29]</cell>
+ <cell>---</cell>
  <cell>HSIO28NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[29]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB13</cell>
- <cell>combined_output[62]</cell>
+ <cell>---</cell>
  <cell>HSIO26NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[62]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB14</cell>
- <cell>combined_output[50]</cell>
+ <cell>---</cell>
  <cell>HSIO24PB0/CLKIN_N_5</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[50]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB15</cell>
- <cell>combined_output[31]</cell>
+ <cell>---</cell>
  <cell>HSIO24NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[31]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB16</cell>
@@ -1616,14 +1616,14 @@
 </row>
 <row>
  <cell>AB17</cell>
- <cell>combined_output[21]</cell>
+ <cell>DOUT_VALID</cell>
  <cell>HSIO21PB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
- <cell>No</cell>
+ <cell>Yes</cell>
  <cell>ON</cell>
  <cell>None</cell>
  <cell>No</cell>
@@ -1638,111 +1638,111 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>combined_output[21]</cell>
+ <cell>DOUT_VALID</cell>
 </row>
 <row>
  <cell>AB18</cell>
- <cell>combined_output[42]</cell>
+ <cell>---</cell>
  <cell>HSIO18PB0/CLKIN_N_7</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[42]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB19</cell>
- <cell>combined_output[39]</cell>
+ <cell>---</cell>
  <cell>HSIO10PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[39]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB20</cell>
- <cell>combined_output[12]</cell>
+ <cell>---</cell>
  <cell>HSIO10NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[12]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB21</cell>
- <cell>combined_output[63]</cell>
+ <cell>---</cell>
  <cell>HSIO11PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[63]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>AB22</cell>
@@ -1876,29 +1876,29 @@
 </row>
 <row>
  <cell>B5</cell>
- <cell>DOUT_VALID</cell>
+ <cell>---</cell>
  <cell>GPIO38NB1/DQS</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>DOUT_VALID</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>B6</cell>
@@ -2188,29 +2188,29 @@
 </row>
 <row>
  <cell>B17</cell>
- <cell>combined_output[38]</cell>
+ <cell>---</cell>
  <cell>GPIO3PB1/CCC_SE_CLKIN_S_10/CCC_SE_PLL1_OUT0</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[38]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>B18</cell>
@@ -3358,55 +3358,55 @@
 </row>
 <row>
  <cell>D18</cell>
- <cell>combined_output[30]</cell>
+ <cell>---</cell>
  <cell>GPIO4PB1/CCC_SE_PLL1_OUT1</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[30]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>D19</cell>
- <cell>combined_output[32]</cell>
+ <cell>---</cell>
  <cell>GPIO2NB1/DQS</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[32]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>D20</cell>
@@ -3833,7 +3833,7 @@
  <cell>LVCMOS18</cell>
  <cell>Input</cell>
  <cell>None</cell>
- <cell>No</cell>
+ <cell>Yes</cell>
  <cell>ON</cell>
  <cell>Up</cell>
  <cell>No</cell>
@@ -3859,7 +3859,7 @@
  <cell>LVCMOS18</cell>
  <cell>Output</cell>
  <cell>None</cell>
- <cell>No</cell>
+ <cell>Yes</cell>
  <cell>ON</cell>
  <cell>None</cell>
  <cell>No</cell>
@@ -3956,29 +3956,29 @@
 </row>
 <row>
  <cell>E19</cell>
- <cell>combined_output[40]</cell>
+ <cell>---</cell>
  <cell>GPIO2PB1/DQS/CCC_SE_PLL1_OUT0</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[40]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>E20</cell>
@@ -4450,55 +4450,55 @@
 </row>
 <row>
  <cell>F16</cell>
- <cell>FIRO_VALID_0</cell>
+ <cell>---</cell>
  <cell>GPIO1NB1</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>FIRO_VALID_0</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>F17</cell>
- <cell>combined_output[20]</cell>
+ <cell>---</cell>
  <cell>GPIO1PB1/CLKIN_S_9/CCC_SE_CLKIN_S_9</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[20]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
 </row>
 <row>
  <cell>F18</cell>
@@ -9494,29 +9494,29 @@
 </row>
 <row>
  <cell>R12</cell>
- <cell>combined_output[8]</cell>
+ <cell>---</cell>
  <cell>HSIO35PB0/CCC_NW_CLKIN_N_0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[8]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>R13</cell>
@@ -9546,81 +9546,81 @@
 </row>
 <row>
  <cell>R14</cell>
- <cell>combined_output[41]</cell>
+ <cell>---</cell>
  <cell>HSIO17NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[41]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>R15</cell>
- <cell>combined_output[55]</cell>
+ <cell>---</cell>
  <cell>HSIO17PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[55]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>R16</cell>
- <cell>combined_output[36]</cell>
+ <cell>---</cell>
  <cell>HSIO15NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[36]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>R17</cell>
@@ -10073,7 +10073,7 @@
  <cell>LVCMOS18</cell>
  <cell>Input</cell>
  <cell>None</cell>
- <cell>No</cell>
+ <cell>Yes</cell>
  <cell>ON</cell>
  <cell>Up</cell>
  <cell>No</cell>
@@ -10092,29 +10092,29 @@
 </row>
 <row>
  <cell>T13</cell>
- <cell>combined_output[4]</cell>
+ <cell>---</cell>
  <cell>HSIO35NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[4]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>T14</cell>
@@ -10144,81 +10144,81 @@
 </row>
 <row>
  <cell>T15</cell>
- <cell>combined_output[16]</cell>
+ <cell>---</cell>
  <cell>HSIO31NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[16]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>T16</cell>
- <cell>combined_output[35]</cell>
+ <cell>---</cell>
  <cell>HSIO15PB0/DQS/CCC_NE_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[35]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>T17</cell>
- <cell>combined_output[53]</cell>
+ <cell>---</cell>
  <cell>HSIO13PB0/CCC_NE_PLL1_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[53]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>T18</cell>
@@ -10638,107 +10638,107 @@
 </row>
 <row>
  <cell>U12</cell>
- <cell>combined_output[10]</cell>
+ <cell>---</cell>
  <cell>HSIO34PB0/CCC_NW_CLKIN_N_1</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[10]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U13</cell>
- <cell>combined_output[1]</cell>
+ <cell>---</cell>
  <cell>HSIO33NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[1]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U14</cell>
- <cell>combined_output[2]</cell>
+ <cell>---</cell>
  <cell>HSIO33PB0/DQS/CCC_NW_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[2]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U15</cell>
- <cell>combined_output[5]</cell>
+ <cell>---</cell>
  <cell>HSIO31PB0/CCC_NW_PLL1_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[5]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U16</cell>
@@ -10768,81 +10768,81 @@
 </row>
 <row>
  <cell>U17</cell>
- <cell>combined_output[33]</cell>
+ <cell>---</cell>
  <cell>HSIO13NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[33]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U18</cell>
- <cell>combined_output[46]</cell>
+ <cell>---</cell>
  <cell>HSIO14NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[46]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U19</cell>
- <cell>combined_output[22]</cell>
+ <cell>---</cell>
  <cell>HSIO14PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[22]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U20</cell>
@@ -11210,29 +11210,29 @@
 </row>
 <row>
  <cell>V12</cell>
- <cell>combined_output[19]</cell>
+ <cell>---</cell>
  <cell>HSIO32NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[19]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V13</cell>
@@ -11262,107 +11262,107 @@
 </row>
 <row>
  <cell>V14</cell>
- <cell>combined_output[3]</cell>
+ <cell>---</cell>
  <cell>HSIO30PB0/CLKIN_N_3/CCC_NW_CLKIN_N_3</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[3]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V15</cell>
- <cell>combined_output[0]</cell>
+ <cell>---</cell>
  <cell>HSIO30NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[0]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V16</cell>
- <cell>combined_output[45]</cell>
+ <cell>---</cell>
  <cell>HSIO16NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[45]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V17</cell>
- <cell>combined_output[52]</cell>
+ <cell>---</cell>
  <cell>HSIO16PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[52]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V18</cell>
@@ -11392,107 +11392,107 @@
 </row>
 <row>
  <cell>V19</cell>
- <cell>combined_output[15]</cell>
+ <cell>---</cell>
  <cell>HSIO12NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[15]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V20</cell>
- <cell>combined_output[18]</cell>
+ <cell>---</cell>
  <cell>HSIO12PB0/CLKIN_N_9/CCC_NE_CLKIN_N_9</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[18]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V21</cell>
- <cell>combined_output[23]</cell>
+ <cell>---</cell>
  <cell>HSIO8NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[23]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>V22</cell>
- <cell>combined_output[49]</cell>
+ <cell>---</cell>
  <cell>HSIO6NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[49]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W1</cell>
@@ -11782,81 +11782,81 @@
 </row>
 <row>
  <cell>W12</cell>
- <cell>combined_output[6]</cell>
+ <cell>---</cell>
  <cell>HSIO32PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[6]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W13</cell>
- <cell>combined_output[7]</cell>
+ <cell>---</cell>
  <cell>HSIO29PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[7]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W14</cell>
- <cell>combined_output[37]</cell>
+ <cell>---</cell>
  <cell>HSIO27NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[37]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W15</cell>
@@ -11886,107 +11886,107 @@
 </row>
 <row>
  <cell>W16</cell>
- <cell>combined_output[64]</cell>
+ <cell>---</cell>
  <cell>HSIO23PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[64]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W17</cell>
- <cell>combined_output[48]</cell>
+ <cell>---</cell>
  <cell>HSIO23NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[48]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W18</cell>
- <cell>combined_output[17]</cell>
+ <cell>---</cell>
  <cell>HSIO19NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[17]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W19</cell>
- <cell>combined_output[60]</cell>
+ <cell>---</cell>
  <cell>HSIO19PB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[60]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W20</cell>
@@ -12016,55 +12016,55 @@
 </row>
 <row>
  <cell>W21</cell>
- <cell>combined_output[25]</cell>
+ <cell>---</cell>
  <cell>HSIO8PB0/CCC_NE_CLKIN_N_10/CCC_NE_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[25]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>W22</cell>
- <cell>combined_output[57]</cell>
+ <cell>---</cell>
  <cell>HSIO6PB0/CCC_NE_CLKIN_N_11</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[57]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y1</cell>
@@ -12380,107 +12380,107 @@
 </row>
 <row>
  <cell>Y13</cell>
- <cell>combined_output[13]</cell>
+ <cell>---</cell>
  <cell>HSIO29NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[13]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y14</cell>
- <cell>combined_output[26]</cell>
+ <cell>---</cell>
  <cell>HSIO27PB0/DQS/CCC_NW_PLL0_OUT0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[26]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y15</cell>
- <cell>combined_output[27]</cell>
+ <cell>---</cell>
  <cell>HSIO25PB0/CCC_NW_PLL0_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[27]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y16</cell>
- <cell>combined_output[59]</cell>
+ <cell>---</cell>
  <cell>HSIO22NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[59]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y17</cell>
@@ -12510,107 +12510,107 @@
 </row>
 <row>
  <cell>Y18</cell>
- <cell>combined_output[28]</cell>
+ <cell>---</cell>
  <cell>HSIO20NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[28]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y19</cell>
- <cell>combined_output[44]</cell>
+ <cell>---</cell>
  <cell>HSIO20PB0/CLKIN_N_6</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[44]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y20</cell>
- <cell>combined_output[9]</cell>
+ <cell>---</cell>
  <cell>HSIO7PB0/CCC_NE_PLL0_OUT1</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[9]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y21</cell>
- <cell>combined_output[61]</cell>
+ <cell>---</cell>
  <cell>HSIO7NB0</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>120</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>combined_output[61]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>Y22</cell>

@@ -10,17 +10,17 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file /home/jessica/Desktop/final_final_working/qam_16/constraint/io/user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/jessica/Desktop/github__echocore_jessica/qam_16/constraint/io/user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  Globals Assigner found no global involed in the problem.
-Info:  I/O Bank and Globals Assigner identified 70 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 4 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.2.0
-Design: my_design                       Started: Sat Aug  9 16:36:21 2025
+Design: my_design                       Started: Sun Aug 17 16:19:48 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -31,44 +31,44 @@ End of placement.
 Placer Runtime Summary   :
 Clustering (1 pass)      : 0 seconds
 Placement                : 0 seconds
-Improvement              : 1 seconds
+Improvement              : 0 seconds
 
 Placer completed successfully.
 
 Design: my_design
-Finished: Sat Aug  9 16:36:32 2025
-Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
-Total Memory Usage: 1046.2 Mbytes
+Finished: Sun Aug 17 16:19:56 2025
+Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:08
+Total Memory Usage: 993.6 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: my_design                       Started: Sat Aug  9 16:36:35 2025
+Design: my_design                       Started: Sun Aug 17 16:19:59 2025
 
 
 Router completed successfully.
 
 Design: my_design
-Finished: Sat Aug  9 16:36:40 2025
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 776.3 Mbytes
+Finished: Sun Aug 17 16:20:00 2025
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:01
+Total Memory Usage: 771.3 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 2231 | 22956 | 9.72       |
-| DFF           | 2403 | 22956 | 10.47      |
+| 4LUT          | 15   | 22956 | 0.07       |
+| DFF           | 21   | 22956 | 0.09       |
 | I/O Register  | 0    | 106   | 0.00       |
-| Logic Element | 2566 | 22956 | 11.18      |
+| Logic Element | 22   | 22956 | 0.10       |
 +---------------+------+-------+------------+
 
 I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  70   | 100.00%    |
+| Locked |  4    | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

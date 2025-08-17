@@ -1,5 +1,5 @@
 quietly set ACTELLIBNAME PolarFireSoC
-quietly set PROJECT_DIR "/home/jessica/Desktop/final_final_working/qam_16"
+quietly set PROJECT_DIR "/home/jessica/Desktop/github__echocore_jessica/qam_16"
 
 if {[file exists presynth/_info]} {
    echo "INFO: Simulation library presynth already exists"
@@ -9,6 +9,7 @@ if {[file exists presynth/_info]} {
 }
 vmap presynth presynth
 vmap polarfire "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire"
+vmap PolarFire "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire"
 if {[file exists CORECORDIC_LIB/_info]} {
    echo "INFO: Simulation library CORECORDIC_LIB already exists"
 } else {
@@ -46,7 +47,14 @@ vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFI
 vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd"
 vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/combiner.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/master.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/four_pr.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/modulator.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/counter.v"
@@ -54,8 +62,8 @@ vlog -sv -work presynth "${PROJECT_DIR}/hdl/symmap.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/upsampler.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/my_design/my_design.v"
 vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd"
-vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work presynth "${PROJECT_DIR}/stimulus/newtestbench.v"
+vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work presynth "${PROJECT_DIR}/stimulus/qam_test.v"
 
-vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so presynth.tb_my_design
-add wave /tb_my_design/*
+vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so presynth.my_design_tb
+add wave /my_design_tb/*
 run 1000ns

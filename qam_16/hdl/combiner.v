@@ -3,7 +3,7 @@ module combiner (
     input reset,
     input signed [63:0] modulated_i, 
     input signed [63:0] modulated_q, 
-    output reg signed [64:0] combined_output 
+    output reg signed [63:0] combined_output 
 );
 
     always @(posedge clk) begin

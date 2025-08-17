@@ -1,0 +1,10 @@
+
+fsm_encoding {18494491} sequential
+
+fsm_state_encoding {18494491} IDLE {00}
+
+fsm_state_encoding {18494491} WRITE_ADDRESS {01}
+
+fsm_state_encoding {18494491} WAIT_FOR_RESPONSE {10}
+
+fsm_registers {18494491} {state[1]}  {state[0]} 
