@@ -40,7 +40,7 @@ Grouped (4 bits): 1001 | 1100 | 1011 | 0100
 Each group (e.g., 1001, 1100, etc.) corresponds to one point in the 16QAM constellation.
 
 ### Symbol mapping
-In this stage the incoming data is split into two components: an **I (In-phase)** component and a **Q (Quadrature)** component. The In-phase component is later modulated onto a sine wave whereas the Quadrature component is modualated onto a cosine wave.
+In this stage the incoming data is split into two components: an **I (In-phase)** component and a **Q (Quadrature)** component. The In-phase component is later modulated onto a sine wave whereas the Quadrature component is modulated onto a cosine wave.
 
 In this implementation, the first two bits become the inphase component while the rest of the bits become the quadrature component.
 
@@ -79,15 +79,18 @@ Upsampled bitsream (factor=5): 1000001000000000000
 After the data is upsampled, it is then passed through a FIR filter. The filter's job is to **limit the signal's bandwidth**.
 
 In data communication, bandwidth refers to the amount of data a particular channel can transmit in a second. This is important because:
-- The **spectrum** is a scarce resource. Without limiting the bandwidth of a particular channel it is possible for the signal to spread into other transmission channels used by others and intefering communication.
-- If the symbols are sent without filtering, sharp transistions in the stream causes distortion and overlap in other data channels. This is called **Inter Symbol Interference**.
+- The **spectrum** is a scarce resource. Without limiting the bandwidth of a particular channel it is possible for the signal to spread into other transmission channels used by others and interfering communication.
+- If the symbols are sent without filtering, sharp transitions in the stream causes distortion and overlap in other data channels. This is called **Inter Symbol Interference**.
 
 ![Image depicting FIR filters](./assets/filter.jpeg)
 
 ### Carrier mixing and Summation
-In this pneultimate stage, the baseband I and Q components are multiplied onto **sine and cosine** waves respectively, Their magnitudes are thus encoded **(modulated)** onto the **amplitude** of the waves.
+In this penultimate stage, the baseband I and Q components are multiplied onto **sine and cosine** waves respectively, Their magnitudes are thus encoded **(modulated)** onto the **amplitude** of the waves.
 
-Once the I and Q components are mixed with their respective sinusoidal waves, they are **summed** together to form the tramsmitted QAM signal.
+Once the I and Q components are mixed with their respective sinusoidal waves, they are **summed** together to form the transmitted QAM signal.
+
+This process can be understood by the expressions:
+$$ Mixed(t) = Isin(2\pi f_ct) - Qcos(2\pi f_ct) $$
 
 Here's a waveform depicting modulation of the **In-phase component** onto a sine wave
 ![Icomp waveform](./assets/icomp.png)
