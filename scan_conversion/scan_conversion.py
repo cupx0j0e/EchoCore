@@ -1,7 +1,6 @@
 # pip install pyserial numpy matplotlib scipy
 import struct, zlib
 import numpy as np
-import serial
 import matplotlib.pyplot as plt
 from scipy.io import savemat
 
@@ -90,7 +89,7 @@ def main(source="file", fname="frame.bin", port="/dev/ttyUSB0", baud=3000000,
          out_w=512, out_h=512, geometry="sector"):
 
     if source == "uart":
-        polar, meta = read_frame_from_uart(port=port, baud=baud)
+        raise NotImplementedError("UART reader not implemented yet")
     else:
         polar, meta = read_frame_from_file(fname)
 
@@ -102,7 +101,7 @@ def main(source="file", fname="frame.bin", port="/dev/ttyUSB0", baud=3000000,
     plt.imshow(cart, cmap="gray", origin="upper")
     plt.title("B-mode (scan converted)")
     plt.axis("off")
-    plt.show(block=False)
+    plt.show()
 
     # Save to MATLAB
     mdict = {
@@ -120,4 +119,4 @@ def main(source="file", fname="frame.bin", port="/dev/ttyUSB0", baud=3000000,
 if __name__ == "__main__":
     # Choose source: "uart" or "file"
     main(source="file", fname="frame.bin")
-    # main(source="uart", port="/dev/ttyUSB0", baud=3000000)   this proper ?
+    
