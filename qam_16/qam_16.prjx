@@ -506,7 +506,7 @@ SIZE="369"
 ENDFILE
 VALUE "<project>/hdl/master.v,hdl"
 STATE="utd"
-TIME="1755251654"
+TIME="1755435698"
 SIZE="3127"
 ENDFILE
 VALUE "<project>/hdl/modulator.v,hdl"
@@ -529,20 +529,10 @@ STATE="utd"
 TIME="1755427648"
 SIZE="7751777"
 ENDFILE
-VALUE "<project>/simulation/my_design_tb_presynth_simulation.log,log"
-STATE="utd"
-TIME="1755427648"
-SIZE="45775"
-ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
 TIME="1755427486"
 SIZE="5672"
-ENDFILE
-VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
-STATE="utd"
-TIME="1755253192"
-SIZE="31496"
 ENDFILE
 VALUE "<project>/stimulus/qam_test.v,tb_hdl"
 STATE="utd"
@@ -551,22 +541,22 @@ SIZE="3697"
 ENDFILE
 VALUE "<project>/synthesis/my_design.so,so"
 STATE="utd"
-TIME="1755427658"
+TIME="1755435723"
 SIZE="240"
 ENDFILE
 VALUE "<project>/synthesis/my_design.vm,syn_vm"
 STATE="utd"
-TIME="1755427658"
+TIME="1755435722"
 SIZE="20238"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1755427658"
+TIME="1755435723"
 SIZE="8390"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1755427658"
+TIME="1755435722"
 SIZE="917"
 ENDFILE
 ENDLIST
@@ -719,7 +709,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
-PARAM=" -l my_design_tb_presynth_simulation.log "
+PARAM=" -l led_counter_tb_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"

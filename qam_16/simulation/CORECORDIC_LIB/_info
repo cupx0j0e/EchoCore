@@ -12,7 +12,7 @@ d/home/jessica/Desktop/final_final_working/qam_16/simulation
 vcordic_coarse_post_rotator
 Z0 2/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1755427487
+Z2 !s110 1755591976
 !i10b 1
 !s100 MjDG@m45g0`oYF0QP5HIH3
 IdGcz4_z2o<<8lHR;9S8LY0
@@ -21,14 +21,14 @@ Z3 d/home/jessica/Desktop/github__echocore_jessica/qam_16/simulation
 Z4 w1754672856
 Z5 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
 Z6 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v
-!i122 125
+!i122 149
 L0 710 61
 Z7 VDg1SIo80bB@j0V0VzS_@n1
 Z8 OW;L;2024.2;79
 r1
 !s85 0
 31
-Z9 !s108 1755427487.000000
+Z9 !s108 1755591976.000000
 Z10 !s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v|
 Z11 !s90 -reportprogress|300|-sv|-work|CORECORDIC_LIB|/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v|
 !s101 -O0
@@ -47,7 +47,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 609 74
 R7
 R8
@@ -73,7 +73,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 116 20
 R7
 R8
@@ -100,7 +100,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 507 61
 R7
 R8
@@ -126,7 +126,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 451 26
 R7
 R8
@@ -152,7 +152,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 33 31
 R7
 R8
@@ -179,7 +179,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 73 32
 R7
 R8
@@ -206,7 +206,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 307 45
 R7
 R8
@@ -233,7 +233,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 270 25
 R7
 R8
@@ -260,7 +260,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 249 20
 R7
 R8
@@ -287,7 +287,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 365 76
 R7
 R8
@@ -314,7 +314,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 919 61
 R7
 R8
@@ -340,7 +340,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 787 42
 R7
 R8
@@ -367,7 +367,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 842 71
 R7
 R8
@@ -393,7 +393,7 @@ R3
 R4
 R5
 R6
-!i122 125
+!i122 149
 L0 150 85
 R7
 R8
@@ -420,7 +420,7 @@ R3
 R4
 Z15 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
 Z16 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v
-!i122 126
+!i122 150
 L0 98 141
 R7
 R8
@@ -447,7 +447,7 @@ R3
 R4
 R15
 R16
-!i122 126
+!i122 150
 L0 33 62
 R7
 R8
@@ -465,7 +465,7 @@ n@c@o@r@e@c@o@r@d@i@c_@c0_@c@o@r@e@c@o@r@d@i@c_@c0_0_cordic_par_u@rotator
 vCORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
 2/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
 R1
-R2
+!s110 1755591977
 !i10b 1
 !s100 LVEH<B:lIGHe08_iO8nk92
 Ij8?O?IBj]KA<B1=oWdfSF2
@@ -474,7 +474,7 @@ R3
 R4
 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v
-!i122 127
+!i122 151
 L0 66 183
 R7
 R8
@@ -501,7 +501,7 @@ R3
 R4
 8/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
 F/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v
-!i122 124
+!i122 148
 L0 26 31
 R7
 R8
