@@ -90,6 +90,7 @@ In this penultimate stage, the baseband I and Q components are multiplied onto *
 Once the I and Q components are mixed with their respective sinusoidal waves, they are **summed** together to form the transmitted QAM signal.
 
 This process can be understood by the expressions:
+
 $$ Mixed(t) = Isin(2\pi f_ct) - Qcos(2\pi f_ct) $$
 
 Here's a waveform depicting modulation of the **In-phase component** onto a sine wave
