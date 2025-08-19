@@ -62,7 +62,7 @@ These components are further mapped using grey coding which maps a particular 4-
 | 11       | 3          | 11         | 3          |
 | 10       | 1          | 10         | 1          |
 
-![constellation map](./assets/constellation.png)
+![constellation map](./assets/constellation2.png)
 
 ### Upsampling
 Since the signal is generated from **binary data**, the signal is discrete and the symbols of the signal are represented by deltas. The harmonic content of all of those delta signals is infinite. That means that the bandwidth needed to transmit the signal without information loss is also infinite, which is in practice impossible. 
