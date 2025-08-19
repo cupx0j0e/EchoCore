@@ -237,6 +237,7 @@ The project has successfully demonstrated the individual implementation of both 
 **Simulation Results:**
 
  left to write 
+ 
 **Prototype Demonstration:**
 
  left to write
@@ -274,12 +275,10 @@ The project has successfully demonstrated the individual implementation of both 
 ## Acknowledgements and Resources
 
   * [SRA VJTI – EchoCore Project](https://eklavya.sravjti.in/projects/EchoCore/)
-  * [ChipVerify](https://www.chipverify.com/)
-  * [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
-  * [Implementing QAM16 on FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)
-  * [Ultrasound FPGA Beamformer GitHub](https://github.com/SAFEERHYDER/FPGA_Ultrasound_DAS_Beamformer)
   * [FPGA Basics Blog](https://5usu.github.io/page/USGPORT.html)
   * [IEEE Paper on QAM16](https://ieeexplore.ieee.org/document/5438705)
+  * [Implementing QAM16 on FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)
+  * [Ultrasound FPGA Beamformer GitHub](https://github.com/SAFEERHYDER/FPGA_Ultrasound_DAS_Beamformer)
   * [A Single FPGA-Based Portable Ultrasound Imaging System for Point-of-Care Applications](https://drive.google.com/file/d/1WhMdFHd_UWQ18-SOCPe8W1E1RZc37owy/view?usp=sharing)
 
 
