@@ -44,23 +44,74 @@ In this stage the incoming data is split into two components: an **I (In-phase)*
 
 In this implementation, the first two bits become the inphase component while the rest of the bits become the quadrature component.
 
-**For example:**
-| DATA | In-phase | Quadrature |
-|:----:|:--------:|:----------:|
-| 1100 | 11       | 00         |
-| 1001 | 10       | 01         |
-| 0110 | 01       | 10         |
-| 0011 | 00       | 11         |
+<div align='center'>
+    <h4>For Example:</h4>
+    <table style='text-align: center'>
+        <tr>
+            <th>4-bit Data</th>
+            <th>In-phase</th>
+            <th>Quadrature</th>
+        </tr>
+        <tr>
+            <td>1100</td>
+            <td>11</td>
+            <td>00</td>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>10</td>
+            <td>01</td>
+        </tr>
+        <tr>
+            <td>0110</td>
+            <td>01</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>0011</td>
+            <td>00</td>
+            <td>11</td>
+        </tr>
+    </table>
+</div>
 
 These components are further mapped using grey coding which maps a particular 4-bit data onto a unique region on the constellation map.
 
-**For example:**
-| In-phase | Symbol Map | Quadrature | Symbol Map |
-|:--------:|:----------:|:----------:|:----------:|
-| 00       | -3         | 00         | -3         |
-| 01       | -1         | 01         | -1         |
-| 11       | 3          | 11         | 3          |
-| 10       | 1          | 10         | 1          |
+<div align='center'>
+    <h4>For Example:</h4>
+    <table style='text-align: center'>
+        <tr>
+            <th>In-phase</th>
+            <th>Symbol Map</th>
+            <th>Quadrature</th>
+            <th>Symbol Map</th>
+        </tr>
+        <tr>
+            <td>00</td>
+            <td>-3</td>
+            <td>00</td>
+            <td>-3j</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>-1</td>
+            <td>01</td>
+            <td>-1j</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>3</td>
+            <td>11</td>
+            <td>3j</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>1</td>
+            <td>10</td>
+            <td>1j</td>
+        </tr>
+    </table>
+</div>
 
 ![constellation map](./assets/constellation2.png)
 
