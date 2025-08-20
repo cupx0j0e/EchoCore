@@ -103,5 +103,5 @@ And finally here's a waveform depicting the **final output** of the entire pipel
 ![mixed output](./assets/mo.png)
 
 ## Resources and Further Reading
-[16QAM implementation on an FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)<br>
+[16QAM implementation on an FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/)<br>
 [IEEE paper on 16QAM](https://ieeexplore.ieee.org/document/5438705)

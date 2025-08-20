@@ -67,9 +67,9 @@ To address this issue, log compression is applied to the ultrasound signals. Thi
 If displayed directly, this wide dynamic range would make it difficult to visualize subtle details, since the strong echoes would dominate the image while the weaker ones would barely be visible.
 
 ### Scan Conversion
-In ultrasound imaging, data is naturally acquired in a polar or sector format because the transducer elements send and receive waves at different angles relative to the probe. This raw data does not directly match the rectangular grid used by standard image displays. As a result, even if the underlying signals contain useful information, the image would appear distorted or unintuitive if shown directly.
+In ultrasound imaging, data is naturally acquired in a **polar or sector format** because the transducer elements send and receive waves at different angles relative to the probe. This raw data does not directly match the rectangular grid used by standard image displays. As a result, even if the underlying signals contain useful information, the image would appear distorted or unintuitive if shown directly.
 
-Scan conversion is the process of transforming this polar coordinate data into a Cartesian (x, y) grid suitable for display. It involves interpolation, where signal values that fall between display pixels are estimated, ensuring that the image appears smooth and continuous. By remapping the ultrasound echoes into a consistent spatial layout, scan conversion makes anatomical structures easier to interpret while preserving spatial resolution and minimizing distortion
+Scan conversion is the process of transforming this polar coordinate data into a **Cartesian (x, y)** grid suitable for display. It involves **interpolation**, where signal values that fall between display pixels are estimated, ensuring that the image appears smooth and continuous. By remapping the ultrasound echoes into a consistent spatial layout, scan conversion makes anatomical structures easier to interpret while **preserving spatial resolution** and minimizing distortion
 
 If the raw beamformed data is represented in polar form as:
 
