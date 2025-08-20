@@ -42,6 +42,8 @@ The core innovation is the **true parallel execution** of a digital communicatio
 
 ## What is an FPGA?
 
+![Beaglev Fire](./assets/beaglev_fire.png)
+
 A **Field-Programmable Gate Array (FPGA)** is a type of integrated circuit that can be reconfigured or reprogrammed to implement a custom digital circuit. Unlike a microprocessor that executes software instructions sequentially, the hardware logic on an FPGA is hard-wired and executes **in parallel**. This allows for extremely high performance and low latency, making FPGAs ideal for tasks requiring real-time, high-throughput data processing.
 
 The design process for an FPGA is similar to software programming but with a hardware-centric mindset. In the context of hardware description languages (HDLs) like Verilog:
@@ -49,7 +51,6 @@ The design process for an FPGA is similar to software programming but with a har
   * **Verilog Modules ≈ Functions**
   * **Top Module ≈ Main function**
 
-![Beaglev Fire](./assets/beaglev_fire.png)
 
 ---
 
