@@ -6,7 +6,7 @@ The file contains the job information from compiler to be displayed as part of t
 
 <job_run_status name="compiler"> 
   <report_link name="Detailed report">
-    <data>/home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/my_design_compiler.srr</data>
+    <data>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/my_design_compiler.srr</data>
     <title>Synopsys HDL Compiler</title>
   </report_link> 
   <job_status>
@@ -15,27 +15,27 @@ The file contains the job information from compiler to be displayed as part of t
 <job_info> 
 			<info name="Notes">
   <data>241</data>
-  <report_link name="more"><data>/home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/report/my_design_compiler_notes.txt</data></report_link>
+  <report_link name="more"><data>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/report/my_design_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
   <data>474</data>
-  <report_link name="more"><data>/home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/report/my_design_compiler_warnings.txt</data></report_link>
+  <report_link name="more"><data>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/report/my_design_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
   <data>0</data>
-  <report_link name="more"><data>/home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/report/my_design_compiler_errors.txt</data></report_link>
+  <report_link name="more"><data>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/report/my_design_compiler_errors.txt</data></report_link>
   </info>
 			<info name="CPU Time">
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:01s</data>
+  <data>00h:00m:03s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1754735516</data>
+  <data type="timestamp">1755681144</data>
   </info>
 			</job_info>
 </job_run_status>

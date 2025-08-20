@@ -1,6 +1,6 @@
 Device Selection
 Report Version,Date,Product,Release,Version,Design Name,Family,Die,Package
-0.1,Sat Aug  9 16:03:07 2025,Designer,v2024.2,2024.2.0.13,my_design,PolarFireSoC,MPFS025T,FCVG484
+0.1,Wed Aug 20 14:43:54 2025,Designer,v2024.2,2024.2.0.13,my_design,PolarFireSoC,MPFS025T,FCVG484
 Pin Report
 Pin,Port,Function,Bank,State,I/O Std,Direction,Used I/O Reg,User I/O Lock Down,Clamp Diode,Resistor Pull,Use I/O Calibration from the lane,Schmitt Trigger,Vcm Input Range,On Die Termination,Odt Value (Ohm),Input Delay,Slew,Output Drive (mA),Impedance (ohm),Output Load (pF),Source Termination (Ohm),Output Delay,Board Layout
 A1,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS

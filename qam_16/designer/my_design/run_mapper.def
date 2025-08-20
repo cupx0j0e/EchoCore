@@ -1,5 +1,5 @@
 DESIGN=my_design
-DESDIR=/home/jessica/Desktop/final_final_working/qam_16/designer/my_design
+DESDIR=/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design
 FAM=PolarFireSoC
 DIE=PA5SOC025T
 PACKAGE=fcvg484

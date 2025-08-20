@@ -1,15 +1,15 @@
 Software Version: 2024.2.0.13
-Opened '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design_fp/my_design.pro'
-PDB file '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design.pdb' has been loaded successfully.
+Opened '/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/my_design_fp/my_design.pro'
+PDB file '/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/my_design.pdb' has been loaded successfully.
 DESIGN : my_design;  CHECKSUM : 6CF0;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
 Info: Design version: 0
-File/Folder '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: '/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design.ppd'; file programs Fabric and sNVM.
+File/Folder '/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/my_design.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/my_design.ppd'; file programs Fabric and sNVM.
 Fabric component bitstream digest: eb94c80d067769db8b0370727ccb843deb3103ccfdaf11d3fb4b22046192f0e8
 sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
 Entire bitstream digest: 008eb5affc533a9209223e93a6980af75959d70a2445e0a1450a005d99112f08
-Finished: Sat Aug  9 16:04:37 2025 (Elapsed time 00:00:09)
+Finished: Wed Aug 20 14:46:06 2025 (Elapsed time 00:00:19)
 
 Project saved.
 Project closed.

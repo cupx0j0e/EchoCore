@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
 KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
 KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "/home/jessica/Desktop/final_final_working/qam_16"
+KEY ProjectLocation "/home/jessica/Desktop/github__echocore_jessica/qam_16"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -66,6 +66,16 @@ ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "/home/jessica/Desktop/final_final_working/qam_16/synthesis/my_design.vm,syn_vm"
+STATE="ood"
+TIME="1754735523"
+SIZE="708555"
+ENDFILE
+VALUE "<project>/component/Actel/DirectCore/COREAXI4SRAM/2.7.102/COREAXI4SRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1755251373"
+SIZE="369"
+ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/CORECORDIC.cxf,actgen_cxf"
 STATE="utd"
 TIME="1754672856"
@@ -197,6 +207,11 @@ SIZE="22686"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
 IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/Actel/SgCore/PF_TPSRAM/1.1.108/PF_TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1755251375"
+SIZE="246"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.cxf,actgen_cxf"
 STATE="utd"
@@ -397,12 +412,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/my_design/my_design.cxf,actgen_cxf"
 STATE="utd"
-TIME="1754679766"
+TIME="1755680358"
 SIZE="2916"
 ENDFILE
 VALUE "<project>/component/work/my_design/my_design.v,hdl"
 STATE="utd"
-TIME="1754679766"
+TIME="1755680358"
 SIZE="6521"
 PARENT="<project>/component/work/my_design/my_design.cxf"
 IS_READONLY="TRUE"
@@ -414,13 +429,13 @@ SIZE="446"
 ENDFILE
 VALUE "<project>/constraint/io/user.pdc,io_pdc"
 STATE="utd"
-TIME="1754735489"
+TIME="1755678922"
 SIZE="11154"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/hdl/combiner.v,hdl"
 STATE="utd"
-TIME="1754679696"
+TIME="1755633630"
 SIZE="384"
 ENDFILE
 VALUE "<project>/hdl/counter.v,hdl"
@@ -450,52 +465,62 @@ SIZE="692"
 ENDFILE
 VALUE "<project>/simulation/my_design.vcd,vcd"
 STATE="utd"
-TIME="1754678496"
+TIME="1755678922"
 SIZE="8159850"
+ENDFILE
+VALUE "<project>/simulation/my_design_tb.vcd,vcd"
+STATE="utd"
+TIME="1755680331"
+SIZE="8232590"
+ENDFILE
+VALUE "<project>/simulation/my_design_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1755680331"
+SIZE="38777"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1754730105"
+TIME="1755680358"
 SIZE="1526"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1754730268"
+TIME="1755678922"
 SIZE="7792"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postsynth_simulation.log,log"
 STATE="utd"
-TIME="1754730092"
+TIME="1755678922"
 SIZE="28426"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
 STATE="utd"
-TIME="1754724684"
+TIME="1755680358"
 SIZE="49946"
 ENDFILE
 VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 STATE="utd"
-TIME="1754724479"
+TIME="1755678922"
 SIZE="1432"
 ENDFILE
 VALUE "<project>/synthesis/my_design.so,so"
 STATE="utd"
-TIME="1754729807"
+TIME="1755678922"
 SIZE="235"
 ENDFILE
 VALUE "<project>/synthesis/my_design.vm,syn_vm"
 STATE="utd"
-TIME="1754729806"
+TIME="1755678922"
 SIZE="708555"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1754729807"
+TIME="1755678922"
 SIZE="7196"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1754729806"
+TIME="1755678922"
 SIZE="917"
 ENDFILE
 ENDLIST
@@ -520,6 +545,20 @@ UseSynth=TRUE
 UseFhbAutoInst=FALSE
 ENDLIST
 Used_File_List
+VALUE "<project>/synthesis/my_design.edn,syn_edn"
+VALUE "<project>/synthesis/my_design_sdc.sdc,syn_sdc"
+VALUE "<project>/phy_synthesis/my_design_palace.edn,palace_edn"
+VALUE "<project>/phy_synthesis/my_design_palace.gcf,palace_gcf"
+VALUE "<project>/phy_synthesis/my_design_palace.pdc,palace_pdc"
+VALUE "<project>/phy_synthesis/my_design_palace.sdc,palace_sdc"
+VALUE "<project>/phy_synthesis/my_design_palace.v,palace_hdl"
+VALUE "<project>/designer/impl1/my_design.adb,adb"
+VALUE "<project>/designer/impl1/my_design.fdb,fdb"
+VALUE "<project>/designer/impl1/my_design.pdb,pdb"
+VALUE "<project>/designer/impl1/my_design.stp,stp"
+VALUE "<project>/designer/impl1/my_design_fp/my_design.pro,pro"
+VALUE "<project>/synthesis/my_design.vm,syn_vm"
+VALUE "<project>/synthesis/my_design.v,syn_hdl"
 ENDUsed_File_List
 ENDLIST
 ENDLIST
@@ -648,7 +687,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
-PARAM=""
+PARAM=" -l tb_my_design_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -674,6 +713,20 @@ UseSynth=TRUE
 UseFhbAutoInst=FALSE
 ENDLIST
 Used_File_List
+VALUE "<project>/synthesis/my_design.edn,syn_edn"
+VALUE "<project>/synthesis/my_design_sdc.sdc,syn_sdc"
+VALUE "<project>/phy_synthesis/my_design_palace.edn,palace_edn"
+VALUE "<project>/phy_synthesis/my_design_palace.gcf,palace_gcf"
+VALUE "<project>/phy_synthesis/my_design_palace.pdc,palace_pdc"
+VALUE "<project>/phy_synthesis/my_design_palace.sdc,palace_sdc"
+VALUE "<project>/phy_synthesis/my_design_palace.v,palace_hdl"
+VALUE "<project>/designer/impl1/my_design.adb,adb"
+VALUE "<project>/designer/impl1/my_design.fdb,fdb"
+VALUE "<project>/designer/impl1/my_design.pdb,pdb"
+VALUE "<project>/designer/impl1/my_design.stp,stp"
+VALUE "<project>/designer/impl1/my_design_fp/my_design.pro,pro"
+VALUE "<project>/synthesis/my_design.vm,syn_vm"
+VALUE "<project>/synthesis/my_design.v,syn_hdl"
 ENDUsed_File_List
 ENDLIST
 ENDLIST
@@ -691,11 +744,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Generate Bitstream:my_design_generateBitstream.log
-HDL;component/work/my_design/my_design.v;0
-Constraint Manager;Constraint Manager;0
+ReportsCurrentItem;Export Bitstream:my_design_exportBitstream.log
+HDL;stimulus/newtestbench.v;0
 StartPage;StartPage;0
-HDL;constraint/io/user.pdc;0
+HDL;hdl/modulator.v;0
+HDL;hdl/combiner.v;0
 SmartDesign;my_design;0
 ACTIVEVIEW;Reports
 ENDLIST

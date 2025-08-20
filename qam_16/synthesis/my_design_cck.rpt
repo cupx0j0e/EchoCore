@@ -16,12 +16,12 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis
 
-# Written on Sat Aug  9 16:01:59 2025
+# Written on Wed Aug 20 14:42:27 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "my_design"
-Constraint File(s):      "/home/jessica/Desktop/final_final_working/qam_16/designer/my_design/synthesis.fdc"
+Constraint File(s):      "/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/synthesis.fdc"
 
 
 
