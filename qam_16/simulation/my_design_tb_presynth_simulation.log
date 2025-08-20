@@ -23,16 +23,16 @@
 # vmap COREFIR_PF_LIB COREFIR_PF_LIB 
 # Modifying modelsim.ini
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:16 on Aug 19,2025
+# Start time: 13:53:14 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v 
 # -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
 # 
 # Top level modules:
 # 	CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
-# End time: 13:56:16 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:14 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:16 on Aug 19,2025
+# Start time: 13:53:14 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v 
 # -- Compiling module cordic_kitDelay_bit_reg
 # -- Compiling module cordic_kitDelay_reg
@@ -59,38 +59,38 @@
 # 	cordic_coarse_post_rotator
 # 	cordic_word_calc
 # 	cordic_par_calc
-# End time: 13:56:16 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:14 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:16 on Aug 19,2025
+# Start time: 13:53:14 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v 
 # -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
 # -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
 # 
 # Top level modules:
 # 	CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
-# End time: 13:56:16 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:14 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:16 on Aug 19,2025
+# Start time: 13:53:14 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v 
 # -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
 # 
 # Top level modules:
 # 	CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:01
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v 
 # -- Compiling module CORECORDIC_C0
 # 
 # Top level modules:
 # 	CORECORDIC_C0
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -100,10 +100,10 @@
 # -- Compiling package body corefir_rtl_pack
 # -- Loading package corefir_rtl_pack
 # ** Warning: /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd(469): Function 'running_sum_basic' may complete without a RETURN at line 466.
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -121,10 +121,10 @@
 # ** Warning: /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd(279): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
 # -- Compiling entity corefir_kitRoundTop
 # -- Compiling architecture rtl of corefir_kitRoundTop
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -133,10 +133,10 @@
 # -- Compiling package enum_rtl_pack
 # -- Compiling package body enum_rtl_pack
 # -- Loading package enum_rtl_pack
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -161,10 +161,10 @@
 # -- Compiling architecture rtl of enum_kitEdge
 # -- Compiling entity debug_INIT
 # -- Compiling architecture rtl of debug_INIT
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -191,19 +191,19 @@
 # -- Compiling architecture DEF_ARCH of g5_uram18x128
 # -- Compiling entity g5_uram18x192
 # -- Compiling architecture DEF_ARCH of g5_uram18x192
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:15 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:15 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -215,10 +215,10 @@
 # -- Compiling architecture rtl of enum_fir_adv_g5
 # -- Compiling entity enum_g5_latency_adv
 # -- Compiling architecture rtl of enum_g5_latency_adv
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -227,10 +227,10 @@
 # -- Loading package enum_rtl_pack
 # -- Compiling entity enum_pad_g5
 # -- Compiling architecture rtl of enum_pad_g5
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -239,10 +239,10 @@
 # -- Loading package enum_rtl_pack
 # -- Compiling entity MACC_PA_BC_ROM_wrap
 # -- Compiling architecture rtl of MACC_PA_BC_ROM_wrap
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -251,10 +251,10 @@
 # -- Loading package enum_rtl_pack
 # -- Compiling entity enum_tap_g5
 # -- Compiling architecture rtl of enum_tap_g5
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -267,10 +267,10 @@
 # -- Compiling architecture rtl of enum_tap_undernibble_2
 # -- Compiling entity enum_tap_undernibble_3
 # -- Compiling architecture rtl of enum_tap_undernibble_3
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -279,10 +279,10 @@
 # -- Loading package enum_rtl_pack
 # -- Compiling entity enum_tap_nibble
 # -- Compiling architecture rtl of enum_tap_nibble
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -291,19 +291,19 @@
 # -- Loading package enum_rtl_pack
 # -- Compiling entity enum_row_g5
 # -- Compiling architecture rtl of enum_row_g5
-# End time: 13:56:17 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:17 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:01
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:16 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -313,10 +313,10 @@
 # -- Loading package COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params
 # -- Compiling entity COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5
 # -- Compiling architecture rtl of COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:16 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -325,117 +325,99 @@
 # -- Loading package corefir_rtl_pack
 # -- Compiling entity COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
 # -- Compiling architecture rtl of COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity COREFIR_PF_C0
 # -- Compiling architecture RTL of COREFIR_PF_C0
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v 
 # -- Compiling module combiner
 # 
 # Top level modules:
 # 	combiner
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v 
 # -- Compiling module four_pr
 # 
 # Top level modules:
 # 	four_pr
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v 
 # -- Compiling module modulator
 # 
 # Top level modules:
 # 	modulator
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v 
 # -- Compiling module phase_counter
 # 
 # Top level modules:
 # 	phase_counter
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
-# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/pulse_gen.v 
-# -- Compiling module pulse_generator
-# 
-# Top level modules:
-# 	pulse_generator
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/symmap.v 
 # -- Compiling module symmap
 # 
 # Top level modules:
 # 	symmap
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
-# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/direct_uart.v 
-# -- Compiling module uart_transmitter_65bit
-# 
-# Top level modules:
-# 	uart_transmitter_65bit
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v 
 # -- Compiling module upsampler
 # 
 # Top level modules:
 # 	upsampler
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:17 on Aug 20,2025
 # vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v 
 # -- Compiling module my_design
 # 
 # Top level modules:
 # 	my_design
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:17 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:18 on Aug 20,2025
 # vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd 
 # -- Loading package STANDARD
 # -- Compiling package coreparameters_tgi
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:18 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:18 on Aug 20,2025
 # vlog -reportprogress 300 "+incdir+/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus" -sv -work presynth /home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v 
 # -- Compiling module my_design_tb
 # 
 # Top level modules:
 # 	my_design_tb
-# End time: 13:56:18 on Aug 19,2025, Elapsed time: 0:00:00
+# End time: 13:53:18 on Aug 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" presynth.my_design_tb 
-# Start time: 13:56:18 on Aug 19,2025
+# Start time: 13:53:18 on Aug 20,2025
 # //  ModelSim Microsemi Pro 2024.2 May 20 2024 Linux 6.8.0-65-generic
 # //
 # // Unpublished work. Copyright 2024 Siemens
@@ -460,9 +442,7 @@
 # Loading presynth.four_pr
 # Loading presynth.modulator
 # Loading presynth.phase_counter
-# Loading presynth.pulse_generator
 # Loading presynth.symmap
-# Loading presynth.uart_transmitter_65bit
 # Loading presynth.upsampler
 # Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
 # Loading CORECORDIC_LIB.cordic_coarse_pre_rotator
@@ -510,8 +490,6 @@
 # Loading COREFIR_PF_LIB.enum_g5_latency_adv(rtl)
 # Loading COREFIR_PF_LIB.enum_kitedge(rtl)
 # Loading COREFIR_PF_LIB.enum_kitcounts(rtl)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (65) does not match connection size (1) for port 'combined_output'. The port definition is at: /home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v(17).
-#    Time: 0 ps  Iteration: 0  Instance: /my_design_tb/DUT File: /home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v Line: 15
 # Loading polarfire.UDP_MUX2
 # Loading polarfire.UDP_DFF
 # Loading polarfire.UDP_DL
@@ -528,88 +506,127 @@
 #    Time: 0 ps  Iteration: 0  Instance: /my_design_tb/DUT/COREFIR_PF_C0_1/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/latency_0/syst_counter_0
 # ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 #    Time: 0 ps  Iteration: 0  Instance: /my_design_tb/DUT/COREFIR_PF_C0_0/COREFIR_PF_C0_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/latency_0/syst_counter_0
-# ----------------------------------------------
-# Starting Simulation for my_design
-# ----------------------------------------------
-# Time=200000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=210000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=220000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=230000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=240000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=250000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=260000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=270000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=280000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=290000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=300000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=310000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=320000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=330000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=340000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=350000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=360000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=370000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=380000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=390000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=400000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=410000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=420000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=430000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=440000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=450000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=460000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=470000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=480000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=490000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=500000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=510000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=520000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=530000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=540000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=550000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=560000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=570000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=580000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=590000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=600000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=610000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=620000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=630000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=640000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=650000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=660000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=670000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=680000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=690000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=700000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=710000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=720000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=730000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=740000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=750000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=760000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=770000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=780000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=790000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=800000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=810000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=820000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=830000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=840000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=850000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=860000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=870000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=880000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=890000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=900000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=910000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=920000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=930000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=940000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=950000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=960000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=970000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# Time=980000, clk=0, reset=0, combined_output=0, tx_output_uart=1
-# Time=990000, clk=1, reset=0, combined_output=0, tx_output_uart=1
-# End time: 14:19:07 on Aug 19,2025, Elapsed time: 0:22:49
-# Errors: 0, Warnings: 7
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# ** Error (suppressible): (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# Time: 0 | DOUT_VALID: x, FIRO_VALID: 0, FIRO_VALID_0: 0, combined_output: xxxxxxxxxxxxxxxxx
+# Time: 5000 | DOUT_VALID: x, FIRO_VALID: 0, FIRO_VALID_0: 0, combined_output: 00000000000000000
+# Time: 10000 | DOUT_VALID: 0, FIRO_VALID: 0, FIRO_VALID_0: 0, combined_output: 00000000000000000
+# Time: 115000 | DOUT_VALID: 0, FIRO_VALID: 0, FIRO_VALID_0: 0, combined_output: xxxxxxxxxxxxxxxxx
+# Time: 235000 | DOUT_VALID: 0, FIRO_VALID: 1, FIRO_VALID_0: 1, combined_output: xxxxxxxxxxxxxxxxx
+# Time: 315000 | DOUT_VALID: 0, FIRO_VALID: 1, FIRO_VALID_0: 1, combined_output: 00000000000000000

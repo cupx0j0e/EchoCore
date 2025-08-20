@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>my_design</design>
-	<target_verilog>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/my_design.vm</target_verilog>
+	<target_verilog>/home/jessica/Desktop/final_final_working/qam_16/synthesis/my_design.vm</target_verilog>
 </SynplifyOutput>

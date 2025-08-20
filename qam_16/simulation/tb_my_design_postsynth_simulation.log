@@ -1,0 +1,466 @@
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap polarfire /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library CORECORDIC_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap CORECORDIC_LIB CORECORDIC_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREFIR_PF_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap COREFIR_PF_LIB COREFIR_PF_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package corefir_rtl_pack
+# -- Compiling package body corefir_rtl_pack
+# -- Loading package corefir_rtl_pack
+# ** Warning: /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd(469): Function 'running_sum_basic' may complete without a RETURN at line 466.
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package enum_rtl_pack
+# -- Compiling package body enum_rtl_pack
+# -- Loading package enum_rtl_pack
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package COREFIR_PF_C0_COREFIR_PF_C0_0_enumFIR_coefs
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package COREFIR_PF_C0_COREFIR_PF_C0_0_enum_params
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/final_final_working/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/test/user/coreparameters_tgi.vhd 
+# -- Loading package STANDARD
+# -- Compiling package coreparameters_tgi
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vlog -reportprogress 300 -sv -work postsynth /home/jessica/Desktop/final_final_working/qam_16/synthesis/my_design.v 
+# -- Compiling module combiner
+# -- Compiling module enum_kitDelay_bit_reg_5
+# -- Compiling module enum_kitDelay_reg_4_7_1
+# -- Compiling module enum_kitDelay_bit_reg_2
+# -- Compiling module enum_kitDelay_bit_reg_2_0
+# -- Compiling module enum_pad_g5_3_2_2_0_0_12_0_4_1
+# -- Compiling module enum_kitDelay_bit_reg_attr_2
+# -- Compiling module enum_kitDelay_bit_reg_attr_3
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_8layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_7layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_10layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_5layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_7layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_8layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_9layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_6layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_5layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_10layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_6layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_9layer1
+# -- Compiling module enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_0
+# -- Compiling module enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_0
+# -- Compiling module enum_row_g5_work_corefir_pf_c0_rtl_0layer1
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_1
+# -- Compiling module enum_kitDelay_reg_48_2
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_0_1
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_2layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_2layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_4layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_0layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_1layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_3layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_3layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_1layer1
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_0layer1
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_4layer1
+# -- Compiling module enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_0_0
+# -- Compiling module enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_0_0
+# -- Compiling module enum_row_g5_work_corefir_pf_c0_rtl_1layer1
+# -- Compiling module enum_kitDelay_reg_4_11
+# -- Compiling module enum_dly_line_18x192_4_11_1_0
+# -- Compiling module enum_kitCountS_5_10_1
+# -- Compiling module enum_kitDelay_bit_reg_7_1
+# -- Compiling module enum_kitDelay_bit_reg_3
+# -- Compiling module enum_g5_latency_adv_11_2_3_2_2_6_1
+# -- Compiling module enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_2
+# -- Compiling module COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5_1_11_0_1_0_0_12_0_4_0_0_3_2_2_1_1_1_4_2
+# -- Compiling module COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF_work_corefir_pf_c0_rtl_0layer1
+# -- Compiling module COREFIR_PF_C0
+# -- Compiling module cordic_kitDelay_bit_reg_1s_0
+# -- Compiling module cordic_kitDelay_reg_16_1s_0_2
+# -- Compiling module cordic_kitDelay_reg_16_1s_0_1
+# -- Compiling module cordic_kitRndEven_18_16_0
+# -- Compiling module cordic_kitRoundTop_18_16_1s_0s_1
+# -- Compiling module cordic_kitDelay_reg_16_1s_1
+# -- Compiling module cordic_kitDelay_reg_16_1s
+# -- Compiling module cordic_coarse_post_rotator_16_0_1s
+# -- Compiling module cordic_kitDelay_reg_2s_1s
+# -- Compiling module cordic_kitDelay_reg_16s_1s_0
+# -- Compiling module cordic_coarse_pre_rotator_16s_0_1s
+# -- Compiling module cordic_kitDelay_reg_2s_18s
+# -- Compiling module cordic_kitDelay_bit_reg_1s
+# -- Compiling module cordic_kitDelay_reg_16_1s_0_0
+# -- Compiling module cordic_kitDelay_reg_16_1s_0
+# -- Compiling module cordic_kitRndEven_18_16
+# -- Compiling module cordic_kitRoundTop_18_16_1s_1s
+# -- Compiling module cordic_par_calc_0_18_4_4s
+# -- Compiling module cordic_par_calc_0_18_4_10s
+# -- Compiling module cordic_par_calc_0_18_4_11s
+# -- Compiling module cordic_par_calc_0_18_4_2s
+# -- Compiling module cordic_par_calc_0_18_4_15s
+# -- Compiling module cordic_par_calc_0_18_4_7s
+# -- Compiling module cordic_par_calc_0_18_4_0s
+# -- Compiling module cordic_par_calc_0_18_4_5s
+# -- Compiling module cordic_par_calc_0_18_4_8s
+# -- Compiling module cordic_par_calc_0_18_4_6s
+# -- Compiling module cordic_par_calc_0_18_4_3s
+# -- Compiling module cordic_par_calc_0_18_4_9s
+# -- Compiling module cordic_par_calc_0_18_4_12s
+# -- Compiling module cordic_par_calc_0_18_4_13s
+# -- Compiling module cordic_par_calc_0_18_4_1s
+# -- Compiling module cordic_par_calc_0_18_4_14s
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0
+# -- Compiling module CORECORDIC_C0
+# -- Compiling module modulator
+# -- Compiling module phase_counter
+# -- Compiling module upsampler
+# -- Compiling module four_pr
+# -- Compiling module enum_kitDelay_reg_4_7_1_0
+# -- Compiling module enum_kitDelay_bit_reg_2_1
+# -- Compiling module enum_pad_g5_3_2_2_0_12_0_4_1_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_2
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_2
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_8layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_7layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_10layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_5layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_7layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_8layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_9layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_6layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_5layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_10layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_6layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_9layer1_0
+# -- Compiling module enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_0_2
+# -- Compiling module enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_0_1
+# -- Compiling module enum_row_g5_work_corefir_pf_c0_rtl_0layer1_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_3
+# -- Compiling module enum_kitDelay_reg_48_2_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_0_4
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_3
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_2layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_2layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_4layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_0layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_1layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_3layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_3layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_1layer1_0
+# -- Compiling module MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_0layer1_0
+# -- Compiling module enum_tap_g5_work_corefir_pf_c0_rtl_4layer1_0
+# -- Compiling module enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_3_0_3
+# -- Compiling module enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1_0
+# -- Compiling module enum_kitDelay_bit_reg_attr_2_0_2
+# -- Compiling module enum_row_g5_work_corefir_pf_c0_rtl_1layer1_0
+# -- Compiling module enum_kitDelay_reg_4_11_0
+# -- Compiling module enum_dly_line_18x192_4_11_1_1
+# -- Compiling module enum_kitCountS_5_10_1_0
+# -- Compiling module enum_kitDelay_bit_reg_7_1_0
+# -- Compiling module enum_g5_latency_adv_11_2_3_2_6_1_0
+# -- Compiling module enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_2_0
+# -- Compiling module COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5_1_11_1_0_0_12_0_4_0_0_3_2_2_1_1_1_4_2_0
+# -- Compiling module COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF_work_corefir_pf_c0_rtl_0layer1_0
+# -- Compiling module COREFIR_PF_C0_0
+# -- Compiling module my_design
+# 
+# Top level modules:
+# 	my_design
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:29:01 on Aug 09,2025
+# vlog -reportprogress 300 "+incdir+/home/jessica/Desktop/final_final_working/qam_16/stimulus" -sv -work postsynth /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v 
+# -- Compiling module tb_my_design
+# 
+# Top level modules:
+# 	tb_my_design
+# End time: 14:29:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L postsynth -L CORECORDIC_LIB -L COREFIR_PF_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" postsynth.tb_my_design 
+# Start time: 14:29:01 on Aug 09,2025
+# //  ModelSim Microsemi Pro 2024.2 May 20 2024 Linux 6.8.0-65-generic
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading postsynth.tb_my_design
+# Loading postsynth.my_design
+# Loading polarfire.OUTBUF
+# Loading postsynth.combiner
+# Loading polarfire.ARI1
+# Loading polarfire.SLE
+# Loading polarfire.SLE_Prim
+# Loading polarfire.GND
+# Loading polarfire.VCC
+# Loading postsynth.COREFIR_PF_C0
+# Loading postsynth.COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF_work_corefir_pf_c0_rtl_0layer1
+# Loading postsynth.COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5_1_11_0_1_0_0_12_0_4_0_0_3_2_2_1_1_1_4_2
+# Loading postsynth.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_2
+# Loading postsynth.enum_kitDelay_bit_reg_5
+# Loading polarfire.CFG1
+# Loading postsynth.enum_pad_g5_3_2_2_0_0_12_0_4_1
+# Loading postsynth.enum_kitDelay_reg_4_7_1
+# Loading polarfire.CFG2
+# Loading postsynth.enum_kitDelay_bit_reg_2
+# Loading postsynth.enum_kitDelay_bit_reg_2_0
+# Loading postsynth.enum_row_g5_work_corefir_pf_c0_rtl_0layer1
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2
+# Loading postsynth.enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3
+# Loading postsynth.enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_7layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_8layer1
+# Loading polarfire.MACC_PA_BC_ROM
+# Loading polarfire.ROM16x18
+# Loading polarfire.PIPE_REG_BYPASS
+# Loading polarfire.MACC_IP
+# Loading polarfire.OUTPUT_PMOS
+# Loading polarfire.MACC_PA_COMB
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_5layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_10layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_8layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_7layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_6layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_9layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_10layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_5layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_9layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_6layer1
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_0
+# Loading postsynth.enum_row_g5_work_corefir_pf_c0_rtl_1layer1
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_1
+# Loading postsynth.enum_kitDelay_reg_48_2
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_0_1
+# Loading postsynth.enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_1
+# Loading postsynth.enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_2layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_2layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_0layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_4layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_3layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_1layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_1layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_3layer1
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_4layer1
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_0layer1
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_0_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_0_0
+# Loading postsynth.enum_dly_line_18x192_4_11_1_0
+# Loading postsynth.enum_kitDelay_reg_4_11
+# Loading polarfire.RAM64x12
+# Loading polarfire.PIPE_REG
+# Loading polarfire.RAM64x12_IP
+# Loading polarfire.INPUT_BUF
+# Loading polarfire.CFG4
+# Loading polarfire.CFG3
+# Loading polarfire.SLE_INIT
+# Loading postsynth.enum_g5_latency_adv_11_2_3_2_2_6_1
+# Loading postsynth.enum_kitCountS_5_10_1
+# Loading postsynth.enum_kitDelay_bit_reg_7_1
+# Loading postsynth.enum_kitDelay_bit_reg_3
+# Loading postsynth.CORECORDIC_C0
+# Loading postsynth.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0
+# Loading postsynth.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
+# Loading postsynth.cordic_kitRoundTop_18_16_1s_0s_1
+# Loading postsynth.cordic_kitRndEven_18_16_0
+# Loading postsynth.cordic_kitDelay_bit_reg_1s_0
+# Loading postsynth.cordic_kitDelay_reg_16_1s_0_2
+# Loading postsynth.cordic_kitDelay_reg_16_1s_0_1
+# Loading postsynth.cordic_coarse_post_rotator_16_0_1s
+# Loading postsynth.cordic_kitDelay_reg_16_1s_1
+# Loading postsynth.cordic_kitDelay_reg_16_1s
+# Loading postsynth.cordic_coarse_pre_rotator_16s_0_1s
+# Loading postsynth.cordic_kitDelay_reg_2s_1s
+# Loading postsynth.cordic_kitDelay_reg_16s_1s_0
+# Loading postsynth.cordic_kitDelay_reg_2s_18s
+# Loading postsynth.cordic_kitRoundTop_18_16_1s_1s
+# Loading postsynth.cordic_kitRndEven_18_16
+# Loading postsynth.cordic_kitDelay_bit_reg_1s
+# Loading postsynth.cordic_kitDelay_reg_16_1s_0_0
+# Loading postsynth.cordic_kitDelay_reg_16_1s_0
+# Loading postsynth.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s
+# Loading postsynth.cordic_par_calc_0_18_4_4s
+# Loading postsynth.cordic_par_calc_0_18_4_10s
+# Loading postsynth.cordic_par_calc_0_18_4_11s
+# Loading postsynth.cordic_par_calc_0_18_4_2s
+# Loading postsynth.cordic_par_calc_0_18_4_15s
+# Loading postsynth.cordic_par_calc_0_18_4_7s
+# Loading postsynth.cordic_par_calc_0_18_4_0s
+# Loading postsynth.cordic_par_calc_0_18_4_5s
+# Loading postsynth.cordic_par_calc_0_18_4_8s
+# Loading postsynth.cordic_par_calc_0_18_4_6s
+# Loading postsynth.cordic_par_calc_0_18_4_3s
+# Loading postsynth.cordic_par_calc_0_18_4_9s
+# Loading postsynth.cordic_par_calc_0_18_4_12s
+# Loading postsynth.cordic_par_calc_0_18_4_13s
+# Loading postsynth.cordic_par_calc_0_18_4_1s
+# Loading postsynth.cordic_par_calc_0_18_4_14s
+# Loading postsynth.modulator
+# Loading polarfire.MACC_PA
+# Loading postsynth.phase_counter
+# Loading postsynth.upsampler
+# Loading postsynth.four_pr
+# Loading polarfire.CLKINT
+# Loading postsynth.COREFIR_PF_C0_0
+# Loading postsynth.COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF_work_corefir_pf_c0_rtl_0layer1_0
+# Loading postsynth.COREFIR_PF_C0_COREFIR_PF_C0_0_enum_fir_g5_1_11_1_0_0_12_0_4_0_0_3_2_2_1_1_1_4_2_0
+# Loading postsynth.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_2_0
+# Loading postsynth.enum_pad_g5_3_2_2_0_12_0_4_1_0
+# Loading postsynth.enum_kitDelay_reg_4_7_1_0
+# Loading postsynth.enum_kitDelay_bit_reg_2_1
+# Loading postsynth.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_2
+# Loading postsynth.enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_2
+# Loading postsynth.enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_7layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_8layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_5layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_10layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_8layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_7layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_6layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_9layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_10layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_5layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_9layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_6layer1_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_0_2
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_0_1
+# Loading postsynth.enum_row_g5_work_corefir_pf_c0_rtl_1layer1_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_3
+# Loading postsynth.enum_kitDelay_reg_48_2_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_0_4
+# Loading postsynth.enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_3
+# Loading postsynth.enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_2layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_2layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_0layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_4layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_3layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_1layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_1layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_3layer1_0
+# Loading postsynth.enum_tap_g5_work_corefir_pf_c0_rtl_4layer1_0
+# Loading postsynth.MACC_PA_BC_ROM_wrap_work_corefir_pf_c0_rtl_0layer1_0
+# Loading postsynth.enum_kitDelay_bit_reg_attr_3_0_3
+# Loading postsynth.enum_kitDelay_bit_reg_attr_2_0_2
+# Loading postsynth.enum_dly_line_18x192_4_11_1_1
+# Loading postsynth.enum_kitDelay_reg_4_11_0
+# Loading postsynth.enum_g5_latency_adv_11_2_3_2_6_1_0
+# Loading postsynth.enum_kitCountS_5_10_1_0
+# Loading postsynth.enum_kitDelay_bit_reg_7_1_0
+# Loading polarfire.INBUF
+# ** Warning: (vsim-3008) [CNNODP] - Component name (DOUT_X) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 50
+# ** Error: (vsim-3043) Unresolved reference to 'DOUT_X' in uut.CORECORDIC_C0_0.DOUT_X.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 50
+# ** Warning: (vsim-3008) [CNNODP] - Component name (DOUT_Y) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 51
+# ** Error: (vsim-3043) Unresolved reference to 'DOUT_Y' in uut.CORECORDIC_C0_0.DOUT_Y.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 51
+# ** Warning: (vsim-3008) [CNNODP] - Component name (FIRO) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 49
+# ** Error: (vsim-3043) Unresolved reference to 'FIRO' in uut.COREFIR_PF_C0_0.FIRO.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 49
+# ** Warning: (vsim-3008) [CNNODP] - Component name (FIRO) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 48
+# ** Error: (vsim-3043) Unresolved reference to 'FIRO' in uut.COREFIR_PF_C0_1.FIRO.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 48
+# ** Warning: (vsim-3008) [CNNODP] - Component name (q) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 43
+# ** Error: (vsim-3043) Unresolved reference to 'q' in uut.four_pr_0.q.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 43
+# ** Warning: (vsim-3008) [CNNODP] - Component name (modulated_i) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 52
+# ** Error: (vsim-3043) Unresolved reference to 'modulated_i' in uut.modulator_0.modulated_i.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 52
+# ** Warning: (vsim-3008) [CNNODP] - Component name (modulated_q) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 53
+# ** Error: (vsim-3043) Unresolved reference to 'modulated_q' in uut.modulator_0.modulated_q.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 53
+# ** Warning: (vsim-3008) [CNNODP] - Component name (symmap_0) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 44
+# ** Error: (vsim-3043) Unresolved reference to 'symmap_0' in uut.symmap_0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 44
+# ** Warning: (vsim-3008) [CNNODP] - Component name (iup) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 46
+# ** Error: (vsim-3043) Unresolved reference to 'iup' in uut.upsampler_0.iup.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 46
+# ** Warning: (vsim-3008) [CNNODP] - Component name (qup) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 47
+# ** Error: (vsim-3043) Unresolved reference to 'qup' in uut.upsampler_0.qup.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_my_design File: /home/jessica/Desktop/final_final_working/qam_16/stimulus/newtestbench.v Line: 47
+# Loading polarfire.UDP_MUX2
+# Loading polarfire.UDP_DFF
+# Loading polarfire.UDP_DL
+# Loading polarfire.UDP_GBLAT_T
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 35
+# End time: 14:31:31 on Aug 09,2025, Elapsed time: 0:02:30
+# Errors: 10, Warnings: 10

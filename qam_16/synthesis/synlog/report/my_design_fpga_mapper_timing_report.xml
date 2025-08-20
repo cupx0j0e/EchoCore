@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/my_design_fpga_mapper.srr</data>
+<data>/home/jessica/Desktop/final_final_working/qam_16/synthesis/synlog/my_design_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,7 +17,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>my_design|clk</data>
 <data>100.0 MHz</data>
-<data>409.4 MHz</data>
-<data>7.557</data>
+<data>219.0 MHz</data>
+<data>5.434</data>
 </row>
 </report_table>

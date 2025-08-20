@@ -1,55 +1,41 @@
-#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/_verilog_hintfile|-top|my_design|-layerid|0|-orig_srs|/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/my_design_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/_verilog_hintfile|-top|my_design|-layerid|0|-orig_srs|/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/my_design_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/Desktop/final_final_working/qam_16/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_ver":1721969462
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/_verilog_hintfile":1755253825
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/_verilog_hintfile":1754680445
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":1721922091
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v":1721921486
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/umr_capim.v":1721920057
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_objects.v":1721921486
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1721921486
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/polarfire_syn_comps.v":1755435717
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1754672856
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1754672856
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1754672856
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1754672856
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1754672856
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":1755251374
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v":1755251373
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1755251373
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v":1755251373
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":1755251373
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v":1755251375
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":1755251419
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":1755435698
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v":1754672585
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v":1754679672
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":1754672585
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/symmap.v":1754672585
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":1754672585
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v":1755425914
-#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/MSS_syn_comps.v":1755435717
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/polarfire_syn_comps.v":1754735514
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1754672856
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v":1754679696
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v":1754679672
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v":1754672585
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v":1754679766
+#CUR:"/home/jessica/Desktop/final_final_working/qam_16/component/MSS_syn_comps.v":1754735514
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/polarfire_syn_comps.v" verilog
-1			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
-2			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
-3			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
-4			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
-5			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
-6			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v" verilog
-7			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v" verilog
-8			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v" verilog
-9			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v" verilog
-10			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v" verilog
-11			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v" verilog
-12			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v" verilog
-13			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v" verilog
-14			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v" verilog
-15			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v" verilog
-16			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v" verilog
-17			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/symmap.v" verilog
-18			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v" verilog
-19			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v" verilog
-20			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/MSS_syn_comps.v" verilog
+0			"/home/jessica/Desktop/final_final_working/qam_16/component/polarfire_syn_comps.v" verilog
+1			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
+2			"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
+3			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
+4			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
+5			"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
+6			"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v" verilog
+7			"/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v" verilog
+8			"/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v" verilog
+9			"/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v" verilog
+10			"/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v" verilog
+11			"/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v" verilog
+12			"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v" verilog
+13			"/home/jessica/Desktop/final_final_working/qam_16/component/MSS_syn_comps.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -61,39 +47,25 @@
 7 -1
 8 -1
 9 -1
-10 9 8 7
-11 10 6
-12 -1
+10 -1
+11 -1
+12 6 5 7 8 9 10 11
 13 -1
-14 -1
-15 -1
-16 -1
-17 -1
-18 -1
-19 12 5 13 14 15 11 16 17 18
-20 -1
 #Dependency Lists(Users Of)
 0 -1
 1 3
 2 3 4
 3 4
 4 5
-5 19
-6 11
-7 10
-8 10
-9 10
-10 11
-11 19
-12 19
-13 19
-14 19
-15 19
-16 19
-17 19
-18 19
-19 -1
-20 -1
+5 12
+6 12
+7 12
+8 12
+9 12
+10 12
+11 12
+12 -1
+13 -1
 #Design Unit to File Association
 module work APBM 0
 module work APBS 0
@@ -167,21 +139,14 @@ module work PFSOC_SCSM 0
 module work CLKBUF_DIFF 0
 module work CLKBUF_DIFF_ODT 0
 module work CORECORDIC_C0 5
-module work PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM 6
-module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_ECC 7
-module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL 8
-module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF 9
-module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM 10
-module work PF_SRAM_AHBL_AXI_C0 11
-module work combiner 12
-module work custom_axi_master 13
-module work four_pr 14
-module work modulator 15
-module work phase_counter 16
-module work symmap 17
-module work upsampler 18
-module work my_design 19
-module work MSS 20
+module work combiner 6
+module work four_pr 7
+module work modulator 8
+module work phase_counter 9
+module work symmap 10
+module work upsampler 11
+module work my_design 12
+module work MSS 13
 module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cROM_par 1
 module CORECORDIC_LIB cordic_kitDelay_bit_reg 2
 module CORECORDIC_LIB cordic_kitDelay_reg 2
@@ -202,10 +167,10 @@ module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator 3
 module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par 3
 module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC 4
 #Unbound instances to file Association.
-inst work my_design COREFIR_PF_C0 19
-inst work my_design COREFIR_PF_C0 19
-inst work my_design COREFIR_PF_C0 19
-inst work my_design COREFIR_PF_C0 19
+inst work my_design COREFIR_PF_C0 12
+inst work my_design COREFIR_PF_C0 12
+inst work my_design COREFIR_PF_C0 12
+inst work my_design COREFIR_PF_C0 12
 inst CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_word CORECORDIC_C0_CORECORDIC_C0_0_cordic_word 4
 inst CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_word CORECORDIC_C0_CORECORDIC_C0_0_cordic_word 4
 

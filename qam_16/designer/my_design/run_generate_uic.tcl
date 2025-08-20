@@ -3,9 +3,9 @@ set_device \
     -die PA5SOC025T \
     -pkg fcvg484
 set_proj_dir \
-    -path {/home/jessica/Desktop/github__echocore_jessica/qam_16}
+    -path {/home/jessica/Desktop/final_final_working/qam_16}
 set_impl_dir \
-    -path {/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design}
+    -path {/home/jessica/Desktop/final_final_working/qam_16/designer/my_design}
 set_is_relative_path \
     -value {FALSE}
 set_root_path_dir \

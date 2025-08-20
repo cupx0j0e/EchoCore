@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Aug 19 13:52:26 2025
+// Created by SmartDesign Sat Aug  9 00:32:46 2025
 // Version: 2024.2 2024.2.0.13
 //////////////////////////////////////////////////////////////////////
 
@@ -14,8 +14,7 @@ module my_design(
     DOUT_VALID,
     FIRO_VALID,
     FIRO_VALID_0,
-    combined_output,
-    tx_output_uart
+    combined_output
 );
 
 //--------------------------------------------------------------------
@@ -30,7 +29,6 @@ output        DOUT_VALID;
 output        FIRO_VALID;
 output        FIRO_VALID_0;
 output [64:0] combined_output;
-output        tx_output_uart;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
@@ -47,21 +45,19 @@ wire   [3:0]  four_pr_0_q;
 wire   [63:0] modulator_0_modulated_i_0;
 wire   [63:0] modulator_0_modulated_q_0;
 wire   [15:0] phase_counter_0_phase_angle;
-wire          pulse_generator_0_pulse_out;
 wire          reset;
 wire   [3:0]  symmap_0_Iout;
 wire   [3:0]  symmap_0_Qout;
-wire          tx_output_uart_net_0;
 wire   [3:0]  upsampler_0_iup;
 wire   [3:0]  upsampler_0_qup;
 wire          FIRO_VALID_net_1;
-wire          tx_output_uart_net_1;
-wire          DOUT_VALID_net_1;
 wire          FIRO_VALID_0_net_1;
+wire          DOUT_VALID_net_1;
 wire   [64:0] combined_output_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
+wire          GND_net;
 wire          VCC_net;
 //--------------------------------------------------------------------
 // Inverted Nets
@@ -73,6 +69,7 @@ wire          RSTN_IN_POST_INV3_0;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
+assign GND_net = 1'b0;
 assign VCC_net = 1'b1;
 //--------------------------------------------------------------------
 // Inversions
@@ -86,12 +83,10 @@ assign RSTN_IN_POST_INV3_0  = ~ reset;
 //--------------------------------------------------------------------
 assign FIRO_VALID_net_1      = FIRO_VALID_net_0;
 assign FIRO_VALID            = FIRO_VALID_net_1;
-assign tx_output_uart_net_1  = tx_output_uart_net_0;
-assign tx_output_uart        = tx_output_uart_net_1;
-assign DOUT_VALID_net_1      = DOUT_VALID_net_0;
-assign DOUT_VALID            = DOUT_VALID_net_1;
 assign FIRO_VALID_0_net_1    = FIRO_VALID_0_net_0;
 assign FIRO_VALID_0          = FIRO_VALID_0_net_1;
+assign DOUT_VALID_net_1      = DOUT_VALID_net_0;
+assign DOUT_VALID            = DOUT_VALID_net_1;
 assign combined_output_net_1 = combined_output_net_0;
 assign combined_output[64:0] = combined_output_net_1;
 //--------------------------------------------------------------------
@@ -111,15 +106,15 @@ combiner combiner_0(
 //--------CORECORDIC_C0
 CORECORDIC_C0 CORECORDIC_C0_0(
         // Inputs
-        .RST        ( reset ),
-        .NGRST      ( reset ),
+        .RST        ( GND_net ), // tied to 1'b0 from definition
+        .NGRST      ( VCC_net ), // tied to 1'b1 from definition
         .CLK        ( clk ),
-        .DIN_VALID  ( VCC_net ), // tied to 1'b1 from definition
         .DIN_A      ( phase_counter_0_phase_angle ),
+        .DIN_VALID  ( VCC_net ), // tied to 1'b1 from definition
         // Outputs
-        .DOUT_VALID ( DOUT_VALID_net_0 ),
         .DOUT_X     ( CORECORDIC_C0_0_DOUT_X ),
-        .DOUT_Y     ( CORECORDIC_C0_0_DOUT_Y ) 
+        .DOUT_Y     ( CORECORDIC_C0_0_DOUT_Y ),
+        .DOUT_VALID ( DOUT_VALID_net_0 ) 
         );
 
 //--------COREFIR_PF_C0
@@ -128,8 +123,8 @@ COREFIR_PF_C0 COREFIR_PF_C0_0(
         .NGRST       ( NGRST_IN_POST_INV0_0 ),
         .RSTN        ( RSTN_IN_POST_INV1_0 ),
         .CLK         ( clk ),
-        .DATAI_VALID ( VCC_net ), // tied to 1'b1 from definition
         .DATAI       ( upsampler_0_qup ),
+        .DATAI_VALID ( VCC_net ), // tied to 1'b1 from definition
         // Outputs
         .FIRO_VALID  ( FIRO_VALID_net_0 ),
         .FIRO        ( COREFIR_PF_C0_0_FIRO ) 
@@ -141,8 +136,8 @@ COREFIR_PF_C0 COREFIR_PF_C0_1(
         .NGRST       ( NGRST_IN_POST_INV2_0 ),
         .RSTN        ( RSTN_IN_POST_INV3_0 ),
         .CLK         ( clk ),
-        .DATAI_VALID ( VCC_net ), // tied to 1'b1 from definition
         .DATAI       ( upsampler_0_iup ),
+        .DATAI_VALID ( VCC_net ), // tied to 1'b1 from definition
         // Outputs
         .FIRO_VALID  ( FIRO_VALID_0_net_0 ),
         .FIRO        ( COREFIR_PF_C0_1_FIRO ) 
@@ -180,15 +175,6 @@ phase_counter phase_counter_0(
         .phase_angle ( phase_counter_0_phase_angle ) 
         );
 
-//--------pulse_generator
-pulse_generator pulse_generator_0(
-        // Inputs
-        .clk       ( clk ),
-        .rst_n     ( reset ),
-        // Outputs
-        .pulse_out ( pulse_generator_0_pulse_out ) 
-        );
-
 //--------symmap
 symmap symmap_0(
         // Inputs
@@ -196,16 +182,6 @@ symmap symmap_0(
         // Outputs
         .Iout ( symmap_0_Iout ),
         .Qout ( symmap_0_Qout ) 
-        );
-
-//--------uart_transmitter_65bit
-uart_transmitter_65bit uart_transmitter_65bit_0(
-        // Inputs
-        .clk            ( clk ),
-        .full_bus       ( combined_output_net_0 ),
-        .tx_start       ( pulse_generator_0_pulse_out ),
-        // Outputs
-        .tx_output_uart ( tx_output_uart_net_0 ) 
         );
 
 //--------upsampler

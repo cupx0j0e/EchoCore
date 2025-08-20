@@ -1,19 +1,19 @@
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":1:7:1:14|Synthesizing module combiner in library work.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/combiner.v":1:7:1:14|Synthesizing module combiner in library work.
 Running optimization stage 1 on combiner .......
-Finished optimization stage 1 on combiner (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG775 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Component CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC not found in library "work" or "__hyper__lib__", but found in library CORECORDIC_LIB
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":116:7:116:19|Synthesizing module cordic_countS in library CORECORDIC_LIB.
+Finished optimization stage 1 on combiner (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+@N: CG775 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Component CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC not found in library "work" or "__hyper__lib__", but found in library CORECORDIC_LIB
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":116:7:116:19|Synthesizing module cordic_countS in library CORECORDIC_LIB.
 
 	WIDTH=32'b00000000000000000000000000000100
 	DCVALUE=32'b00000000000000000000000000001111
 	BUILD_DC=32'b00000000000000000000000000000001
    Generated name = cordic_countS_4s_15s_1s
 Running optimization stage 1 on cordic_countS_4s_15s_1s .......
-Finished optimization stage 1 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":451:7:451:27|Synthesizing module cordic_init_kickstart in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":451:7:451:27|Synthesizing module cordic_init_kickstart in library CORECORDIC_LIB.
 Running optimization stage 1 on cordic_init_kickstart .......
-Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC in library CORECORDIC_LIB.
 
 	ARCHITECT=32'b00000000000000000000000000000010
 	MODE=32'b00000000000000000000000000000011
@@ -41,42 +41,42 @@ Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Mem
 	FPGA_FAMILY=32'b00000000000000000000000000010011
 	DIE_SIZE=32'b00000000000000000000000000010100
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":609:7:609:31|Synthesizing module cordic_coarse_pre_rotator in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":609:7:609:31|Synthesizing module cordic_coarse_pre_rotator in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000010000
 	MODE_VECTOR=1'b0
 	COARSE=32'b00000000000000000000000000000001
    Generated name = cordic_coarse_pre_rotator_16s_0_1s
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000010000
 	DELAY=32'b00000000000000000000000000000001
    Generated name = cordic_kitDelay_reg_16s_1s
 Running optimization stage 1 on cordic_kitDelay_reg_16s_1s .......
-Finished optimization stage 1 on cordic_kitDelay_reg_16s_1s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_reg_16s_1s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
 
 	DELAY=32'b00000000000000000000000000000001
    Generated name = cordic_kitDelay_bit_reg_1s
 Running optimization stage 1 on cordic_kitDelay_bit_reg_1s .......
-Finished optimization stage 1 on cordic_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000000010
 	DELAY=32'b00000000000000000000000000000001
    Generated name = cordic_kitDelay_reg_2s_1s
 Running optimization stage 1 on cordic_kitDelay_reg_2s_1s .......
-Finished optimization stage 1 on cordic_kitDelay_reg_2s_1s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+Finished optimization stage 1 on cordic_kitDelay_reg_2s_1s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
 Running optimization stage 1 on cordic_coarse_pre_rotator_16s_0_1s .......
-Finished optimization stage 1 on cordic_coarse_pre_rotator_16s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_coarse_pre_rotator_16s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000000010
 	DELAY=32'b00000000000000000000000000010010
    Generated name = cordic_kitDelay_reg_2s_18s
 Running optimization stage 1 on cordic_kitDelay_reg_2s_18s .......
-Finished optimization stage 1 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000010000
 	OUTWIDTH=32'b00000000000000000000000000010010
@@ -84,21 +84,21 @@ Finished optimization stage 1 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s
 	DROP_MSB=32'b00000000000000000000000000000000
    Generated name = cordic_signExt_16s_18_0s_0s
 Running optimization stage 1 on cordic_signExt_16s_18_0s_0s .......
-Finished optimization stage 1 on cordic_signExt_16s_18_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":507:7:507:26|Synthesizing module cordic_dp_bits_trans in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_signExt_16s_18_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":507:7:507:26|Synthesizing module cordic_dp_bits_trans in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000010000
 	DP_BITS=32'b00000000000000000000000000010010
    Generated name = cordic_dp_bits_trans_16s_18
 Running optimization stage 1 on cordic_dp_bits_trans_16s_18 .......
-Finished optimization stage 1 on cordic_dp_bits_trans_16s_18 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_dp_bits_trans_16s_18 (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
 
 	DELAY=32'b00000000000000000000000000010000
    Generated name = cordic_kitDelay_bit_reg_16s
 Running optimization stage 1 on cordic_kitDelay_bit_reg_16s .......
-Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000010000
 	DP_BITS=32'b00000000000000000000000000010010
@@ -107,7 +107,7 @@ Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00
 	MODE_VECTOR=1'b0
 	MODE=32'b00000000000000000000000000000011
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -115,16 +115,16 @@ Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00
 	ITER_NUM=32'b00000000000000000000000000000000
    Generated name = cordic_par_calc_0_18_4_0s
 Running optimization stage 1 on cordic_par_calc_0_18_4_0s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_0s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000000
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -132,16 +132,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16
 	ITER_NUM=32'b00000000000000000000000000000001
    Generated name = cordic_par_calc_0_18_4_1s
 Running optimization stage 1 on cordic_par_calc_0_18_4_1s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_1s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000001
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -149,16 +149,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16
 	ITER_NUM=32'b00000000000000000000000000000010
    Generated name = cordic_par_calc_0_18_4_2s
 Running optimization stage 1 on cordic_par_calc_0_18_4_2s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_2s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_2s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000010
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -166,16 +166,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16
 	ITER_NUM=32'b00000000000000000000000000000011
    Generated name = cordic_par_calc_0_18_4_3s
 Running optimization stage 1 on cordic_par_calc_0_18_4_3s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_3s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_3s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000011
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -183,16 +183,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16
 	ITER_NUM=32'b00000000000000000000000000000100
    Generated name = cordic_par_calc_0_18_4_4s
 Running optimization stage 1 on cordic_par_calc_0_18_4_4s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_4s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_4s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000100
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -200,16 +200,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16
 	ITER_NUM=32'b00000000000000000000000000000101
    Generated name = cordic_par_calc_0_18_4_5s
 Running optimization stage 1 on cordic_par_calc_0_18_4_5s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_5s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_5s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000101
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -217,16 +217,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16
 	ITER_NUM=32'b00000000000000000000000000000110
    Generated name = cordic_par_calc_0_18_4_6s
 Running optimization stage 1 on cordic_par_calc_0_18_4_6s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_6s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_6s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000110
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -234,16 +234,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16
 	ITER_NUM=32'b00000000000000000000000000000111
    Generated name = cordic_par_calc_0_18_4_7s
 Running optimization stage 1 on cordic_par_calc_0_18_4_7s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_7s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_7s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000000111
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -251,16 +251,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16
 	ITER_NUM=32'b00000000000000000000000000001000
    Generated name = cordic_par_calc_0_18_4_8s
 Running optimization stage 1 on cordic_par_calc_0_18_4_8s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_8s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_8s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001000
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -268,16 +268,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16
 	ITER_NUM=32'b00000000000000000000000000001001
    Generated name = cordic_par_calc_0_18_4_9s
 Running optimization stage 1 on cordic_par_calc_0_18_4_9s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_9s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_9s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001001
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -285,16 +285,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16
 	ITER_NUM=32'b00000000000000000000000000001010
    Generated name = cordic_par_calc_0_18_4_10s
 Running optimization stage 1 on cordic_par_calc_0_18_4_10s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_10s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_10s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001010
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -302,16 +302,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_1
 	ITER_NUM=32'b00000000000000000000000000001011
    Generated name = cordic_par_calc_0_18_4_11s
 Running optimization stage 1 on cordic_par_calc_0_18_4_11s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_11s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_11s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001011
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -319,16 +319,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_1
 	ITER_NUM=32'b00000000000000000000000000001100
    Generated name = cordic_par_calc_0_18_4_12s
 Running optimization stage 1 on cordic_par_calc_0_18_4_12s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_12s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_12s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001100
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -336,16 +336,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_1
 	ITER_NUM=32'b00000000000000000000000000001101
    Generated name = cordic_par_calc_0_18_4_13s
 Running optimization stage 1 on cordic_par_calc_0_18_4_13s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_13s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_13s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001101
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -353,16 +353,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_1
 	ITER_NUM=32'b00000000000000000000000000001110
    Generated name = cordic_par_calc_0_18_4_14s
 Running optimization stage 1 on cordic_par_calc_0_18_4_14s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_14s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_14s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001110
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b0
 	DP_BITS=32'b00000000000000000000000000010010
@@ -370,48 +370,48 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_1
 	ITER_NUM=32'b00000000000000000000000000001111
    Generated name = cordic_par_calc_0_18_4_15s
 Running optimization stage 1 on cordic_par_calc_0_18_4_15s .......
-Finished optimization stage 1 on cordic_par_calc_0_18_4_15s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_0_18_4_15s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000010010
 	ITERATION=32'b00000000000000000000000000001111
 	IN_BITS=32'b00000000000000000000000000010000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000010010
 	OUTWIDTH=32'b00000000000000000000000000010000
 	ROUND=32'b00000000000000000000000000000001
 	VALID_BIT=32'b00000000000000000000000000000001
    Generated name = cordic_kitRoundTop_18_16_1s_1s
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000010000
 	DELAY=32'b00000000000000000000000000000001
    Generated name = cordic_kitDelay_reg_16_1s
 Running optimization stage 1 on cordic_kitDelay_reg_16_1s .......
-Finished optimization stage 1 on cordic_kitDelay_reg_16_1s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":307:7:307:23|Synthesizing module cordic_kitRndEven in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_reg_16_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":307:7:307:23|Synthesizing module cordic_kitRndEven in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000010010
 	OUTWIDTH=32'b00000000000000000000000000010000
    Generated name = cordic_kitRndEven_18_16
 Running optimization stage 1 on cordic_kitRndEven_18_16 .......
-Finished optimization stage 1 on cordic_kitRndEven_18_16 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitRndEven_18_16 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
 
 	DELAY=32'b00000000000000000000000000000010
    Generated name = cordic_kitDelay_bit_reg_2s
 Running optimization stage 1 on cordic_kitDelay_bit_reg_2s .......
-Finished optimization stage 1 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@W: CG360 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":378:22:378:27|Removing wire outp_w, as there is no assignment to it.
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@W: CG360 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":378:22:378:27|Removing wire outp_w, as there is no assignment to it.
 Running optimization stage 1 on cordic_kitRoundTop_18_16_1s_1s .......
-Finished optimization stage 1 on cordic_kitRoundTop_18_16_1s_1s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitRoundTop_18_16_1s_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000010010
 	OUTWIDTH=32'b00000000000000000000000000010000
@@ -419,18 +419,18 @@ Finished optimization stage 1 on cordic_kitRoundTop_18_16_1s_1s (CPU Time 0h:00m
 	VALID_BIT=32'b00000000000000000000000000000000
    Generated name = cordic_kitRoundTop_18_16_1s_0s
 Running optimization stage 1 on cordic_kitRoundTop_18_16_1s_0s .......
-@W: CL318 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|*Output valido has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on cordic_kitRoundTop_18_16_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":710:7:710:32|Synthesizing module cordic_coarse_post_rotator in library CORECORDIC_LIB.
+@W: CL318 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|*Output valido has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on cordic_kitRoundTop_18_16_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":710:7:710:32|Synthesizing module cordic_coarse_post_rotator in library CORECORDIC_LIB.
 
 	BITS=32'b00000000000000000000000000010000
 	MODE_VECTOR=1'b0
 	COARSE=32'b00000000000000000000000000000001
    Generated name = cordic_coarse_post_rotator_16_0_1s
-@W: CG360 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":725:7:725:19|Removing wire coarse_flag_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":725:7:725:19|Removing wire coarse_flag_w, as there is no assignment to it.
 Running optimization stage 1 on cordic_coarse_post_rotator_16_0_1s .......
-Finished optimization stage 1 on cordic_coarse_post_rotator_16_0_1s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":98:7:98:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_coarse_post_rotator_16_0_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":98:7:98:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000010000
 	OUT_BITS=32'b00000000000000000000000000010000
@@ -448,306 +448,162 @@ Finished optimization stage 1 on cordic_coarse_post_rotator_16_0_1s (CPU Time 0h
 	WORDSIZE_MIN=32'b00000000000000000000000000001000
 	LOGITER=32'b00000000000000000000000000000100
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
-@W: CG781 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":189:11:189:11|Input validi on instance roundy_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":194:11:194:11|Input validi on instance rounda_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG360 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":128:21:128:30|Removing wire iter_count, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":129:21:129:28|Removing wire romAngle, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":132:7:132:18|Removing wire ld_data2calc, as there is no assignment to it.
+@W: CG781 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":189:11:189:11|Input validi on instance roundy_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":194:11:194:11|Input validi on instance rounda_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":128:21:128:30|Removing wire iter_count, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":129:21:129:28|Removing wire romAngle, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":132:7:132:18|Removing wire ld_data2calc, as there is no assignment to it.
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":30:7:30:19|Synthesizing module CORECORDIC_C0 in library work.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":30:7:30:19|Synthesizing module CORECORDIC_C0 in library work.
 Running optimization stage 1 on CORECORDIC_C0 .......
-Finished optimization stage 1 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":1:7:1:23|Synthesizing module custom_axi_master in library work.
-@W: CG532 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
-Running optimization stage 1 on custom_axi_master .......
-@A: CL282 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Feedback mux created for signal S_AXI_WSTRB[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@A: CL282 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Feedback mux created for signal S_AXI_WDATA[63:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@A: CL282 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Feedback mux created for signal S_AXI_AWADDR[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-Finished optimization stage 1 on custom_axi_master (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v":1:7:1:13|Synthesizing module four_pr in library work.
+Finished optimization stage 1 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/four_pr.v":1:7:1:13|Synthesizing module four_pr in library work.
 Running optimization stage 1 on four_pr .......
-Finished optimization stage 1 on four_pr (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v":1:7:1:15|Synthesizing module modulator in library work.
+Finished optimization stage 1 on four_pr (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/modulator.v":1:7:1:15|Synthesizing module modulator in library work.
 Running optimization stage 1 on modulator .......
-Finished optimization stage 1 on modulator (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v":37:7:37:59|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF in library work.
-
-	AXI4_DWIDTH=32'b00000000000000000000000001000000
-	AXI4_AWIDTH=32'b00000000000000000000000000100000
-	AXI4_IFTYPE_WR=32'b00000000000000000000000000000001
-	AXI4_IFTYPE_RD=32'b00000000000000000000000000000001
-	SEL_SRAM_TYPE=32'b00000000000000000000000000000001
-	MEM_DEPTH=32'b00000000000000000000010000000000
-	PIPE=32'b00000000000000000000000000000001
-	AXI4_IDWIDTH=32'b00000000000000000000000000001000
-   Generated name = PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s
-Running optimization stage 1 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s .......
-Finished optimization stage 1 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":44:7:44:53|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM in library work.
-
-	AXI4_DWIDTH=32'b00000000000000000000000001000000
-	AXI4_AWIDTH=32'b00000000000000000000000000100000
-	AXI4_IFTYPE_WR=32'b00000000000000000000000000000001
-	AXI4_IFTYPE_RD=32'b00000000000000000000000000000001
-	SEL_SRAM_TYPE=32'b00000000000000000000000000000001
-	MEM_DEPTH=32'b00000000000000000000010000000000
-	AXI4_IDWIDTH=32'b00000000000000000000000000001000
-	WRAP_SUPPORT=32'b00000000000000000000000000000000
-	ECC=32'b00000000000000000000000000000000
-	PIPE=32'b00000000000000000000000000000001
-	FAMILY=32'b00000000000000000000000000011011
-	MEM_AWIDTH=32'b00000000000000000000000000001010
-   Generated name = PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z3_layer0
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":37:7:37:62|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL in library work.
-
-	AXI4_DWIDTH=32'b00000000000000000000000001000000
-	AXI4_AWIDTH=32'b00000000000000000000000000100000
-	AXI4_IFTYPE_WR=32'b00000000000000000000000000000001
-	AXI4_IFTYPE_RD=32'b00000000000000000000000000000001
-	SEL_SRAM_TYPE=32'b00000000000000000000000000000001
-	MEM_DEPTH=32'b00000000000000000000010000000000
-	PIPE=32'b00000000000000000000000000000001
-	AXI4_IDWIDTH=32'b00000000000000000000000000001000
-	MEM_AWIDTH=32'b00000000000000000000000000001010
-	WRAP_SUPPORT=32'b00000000000000000000000000000000
-	BRESP_OK=2'b00
-	BRESP_ERR=2'b01
-	RRESP_OK=2'b00
-	RRESP_ERR=2'b01
-	HIGH_PERF=1'b1
-   Generated name = PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer0
-@N: CG179 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":517:94:517:106|Removing redundant assignment.
-Running optimization stage 1 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer0 .......
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":2264:4:2264:9|Pruning unused register genblk2.wrap_raddr_r[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1791:4:1791:9|Pruning unused register genblk2.wrap_raddr_incr[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1774:4:1774:9|Pruning unused register genblk2.wrap_raddr_next_r[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1647:4:1647:9|Pruning unused register genblk2.wrap_raddr_plus[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1562:4:1562:9|Pruning unused register genblk2.raddr_sc_dummy[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1538:4:1538:9|Pruning unused register genblk2.ren_sc_d2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1111:4:1111:9|Pruning unused register genblk1.wrap_waddr_incr_r[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1111:4:1111:9|Pruning unused register genblk1.wrap_waddr_next_r[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1093:4:1093:9|Pruning unused register genblk1.wrap_waddr_calc[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":459:5:459:10|Pruning unused register genblk1.wrap_waddr_plus[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":371:5:371:10|Pruning unused register genblk1.waddr_sc_dummy[31:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":342:5:342:10|Pruning unused register genblk1.wr_wrap_boundary_int. Make sure that there are no unused intermediate registers.
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":300:5:300:10|Pruning unused register genblk1.set_wraligned_done. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 1 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z3_layer0 .......
-Finished optimization stage 1 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
-Running optimization stage 1 on OR2 .......
-Finished optimization stage 1 on OR2 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":108:7:108:10|Synthesizing module CFG1 in library work.
-Running optimization stage 1 on CFG1 .......
-Finished optimization stage 1 on CFG1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
-Running optimization stage 1 on RAM1K20 .......
-Finished optimization stage 1 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":199:7:199:9|Synthesizing module OR4 in library work.
-Running optimization stage 1 on OR4 .......
-Finished optimization stage 1 on OR4 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":500:7:500:9|Synthesizing module GND in library work.
-Running optimization stage 1 on GND .......
-Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":504:7:504:9|Synthesizing module VCC in library work.
-Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":5:7:5:55|Synthesizing module PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM in library work.
-Running optimization stage 1 on PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM .......
-Finished optimization stage 1 on PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v":42:7:42:25|Synthesizing module PF_SRAM_AHBL_AXI_C0 in library work.
-Running optimization stage 1 on PF_SRAM_AHBL_AXI_C0 .......
-Finished optimization stage 1 on PF_SRAM_AHBL_AXI_C0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":1:7:1:19|Synthesizing module phase_counter in library work.
+Finished optimization stage 1 on modulator (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/counter.v":1:7:1:19|Synthesizing module phase_counter in library work.
 Running optimization stage 1 on phase_counter .......
-Finished optimization stage 1 on phase_counter (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/symmap.v":1:7:1:12|Synthesizing module symmap in library work.
+Finished optimization stage 1 on phase_counter (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/symmap.v":1:7:1:12|Synthesizing module symmap in library work.
 Running optimization stage 1 on symmap .......
-Finished optimization stage 1 on symmap (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":1:7:1:15|Synthesizing module upsampler in library work.
+Finished optimization stage 1 on symmap (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/hdl/upsampler.v":1:7:1:15|Synthesizing module upsampler in library work.
 Running optimization stage 1 on upsampler .......
-Finished optimization stage 1 on upsampler (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-@N: CG364 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v":9:7:9:15|Synthesizing module my_design in library work.
-@N: CG794 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v":153:14:153:28|Using module COREFIR_PF_C0 from library work
+Finished optimization stage 1 on upsampler (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v":9:7:9:15|Synthesizing module my_design in library work.
+@N: CG794 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/my_design/my_design.v":121:14:121:28|Using module COREFIR_PF_C0 from library work
 Running optimization stage 1 on my_design .......
-Finished optimization stage 1 on my_design (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Finished optimization stage 1 on my_design (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on my_design .......
-Finished optimization stage 2 on my_design (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Finished optimization stage 2 on my_design (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on upsampler .......
-Finished optimization stage 2 on upsampler (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Finished optimization stage 2 on upsampler (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on symmap .......
-Finished optimization stage 2 on symmap (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Finished optimization stage 2 on symmap (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on phase_counter .......
-Finished optimization stage 2 on phase_counter (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on PF_SRAM_AHBL_AXI_C0 .......
-Finished optimization stage 2 on PF_SRAM_AHBL_AXI_C0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM .......
-Finished optimization stage 2 on PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on VCC .......
-Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on GND .......
-Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on OR4 .......
-Finished optimization stage 2 on OR4 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on RAM1K20 .......
-Finished optimization stage 2 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on CFG1 .......
-Finished optimization stage 2 on CFG1 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on OR2 .......
-Finished optimization stage 2 on OR2 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
-Running optimization stage 2 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer0 .......
-@W: CL169 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":319:5:319:10|Pruning unused register genblk1.wrdone_d. Make sure that there are no unused intermediate registers.
-@W: CL246 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":148:32:148:37|Input port bits 31 to 13 of AWADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":160:32:160:37|Input port bits 31 to 13 of ARADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":138:32:138:43|Input AWADDR_slvif is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":139:32:139:43|Input AWSIZE_slvif is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":140:32:140:42|Input AWLEN_slvif is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":153:32:153:44|Input ARBURST_slvif is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":154:32:154:43|Input ARADDR_slvif is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":162:32:162:38|Input ARBURST is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":161:32:161:36|Input ARLEN is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":156:32:156:43|Input ARSIZE_slvif is unused.
-Finished optimization stage 2 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
-Running optimization stage 2 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z3_layer0 .......
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":147:30:147:36|Input AWCACHE is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":148:30:148:35|Input AWPROT is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":149:30:149:35|Input AWLOCK is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":166:31:166:37|Input ARCACHE is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":167:31:167:36|Input ARPROT is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v":168:31:168:36|Input ARLOCK is unused.
-Finished optimization stage 2 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
-Running optimization stage 2 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s .......
-Finished optimization stage 2 on PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on phase_counter (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on modulator .......
-Finished optimization stage 2 on modulator (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on modulator (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on four_pr .......
-Finished optimization stage 2 on four_pr (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
-Running optimization stage 2 on custom_axi_master .......
-@N: CL201 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Trying to extract state machine for register state.
-Extracted state machine for register state
-State machine has 3 reachable states with original encodings of:
-   000
-   001
-   011
-@W: CL279 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":49:4:49:9|Pruning register bits 7 to 1 of S_AXI_WSTRB[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/master.v":21:24:21:34|Input S_AXI_BRESP is unused.
-Finished optimization stage 2 on custom_axi_master (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on four_pr (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on CORECORDIC_C0 .......
-Finished optimization stage 2 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_coarse_post_rotator_16_0_1s .......
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":718:27:718:28|Input au is unused.
-Finished optimization stage 2 on cordic_coarse_post_rotator_16_0_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":718:27:718:28|Input au is unused.
+Finished optimization stage 2 on cordic_coarse_post_rotator_16_0_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_kitRoundTop_18_16_1s_0s .......
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":373:25:373:30|Input validi is unused.
-Finished optimization stage 2 on cordic_kitRoundTop_18_16_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":373:25:373:30|Input validi is unused.
+Finished optimization stage 2 on cordic_kitRoundTop_18_16_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_kitDelay_bit_reg_2s .......
-Finished optimization stage 2 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_kitRndEven_18_16 .......
-Finished optimization stage 2 on cordic_kitRndEven_18_16 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitRndEven_18_16 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_kitDelay_reg_16_1s .......
-Finished optimization stage 2 on cordic_kitDelay_reg_16_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_reg_16_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_kitRoundTop_18_16_1s_1s .......
-Finished optimization stage 2 on cordic_kitRoundTop_18_16_1s_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitRoundTop_18_16_1s_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_15s_16s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_15s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_15s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_15s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_14s_16s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_14s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_14s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_14s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_13s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_13s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_13s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_13s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_12s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_12s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_12s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_12s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_11s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_11s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_11s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_11s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_10s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_10s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_10s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_10s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_9s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_9s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_9s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_9s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_8s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_8s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_8s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_8s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_7s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_7s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_7s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_7s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_6s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_6s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_6s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_6s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_5s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_5s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_5s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_5s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_4s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_4s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_4s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_4s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_3s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_3s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_3s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_3s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_2s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_2s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_2s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_2s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_1s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_1s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_18_0s_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_par_calc_0_18_4_0s .......
-Finished optimization stage 2 on cordic_par_calc_0_18_4_0s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_par_calc_0_18_4_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_kitDelay_bit_reg_16s .......
-Finished optimization stage 2 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_dp_bits_trans_16s_18 .......
-Finished optimization stage 2 on cordic_dp_bits_trans_16s_18 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_dp_bits_trans_16s_18 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_signExt_16s_18_0s_0s .......
-Finished optimization stage 2 on cordic_signExt_16s_18_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_signExt_16s_18_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_kitDelay_reg_2s_18s .......
-Finished optimization stage 2 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_kitDelay_reg_2s_1s .......
-Finished optimization stage 2 on cordic_kitDelay_reg_2s_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_reg_2s_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_kitDelay_bit_reg_1s .......
-Finished optimization stage 2 on cordic_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_kitDelay_reg_16s_1s .......
-Finished optimization stage 2 on cordic_kitDelay_reg_16s_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_kitDelay_reg_16s_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_coarse_pre_rotator_16s_0_1s .......
-Finished optimization stage 2 on cordic_coarse_pre_rotator_16s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_coarse_pre_rotator_16s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 .......
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:23:116:27|Input DIN_X is unused.
-@N: CL159 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:30:116:34|Input DIN_Y is unused.
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:23:116:27|Input DIN_X is unused.
+@N: CL159 :"/home/jessica/Desktop/final_final_working/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:30:116:34|Input DIN_Y is unused.
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_init_kickstart .......
-Finished optimization stage 2 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on cordic_countS_4s_15s_1s .......
-Finished optimization stage 2 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 Running optimization stage 2 on combiner .......
-Finished optimization stage 2 on combiner (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+Finished optimization stage 2 on combiner (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/layer0.duruntime
+@L: /home/jessica/Desktop/final_final_working/qam_16/synthesis/synwork/layer0.duruntime
 
 

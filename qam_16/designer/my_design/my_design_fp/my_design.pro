@@ -1,6 +1,6 @@
 <project name="my_design" version="1.2">
     <ProjectDirectory>
-        /home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/my_design_fp
+        /home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         MPFS025T
     </LiberoTargetDevice>
     <LogFile>
-        /home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/my_design_fp/my_design.log
+        /home/jessica/Desktop/final_final_working/qam_16/designer/my_design/my_design_fp/my_design.log
     </LogFile>
     <SerializationOption>
         Skip

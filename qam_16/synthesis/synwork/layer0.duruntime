@@ -11,21 +11,9 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: phase_counter
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0
-			Hardware Generation Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM
-			Hardware Generation Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z4_layer0
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z3_layer0
-			Hardware Generation Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_8s
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: modulator
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: four_pr
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: custom_axi_master
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: CORECORDIC_C0
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
@@ -133,15 +121,3 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: combiner
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: VCC
-			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: GND
-			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: OR4
-			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: RAM1K20
-			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: CFG1
-			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: OR2
-			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

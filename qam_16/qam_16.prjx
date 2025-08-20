@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
 KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
 KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "/home/jessica/Desktop/github__echocore_jessica/qam_16"
+KEY ProjectLocation "/home/jessica/Desktop/final_final_working/qam_16"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -66,12 +66,6 @@ ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
-VALUE "<project>/component/Actel/DirectCore/COREAXI4SRAM/2.7.102/COREAXI4SRAM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1755251373"
-SIZE="369"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.cxf"
-ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/CORECORDIC.cxf,actgen_cxf"
 STATE="utd"
 TIME="1754672856"
@@ -203,12 +197,6 @@ SIZE="22686"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
 IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/Actel/SgCore/PF_TPSRAM/1.1.108/PF_TPSRAM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1755251375"
-SIZE="246"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.cxf"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.cxf,actgen_cxf"
 STATE="utd"
@@ -409,73 +397,14 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/my_design/my_design.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755425914"
-SIZE="2846"
+TIME="1754679766"
+SIZE="2916"
 ENDFILE
 VALUE "<project>/component/work/my_design/my_design.v,hdl"
 STATE="utd"
-TIME="1755425914"
-SIZE="10794"
+TIME="1754679766"
+SIZE="6521"
 PARENT="<project>/component/work/my_design/my_design.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1755251373"
-SIZE="1009"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.cxf"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v,hdl"
-STATE="utd"
-TIME="1755251373"
-SIZE="22712"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v,hdl"
-STATE="utd"
-TIME="1755251373"
-SIZE="96156"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v,hdl"
-STATE="utd"
-TIME="1755251373"
-SIZE="114624"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v,hdl"
-STATE="utd"
-TIME="1755251373"
-SIZE="11507"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.cxf,actgen_cxf"
-STATE="utd"
-TIME="1755251375"
-SIZE="12552"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v,hdl"
-STATE="utd"
-TIME="1755251375"
-SIZE="32030"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1755251375"
-SIZE="762"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.cxf"
-ENDFILE
-VALUE "<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v,hdl"
-STATE="utd"
-TIME="1755251374"
-SIZE="23936"
-PARENT="<project>/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/constraint/io/untitled.pdc,io_pdc"
@@ -485,13 +414,13 @@ SIZE="446"
 ENDFILE
 VALUE "<project>/constraint/io/user.pdc,io_pdc"
 STATE="utd"
-TIME="1755427773"
-SIZE="1232"
+TIME="1754735489"
+SIZE="11154"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/hdl/combiner.v,hdl"
 STATE="utd"
-TIME="1755251419"
+TIME="1754679696"
 SIZE="384"
 ENDFILE
 VALUE "<project>/hdl/counter.v,hdl"
@@ -503,11 +432,6 @@ VALUE "<project>/hdl/four_pr.v,hdl"
 STATE="utd"
 TIME="1754672585"
 SIZE="369"
-ENDFILE
-VALUE "<project>/hdl/master.v,hdl"
-STATE="utd"
-TIME="1755435698"
-SIZE="3127"
 ENDFILE
 VALUE "<project>/hdl/modulator.v,hdl"
 STATE="utd"
@@ -526,37 +450,52 @@ SIZE="692"
 ENDFILE
 VALUE "<project>/simulation/my_design.vcd,vcd"
 STATE="utd"
-TIME="1755427648"
-SIZE="7751777"
+TIME="1754678496"
+SIZE="8159850"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1755427486"
-SIZE="5672"
+TIME="1754730105"
+SIZE="1526"
 ENDFILE
-VALUE "<project>/stimulus/qam_test.v,tb_hdl"
+VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1755427472"
-SIZE="3697"
+TIME="1754730268"
+SIZE="7792"
+ENDFILE
+VALUE "<project>/simulation/tb_my_design_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1754730092"
+SIZE="28426"
+ENDFILE
+VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
+STATE="utd"
+TIME="1754724684"
+SIZE="49946"
+ENDFILE
+VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
+STATE="utd"
+TIME="1754724479"
+SIZE="1432"
 ENDFILE
 VALUE "<project>/synthesis/my_design.so,so"
 STATE="utd"
-TIME="1755435723"
-SIZE="240"
+TIME="1754729807"
+SIZE="235"
 ENDFILE
 VALUE "<project>/synthesis/my_design.vm,syn_vm"
 STATE="utd"
-TIME="1755435722"
-SIZE="20238"
+TIME="1754729806"
+SIZE="708555"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1755435723"
-SIZE="8390"
+TIME="1754729807"
+SIZE="7196"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1755435722"
+TIME="1754729806"
 SIZE="917"
 ENDFILE
 ENDLIST
@@ -566,7 +505,7 @@ LIST NewModulesInfo
 LIST "my_design::work"
 FILE "<project>/component/work/my_design/my_design.v,hdl"
 LIST AssociatedStimulus
-VALUE "<project>/stimulus/qam_test.v,tb_hdl"
+VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 ENDLIST
 LIST PNRConstraints
 VALUE "<project>/constraint/io/user.pdc,io_pdc"
@@ -609,7 +548,7 @@ ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 LIST my_design
-VALUE "<project>/stimulus/qam_test.v,tb_hdl"
+VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 ENDLIST
 ENDLIST
 LIST Other_Association
@@ -636,7 +575,7 @@ Type=max
 RunTime=1000ns
 Resolution=1ps
 VsimOpt=
-EntityName=my_design_tb
+EntityName=tb_my_design
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -709,7 +648,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2024.2/ModelSim/linuxacoem/vsim"
-PARAM=" -l led_counter_tb_presynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -751,8 +690,14 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Bitstream:my_design_generateBitstream.log
+HDL;component/work/my_design/my_design.v;0
+Constraint Manager;Constraint Manager;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;constraint/io/user.pdc;0
+SmartDesign;my_design;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "combiner::work","hdl/combiner.v","FALSE","FALSE"
@@ -763,17 +708,6 @@ ENDLIST
 LIST "COREFIR_PF_C0::work","component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd","TRUE","FALSE"
 SUBBLOCK "COREFIR_PF_C0_COREFIR_PF_C0_0_COREFIR_PF::corefir_pf_lib","component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/COREFIR.vhd","FALSE","FALSE"
 ENDLIST
-LIST "custom_axi_master::work","hdl/master.v","FALSE","FALSE"
-ENDLIST
-LIST "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v","FALSE","FALSE"
-SUBBLOCK "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_ECC::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v","FALSE","FALSE"
-SUBBLOCK "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v","FALSE","FALSE"
-SUBBLOCK "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v","FALSE","FALSE"
-ENDLIST
-LIST "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v","FALSE","FALSE"
-ENDLIST
-LIST "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v","FALSE","FALSE"
-ENDLIST
 LIST "four_pr::work","hdl/four_pr.v","FALSE","FALSE"
 ENDLIST
 LIST "modulator::work","hdl/modulator.v","FALSE","FALSE"
@@ -781,22 +715,12 @@ ENDLIST
 LIST "my_design::work","component/work/my_design/my_design.v","TRUE","FALSE"
 SUBBLOCK "CORECORDIC_C0::work","component/work/CORECORDIC_C0/CORECORDIC_C0.v","TRUE","FALSE"
 SUBBLOCK "COREFIR_PF_C0::work","component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd","TRUE","FALSE"
-SUBBLOCK "PF_SRAM_AHBL_AXI_C0::work","component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v","TRUE","FALSE"
 SUBBLOCK "combiner::work","hdl/combiner.v","FALSE","FALSE"
-SUBBLOCK "custom_axi_master::work","hdl/master.v","FALSE","FALSE"
 SUBBLOCK "four_pr::work","hdl/four_pr.v","FALSE","FALSE"
 SUBBLOCK "modulator::work","hdl/modulator.v","FALSE","FALSE"
 SUBBLOCK "phase_counter::work","hdl/counter.v","FALSE","FALSE"
 SUBBLOCK "symmap::work","hdl/symmap.v","FALSE","FALSE"
 SUBBLOCK "upsampler::work","hdl/upsampler.v","FALSE","FALSE"
-ENDLIST
-LIST "PF_SRAM_AHBL_AXI_C0::work","component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v","TRUE","FALSE"
-SUBBLOCK "PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM::work","component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v","FALSE","FALSE"
-SUBBLOCK "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v","FALSE","FALSE"
-ENDLIST
-LIST "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_ECC::work","component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v","FALSE","FALSE"
-ENDLIST
-LIST "PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM::work","component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v","FALSE","FALSE"
 ENDLIST
 LIST "phase_counter::work","hdl/counter.v","FALSE","FALSE"
 ENDLIST
@@ -842,7 +766,7 @@ LIST "bhvDelay::work","component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/te
 ENDLIST
 LIST "bhvCountS::work","component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/test/user/bhvKit.v","FALSE","TRUE"
 ENDLIST
-LIST "my_design_tb::work","stimulus/qam_test.v","FALSE","TRUE"
+LIST "tb_my_design::work","stimulus/newtestbench.v","FALSE","TRUE"
 SUBBLOCK "my_design::work","component/work/my_design/my_design.v","TRUE","FALSE"
 ENDLIST
 LIST "testbench::work","component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/test/user/coreCordic_tb.v","FALSE","TRUE"
@@ -1692,7 +1616,7 @@ ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 LIST "my_design::work"
-ACTIVETESTBENCH "my_design_tb::work","stimulus/qam_test.v","FALSE"
+ACTIVETESTBENCH "tb_my_design::work","stimulus/newtestbench.v","FALSE"
 ENDLIST
 ENDLIST
 LIST IOTabList

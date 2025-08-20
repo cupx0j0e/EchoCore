@@ -6,13 +6,11 @@
 
 # Family: PolarFireSoC , Die: MPFS025T , Package: FCVG484
 
-# Date generated: Sun Aug 17 16:19:33 2025 
-
+# Date generated: Sat Aug  9 16:01:29 2025 
 
 # 
 # User Locked I/O Bank Settings
 # 
-
 
 # 
 # Unlocked I/O Bank Settings
@@ -20,36 +18,427 @@
 # or by making changes in the I/O Attribute Editor
 # 
 
-
 # 
 # User Locked I/O settings
 # 
 
 set_io -port_name DOUT_VALID  \
-    -pin_name AB17            \
+    -pin_name B5              \
     -fixed true               \
-    -LOCK_DOWN Yes            \
     -DIRECTION OUTPUT
 
 
 set_io -port_name FIRO_VALID  \
     -pin_name E15             \
     -fixed true               \
-    -LOCK_DOWN Yes            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name FIRO_VALID_0  \
+    -pin_name F16               \
+    -fixed true                 \
     -DIRECTION OUTPUT
 
 
 set_io -port_name clk  \
     -pin_name E14      \
     -fixed true        \
-    -LOCK_DOWN Yes     \
     -DIRECTION INPUT
+
+
+set_io -port_name {combined_output[0]}  \
+    -pin_name V15                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[1]}  \
+    -pin_name U13                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[2]}  \
+    -pin_name U14                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[3]}  \
+    -pin_name V14                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[4]}  \
+    -pin_name T13                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[5]}  \
+    -pin_name U15                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[6]}  \
+    -pin_name W12                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[7]}  \
+    -pin_name W13                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[8]}  \
+    -pin_name R12                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[9]}  \
+    -pin_name Y20                       \
+    -fixed true                         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[10]}  \
+    -pin_name U12                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[11]}  \
+    -pin_name AA13                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[12]}  \
+    -pin_name AB20                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[13]}  \
+    -pin_name Y13                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[14]}  \
+    -pin_name AA12                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[15]}  \
+    -pin_name V19                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[16]}  \
+    -pin_name T15                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[17]}  \
+    -pin_name W18                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[18]}  \
+    -pin_name V20                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[19]}  \
+    -pin_name V12                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[20]}  \
+    -pin_name F17                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[21]}  \
+    -pin_name AB17                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[22]}  \
+    -pin_name U19                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[23]}  \
+    -pin_name V21                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[24]}  \
+    -pin_name AA22                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[25]}  \
+    -pin_name W21                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[26]}  \
+    -pin_name Y14                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[27]}  \
+    -pin_name Y15                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[28]}  \
+    -pin_name Y18                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[29]}  \
+    -pin_name AB12                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[30]}  \
+    -pin_name D18                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[31]}  \
+    -pin_name AB15                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[32]}  \
+    -pin_name D19                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[33]}  \
+    -pin_name U17                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[34]}  \
+    -pin_name AA15                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[35]}  \
+    -pin_name T16                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[36]}  \
+    -pin_name R16                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[37]}  \
+    -pin_name W14                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[38]}  \
+    -pin_name B17                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[39]}  \
+    -pin_name AB19                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[40]}  \
+    -pin_name E19                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[41]}  \
+    -pin_name R14                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[42]}  \
+    -pin_name AB18                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[43]}  \
+    -pin_name A18                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[44]}  \
+    -pin_name Y19                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[45]}  \
+    -pin_name V16                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[46]}  \
+    -pin_name U18                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[47]}  \
+    -pin_name AA17                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[48]}  \
+    -pin_name W17                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[49]}  \
+    -pin_name V22                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[50]}  \
+    -pin_name AB14                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[51]}  \
+    -pin_name AA20                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[52]}  \
+    -pin_name V17                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[53]}  \
+    -pin_name T17                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[54]}  \
+    -pin_name AA21                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[55]}  \
+    -pin_name R15                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[56]}  \
+    -pin_name AA16                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[57]}  \
+    -pin_name W22                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[58]}  \
+    -pin_name AA18                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[59]}  \
+    -pin_name Y16                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[60]}  \
+    -pin_name W19                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[61]}  \
+    -pin_name Y21                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[62]}  \
+    -pin_name AB13                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[63]}  \
+    -pin_name AB21                       \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {combined_output[64]}  \
+    -pin_name W16                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
 
 
 set_io -port_name reset  \
     -pin_name T12        \
     -fixed true          \
-    -LOCK_DOWN Yes       \
     -DIRECTION INPUT
 
 
