@@ -46,7 +46,7 @@ In this implementation, the first two bits become the inphase component while th
 
 **For example:**
 | DATA | In-phase | Quadrature |
-|------|----------|------------|
+|:----:|:--------:|:----------:|
 | 1100 | 11       | 00         |
 | 1001 | 10       | 01         |
 | 0110 | 01       | 10         |
@@ -56,7 +56,7 @@ These components are further mapped using grey coding which maps a particular 4-
 
 **For example:**
 | In-phase | Symbol Map | Quadrature | Symbol Map |
-|----------|------------|------------|------------|
+|:--------:|:----------:|:----------:|:----------:|
 | 00       | -3         | 00         | -3         |
 | 01       | -1         | 01         | -1         |
 | 11       | 3          | 11         | 3          |
