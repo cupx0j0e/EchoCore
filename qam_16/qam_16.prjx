@@ -470,18 +470,18 @@ SIZE="8159850"
 ENDFILE
 VALUE "<project>/simulation/my_design_tb.vcd,vcd"
 STATE="utd"
-TIME="1755680331"
-SIZE="8232590"
+TIME="1755680499"
+SIZE="8339189"
 ENDFILE
 VALUE "<project>/simulation/my_design_tb_presynth_simulation.log,log"
 STATE="utd"
-TIME="1755680331"
-SIZE="38777"
+TIME="1755680499"
+SIZE="75485"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1755680358"
-SIZE="1526"
+TIME="1755680524"
+SIZE="4761"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
 STATE="utd"
@@ -495,8 +495,8 @@ SIZE="28426"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
 STATE="utd"
-TIME="1755680358"
-SIZE="49946"
+TIME="1755680536"
+SIZE="50032"
 ENDFILE
 VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 STATE="utd"
@@ -505,22 +505,22 @@ SIZE="1432"
 ENDFILE
 VALUE "<project>/synthesis/my_design.so,so"
 STATE="utd"
-TIME="1755678922"
-SIZE="235"
+TIME="1755681157"
+SIZE="240"
 ENDFILE
 VALUE "<project>/synthesis/my_design.vm,syn_vm"
 STATE="utd"
-TIME="1755678922"
-SIZE="708555"
+TIME="1755681155"
+SIZE="708715"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1755678922"
-SIZE="7196"
+TIME="1755681157"
+SIZE="7351"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1755678922"
+TIME="1755681156"
 SIZE="917"
 ENDFILE
 ENDLIST
@@ -743,14 +743,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Export Bitstream:my_design_exportBitstream.log
-HDL;stimulus/newtestbench.v;0
 StartPage;StartPage;0
-HDL;hdl/modulator.v;0
-HDL;hdl/combiner.v;0
-SmartDesign;my_design;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "combiner::work","hdl/combiner.v","FALSE","FALSE"

@@ -93,7 +93,7 @@ The 16-QAM signal is composed of two carrier waves that are 90 degrees out of ph
 
 The Ultrasound POC (Point-of-Care) system is a key component of this project, demonstrating how FPGAs can enable portable, real-time medical diagnostics. The system is designed to be a compact and cost-effective ultrasound solution.
 
-![Ultrasound](./assets/ultrasound.png)
+![Ultrasound](./assets/beamforming.png)
 
 The ultrasound signal chain implemented on the FPGA includes:
 
@@ -236,6 +236,8 @@ OR
       * Run **Place & Route**
       * Run **Generate Bitstream** (export under `designer/export/`)
       * Flash onto FPGA
+  
+ ![Libero](./assets/libero.png)
 
 ---
 
@@ -250,19 +252,23 @@ The project has successfully demonstrated the individual implementation of both 
 | Ultrasound | ✅ Completed |
 | Parallelism | 🔄 In Progress |
 
-**Simulation Results:**
+---
+
+## Simulation Results:
+
+![final_qam](./assets/image.webp) ![final_ultrasound](./assets/ultrasound.png)
 
 The pre-synthesis simulations for both pipelines were conducted to verify the core logic before hardware implementation. The results confirmed the functionality of each module.
 
-    **16-QAM Pipeline**: The simulation **successfully** generated the I and Q components from the input 4-bit random data stream. A post-simulation analysis of the I and Q data points in MATLAB produced the expected 16-QAM constellation diagram, confirming that the symbol mapping and modulation were implemented correctly. The output waveform demonstrated the characteristic amplitude and phase shifts, validating the design.
+**16-QAM Pipeline**: The simulation **successfully** generated the I and Q components from the input 4-bit random data stream. A post-simulation analysis of the I and Q data points in MATLAB produced the expected 16-QAM constellation diagram, confirming that the symbol mapping and modulation were implemented correctly. The output waveform demonstrated the characteristic amplitude and phase shifts, validating the design.
 
-    **Ultrasound Pipeline**: The simulation of the ultrasound signal chain with synthetic echo data **confirmed the functionality** of the processing stages. The pseudo-dynamic receive beamforming algorithm successfully focused the received echoes, producing a high-amplitude peak that verified the proper application of delay values. Subsequent processing, including envelope detection and log compression, yielded data suitable for scan conversion, which, when run through the Python script, produced the expected B-mode image.
+**Ultrasound Pipeline**: The simulation of the ultrasound signal chain with synthetic echo data **confirmed the functionality** of the processing stages. The pseudo-dynamic receive beamforming algorithm successfully focused the received echoes, producing a high-amplitude peak that verified the proper application of delay values. Subsequent processing, including envelope detection and log compression, yielded data suitable for scan conversion, which, when run through the Python script, produced the expected B-mode image.
 
-
+---
  
-**Prototype Demonstration:**
+## Prototype Demonstration:
 
-We successfully flashed the **QAM** and **ultrasound** bitstreams on Libero. For the QAM demonstration, the output obtained through the **UART** was connected to an **oscilloscope** to obtain the corresponding **waveforms**. For the **ultrasound** demonstration, the **UART** data was taken and run through the **scan conversion** in Python to obtain the final **B-mode image display**.
+We successfully flashed the **QAM** and **ultrasound** bitstreams on Libero. For the **QAM demonstration**, the output obtained through the **UART** was connected to an **oscilloscope** to obtain the corresponding **waveforms**. For the **ultrasound** demonstration, the **UART** data was taken and run through the **scan conversion** in Python to obtain the final **B-mode image display**.
 
 
 ---
@@ -306,3 +312,4 @@ We successfully flashed the **QAM** and **ultrasound** bitstreams on Libero. For
 
 
 ---
+
