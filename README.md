@@ -49,6 +49,8 @@ The design process for an FPGA is similar to software programming but with a har
   * **Verilog Modules ≈ Functions**
   * **Top Module ≈ Main function**
 
+![Beaglev Fire](./assets/beaglev_fire.png)
+
 ---
 
 
@@ -70,6 +72,8 @@ The FPGA's architecture is perfectly suited for a project like EchoCore for thre
 
 The 16-QAM signal is composed of two carrier waves that are 90 degrees out of phase, known as the **in-phase (I)** and **quadrature (Q) components**. The data stream modulates the amplitude of these waves, and the combined signal's unique amplitude and phase create a specific constellation point, which represents the digital symbol.
 
+![16QAM](./assets/qam.png)
+
 **Signal Flow:**
 
 1.  **Data Input:** The incoming digital data is grouped into 4-bit chunks.
@@ -77,6 +81,8 @@ The 16-QAM signal is composed of two carrier waves that are 90 degrees out of ph
 3.  **Upsampling:** To reduce the signal bandwidth and prevent inter-symbol interference, additional samples are inserted between each symbol.
 4.  **Filtering:** A Finite Impulse Response (FIR) filter is applied to the upsampled signal to limit its bandwidth and smooth the transitions between symbols.
 5.  **Carrier Mixing and Summation:** The filtered I and Q components are multiplied onto sine and cosine waves, respectively. These modulated signals are then summed to form the final transmitted QAM signal.
+
+![16QAM flowchart](./assets/qam_flowchart.png)
 
 ---
 
@@ -86,11 +92,15 @@ The 16-QAM signal is composed of two carrier waves that are 90 degrees out of ph
 
 The Ultrasound POC (Point-of-Care) system is a key component of this project, demonstrating how FPGAs can enable portable, real-time medical diagnostics. The system is designed to be a compact and cost-effective ultrasound solution.
 
+![Ultrasound](./assets/ultrasound.png)
+
 The ultrasound signal chain implemented on the FPGA includes:
 
   * **Front-End:** A 16-channel analog front-end with pulsers, multiplexers, and ADCs to achieve 32-channel performance using an **Extended Aperture (EA)** technique. This technique improves lateral resolution by using a small number of physical channels.
   * **Mid-Stage:** This stage performs essential signal conditioning, including **DC canceling**, **FIR filters**, and **time-gain compensation (TGC)**. A key innovation is the use of a **pseudo-dynamic receive beamforming** algorithm, which significantly reduces hardware complexity by updating the focusing delay value only at predetermined focal zones, as opposed to every single focusing point.
   * **Back-End:** The final stages perform **envelope detection**, **log compression** (using a look-up table), and **scan conversion** using the CORDIC algorithm to transform the polar coordinate data into Cartesian display data, enabling **real-time B-mode imaging**.
+
+![Ultrasound flowchart](./assets/ultrasound_flowchart.png)
 
 This FPGA-based design allows the entire ultrasound signal and image processing to be embedded within a single chip, making a powerful, yet portable, diagnostic system a reality.
 
@@ -121,8 +131,9 @@ EchoCore is more than just a tech demo:
 ## File Structure
 
 ```bash
-PROJECT
+EchoCore
 ├── README.md                      # Main project documentation
+├── assets                         # Media
 │
 ├── QAM16                          
 │   ├── README.md                  # QAM implementation details
