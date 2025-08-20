@@ -186,7 +186,7 @@ EchoCore
 
 ```sh
 cd ~/Linux_Licensing_Daemon_11.19.6.0_64-bit
-lmgrd -c /path/to/License.dat
+./lmgrd -c /path/to/License.dat
 ./lmutil lmstat -a -c ~/License.dat
 cd ~/microchip/Libero_SoC_v2024.2/Libero/bin
 export LM_LICENSE_FILE=<your_license_path>
