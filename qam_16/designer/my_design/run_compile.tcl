@@ -65,7 +65,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design} \
+    -desdir {/home/jessica/Desktop/final_final_working/qam_16/designer/my_design} \
     -design my_design \
     -fam PolarFireSoC \
     -die PA5SOC025T \
