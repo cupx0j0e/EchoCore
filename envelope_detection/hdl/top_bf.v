@@ -6,12 +6,12 @@ module top_bf #(
 )(
     input clk,
     input reset,
-    input start,
-    input [15:0] x_f,
-    input [15:0] z_f,
     output [SUM_WIDTH-1:0] beamformed_output,
     output [1:0] debug_state
 );
+    assign x_f = 1'b1;
+    assign z_f = 1'b1;
+    assign start = 1'b1;
 
     reg [16*4-1:0] rf_data;
 
