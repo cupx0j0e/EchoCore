@@ -1,0 +1,81 @@
+Synplify Pro (R) Job Log
+Date: 10:45:11    20-Aug-2025
+Install Directory: /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro
+
+JobFlow: synthesis
+   Run Start Time: 10:44:48
+   Runtime: 23s
+   Executable Run Time: 22 - (Sum of all child executables)
+   Current Working Directory: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis
+
+   JobFlow: synthesis
+      Run Start Time: 10:44:48
+      Runtime: 23s
+      Executable Run Time: 22 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 10:44:48
+         Runtime: 08s
+         Executable Run Time: 7 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 10:44:48
+            Runtime: 05s
+            Executable Run Time: 4 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin/c_hdl
+               Run Directory: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 10:44:48
+               Run Time: 04s
+               Executable Run Time: 3 - (Executable run time excluding UI processing)
+               Memory Usage: 2.636 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+            Job: multi_srs_gen
+               executable: bin/syn_nfilter
+               Run Directory: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 10:44:52
+               Run Time: 01s
+               Executable Run Time: 1 - (Executable run time excluding UI processing)
+               Memory Usage: 2.636 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+         Job: premap
+            executable: bin/m_generic
+            Run Directory: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 10:44:53
+            Run Time: 03s
+            Executable Run Time: 3 - (Executable run time excluding UI processing)
+            Memory Usage: 2.64 MB
+            Up-to-date (run skipped): no
+            CDPL: off
+
+      JobFlow: map
+         Run Start Time: 10:44:56
+         Runtime: 15s
+         Executable Run Time: 15 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin/m_generic
+            Run Directory: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 10:44:56
+            Run Time: 15s
+            Executable Run Time: 15 - (Executable run time excluding UI processing)
+            Memory Usage: 2.64 MB
+            Up-to-date (run skipped): no
+            CDPL: off

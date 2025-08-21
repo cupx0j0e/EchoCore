@@ -1,0 +1,1 @@
+run_tcl -fg MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn.tcl

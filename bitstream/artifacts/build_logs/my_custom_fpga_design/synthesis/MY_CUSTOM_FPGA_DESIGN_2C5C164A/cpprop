@@ -1,0 +1,9 @@
+n work MY_CUSTOM_FPGA_DESIGN_2C5C164A verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 6.19698;
+av .compile_point_starttime_stamp "Wed Aug 20 10:44:57 2025";
+av .compile_point_endtime_stamp "Wed Aug 20 10:45:03 2025";
+av .compile_point_realtime_used 5.92986;

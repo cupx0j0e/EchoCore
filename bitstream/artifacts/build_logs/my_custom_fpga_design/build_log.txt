@@ -1,0 +1,1015 @@
+Design version:  10723
+Design version: 10723
+================================================================================
+                              Initialize workspace
+================================================================================
+
+  The FlashPro Express bitstream programming job files will be stored in
+  directory: ./bitstream/FlashProExpress
+
+================================================================================
+                                 Clone sources
+================================================================================
+
+HSS checked out at commit v2025.03
+Applying: Disable annoying debug message
+Applying: Bring back old DESIGNVER formatting
+================================================================================
+                            Generate Device Tree Overlays
+================================================================================
+
+Path to dtso files:  device-tree-overlay
+  Device tree overlay selected:
+    component:                 CAPE
+    build option:              VERILOG_TUTORIAL
+    device tree overlay file:  verilog-cape.dtso
+  Device tree overlay selected:
+    component:                 CAPE
+    build option:              VERILOG_TUTORIAL
+    device tree overlay file:  leds.dtso
+  Device tree overlay selected:
+    component:                 M2
+    build option:              NONE
+    device tree overlay file:  pcie.dtso
+number of gateware device tree overlays:  3
+/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/dtbo/context-0/CAPE/leds.dtbo
+/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/dtbo/context-0/CAPE/verilog-cape.dtbo
+/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/dtbo/context-0/M2/pcie.dtbo
+b'MCHP\x1c\x00\x00\x00\x00\x00\x01\x00\x10\x00\x00\x00\x03\x00\x00\x008\x00\x00\x00\xde\x06\x00\x00\xa6\x06\x00\x00\xde\x06\x00\x00\xd4\n\x00\x00\xf6\x03\x00\x00\xd4\n\x00\x00\xa7\x0b\x00\x00\xd3\x00\x00\x00'
+MSS folder path: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/sources/MSS_Configuration/MPFS025T/FCVG484/mpfs-beaglev-fire
+Selected config file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/sources/MSS_Configuration/MPFS025T/FCVG484/mpfs-beaglev-fire/MSS_Configuration.cfg
+================================================================================
+                          Generating MSS configuration
+================================================================================
+
+INFO: Fabric programming is required to apply changes to following FICs settings. FIC_0 (AXI4) , FIC_1 (AXI4) , FIC_2 (AXI4) and FIC_3 (APB).
+INFO: MSS PLL - Input Reference Clock frequency 125.000 MHz
+    +------------------------------+-------------------------+------------------------------+
+    | Output Clock Name            | Required (MHz)          | Integer solution (MHz)       |
+    +------------------------------+-------------------------+------------------------------+
+    | Output0 Frequency (CPU)      | 600.000                 | 600.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output1 Frequency (Crypto)   | N/A                     | N/A                          |
+    +------------------------------+-------------------------+------------------------------+
+    | Output2 Frequency (EMMC/SD)  | 200.000                 | 200.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output3 Frequency (CAN)      | 8.000                   | 8.000                        |
+    +------------------------------+-------------------------+------------------------------+
+INFO: DDR PLL - Input Reference Clock frequency 125.000 MHz
+    +------------------------------+-------------------------+------------------------------+
+    | Output Clock Name            | Required (MHz)          | Integer solution (MHz)       |
+    +------------------------------+-------------------------+------------------------------+
+    | Output0 Frequency            | 800.000                 | 800.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output1 Frequency            | 400.000                 | 400.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output2 Frequency            | 800.000                 | 800.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output3 Frequency            | 800.000                 | 800.000                      |
+    +------------------------------+-------------------------+------------------------------+
+INFO: SGMII PLL - Input Reference Clock frequency 125.000 MHz
+    +------------------------------+-------------------------+------------------------------+
+    | Output Clock Name            | Required (MHz)          | Integer solution (MHz)       |
+    +------------------------------+-------------------------+------------------------------+
+    | Output0 Frequency            | 625.000                 | 625.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output1 Frequency            | 625.000                 | 625.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output2 Frequency            | 625.000                 | 625.000                      |
+    +------------------------------+-------------------------+------------------------------+
+    | Output3 Frequency            | 625.000                 | 625.000                      |
+    +------------------------------+-------------------------+------------------------------+
+INFO: Successfully generated xml file to '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/MSS/PF_SOC_MSS_mss_cfg.xml'
+INFO: Successfully generated MSS configuration report to '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/MSS/PF_SOC_MSS_Report.html'
+INFO: Successfully generated MSS component to '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/MSS/PF_SOC_MSS.cxz'
+INFO: FPGA Fabric programming is required.
+================================================================================
+                      Build Hart Software Services (HSS)
+================================================================================
+
+Board: mpfs-beaglev-fire
+Cleaning up existing XML files in ./sources/HSS/boards/mpfs-beaglev-fire/soc_fpga_design/xml
+Removing ./sources/HSS/boards/mpfs-beaglev-fire/soc_fpga_design/xml/PF_SOC_MSS_mss_cfg.xml
+Copying new XML file from work/MSS/PF_SOC_MSS_mss_cfg.xml to sources/HSS/boards/mpfs-beaglev-fire/soc_fpga_design/xml/PF_SOC_MSS_mss_cfg.xml
+INFO: Linux detected
+mpfs-beaglev-fire selected
+INFO: NOTICE: enabling -flto (which means stack protection is disabled)
+INFO: Expected mpfsBootmodeProgrammer.jar version v3.6 but found 
+INFO: This version of the HSS relies on SoftConsole v2021.3 or later
+INFO: Linux detected
+mpfs-beaglev-fire selected
+INFO: NOTICE: enabling -flto (which means stack protection is disabled)
+INFO: Expected mpfsBootmodeProgrammer.jar version v3.6 but found 
+INFO: This version of the HSS relies on SoftConsole v2021.3 or later
+INFO: Linux detected
+mpfs-beaglev-fire selected
+INFO: NOTICE: enabling -flto (which means stack protection is disabled)
+INFO: Expected mpfsBootmodeProgrammer.jar version v3.6 but found 
+INFO: This version of the HSS relies on SoftConsole v2021.3 or later
+INFO: Linux detected
+mpfs-beaglev-fire selected
+INFO: NOTICE: enabling -flto (which means stack protection is disabled)
+INFO: Expected mpfsBootmodeProgrammer.jar version v3.6 but found 
+INFO: This version of the HSS relies on SoftConsole v2021.3 or later
+ MPFSCFGGEN    boards/mpfs-beaglev-fire/soc_fpga_design/xml/PF_SOC_MSS_mss_cfg.xml
+Input XML file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/sources/HSS/boards/mpfs-beaglev-fire/soc_fpga_design/xml/PF_SOC_MSS_mss_cfg.xml
+Hardware configuration header files created in directory: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/sources/HSS/build/boards/mpfs-beaglev-fire/fpga_design_config
+ GENCONFIG
+ CC        build/application/hart0/hss_state_machine.o
+ CC        build/application/hart0/hss_clock.o
+ CC        build/application/hart0/hss_registry.o
+ CC        build/baremetal/drivers/mss/mss_usb/mss_usb_common_cif.o
+ CC        build/baremetal/drivers/mss/mss_usb/mss_usb_device.o
+ CC        build/baremetal/drivers/mss/mss_usb/mss_usb_device_cif.o
+ CC        build/baremetal/drivers/mss/mss_usb/mss_usb_device_msd.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/hal/hal_irq.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/drivers/mss/mss_gpio/mss_gpio.o
+ CC        build/services/beu/beu_service.o
+ CC        build/services/boot/hss_boot_service.o
+ CC        build/services/boot/hss_boot_pmp.o
+ CC        build/services/boot/gpt.o
+ CC        build/services/ddr/ddr_service.o
+ CC        build/services/ddr/ddr_api.o
+ CC        build/services/goto/goto_service.o
+ CC        build/services/healthmon/healthmon_service.o
+ CC        build/services/healthmon/healthmon_monitors_weak.o
+ CC        build/services/gpio_ui/gpio_ui_service.o
+ CC        build/services/gpio_ui/gpio_ui_api.o
+ CC        build/services/ipi_poll/ipi_poll_service.o
+ CC        build/services/opensbi/opensbi_service.o
+ CC        build/thirdparty/opensbi/lib/utils/irqchip/plic.o
+ CC        build/thirdparty/opensbi/lib/utils/libfdt/fdt.o
+ CC        build/thirdparty/opensbi/lib/utils/libfdt/fdt_ro.o
+ CC        build/thirdparty/opensbi/lib/utils/libfdt/fdt_rw.o
+ CC        build/thirdparty/opensbi/lib/utils/libfdt/fdt_wip.o
+ CC        build/thirdparty/opensbi/lib/utils/libfdt/fdt_addresses.o
+ CC        build/thirdparty/opensbi/lib/utils/fdt/fdt_fixup.o
+ CC        build/thirdparty/opensbi/lib/utils/fdt/fdt_helper.o
+ CC        build/thirdparty/opensbi/lib/sbi/riscv_asm.o
+ CC        build/thirdparty/opensbi/lib/sbi/riscv_atomic.o
+ CC        build/thirdparty/opensbi/lib/sbi/riscv_locks.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_bitmap.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_bitops.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_console.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_domain.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_emulate_csr.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_fifo.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_hart.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_hsm.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_illegal_insn.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_init.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ipi.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_irqchip.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_math.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_misaligned_ldst.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_platform.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_pmu.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_scratch.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_string.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_system.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_timer.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_tlb.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_trap.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_unpriv.o
+ CC        build/thirdparty/opensbi/lib/utils/timer/aclint_mtimer.o
+ CC        build/thirdparty/opensbi/lib/utils/ipi/aclint_mswi.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_base.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_hsm.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_ipi.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_legacy.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_pmu.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_rfence.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_srst.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_time.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_ecall_vendor.o
+ CC        build/services/opensbi/opensbi_ihc_ecall.o
+ CC        build/services/opensbi/opensbi_rproc_ecall.o
+ CC        build/services/opensbi/platform.o
+ CC        build/services/opensbi/opensbi_ecall.o
+ CC        build/services/reboot/reboot_service.o
+ CC        build/services/scrub/scrub_service.o
+ CC        build/services/sgdma/sgdma_service.o
+ CC        build/services/startup/startup_service.o
+ CC        build/services/tinycli/tinycli_api.o
+ CC        build/services/tinycli/tinycli_service.o
+ CC        build/services/tinycli/tinycli_hexdump.o
+ CC        build/services/usbdmsc/flash_drive/flash_drive_app.o
+ CC        build/services/usbdmsc/usbdmsc_api.o
+ CC        build/services/usbdmsc/usbdmsc_service.o
+ CC        build/services/usbdmsc/flash_drive/usb_user_descriptors.o
+ CC        build/services/wdog/wdog_service.o
+ CC        build/modules/compression/hss_decompress.o
+ CC        build/thirdparty/miniz/miniz.o
+ CC        build/modules/ssmb/ipi/ssmb_ipi.o
+ CC        build/application/hart0/hss_init.o
+ CC        build/application/hart0/hss_main.o
+ CC        build/application/hart1-4/u54_handle_ipi.o
+ CC        build/application/hart1-4/u54_state.o
+ CC        build/boards/mpfs-beaglev-fire/hss_uart_init.o
+ CC        build/boards/mpfs-beaglev-fire/uart_device_list.o
+ CC        build/boards/mpfs-beaglev-fire/hss_board_init.o
+ CC        build/boards/mpfs-beaglev-fire/hss_logo_init.o
+ CC        build/init/hss_ddr_init.o
+ CC        build/init/hss_boot_init.o
+ CC        build/init/hss_sys_setup.o
+ CC        build/init/hss_usb_init.o
+ CC        build/init/hss_ihc_init.o
+ CC        build/init/hss_pcie_init.o
+ CC        build/init/hss_opensbi_init.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/drivers/mss/mss_pdma/mss_pdma.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/drivers/mss/mss_mmc/mss_mmc.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/drivers/mss/mss_mmc/mss_mmc_if.o
+ CC        build/baremetal/drivers/fpga_ip/miv_ihc/miv_ihc.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/drivers/mss/mss_mmuart/mss_uart.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/drivers/mss/mss_sys_services/mss_sys_services.o
+ CC        build/baremetal/drivers/mss/mss_watchdog/mss_watchdog.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_mpu.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_peripherals.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_plic.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_beu.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_l2_cache.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_util.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_nwc_init.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_io.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_pll.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/mss_pmp.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_sgmii.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/startup_gcc/system_startup.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_ddr.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_ddr_debug.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/common/nwc/mss_ddr_test_pattern.o
+ CC        build/services/mmc/mmc_api.o
+ CC        build/modules/debug/hss_debug.o
+ CC        build/modules/debug/hss_perfctr.o
+ CC        build/modules/misc/assert.o
+ CC        build/modules/misc/csr_helper.o
+ CC        build/modules/misc/c_stubs.o
+ CC        build/modules/misc/hss_crc16.o
+ CC        build/modules/misc/hss_crc32.o
+ CC        build/modules/misc/hss_memcpy_via_pdma.o
+ CC        build/modules/misc/hss_progress.o
+ CC        build/modules/misc/device_serial_number.o
+ CC        build/modules/misc/design_version_info.o
+ CC        build/modules/misc/uart_helper.o
+ CC        build/modules/misc/hss_trigger.o
+ CC        build/modules/misc/hss_memtest.o
+ CC        build/application/crt.o
+ CC        build/baremetal/polarfire-soc-bare-metal-library/src/platform/mpfs_hal/startup_gcc/mss_utils.o
+ CC        build/thirdparty/opensbi/lib/sbi/riscv_hardfp.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_expected_trap.o
+ CC        build/thirdparty/opensbi/lib/sbi/sbi_hfence.o
+ CARRAY    thirdparty/opensbi/lib/sbi/sbi_ecall_exts.carray
+ CC        build/services/opensbi/opensbi_ecall_exts.o
+ CPP       boards/mpfs-beaglev-fire/hss-l2scratch.ld
+ LD        hss-l2scratch.elf
+ NM        hss-l2scratch.sym
+ BIN       hss-l2scratch.bin
+   text	   data	    bss	    dec	    hex	filename
+ 158228	  28256	 180128	 366612	  59814	build/hss-l2scratch.elf
+ COMPRESS  build/hss-l2scratch.bin
+ CC        build/envm-wrapper/envm-wrapper_crt.o
+ CC        build/envm-wrapper/envm-wrapper_validate_crc.o
+ CC        build/envm-wrapper/envm-wrapper_stubs.o
+ CC        build/modules/misc/stack_guard.o
+ LD        hss-envm-wrapper.elf
+ NM        hss-envm-wrapper.sym
+ BIN       hss-envm-wrapper.bin
+ HEX       hss-envm-wrapper.hex
+10:44:03 INFO  - mpfsBootmodeProgrammer v3.7 started.
+10:44:03 INFO  - "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/sources/HSS/build/bootmode1" is the output folder and the previous contents of this folder will be deleted.
+10:44:03 INFO  - Selected boot mode "1 - non-secure boot from eNVM" and working in directory "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/sources/HSS/build".
+10:44:04 INFO  - Generating BIN file...
+10:44:04 INFO  - Generating header...
+10:44:04 INFO  - Generating HEX file...
+10:44:04 INFO  - Preparing for bitstream generation...
+10:44:04 INFO  - Generating bitstream...
+10:44:13 INFO  - Programming/verifying the target skipped because --dryrun was specified.
+10:44:13 INFO  - mpfsBootmodeProgrammer completed successfully.
+   text	   data	    bss	    dec	    hex	filename
+ 101108	    416	 149632	 251156	  3d514	build/hss-envm-wrapper.elf
+HSS image copied from sources/HSS/build/bootmode1/hss-envm-wrapper-bm1-p0.hex to work/HSS/hss-envm-wrapper-bm1-p0.hex
+================================================================================
+                            Generate Libero project
+================================================================================
+
+top level name:  MY_CUSTOM_FPGA_DESIGN_2C5C164A
+Console Mode = Libero v2023.2 detected.
+Setting parameter M2_OPTION to NONE
+Setting parameter CAPE_OPTION to VERILOG_TUTORIAL
+Setting parameter BOARD to mpfs-beaglev-fire
+Setting parameter PROJECT_LOCATION to ../../builds/my_custom_fpga_design/work/libero
+Setting parameter TOP_LEVEL_NAME to MY_CUSTOM_FPGA_DESIGN_2C5C164A
+Setting parameter HSS_IMAGE_PATH to ../../work/HSS/hss-envm-wrapper-bm1-p0.hex
+Setting parameter PROG_EXPORT_PATH to ../../builds/my_custom_fpga_design
+Setting parameter DESIGN_VERSION to 10723
+Cape options selected: VERILOG_TUTORIAL
+M.2 option selected: NONE
+APU option selected: NONE
+SYZYGY high speed connector option option selected: DEFAULT
+MIPI CSI option option selected: DEFAULT
+PROJECT_LOCATION: ../../builds/my_custom_fpga_design/work/libero
+DESIGN_VERSION: 10723
+SILICON_SIGNATURE: bea913b0
+BOARD: mpfs-beaglev-fire
+DIE: MPFS025T
+PACKAGE: FCVG484
+DIE_VOLTAGE: 1.0
+PART_RANGE: EXT
+SPEED: STD
+Info: This version of Libero supports only the enhanced constraint flow.
+The BVF_GATEWARE_025T project was created.
+MSS filename: PF_SOC_MSS
+Info:  Design 'PF_SOC_MSS' was successfully imported.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/AXI4_address_shim.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/blinky.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v'.
+Info: Core has been created successfully from 'APB_ARBITER' HDL module.
+Info:  <a href="liberoaction://open_online_help/70004">Read more</a> on how to create a core from your HDL module.
+Info:  This feature enables you to add bus interfaces to your HDL module and configure any generics/parameters in your HDL module.
+
+Info: Core has been created successfully from 'AXI_ADDRESS_SHIM' HDL module.
+Info:  <a href="liberoaction://open_online_help/70004">Read more</a> on how to create a core from your HDL module.
+Info:  This feature enables you to add bus interfaces to your HDL module and configure any generics/parameters in your HDL module.
+
+Info: 'CORERESET' was successfully generated.
+Info: 'CORERESET' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_manifest.txt' was successfully generated.
+
+Info:  Component 'CORERESET' was successfully created and configured with vendor:Actel library:DirectCore name:CORERESET_PF version:2.3.100.
+Info: 'INIT_MONITOR' was successfully generated.
+Info: 'INIT_MONITOR' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_manifest.txt' was successfully generated.
+
+Info:  Component 'INIT_MONITOR' was successfully created and configured with vendor:Microsemi library:SgCore name:PFSOC_INIT_MONITOR version:1.0.307.
+Warning: SmartDesign 'FPGA_CGND_net
+VCC_net
+GND_net
+VCC_net
+GND_net
+VCC_net
+GND_net
+VCC_net
+CC_C0' design rules check succeeded, but with warnings
+Warning:  Design rules check of "FPGA_CCC_C0" has warning messages, Please check the Log Window for more details.
+           [OK]
+Warning: 'Core Validation' : PLL_FEEDBACK_MODE_0 If you select Post-VCO as a Feedback Mode, outputs will be resynchronized between each other after the PLL locks, but will not be resynchronized with the PLL reference clock
+Info: 'Core Validation' : Incorrect PLL_LOCK_COUNT value of 0 found, updating the value to be 8.
+Info: 'Core Validation' : The current configuration of instance : FPGA_CCC_C0_0 has warning or information messages. Consult the User Guide for configuration of this core.
+Info: 'FPGA_CCC_C0' was successfully generated.
+Info:  Design "FPGA_CCC_C0" was successfully generated.
+        [OK]
+Info: 'FPGA_CCC_C0' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_manifest.txt' was successfully generated.
+
+Info:  Component 'FPGA_CCC_C0' was successfully created and configured with vendor:Actel library:SgCore name:PF_CCC version:2.2.220.
+Info: 'FIC0_INITIATOR' was successfully generated.
+Info: 'FIC0_INITIATOR' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC0_INITIATOR/FIC0_INITIATOR_manifest.txt' was successfully generated.
+
+Info:  Component 'FIC0_INITIATOR' was successfully created and configured with vendor:Actel library:DirectCore name:COREAXI4INTERCONNECT version:2.9.100.
+Info: 'CLK_DIV' was successfully generated.
+Info: 'CLK_DIV' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLK_DIV/CLK_DIV_manifest.txt' was successfully generated.
+
+Info:  Component 'CLK_DIV' was successfully created and configured with vendor:Actel library:SgCore name:PF_CLK_DIV version:1.0.103.
+Info: 'GLITCHLESS_MUX' was successfully generated.
+Info: 'GLITCHLESS_MUX' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX_manifest.txt' was successfully generated.
+
+Info:  Component 'GLITCHLESS_MUX' was successfully created and configured with vendor:Actel library:SgCore name:PF_NGMUX version:1.0.101.
+Info: 'TRANSMIT_PLL' was successfully generated.
+Info: 'TRANSMIT_PLL' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/TRANSMIT_PLL/TRANSMIT_PLL_manifest.txt' was successfully generated.
+
+Info:  Component 'TRANSMIT_PLL' was successfully created and configured with vendor:Actel library:SgCore name:PF_TX_PLL version:2.0.304.
+Info: 'PCIE_REF_CLK' was successfully generated.
+Info: 'PCIE_REF_CLK' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PCIE_REF_CLK/PCIE_REF_CLK_manifest.txt' was successfully generated.
+
+Info:  Component 'PCIE_REF_CLK' was successfully created and configured with vendor:Actel library:SgCore name:PF_XCVR_REF_CLK version:1.0.103.
+Info: 'FIC3_INITIATOR' was successfully generated.
+Info: 'FIC3_INITIATOR' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR_manifest.txt' was successfully generated.
+
+Info:  Component 'FIC3_INITIATOR' was successfully created and configured with vendor:Actel library:DirectCore name:CoreAPB3 version:4.2.100.
+Info: 'OSCILLATOR_160MHz' was successfully generated.
+Info: 'OSCILLATOR_160MHz' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_manifest.txt' was successfully generated.
+
+Info:  Component 'OSCILLATOR_160MHz' was successfully created and configured with vendor:Actel library:SgCore name:PF_OSC version:1.0.102.
+Warning: SmartDesign 'PF_CCC_ADC' design rules check succeeded, but with warnings
+Warning:  Design rules check of "PF_CCC_ADC" has warning messages, Please check the Log Window for more details.
+           [OK]
+Warning: 'Core Validation' : PLL_FEEDBACK_MODE_0 If you select Post-VCO as a Feedback Mode, outputs will be resynchronized between each other after the PLL locks, but will not be resynchronized with the PLL reference clock
+Info: 'Core Validation' : Incorrect PLL_LOCK_COUNT value of 0 found, updating the value to be 8.
+Info: 'Core Validation' : The current configuration of instance : PF_CCC_ADC_0 has warning or information messages. Consult the User Guide for configuration of this core.
+Info: 'PF_CCC_ADC' was successfully generated.
+Info:  Design "PF_CCC_ADC" was successfully generated.
+        [OK]
+Info: 'PF_CCC_ADC' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_manifest.txt' was successfully generated.
+
+Info:  Component 'PF_CCC_ADC' was successfully created and configured with vendor:Actel library:SgCore name:PF_CCC version:2.2.220.
+Info: 'CLOCKS_AND_RESETS' was successfully generated.
+Info: 'CLOCKS_AND_RESETS' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS_manifest.txt' was successfully generated.
+
+Info:  Successfully generated component 'CLOCKS_AND_RESETS'.
+Info: 'MIV_IHC_C0' was successfully generated.
+Info: 'MIV_IHC_C0' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_manifest.txt' was successfully generated.
+
+Info:  Component 'MIV_IHC_C0' was successfully created and configured with vendor:Microchip library:MiV name:MIV_IHC version:2.0.100.
+Info:Non-Continuous Combined Region Slot
+Warning: SmartDesign 'BVF_RISCV_SUBSYSTEM' design rules check succeeded, but with warnings
+Warning: Floating output pin PF_SOC_MSS:SPI_1_SS1_OE_M2F
+Warning: Floating output pin PF_SOC_MSS:SPI_1_DO_OE_M2F
+Warning: Floating output pin PF_SOC_MSS:SPI_1_CLK_OE_M2F
+Info: 'BVF_RISCV_SUBSYSTEM' was successfully generated.
+Info: 'BVF_RISCV_SUBSYSTEM' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM_manifest.txt' was successfully generated.
+
+Info:  Successfully generated component 'BVF_RISCV_SUBSYSTEM'.
+======== Add cape option: VERILOG_TUTORIAL ========
+Info: Core has been created successfully from 'CAPE' HDL module.
+Info:  <a href="liberoaction://open_online_help/70004">Read more</a> on how to create a core from your HDL module.
+Info:  This feature enables you to add bus interfaces to your HDL module and configure any generics/parameters in your HDL module.
+
+======== Add M.2 option: NONE ========
+======== Add APU option: NONE ========
+Info:Non-Continuous Combined Region Slot
+Warning: SmartDesign 'MY_CUSTOM_FPGA_DESIGN_2C5C164A' design rules check succeeded, but with warnings
+Warning: Floating output pin BVF_RISCV_SUBSYSTEM:M2_W_DISABLE1
+Warning: Floating output pin BVF_RISCV_SUBSYSTEM:M2_W_DISABLE2
+Warning: Floating output bus pin BVF_RISCV_SUBSYSTEM:FIC_3_APB_M_PSTRB[3:0]
+Warning: Unconnected bus interface pin BVF_RISCV_SUBSYSTEM:FIC_1_AXI4_TARGET
+Warning: Unconnected bus interface pin BVF_RISCV_SUBSYSTEM:FIC_1_AXI4_INITIATOR
+Warning: Floating output pin CLOCKS_AND_RESETS:DEVICE_INIT_DONE
+Warning: Floating output pin CLOCKS_AND_RESETS:RCOSC_160MHZ_GL
+Warning: Floating output pin CLOCKS_AND_RESETS:XCVR_INIT_DONE
+Info: 'MY_CUSTOM_FPGA_DESIGN_2C5C164A' was successfully generated.
+Info: 'MY_CUSTOM_FPGA_DESIGN_2C5C164A' manifest file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_manifest.txt' was successfully generated.
+
+Info:  Successfully generated component 'MY_CUSTOM_FPGA_DESIGN_2C5C164A'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLK_DIV/CLK_DIV.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLK_DIV/CLK_DIV_0/CLK_DIV_CLK_DIV_0_PF_CLK_DIV.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/test/corereset_pf_tb.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC0_INITIATOR/FIC0_INITIATOR.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/MasterConvertor.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/MstrProtocolConverter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/RegisterSlice.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlaveConvertor.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtocolConv.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvDataWidthConverter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvProtocolConverter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/AddressController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/Axi4CrossBar.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/BitScan0.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/DependenceChecker.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/FifoDualPort.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/MasterControl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/RDataController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/ReadDataController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/ReadDataMux.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/RequestQual.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/ResetSycnc.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/RespController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/SlaveDataMuxController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/TargetMuxController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/TransactionController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/WDataController.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/CoreAxi4Interconnect.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/MstrDataWidthConv.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/Revision.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/AHB_SM_Undefburst.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/MstrAHBtoAXI4Converter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/FIFO.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/FIFO_CTRL.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/UpConverter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DownConverter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_CmdFifoWriteCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_readWidthConv.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvrd.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvwr.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_writeWidthConv.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_AChannel.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_BChannel.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChan_Ctrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChannel.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_ReadDataFifoCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_Wchan_WriteDataFifoCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/FIFO_downsizing.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/FIFO_upsizing.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Rd.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Wr.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/Hold_Reg_Ctrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4CrossBar/MasterAddressDecoder.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/Bin2Gray.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/CDC_FIFO.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/CDC_grayCodeCounter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/CDC_rdCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/CDC_wrCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/MstrClockDomainCrossing.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvClockDomainCrossing.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/byte2bit.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_DownConv_preCalcCmdFifoWrCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcAChannel.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcRChan_Ctrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_Hold_Reg.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvAXI4ID.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_brespCtrl.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel_SlvRid_Arb.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/test/user/AHBModel/AHBL_Master.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/test/user/AXI4Models/Axi4MasterGen.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/test/user/AXI4Models/Axi4SlaveGen.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/test/user/AXI4Models/AxiMaster.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/test/user/testbench.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.9.100/rtl/vlog/test/user/AXI4Models/DualPort_Ram_SyncWr_ASyncRd.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX_0/GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_syn_comps.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/test/user/testbench.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/coreparameters.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PCIE_REF_CLK/PCIE_REF_CLK.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PCIE_REF_CLK/PCIE_REF_CLK_0/PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/TRANSMIT_PLL/TRANSMIT_PLL.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/TRANSMIT_PLL/TRANSMIT_PLL_0/TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/AXI4_address_shim.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/blinky.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v'.
+Reading file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.v'.
+To automatically associate the derived constraint SDC file to the 'Synthesis', 'Place and Route' and 'Timing Verification' tools click 'Yes' else click 'No'. [YES]
+Info: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/MY_CUSTOM_FPGA_DESIGN_2C5C164A_derived_constraints.sdc was successfully generated.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Synthesis tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool
+
+Info: Active implementation is 'synthesis'
+Starting Synplify Pro ME...
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/compact_unevictable_allowed:1
+/proc/sys/vm/compaction_proactiveness:20
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:20
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/dirtytime_expire_seconds:43200
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256        256        32        0        0
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:65536
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/numa_stat:1
+/proc/sys/vm/numa_zonelist_order:Node
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/page_lock_unfairness:5
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_high_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:60
+/proc/sys/vm/unprivileged_userfaultfd:0
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/watermark_boost_factor:15000
+/proc/sys/vm/watermark_scale_factor:10
+/proc/sys/vm/zone_reclaim_mode:0
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems
+
+CDT
+Ubuntu 20.04.6 LTS
+###########################################################[
+
+                               Synplify Pro (R)
+
+              Version T-2022.09M-SP2-1 for linux64 - Jun 27, 2023
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/linux_a_64/mbin/synbatch
+Install:     /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro
+Hostname:    bbbio-ci-ubuntu-2004-1
+Date:        Wed Aug 20 10:44:48 2025
+Version:     T-2022.09M-SP2-1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server localhost
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+Implementation not found: synthesis
+log file: "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srr"
+Running: synthesis in foreground
+
+Running MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+
+Running Flow: compile (Compile) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:48 2025
+
+Running Flow: compile_flow (Compile Process) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:48 2025
+
+Running: compiler (Compile Input) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:48 2025
+Process ID: 68652
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_2C5C164A_comp.srs to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srs
+
+compiler completed
+# Wed Aug 20 10:44:52 2025
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:52 2025
+Process ID: 68715
+
+multi_srs_gen completed
+# Wed Aug 20 10:44:53 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_2C5C164A_mult.srs to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srs
+Complete: Compile Process on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+
+Running: premap (Premap) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:53 2025
+Process ID: 68731
+
+premap completed with warnings
+# Wed Aug 20 10:44:56 2025
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+
+Running Flow: map (Map) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:56 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:56 2025
+Process ID: 68746
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/li3/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srm
+
+fpga_mapper completed with warnings
+# Wed Aug 20 10:45:11 2025
+
+Return Code: 1
+Run Time:00h:00m:15s
+Complete: Map on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+Complete: Logic Synthesis on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srr to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/backup/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srr
+TCL script complete: "MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_4:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_8:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_12:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160_INT:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0:REF_CLK_0'.
+
+===============================================================================.
+
+Info: Global design data:
+      Total globals:                       6
+      Globals that cannot be demoted:      6
+      Globals considered for demotion:     0
+
+
+Info: List of globals that cannot be demoted:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    445    0      0      'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_12'
+    17     0      0      'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_0'
+    1      0      0      'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_4'
+    1      0      0      'CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_8'
+    0      0      2      'CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160_INT'
+    0      0      1      'CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/clkint_0'
+
+Info: Demotion information:
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+
+Synthesis completed.
+INFO: Reading User SDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/MY_CUSTOM_FPGA_DESIGN_2C5C164A_derived_constraints.sdc.
+INFO: Reading User SDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/fic_clocks.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : ON
+Driver Replication       : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/io/base_design.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/io/cape.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/io/M2.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/io/SYZYGY.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/io/MIPI_CSI_INTERFACE.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/fp/NW_PLL.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/constraint/fp/SYZYGY.pdc. 0 error(s) and 0 warning(s)
+
+ Running Timing based Global Demotion.
+        Demoted 0 global pins.
+
+ Timing based Global Demotion completed successfully.
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 86 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner detected (1) out of (5) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 2 seconds
+
+Placer V5.0 - 2023.2.0
+Design: MY_CUSTOM_FPGA_DESIGN_2C5C164A  Started: Wed Aug 20 10:45:46 2025
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 1 seconds
+Improvement              : 1 seconds
+
+Placer completed successfully.
+
+Design: MY_CUSTOM_FPGA_DESIGN_2C5C164A
+Finished: Wed Aug 20 10:46:34 2025
+Total CPU Time:     00:00:45            Total Elapsed Time: 00:00:48
+Total Memory Usage: 1045.4 Mbytes
+                        o - o - o - o - o - o
+
+
+Router
+Design: MY_CUSTOM_FPGA_DESIGN_2C5C164A  Started: Wed Aug 20 10:46:38 2025
+
+
+Router completed successfully.
+
+Design: MY_CUSTOM_FPGA_DESIGN_2C5C164A
+Finished: Wed Aug 20 10:46:42 2025
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:04
+Total Memory Usage: 755.6 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1393 | 22956 | 6.07       |
+| DFF           | 530  | 22956 | 2.31       |
+| I/O Register  | 0    | 108   | 0.00       |
+| Logic Element | 1440 | 22956 | 6.27       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  76   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
+Completed writing pin report files.
+Place and Route Elapsed Time: 1.50 minutes.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Verify Timing tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+No errors or warnings found.
+Verify Timing Elapsed Time: 36.0237 seconds.
+Info: Timing constraints have been met.
+Generating FPGA array data.
+INFO: Writing PCBIT information for Lock Bits in file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_init_config_lock_bits.txt ...
+INFO: PCBIT information used for generating Design_Initialization_Data_Report file.
+Info: Generated map file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.map
+FPGA array data completed successfully.
+Warning:  Back Level protection is disabled in the Configure Security tool. Back Level version will not be programmed. To enable Back Level protection go to the Configure Security tool, Update policy
+Info:  Memory files have been generated successfully
+Info:  'Generate design initialization data' has completed successfully.
+Info:  Stage 1 initialization client has been added to sNVM.
+Console Mode = Software Version: 2023.2.0.8
+creating folder: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp
+Created new project '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pro'
+The 'new_project' command succeeded.
+The 'add_actel_device' command succeeded.
+The 'enable_device' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
+Exported log file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp.log.
+Info:  Bitstream not generated for uPROM. The configuration file:  is either absent, unreadable, or empty. Use the Design and Memory Initialization tool in the design flow to configure uPROM if needed.
+Info:  Found sNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/SNVM.cfg
+Info:  Found eNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/ENVM.cfg
+Info: Generated dca file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.dca
+Exporting Bitstream File(s)...
+Software Version: 2023.2.0.8
+Opened '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pro'
+PDB file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pdb' has been loaded successfully.
+DESIGN : MY_CUSTOM_FPGA_DESIGN_2C5C164A;  CHECKSUM : C1C1;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Wed Aug 20 10:48:05 2025 (Elapsed time 00:00:00)
+Info:  Programming Interface selected is JTAG.
+Info:  Design version will be programmed to 10723 with this bitstream.
+File/Folder '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/bitstream/LinuxProgramming/mpfs_bitstream.spi' will be overwritten.
+Successfully exported SPI master file: '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/bitstream/LinuxProgramming/mpfs_bitstream.spi'; file programs Fabric, sNVM and eNVM.
+BITS component bitstream digest: 743c84a51bb8f09c698540b2227ead42bbe263b008451c7bc9a18da54c0d78e5
+Fabric component bitstream digest: 4c5f3fb472bd460ff58701b4d5d6a6027891a04ef582771eee029e83e3a5da83
+eNVM component bitstream digest: cd3d401f5ba30d3e9f170eb6450b7d49440563e54a43b6056b48a7db459c7ce2
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+EOB component bitstream digest: 413839c2df13452b61b1e9f627b5659f057409947d18138f019f0686e6dfe0b1
+Entire bitstream digest: 0145a629b0a610bb4a501f5eb86d50cbc7b845793d684edf64e6a7c007f63001
+Finished: Wed Aug 20 10:48:15 2025 (Elapsed time 00:00:10)
+
+creating folder: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/projectData
+Project saved.
+Project closed.
+Info:  Exported log file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A_exportBitstream.log
+Exporting Bitstream File(s) Finished: Wed Aug 20 10:48:18 2025 (Elapsed time 00:00:21)
+
+Info:  Bitstream not generated for uPROM. The configuration file:  is either absent, unreadable, or empty. Use the Design and Memory Initialization tool in the design flow to configure uPROM if needed.
+Info:  Found sNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/SNVM.cfg
+Info:  Found eNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/ENVM.cfg
+Info: Generated dca file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.dca
+Generating Bitstream File to program Fabric, sNVM and eNVM...
+Software Version: 2023.2.0.8
+Opened '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pro'
+PDB file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pdb' has been loaded successfully.
+DESIGN : MY_CUSTOM_FPGA_DESIGN_2C5C164A;  CHECKSUM : C1C1;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Wed Aug 20 10:48:28 2025 (Elapsed time 00:00:01)
+Info:  Programming Interface selected is JTAG.
+Info:  Design version will be programmed to 10723 with this bitstream.
+File/Folder '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.ppd'; file programs Fabric, sNVM and eNVM.
+BITS component bitstream digest: 743c84a51bb8f09c698540b2227ead42bbe263b008451c7bc9a18da54c0d78e5
+Fabric component bitstream digest: 4c5f3fb472bd460ff58701b4d5d6a6027891a04ef582771eee029e83e3a5da83
+eNVM component bitstream digest: cd3d401f5ba30d3e9f170eb6450b7d49440563e54a43b6056b48a7db459c7ce2
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+EOB component bitstream digest: 7035bb6d5abc52eda3e41cac3542b81feb6608f6df5982a06633f4fdd8904866
+Entire bitstream digest: 340ecac5e63d2cd85d16aec123cdba9dc59ac27482dfe9302430ae90de0f9836
+Finished: Wed Aug 20 10:48:44 2025 (Elapsed time 00:00:16)
+
+Project saved.
+Project closed.
+Info:  Exported log file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A_generateBitstream.log
+Generating Bitstream File Finished: Wed Aug 20 10:48:48 2025 (Elapsed time 00:00:28)
+
+Warning:  Back Level protection is disabled in the Configure Security tool. Back Level version will not be programmed. To enable Back Level protection go to the Configure Security tool, Update policy
+Exporting FlashPro Express Job...
+
+Info:  Bitstream not generated for uPROM. The configuration file:  is either absent, unreadable, or empty. Use the Design and Memory Initialization tool in the design flow to configure uPROM if needed.
+Info:  Found sNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/SNVM.cfg
+Info:  Found eNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/ENVM.cfg
+Info: Generated dca file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.dca
+Exporting Bitstream File(s)...
+Software Version: 2023.2.0.8
+Opened '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pro'
+PDB file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pdb' has been loaded successfully.
+DESIGN : MY_CUSTOM_FPGA_DESIGN_2C5C164A;  CHECKSUM : C1C1;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Wed Aug 20 10:49:02 2025 (Elapsed time 00:00:01)
+Info:  Programming Interface selected is JTAG.
+Info:  Design version will be programmed to 10723 with this bitstream.
+Successfully generated bitstream file and it has been added to the job container; file programs Fabric, sNVM and eNVM.
+BITS component bitstream digest: 743c84a51bb8f09c698540b2227ead42bbe263b008451c7bc9a18da54c0d78e5
+Fabric component bitstream digest: 4c5f3fb472bd460ff58701b4d5d6a6027891a04ef582771eee029e83e3a5da83
+eNVM component bitstream digest: cd3d401f5ba30d3e9f170eb6450b7d49440563e54a43b6056b48a7db459c7ce2
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+EOB component bitstream digest: 7035bb6d5abc52eda3e41cac3542b81feb6608f6df5982a06633f4fdd8904866
+Entire bitstream digest: 340ecac5e63d2cd85d16aec123cdba9dc59ac27482dfe9302430ae90de0f9836
+Finished: Wed Aug 20 10:49:18 2025 (Elapsed time 00:00:16)
+
+Project saved.
+Project closed.
+Info:  Exported log file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A_exportJob.log
+Exporting Bitstream File(s) Finished: Wed Aug 20 10:49:22 2025 (Elapsed time 00:00:28)
+
+
+Warning:  Back Level protection is disabled in the Configure Security tool. Back Level version will not be programmed. To enable Back Level protection go to the Configure Security tool, Update policy
+Cleaning tool 'Export Bitstream'...
+Deleting '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A_exportBitstream.log'
+Info:  Bitstream not generated for uPROM. The configuration file:  is either absent, unreadable, or empty. Use the Design and Memory Initialization tool in the design flow to configure uPROM if needed.
+Info:  Found sNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/SNVM.cfg
+Info:  Found eNVM configuration file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/ENVM.cfg
+Info: Generated dca file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.dca
+Exporting Bitstream File(s)...
+Software Version: 2023.2.0.8
+Opened '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pro'
+PDB file '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.pdb' has been loaded successfully.
+DESIGN : MY_CUSTOM_FPGA_DESIGN_2C5C164A;  CHECKSUM : C1C1;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Wed Aug 20 10:49:34 2025 (Elapsed time 00:00:01)
+Info:  Programming Interface selected is JTAG.
+Info:  Design version will be programmed to 10723 with this bitstream.
+File/Folder '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/bitstream/DirectC/MY_CUSTOM_FPGA_DESIGN_2C5C164A.dat' will be overwritten.
+Successfully exported DirectC file: '/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/bitstream/DirectC/MY_CUSTOM_FPGA_DESIGN_2C5C164A.dat'; file programs Fabric, sNVM and eNVM.
+BITS component bitstream digest: 743c84a51bb8f09c698540b2227ead42bbe263b008451c7bc9a18da54c0d78e5
+Fabric component bitstream digest: 4c5f3fb472bd460ff58701b4d5d6a6027891a04ef582771eee029e83e3a5da83
+eNVM component bitstream digest: cd3d401f5ba30d3e9f170eb6450b7d49440563e54a43b6056b48a7db459c7ce2
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+EOB component bitstream digest: 7035bb6d5abc52eda3e41cac3542b81feb6608f6df5982a06633f4fdd8904866
+Entire bitstream digest: 340ecac5e63d2cd85d16aec123cdba9dc59ac27482dfe9302430ae90de0f9836
+Finished: Wed Aug 20 10:49:44 2025 (Elapsed time 00:00:10)
+
+Project saved.
+Project closed.
+Info:  Exported log file: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A_fp/MY_CUSTOM_FPGA_DESIGN_2C5C164A_exportBitstream.log
+Exporting Bitstream File(s) Finished: Wed Aug 20 10:49:48 2025 (Elapsed time 00:00:23)
+
+The Execute Script command succeeded.
+The BVF_GATEWARE_025T project was closed.

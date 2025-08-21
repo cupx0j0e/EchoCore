@@ -1,0 +1,104 @@
+
+                               Synplify Pro (R) 
+
+              Version T-2022.09M-SP2-1 for linux64 - Jun 27, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/linux_a_64/mbin/synbatch
+Install:     /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro
+Hostname:    bbbio-ci-ubuntu-2004-1
+Date:        Wed Aug 20 10:44:48 2025
+Version:     T-2022.09M-SP2-1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server localhost 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+Implementation not found: synthesis
+log file: "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srr"
+Running: synthesis in foreground
+
+Running MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+
+Running Flow: compile (Compile) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:48 2025
+
+Running Flow: compile_flow (Compile Process) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:48 2025
+
+Running: compiler (Compile Input) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:48 2025
+Process ID: 68652
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_2C5C164A_comp.srs to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srs
+
+compiler completed
+# Wed Aug 20 10:44:52 2025
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:52 2025
+Process ID: 68715
+
+multi_srs_gen completed
+# Wed Aug 20 10:44:53 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_2C5C164A_mult.srs to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srs
+Complete: Compile Process on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+
+Running: premap (Premap) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:53 2025
+Process ID: 68731
+
+premap completed with warnings
+# Wed Aug 20 10:44:56 2025
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+
+Running Flow: map (Map) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:56 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+# Wed Aug 20 10:44:56 2025
+Process ID: 68746
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_2C5C164A_m.srm to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srm
+
+fpga_mapper completed with warnings
+# Wed Aug 20 10:45:11 2025
+
+Return Code: 1
+Run Time:00h:00m:15s
+Complete: Map on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+Complete: Logic Synthesis on MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn|synthesis
+Copied /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srr to /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/backup/MY_CUSTOM_FPGA_DESIGN_2C5C164A.srr
+TCL script complete: "MY_CUSTOM_FPGA_DESIGN_2C5C164A_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel
