@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/MY_CUSTOM_FPGA_DESIGN_6F813211_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0</data>
+<data>125.0 MHz</data>
+<data>2521.4 MHz</data>
+<data>7.603</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3</data>
+<data>50.0 MHz</data>
+<data>92.7 MHz</data>
+<data>9.210</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0</data>
+<data>4.9 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>osc_rc160mhz</data>
+<data>160.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>283.3 MHz</data>
+<data>6.471</data>
+</row>
+</report_table>

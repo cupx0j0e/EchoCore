@@ -1,0 +1,4 @@
+**** Begin Compile Point : MY_CUSTOM_FPGA_DESIGN_6F813211 ****
+**** End Compile Point : MY_CUSTOM_FPGA_DESIGN_6F813211 ****
+**** Begin Compile Point : miv_ihc_core_Z4 ****
+**** End Compile Point : miv_ihc_core_Z4 ****

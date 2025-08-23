@@ -48,7 +48,8 @@ KEY ActiveRoot "envelope::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 VALUE="Impl2",NUM=2
-CURREV=2
+VALUE="Impl3",NUM=3
+CURREV=3
 ENDLIST
 LIST LIBRARIES
 CORECORDIC_LIB
@@ -69,13 +70,13 @@ ENDLIST
 LIST FileManager
 VALUE "<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/CORECORDIC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="985"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="473"
 PARENT="<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/CORECORDIC.cxf"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -84,7 +85,7 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="31471"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/CORECORDIC.cxf"
@@ -92,7 +93,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/test/user/bhvKit.v,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="17385"
 PARENT="<project>/component/Actel/DirectCore/CORECORDIC/4.1.100/CORECORDIC.cxf"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -100,13 +101,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2245"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="23608"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -114,7 +115,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="14777"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -122,7 +123,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="13814"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -130,7 +131,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="79768"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -138,7 +139,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_fir_basic_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="22508"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -146,7 +147,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="13968"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -154,7 +155,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="17607"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -162,7 +163,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="5405"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -170,7 +171,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="19691"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -178,7 +179,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="8703"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -186,7 +187,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="24587"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -194,7 +195,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="22686"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/Actel/DirectCore/COREFIR_PF/3.0.121/COREFIR_PF.cxf"
@@ -202,19 +203,19 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="3778"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="3957"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2684"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -222,13 +223,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2472"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0.cxf"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/coreparameters.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="250"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -236,7 +237,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/inpTestVect.v,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="7641"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -244,7 +245,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/outpTestVect.v,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="4793"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -252,7 +253,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="8674"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -260,7 +261,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="8880"
 LIBRARY="CORECORDIC_LIB"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
@@ -268,44 +269,44 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/test/user/coreCordic_tb.v,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="10803"
 PARENT="<project>/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/envelope/envelope.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2301"
 ENDFILE
 VALUE "<project>/component/work/envelope/envelope.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="3860"
 PARENT="<project>/component/work/envelope/envelope.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="5546"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="10278"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="3231"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert.cxf"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="25538"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -313,7 +314,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="22755"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -321,7 +322,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="10502"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -329,7 +330,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="7797"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -337,7 +338,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1761"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -345,7 +346,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/bhvFirG5_tb.vhd,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="59886"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -355,7 +356,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/bhvKit.vhd,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="25388"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -363,7 +364,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/bhv_pack.vhd,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="19200"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -371,7 +372,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1453"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -379,7 +380,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/decimation_bhvKit.vhd,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="28276"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -387,7 +388,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/decimation_bhv_pack.vhd,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="13037"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -395,7 +396,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/decimation_rtl_pack.vhd,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="15960"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -403,7 +404,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/simpleFIR_inData.vhd,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="3714"
 LIBRARY="COREFIR_PF_LIB"
 PARENT="<project>/component/work/fir_hilbert/fir_hilbert_0/fir_hilbert_fir_hilbert_0_COREFIR_PF.cxf"
@@ -411,113 +412,113 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top/top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1133"
 ENDFILE
 VALUE "<project>/hdl/calc_frac.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1444"
 ENDFILE
 VALUE "<project>/hdl/coord_rom.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="466"
 ENDFILE
 VALUE "<project>/hdl/delay.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2499"
 ENDFILE
 VALUE "<project>/hdl/delay_calc.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2202"
 ENDFILE
 VALUE "<project>/hdl/delay_con.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="3750"
 ENDFILE
 VALUE "<project>/hdl/fifo.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1356"
 ENDFILE
 VALUE "<project>/hdl/log_calc.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2507"
 ENDFILE
 VALUE "<project>/hdl/postproc.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1741"
 ENDFILE
 VALUE "<project>/hdl/preproc.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2709"
 ENDFILE
 VALUE "<project>/hdl/readrf_vals.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1155"
 ENDFILE
 VALUE "<project>/hdl/sample_delay.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="859"
 ENDFILE
 VALUE "<project>/hdl/sqrt.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1916"
 ENDFILE
 VALUE "<project>/hdl/summ_sa.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="1015"
 ENDFILE
 VALUE "<project>/hdl/top_bf.v,hdl"
 STATE="utd"
-TIME="1755775050"
-SIZE="2786"
+TIME="1755956537"
+SIZE="2796"
 ENDFILE
 VALUE "<project>/hdl/top_logc.v,hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2174"
 ENDFILE
 VALUE "<project>/simulation/envelope_align.vcd,vcd"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="5018482"
 ENDFILE
 VALUE "<project>/simulation/envelope_tb.vcd,vcd"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="5015383"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="4442"
 ENDFILE
 VALUE "<project>/simulation/tb_envelope_presynth_simulation.log,log"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="39348"
 ENDFILE
 VALUE "<project>/stimulus/testbench.v,tb_hdl"
 STATE="utd"
-TIME="1755775050"
+TIME="1755956537"
 SIZE="2197"
 ENDFILE
 VALUE "<project>/synthesis/envelope_syn.prj,prj"
 STATE="utd"
-TIME="1755775050"
-SIZE="7179"
+TIME="1755956537"
+SIZE="6919"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -540,6 +541,16 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -712,6 +723,16 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
@@ -726,8 +747,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl/preproc.v;0
+HDL;hdl/log_calc.v;0
+HDL;hdl/postproc.v;0
+HDL;hdl/fifo.v;0
+HDL;hdl/top_logc.v;0
+ACTIVEVIEW;hdl/top_logc.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coord_rom::work","hdl/coord_rom.v","FALSE","FALSE"
