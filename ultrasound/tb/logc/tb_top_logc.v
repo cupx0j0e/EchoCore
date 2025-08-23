@@ -1,8 +1,8 @@
 `timescale 1ps/1ps
 
 module tb_top_logc;
-    reg [DATA_WIDTH-1:0] data_lut [0:2];
-    reg [1:0] i = 0;
+    // reg [DATA_WIDTH-1:0] data_lut [0:2];
+    // reg [1:0] i = 0;
 
     parameter DEPTH = 30;
 
@@ -55,11 +55,11 @@ module tb_top_logc;
         .comp_frac(comp_frac)
     );
 
-    initial begin
-        data_lut[0] = 48'd120362;
-        data_lut[1] = 48'd65536;
-        data_lut[2] = 48'd1;
-    end
+    // initial begin
+    //     data_lut[0] = 48'd120362;
+    //     data_lut[1] = 48'd65536;
+    //     data_lut[2] = 48'd1;
+    // end
 
     initial begin
         clk = 0;
@@ -73,8 +73,7 @@ module tb_top_logc;
         reset = 0;
         repeat (30) begin
             @(posedge clk);
-            data_in = data_lut[i];
-            i <= i + 1;
+            data_in = $random;
         end
         #1000;
         $finish;

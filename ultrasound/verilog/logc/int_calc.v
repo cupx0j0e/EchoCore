@@ -46,7 +46,9 @@ module int_calc #(
         end else begin
             case(state)
                 IDLE: begin
-                    sample_reg <= data_in;
+                    if (in_ready && in_valid) begin
+                        sample_reg <= data_in;
+                    end
                 end
 
                 CALC_ZP: begin
