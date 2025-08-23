@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/miv_ihc_core_Z4/miv_ihc_core_Z4.srr</data>
+<data>/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/miv_ihc_core_Z4/miv_ihc_core_Z4.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>

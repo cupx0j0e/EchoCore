@@ -6,7 +6,7 @@ Runtime Summary:
 
 	The following design units have negligible CPU times:
 	=====================================================
-		* Library: work, DesignUnit: MY_CUSTOM_FPGA_DESIGN_2C5C164A
+		* Library: work, DesignUnit: MY_CUSTOM_FPGA_DESIGN_6F813211
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: CLOCKS_AND_RESETS
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
@@ -32,7 +32,7 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: CAPE
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: blinky
+		* Library: work, DesignUnit: counter
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: P9_41_42_IOPADS
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time

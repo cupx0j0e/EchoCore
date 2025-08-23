@@ -1,7 +1,0 @@
-@N: MF916 |Option synthesis_strategy=base is enabled. 
-@N: MF248 |Running in 64-bit mode.
-@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MF104 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z4(verilog) 
-@N: MF105 |Performing bottom-up mapping of Top level view:work.MY_CUSTOM_FPGA_DESIGN_2C5C164A(verilog) 
-@N: MF106 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_2C5C164A/MY_CUSTOM_FPGA_DESIGN_2C5C164A.v":9:7:9:36|Mapping Top level view:work.MY_CUSTOM_FPGA_DESIGN_2C5C164A(verilog) because 
-@N: MO231 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/blinky.v":13:3:13:8|Found counter in view:work.CAPE(verilog) instance blinky_0.counter[22:0] 
