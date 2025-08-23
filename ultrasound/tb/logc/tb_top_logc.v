@@ -1,11 +1,18 @@
 `timescale 1ps/1ps
 
 module tb_top_logc;
+    reg [DATA_WIDTH-1:0] data_lut [0:2];
+    reg [1:0] i = 0;
 
-    parameter DATA_WIDTH = 48;
     parameter DEPTH = 30;
+
+    localparam DATA_WIDTH = 48;
+    localparam FRAC_WIDTH = 16;
+    localparam MIN_THRESHOLD = 1;
+    localparam NORM_WIDTH = FRAC_WIDTH + 1;
+    localparam SHIFT_WIDTH = $clog2(DATA_WIDTH);
+
     localparam ADDR_WIDTH = $clog2(DEPTH);
-    parameter COMP_WIDTH = DATA_WIDTH / 2;
 
     reg clk;
     reg reset;
@@ -14,7 +21,8 @@ module tb_top_logc;
     wire [ADDR_WIDTH:0] fifo_count;
     wire [ADDR_WIDTH-1:0] rd_ptr;
     wire [ADDR_WIDTH-1:0] wr_ptr;
-    wire [COMP_WIDTH-1:0] comp_out;
+    wire [SHIFT_WIDTH-1:0] comp_int;
+    wire [NORM_WIDTH-1:0] comp_frac;
     wire pir;
     wire fifo_out_valid;
 
@@ -33,15 +41,25 @@ module tb_top_logc;
 
     top_logc #(
         .DATA_WIDTH(DATA_WIDTH),
-        .COMP_WIDTH(COMP_WIDTH)
-    ) dut (
+        .FRAC_WIDTH(FRAC_WIDTH),
+        .MIN_THRESHOLD(MIN_THRESHOLD),
+        .NORM_WIDTH(NORM_WIDTH),
+        .SHIFT_WIDTH(SHIFT_WIDTH)
+    ) top_logc_0 (
         .clk(clk),
         .reset(reset),
         .data_in(data_out),
-        .pre_in_ready(pir),
+        .log_in_ready(pir),
         .fifo_out_valid(fifo_out_valid),
-        .comp_out(comp_out)
+        .comp_int(comp_int),
+        .comp_frac(comp_frac)
     );
+
+    initial begin
+        data_lut[0] = 48'd120362;
+        data_lut[1] = 48'd65536;
+        data_lut[2] = 48'd1;
+    end
 
     initial begin
         clk = 0;
@@ -55,9 +73,10 @@ module tb_top_logc;
         reset = 0;
         repeat (30) begin
             @(posedge clk);
-            data_in = $random;
+            data_in = data_lut[i];
+            i <= i + 1;
         end
-        #100;
+        #1000;
         $finish;
     end
 
