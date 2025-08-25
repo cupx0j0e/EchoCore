@@ -1,0 +1,256 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_comp.srs|-top|MY_CUSTOM_FPGA_DESIGN_E1068E8F|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/|-I|/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib|-sysv|-devicelib|/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/linux_a_64/c_ver":1691490548
+#CUR:"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":1691490541
+#CUR:"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/vlog/hypermods.v":1691490543
+#CUR:"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/vlog/umr_capim.v":1691490543
+#CUR:"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/vlog/scemi_objects.v":1691490543
+#CUR:"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1691490543
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":1756110562
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v":1756110549
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v":1756110549
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":1756110549
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v":1756110549
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1756110551
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v":1756110551
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":1756110538
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v":1756110538
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v":1756110553
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/blinky.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":1756110539
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":1756110540
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v":1756110540
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":1756110543
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v":1756110543
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":1756110540
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v":1756110540
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":1756110549
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v":1756110549
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v":1756110551
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v":1756110551
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":1756110551
+#CUR:"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_E1068E8F/MY_CUSTOM_FPGA_DESIGN_E1068E8F.v":1756110555
+0			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v" verilog
+1			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v" verilog
+2			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v" verilog
+3			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v" verilog
+4			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v" verilog
+5			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v" verilog
+6			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v" verilog
+7			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v" verilog
+8			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
+9			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v" verilog
+10			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v" verilog
+11			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v" verilog
+12			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v" verilog
+13			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v" verilog
+14			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v" verilog
+15			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v" verilog
+16			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/blinky.v" verilog
+17			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v" verilog
+18			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v" verilog
+19			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v" verilog
+20			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v" verilog
+21			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v" verilog
+22			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v" verilog
+23			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v" verilog
+24			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v" verilog
+25			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v" verilog
+26			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v" verilog
+27			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v" verilog
+28			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v" verilog
+29			"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_E1068E8F/MY_CUSTOM_FPGA_DESIGN_E1068E8F.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 3 2
+5 4
+6 -1
+7 6
+8 -1
+9 8
+10 9 7 5 1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 16 14 13 12 11 15
+18 -1
+19 18
+20 0
+21 20
+22 0
+23 22
+24 0
+25 24
+26 0
+27 26
+28 27 25 23 21 19
+29 28 17 10
+#Dependency Lists(Users Of)
+0 26 24 22 20
+1 10
+2 4
+3 4
+4 5
+5 10
+6 7
+7 10
+8 9
+9 10
+10 29
+11 17
+12 17
+13 17
+14 17
+15 17
+16 17
+17 29
+18 19
+19 28
+20 21
+21 28
+22 23
+23 28
+24 25
+25 28
+26 27
+27 28
+28 29
+29 -1
+#Design Unit to File Association
+module COREAPB3_LIB CoreAPB3 4
+module COREAPB3_LIB coreapb3_iaddr_reg 3
+module COREAPB3_LIB COREAPB3_MUXPTOB3 2
+module work MY_CUSTOM_FPGA_DESIGN_E1068E8F 29
+module work CLOCKS_AND_RESETS 28
+module work PF_CCC_ADC 27
+module work PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC 26
+module work OSCILLATOR_160MHz 25
+module work OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC 24
+module work INIT_MONITOR 23
+module work INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR 22
+module work FPGA_CCC_C0 21
+module work FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC 20
+module work CORERESET 19
+module work CORERESET_CORERESET_0_CORERESET_PF 18
+module work CAPE 17
+module work blinky 16
+module work apb_ctrl_status 15
+module work P9_41_42_IOPADS 14
+module work P9_21_31_IOPADS 13
+module work P9_11_18_IOPADS 12
+module work P8_IOPADS 11
+module work BVF_RISCV_SUBSYSTEM 10
+module work PF_SOC_MSS 9
+module work MSS 8
+module work MIV_IHC_C0 7
+module work miv_ihc_axi2apb 6
+module work miv_ihc_axi_w_buffer 6
+module work miv_ihc_axi_r_buffer 6
+module work miv_ihc_axi_b_buffer 6
+module work miv_ihc_axi_aw_buffer 6
+module work miv_ihc_axi_ar_buffer 6
+module work miv_ihc_axi_single_slice 6
+module work miv_ihc_fifo 6
+module work miv_ihc_fifo_v2 6
+module work miv_ihc_fifo_v3 6
+module work miv_ihc_apb_mpu 6
+module work miv_ihc_apb_cdc 6
+module work miv_ihc_apb_slave_asynch 6
+module work miv_ihc_apb_master_asynch 6
+module work miv_ihc_apb_arbiter_3 6
+module work miv_ihc_apb_arbiter_2 6
+module work miv_ihc_apb_target 6
+module work miv_ihc_mailbox_address_decoder 6
+module work miv_ihc_address_controller 6
+module work miv_ihc_interrupt_module 6
+module work miv_ihc_channel 6
+module work miv_ihc_ram_singleport_addreg 6
+module work miv_ihc_core 6
+module work miv_ihc_axi_target_top 6
+module work miv_ihc_apb_target_top 6
+module work miv_ihc_apb_arbiter_top 6
+module work MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC 6
+module work FIC3_INITIATOR 5
+module work APB_ARBITER 1
+module work CLKBUF_DIFF_ODT 0
+module work CLKBUF_DIFF 0
+module work PFSOC_SCSM 0
+module work CORELNKTMR_V 0
+module work XCVR 0
+module work XCVR_VV 0
+module work XCVR_TEST 0
+module work XCVR_REF_CLK 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_PMA 0
+module work XCVR_PIPE 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK 0
+module work XCVR_8B10B 0
+module work XCVR_64B6XB 0
+module work VREFCTRL 0
+module work VREFBANKDYN 0
+module work VOLTAGEDETECT 0
+module work USPI 0
+module work UPROM 0
+module work TX_PLL 0
+module work TVS 0
+module work TAMPER 0
+module work SYS_SERVICES 0
+module work SYSRESET 0
+module work SYSCTRL_RESET_STATUS 0
+module work SCB 0
+module work QUADRST 0
+module work QUADRST_PCIE 0
+module work PLL 0
+module work PF_SPI 0
+module work PCIE 0
+module work PCIE_COMMON 0
+module work OSC_RC2MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC160MHZ 0
+module work LANERST 0
+module work LANECTRL 0
+module work IOD 0
+module work INIT 0
+module work ICB_NGMUX 0
+module work ICB_MUXING 0
+module work ICB_INT 0
+module work ICB_CLKSTOP 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKINT 0
+module work ICB_CLKDIV 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_BANKCLK 0
+module work HS_IO_CLK 0
+module work GPSS_COMMON 0
+module work GLITCHDETECT 0
+module work ENFORCE 0
+module work DRI 0
+module work DLL 0
+module work DEBUG 0
+module work CRYPTO_SOC 0
+module work CRYPTO 0
+module work CRN_INT 0
+module work CRN_COMMON 0
+module work BANKEN 0
+module work BANKCTRL_HSIO 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRLM 0
+module work APBS 0
+module work APBM 0

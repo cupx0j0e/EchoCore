@@ -1,0 +1,8 @@
+/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter  -link  -top  MY_CUSTOM_FPGA_DESIGN_546BC67C  -multisrs  /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_546BC67C_comp.srs  -osyn  /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_546BC67C_mult.srs  -log  /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/MY_CUSTOM_FPGA_DESIGN_546BC67C_multi_srs_gen.srr 
+relcom:../../../../../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter -link -top MY_CUSTOM_FPGA_DESIGN_546BC67C -multisrs ../synwork/MY_CUSTOM_FPGA_DESIGN_546BC67C_comp.srs -osyn ../synwork/MY_CUSTOM_FPGA_DESIGN_546BC67C_mult.srs -log ../synlog/MY_CUSTOM_FPGA_DESIGN_546BC67C_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/MY_CUSTOM_FPGA_DESIGN_546BC67C_comp.srs|io:i|time:1756108129|size:330060|exec:0|csum:549DE37683E79AB6F8EEF4E7743CEBFA
+file:../synwork/MY_CUSTOM_FPGA_DESIGN_546BC67C_mult.srs|io:o|time:1756108130|size:20067|exec:0|csum:
+file:../synlog/MY_CUSTOM_FPGA_DESIGN_546BC67C_multi_srs_gen.srr|io:o|time:1756108130|size:1164|exec:0|csum:
+file:../../../../../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1691490549|size:14188272|exec:1|csum:ED57C987B3F97AE52DA817307847C2BC
+file:../../../../../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter|io:i|time:1691490531|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

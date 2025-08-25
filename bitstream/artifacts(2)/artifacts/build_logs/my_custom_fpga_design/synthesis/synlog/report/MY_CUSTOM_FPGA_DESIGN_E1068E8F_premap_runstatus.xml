@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/MY_CUSTOM_FPGA_DESIGN_E1068E8F_premap.srr</data>
+<title></title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>13</data>
+<report_link name="more">
+<data>/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/report/MY_CUSTOM_FPGA_DESIGN_E1068E8F_premap_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>1</data>
+<report_link name="more">
+<data>/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/report/MY_CUSTOM_FPGA_DESIGN_E1068E8F_premap_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/report/MY_CUSTOM_FPGA_DESIGN_E1068E8F_premap_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:00m:02s</data>
+</info>
+<info name="Real Time">
+<data>0h:00m:02s</data>
+</info>
+<info name="Peak Memory">
+<data>303MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1756110570</data>
+</info>
+</job_info>
+</job_run_status>

@@ -1,18 +1,18 @@
-Selecting top level module MY_CUSTOM_FPGA_DESIGN_6F813211
+Selecting top level module MY_CUSTOM_FPGA_DESIGN_1485F08F
 @N: CG364 :"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":187:7:187:10|Synthesizing module AND4 in library work.
 Running optimization stage 1 on AND4 .......
 Finished optimization stage 1 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
 
 	select_bit=32'b00000000000000000000000000011100
    Generated name = APB_ARBITER_28s
 Running optimization stage 1 on APB_ARBITER_28s .......
 Finished optimization stage 1 on APB_ARBITER_28s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
-@N: CG775 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@N: CG775 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
 Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
 Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
 
 	APB_DWIDTH=6'b100000
 	IADDR_OPTION=32'b00000000000000000000000000000000
@@ -89,16 +89,16 @@ Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory 
 	SC=16'b0000000100001000
 	SC_qual=16'b0000000100001000
    Generated name = CoreAPB3_Z1
-@W: CG360 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@W: CG360 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
 Running optimization stage 1 on CoreAPB3_Z1 .......
 Finished optimization stage 1 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v":57:7:57:20|Synthesizing module FIC3_INITIATOR in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v":57:7:57:20|Synthesizing module FIC3_INITIATOR in library work.
 Running optimization stage 1 on FIC3_INITIATOR .......
 Finished optimization stage 1 on FIC3_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
 @N: CG364 :"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":333:7:333:11|Synthesizing module BIBUF in library work.
 Running optimization stage 1 on BIBUF .......
 Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5391:7:5391:29|Synthesizing module miv_ihc_apb_arbiter_top in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5391:7:5391:29|Synthesizing module miv_ihc_apb_arbiter_top in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	IF_0_EN=1'b1
@@ -107,7 +107,7 @@ Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current
    Generated name = miv_ihc_apb_arbiter_top_0s_1_0_0
 Running optimization stage 1 on miv_ihc_apb_arbiter_top_0s_1_0_0 .......
 Finished optimization stage 1 on miv_ihc_apb_arbiter_top_0s_1_0_0 (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3348:7:3348:24|Synthesizing module miv_ihc_apb_target in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3348:7:3348:24|Synthesizing module miv_ihc_apb_target in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	ADDR_WIDTH=32'b00000000000000000000000000100000
@@ -115,7 +115,7 @@ Finished optimization stage 1 on miv_ihc_apb_arbiter_top_0s_1_0_0 (CPU Time 0h:0
    Generated name = miv_ihc_apb_target_0s_32s_32s
 Running optimization stage 1 on miv_ihc_apb_target_0s_32s_32s .......
 Finished optimization stage 1 on miv_ihc_apb_target_0s_32s_32s (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1932:7:1932:32|Synthesizing module miv_ihc_address_controller in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1932:7:1932:32|Synthesizing module miv_ihc_address_controller in library work.
 
 	ADDR_WIDTH=32'b00000000000000000000000000100000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -179,16 +179,16 @@ Finished optimization stage 1 on miv_ihc_apb_target_0s_32s_32s (CPU Time 0h:00m:
    Generated name = miv_ihc_address_controller_Z2
 Running optimization stage 1 on miv_ihc_address_controller_Z2 .......
 Finished optimization stage 1 on miv_ihc_address_controller_Z2 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1288:7:1288:35|Synthesizing module miv_ihc_ram_singleport_addreg in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1288:7:1288:35|Synthesizing module miv_ihc_ram_singleport_addreg in library work.
 
 	RAM_DEPTH=32'b00000000000000000000000010000000
 	ADDR_WIDTH=32'b00000000000000000000000000000111
 	DATA_WIDTH=32'b00000000000000000000000000100000
    Generated name = miv_ihc_ram_singleport_addreg_128s_7s_32s
 Running optimization stage 1 on miv_ihc_ram_singleport_addreg_128s_7s_32s .......
-@N: CL134 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1319:4:1319:9|Found RAM mem, depth=128, width=32
+@N: CL134 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1319:4:1319:9|Found RAM mem, depth=128, width=32
 Finished optimization stage 1 on miv_ihc_ram_singleport_addreg_128s_7s_32s (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3164:7:3164:37|Synthesizing module miv_ihc_mailbox_address_decoder in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3164:7:3164:37|Synthesizing module miv_ihc_mailbox_address_decoder in library work.
 
 	DATA_WIDTH=32'b00000000000000000000000000100000
 	ADDR_WIDTH=32'b00000000000000000000000000100000
@@ -228,7 +228,7 @@ Finished optimization stage 1 on miv_ihc_ram_singleport_addreg_128s_7s_32s (CPU 
    Generated name = miv_ihc_mailbox_address_decoder_Z3
 Running optimization stage 1 on miv_ihc_mailbox_address_decoder_Z3 .......
 Finished optimization stage 1 on miv_ihc_mailbox_address_decoder_Z3 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Synthesizing module miv_ihc_core in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Synthesizing module miv_ihc_core in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	IP_VERSION=32'b00000010000000000000000001100100
@@ -320,7 +320,7 @@ Finished optimization stage 1 on miv_ihc_mailbox_address_decoder_Z3 (CPU Time 0h
 	B_BUF_PTR_H3_TO_H5=7'b1010100
 	B_BUF_PTR_H4_TO_H5=7'b1010100
    Generated name = miv_ihc_core_Z4
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -338,7 +338,7 @@ Finished optimization stage 1 on miv_ihc_mailbox_address_decoder_Z3 (CPU Time 0h
    Generated name = miv_ihc_channel_Z5
 Running optimization stage 1 on miv_ihc_channel_Z5 .......
 Finished optimization stage 1 on miv_ihc_channel_Z5 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -356,7 +356,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z5 (CPU Time 0h:00m:00s, Memory
    Generated name = miv_ihc_channel_Z6
 Running optimization stage 1 on miv_ihc_channel_Z6 .......
 Finished optimization stage 1 on miv_ihc_channel_Z6 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -374,7 +374,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z6 (CPU Time 0h:00m:00s, Memory
    Generated name = miv_ihc_channel_Z7
 Running optimization stage 1 on miv_ihc_channel_Z7 .......
 Finished optimization stage 1 on miv_ihc_channel_Z7 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -392,7 +392,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z7 (CPU Time 0h:00m:00s, Memory
    Generated name = miv_ihc_channel_Z8
 Running optimization stage 1 on miv_ihc_channel_Z8 .......
 Finished optimization stage 1 on miv_ihc_channel_Z8 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -410,7 +410,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z8 (CPU Time 0h:00m:00s, Memory
    Generated name = miv_ihc_channel_Z9
 Running optimization stage 1 on miv_ihc_channel_Z9 .......
 Finished optimization stage 1 on miv_ihc_channel_Z9 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -428,7 +428,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z9 (CPU Time 0h:00m:00s, Memory
    Generated name = miv_ihc_channel_Z10
 Running optimization stage 1 on miv_ihc_channel_Z10 .......
 Finished optimization stage 1 on miv_ihc_channel_Z10 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -446,7 +446,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z10 (CPU Time 0h:00m:00s, Memor
    Generated name = miv_ihc_channel_Z11
 Running optimization stage 1 on miv_ihc_channel_Z11 .......
 Finished optimization stage 1 on miv_ihc_channel_Z11 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -464,7 +464,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z11 (CPU Time 0h:00m:00s, Memor
    Generated name = miv_ihc_channel_Z12
 Running optimization stage 1 on miv_ihc_channel_Z12 .......
 Finished optimization stage 1 on miv_ihc_channel_Z12 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -482,7 +482,7 @@ Finished optimization stage 1 on miv_ihc_channel_Z12 (CPU Time 0h:00m:00s, Memor
    Generated name = miv_ihc_channel_Z13
 Running optimization stage 1 on miv_ihc_channel_Z13 .......
 Finished optimization stage 1 on miv_ihc_channel_Z13 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1393:7:1393:21|Synthesizing module miv_ihc_channel in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	DATA_WIDTH=32'b00000000000000000000000000100000
@@ -499,8 +499,8 @@ Finished optimization stage 1 on miv_ihc_channel_Z13 (CPU Time 0h:00m:00s, Memor
 	MESSAGE_BASE_ADDR_IN=8'b00100000
    Generated name = miv_ihc_channel_Z14
 Running optimization stage 1 on miv_ihc_channel_Z14 .......
-Finished optimization stage 1 on miv_ihc_channel_Z14 (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1786:7:1786:30|Synthesizing module miv_ihc_interrupt_module in library work.
+Finished optimization stage 1 on miv_ihc_channel_Z14 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 167MB)
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1786:7:1786:30|Synthesizing module miv_ihc_interrupt_module in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	ADDR_WIDTH=32'b00000000000000000000000000001000
@@ -509,31 +509,31 @@ Finished optimization stage 1 on miv_ihc_channel_Z14 (CPU Time 0h:00m:00s, Memor
 	IRQ_STATUS_ADDR=8'b00001000
    Generated name = miv_ihc_interrupt_module_0s_8s_32s_0_8
 Running optimization stage 1 on miv_ihc_interrupt_module_0s_8s_32s_0_8 .......
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Pruning register bits 31 to 12 of RDATA[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Optimizing register bit RDATA[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1857:0:1857:5|Pruning register bits 31 to 12 of RDATA[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Finished optimization stage 1 on miv_ihc_interrupt_module_0s_8s_32s_0_8 (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
 Running optimization stage 1 on miv_ihc_core_Z4 .......
 Finished optimization stage 1 on miv_ihc_core_Z4 (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":53:7:53:37|Synthesizing module MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":53:7:53:37|Synthesizing module MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC in library work.
 
 	FAMILY=32'b00000000000000000000000000011011
 	H0_MONITOR_EN=32'b00000000000000000000000000000000
@@ -635,7 +635,7 @@ Finished optimization stage 1 on miv_ihc_core_Z4 (CPU Time 0h:00m:00s, Memory Us
 	l_h4_ihcim_en=1'b1
 	l_h5_ihcim_en=1'b0
    Generated name = MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7372:7:7372:28|Synthesizing module miv_ihc_apb_target_top in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7372:7:7372:28|Synthesizing module miv_ihc_apb_target_top in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	CDC_EN=32'b00000000000000000000000000000000
@@ -651,7 +651,7 @@ Running optimization stage 1 on miv_ihc_apb_target_top_0s_0s_0s_0s_0s_0s_0s_0s_0
 Finished optimization stage 1 on miv_ihc_apb_target_top_0s_0s_0s_0s_0s_0s_0s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
 Running optimization stage 1 on MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15 .......
 Finished optimization stage 1 on MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15 (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v":71:7:71:16|Synthesizing module MIV_IHC_C0 in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v":71:7:71:16|Synthesizing module MIV_IHC_C0 in library work.
 Running optimization stage 1 on MIV_IHC_C0 .......
 Finished optimization stage 1 on MIV_IHC_C0 (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
 @N: CG364 :"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
@@ -678,40 +678,40 @@ Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 
 @N: CG364 :"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":500:7:500:9|Synthesizing module GND in library work.
 Running optimization stage 1 on GND .......
 Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
 Running optimization stage 1 on MSS .......
 Finished optimization stage 1 on MSS (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 169MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v":5:7:5:16|Synthesizing module PF_SOC_MSS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v":5:7:5:16|Synthesizing module PF_SOC_MSS in library work.
 Running optimization stage 1 on PF_SOC_MSS .......
 Finished optimization stage 1 on PF_SOC_MSS (CPU Time 0h:00m:00s, Memory Used current: 172MB peak: 172MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v":9:7:9:25|Synthesizing module BVF_RISCV_SUBSYSTEM in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v":9:7:9:25|Synthesizing module BVF_RISCV_SUBSYSTEM in library work.
 Running optimization stage 1 on BVF_RISCV_SUBSYSTEM .......
 Finished optimization stage 1 on BVF_RISCV_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 172MB peak: 172MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v":2:7:2:21|Synthesizing module apb_ctrl_status in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v":2:7:2:21|Synthesizing module apb_ctrl_status in library work.
 Running optimization stage 1 on apb_ctrl_status .......
 Finished optimization stage 1 on apb_ctrl_status (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v":9:7:9:15|Synthesizing module P8_IOPADS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v":9:7:9:15|Synthesizing module P8_IOPADS in library work.
 Running optimization stage 1 on P8_IOPADS .......
 Finished optimization stage 1 on P8_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v":9:7:9:21|Synthesizing module P9_11_18_IOPADS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v":9:7:9:21|Synthesizing module P9_11_18_IOPADS in library work.
 Running optimization stage 1 on P9_11_18_IOPADS .......
 Finished optimization stage 1 on P9_11_18_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v":9:7:9:21|Synthesizing module P9_21_31_IOPADS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v":9:7:9:21|Synthesizing module P9_21_31_IOPADS in library work.
 Running optimization stage 1 on P9_21_31_IOPADS .......
 Finished optimization stage 1 on P9_21_31_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v":9:7:9:21|Synthesizing module P9_41_42_IOPADS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v":9:7:9:21|Synthesizing module P9_41_42_IOPADS in library work.
 Running optimization stage 1 on P9_41_42_IOPADS .......
 Finished optimization stage 1 on P9_41_42_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/counter.v":2:7:2:13|Synthesizing module counter in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/counter.v":2:7:2:13|Synthesizing module counter in library work.
 Running optimization stage 1 on counter .......
 Finished optimization stage 1 on counter (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":9:7:9:10|Synthesizing module CAPE in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":9:7:9:10|Synthesizing module CAPE in library work.
 Running optimization stage 1 on CAPE .......
 Finished optimization stage 1 on CAPE (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
 Running optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF .......
 Finished optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
 Running optimization stage 1 on CORERESET .......
 Finished optimization stage 1 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
 @N: CG364 :"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
@@ -720,56 +720,56 @@ Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current:
 @N: CG364 :"/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/lib/generic/acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
 Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@W: CG168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":47:27:47:36|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@W: CG168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":47:27:47:36|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
 Running optimization stage 1 on PLL .......
 Finished optimization stage 1 on PLL (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":5:7:5:38|Synthesizing module FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":5:7:5:38|Synthesizing module FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC in library work.
 Running optimization stage 1 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC .......
 Finished optimization stage 1 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v":264:7:264:17|Synthesizing module FPGA_CCC_C0 in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v":264:7:264:17|Synthesizing module FPGA_CCC_C0 in library work.
 Running optimization stage 1 on FPGA_CCC_C0 .......
 Finished optimization stage 1 on FPGA_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@W: CG168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter FABRIC_POR_N_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@W: CG168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter PCIE_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@W: CG168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter SRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@W: CG168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter UIC_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@W: CG168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter USRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+@W: CG168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter FABRIC_POR_N_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter PCIE_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter SRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter UIC_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter USRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
 Running optimization stage 1 on INIT .......
 Finished optimization stage 1 on INIT (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
 Running optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
-@W: CL168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":48:8:48:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":47:8:47:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":48:8:48:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":47:8:47:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 Finished optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v":71:7:71:18|Synthesizing module INIT_MONITOR in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v":71:7:71:18|Synthesizing module INIT_MONITOR in library work.
 Running optimization stage 1 on INIT_MONITOR .......
 Finished optimization stage 1 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
 Running optimization stage 1 on OSC_RC160MHZ .......
 Finished optimization stage 1 on OSC_RC160MHZ (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":5:7:5:50|Synthesizing module OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":5:7:5:50|Synthesizing module OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC in library work.
 Running optimization stage 1 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC .......
-@W: CL168 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":17:8:17:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":17:8:17:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 Finished optimization stage 1 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v":27:7:27:23|Synthesizing module OSCILLATOR_160MHz in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v":27:7:27:23|Synthesizing module OSCILLATOR_160MHz in library work.
 Running optimization stage 1 on OSCILLATOR_160MHz .......
 Finished optimization stage 1 on OSCILLATOR_160MHz (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v":5:7:5:36|Synthesizing module PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v":5:7:5:36|Synthesizing module PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC in library work.
 Running optimization stage 1 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC .......
 Finished optimization stage 1 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v":264:7:264:16|Synthesizing module PF_CCC_ADC in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v":264:7:264:16|Synthesizing module PF_CCC_ADC in library work.
 Running optimization stage 1 on PF_CCC_ADC .......
 Finished optimization stage 1 on PF_CCC_ADC (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
 Running optimization stage 1 on CLOCKS_AND_RESETS .......
 Finished optimization stage 1 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-@N: CG364 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_6F813211/MY_CUSTOM_FPGA_DESIGN_6F813211.v":9:7:9:36|Synthesizing module MY_CUSTOM_FPGA_DESIGN_6F813211 in library work.
-Running optimization stage 1 on MY_CUSTOM_FPGA_DESIGN_6F813211 .......
-Finished optimization stage 1 on MY_CUSTOM_FPGA_DESIGN_6F813211 (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
-Running optimization stage 2 on MY_CUSTOM_FPGA_DESIGN_6F813211 .......
-Finished optimization stage 2 on MY_CUSTOM_FPGA_DESIGN_6F813211 (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
+@N: CG364 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_1485F08F/MY_CUSTOM_FPGA_DESIGN_1485F08F.v":9:7:9:36|Synthesizing module MY_CUSTOM_FPGA_DESIGN_1485F08F in library work.
+Running optimization stage 1 on MY_CUSTOM_FPGA_DESIGN_1485F08F .......
+Finished optimization stage 1 on MY_CUSTOM_FPGA_DESIGN_1485F08F (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+Running optimization stage 2 on MY_CUSTOM_FPGA_DESIGN_1485F08F .......
+Finished optimization stage 2 on MY_CUSTOM_FPGA_DESIGN_1485F08F (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
 Running optimization stage 2 on CLOCKS_AND_RESETS .......
 Finished optimization stage 2 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
 Running optimization stage 2 on PF_CCC_ADC .......
@@ -801,12 +801,12 @@ Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current:
 Running optimization stage 2 on CORERESET .......
 Finished optimization stage 2 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
 Running optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF .......
-@N: CL135 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL135 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
 Finished optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
 Running optimization stage 2 on CAPE .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":97:14:97:34|Input port bits 31 to 8 of APB_SLAVE_SLAVE_PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":102:14:102:20|Input port bits 4 to 1 of GPIO_OE[27:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":103:14:103:21|Input port bits 4 to 1 of GPIO_OUT[27:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":97:14:97:34|Input port bits 31 to 8 of APB_SLAVE_SLAVE_PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":102:14:102:20|Input port bits 12 to 0 of GPIO_OE[27:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v":103:14:103:21|Input port bits 12 to 0 of GPIO_OUT[27:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on CAPE (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
 Running optimization stage 2 on counter .......
 Finished optimization stage 2 on counter (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 174MB)
@@ -845,108 +845,108 @@ Finished optimization stage 2 on OUTBUF (CPU Time 0h:00m:00s, Memory Used curren
 Running optimization stage 2 on MIV_IHC_C0 .......
 Finished optimization stage 2 on MIV_IHC_C0 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_apb_target_top_0s_0s_0s_0s_0s_0s_0s_0s_0s .......
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7377:4:7377:11|Input dest_clk is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7378:4:7378:13|Input dest_rst_n is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7384:4:7384:10|Input src_clk is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7385:4:7385:12|Input src_rst_n is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7377:4:7377:11|Input dest_clk is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7378:4:7378:13|Input dest_rst_n is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7384:4:7384:10|Input src_clk is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":7385:4:7385:12|Input src_rst_n is unused.
 Finished optimization stage 2 on miv_ihc_apb_target_top_0s_0s_0s_0s_0s_0s_0s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15 .......
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":309:14:309:23|Input AXI_0_ACLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":310:14:310:25|Input AXI_0_ARADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":311:14:311:26|Input AXI_0_ARESETn is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":312:14:312:25|Input AXI_0_ARPROT is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":313:14:313:26|Input AXI_0_ARVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":314:14:314:25|Input AXI_0_AWADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":315:14:315:25|Input AXI_0_AWPROT is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":316:14:316:26|Input AXI_0_AWVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":317:14:317:25|Input AXI_0_BREADY is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":318:14:318:25|Input AXI_0_RREADY is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":319:14:319:24|Input AXI_0_WDATA is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":320:14:320:24|Input AXI_0_WSTRB is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":321:14:321:25|Input AXI_0_WVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":322:14:322:24|Input APB_1_PADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":323:14:323:23|Input APB_1_PCLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":324:14:324:26|Input APB_1_PENABLE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":325:14:325:26|Input APB_1_PRESETn is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":326:14:326:23|Input APB_1_PSEL is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":327:14:327:25|Input APB_1_PWDATA is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":328:14:328:25|Input APB_1_PWRITE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":329:14:329:23|Input AXI_1_ACLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":330:14:330:25|Input AXI_1_ARADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":331:14:331:26|Input AXI_1_ARESETn is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":332:14:332:25|Input AXI_1_ARPROT is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":333:14:333:26|Input AXI_1_ARVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":334:14:334:25|Input AXI_1_AWADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":335:14:335:25|Input AXI_1_AWPROT is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":336:14:336:26|Input AXI_1_AWVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":337:14:337:25|Input AXI_1_BREADY is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":338:14:338:25|Input AXI_1_RREADY is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":339:14:339:24|Input AXI_1_WDATA is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":340:14:340:24|Input AXI_1_WSTRB is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":341:14:341:25|Input AXI_1_WVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":342:14:342:24|Input APB_2_PADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":343:14:343:23|Input APB_2_PCLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":344:14:344:26|Input APB_2_PENABLE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":345:14:345:26|Input APB_2_PRESETn is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":346:14:346:23|Input APB_2_PSEL is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":347:14:347:25|Input APB_2_PWDATA is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":348:14:348:25|Input APB_2_PWRITE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":349:14:349:23|Input AXI_2_ACLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":350:14:350:25|Input AXI_2_ARADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":351:14:351:26|Input AXI_2_ARESETn is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":352:14:352:25|Input AXI_2_ARPROT is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":353:14:353:26|Input AXI_2_ARVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":354:14:354:25|Input AXI_2_AWADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":355:14:355:25|Input AXI_2_AWPROT is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":356:14:356:26|Input AXI_2_AWVALID is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":357:14:357:25|Input AXI_2_BREADY is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":358:14:358:25|Input AXI_2_RREADY is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":359:14:359:24|Input AXI_2_WDATA is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":360:14:360:24|Input AXI_2_WSTRB is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":361:14:361:25|Input AXI_2_WVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":309:14:309:23|Input AXI_0_ACLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":310:14:310:25|Input AXI_0_ARADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":311:14:311:26|Input AXI_0_ARESETn is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":312:14:312:25|Input AXI_0_ARPROT is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":313:14:313:26|Input AXI_0_ARVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":314:14:314:25|Input AXI_0_AWADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":315:14:315:25|Input AXI_0_AWPROT is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":316:14:316:26|Input AXI_0_AWVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":317:14:317:25|Input AXI_0_BREADY is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":318:14:318:25|Input AXI_0_RREADY is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":319:14:319:24|Input AXI_0_WDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":320:14:320:24|Input AXI_0_WSTRB is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":321:14:321:25|Input AXI_0_WVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":322:14:322:24|Input APB_1_PADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":323:14:323:23|Input APB_1_PCLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":324:14:324:26|Input APB_1_PENABLE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":325:14:325:26|Input APB_1_PRESETn is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":326:14:326:23|Input APB_1_PSEL is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":327:14:327:25|Input APB_1_PWDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":328:14:328:25|Input APB_1_PWRITE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":329:14:329:23|Input AXI_1_ACLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":330:14:330:25|Input AXI_1_ARADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":331:14:331:26|Input AXI_1_ARESETn is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":332:14:332:25|Input AXI_1_ARPROT is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":333:14:333:26|Input AXI_1_ARVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":334:14:334:25|Input AXI_1_AWADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":335:14:335:25|Input AXI_1_AWPROT is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":336:14:336:26|Input AXI_1_AWVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":337:14:337:25|Input AXI_1_BREADY is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":338:14:338:25|Input AXI_1_RREADY is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":339:14:339:24|Input AXI_1_WDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":340:14:340:24|Input AXI_1_WSTRB is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":341:14:341:25|Input AXI_1_WVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":342:14:342:24|Input APB_2_PADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":343:14:343:23|Input APB_2_PCLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":344:14:344:26|Input APB_2_PENABLE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":345:14:345:26|Input APB_2_PRESETn is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":346:14:346:23|Input APB_2_PSEL is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":347:14:347:25|Input APB_2_PWDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":348:14:348:25|Input APB_2_PWRITE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":349:14:349:23|Input AXI_2_ACLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":350:14:350:25|Input AXI_2_ARADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":351:14:351:26|Input AXI_2_ARESETn is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":352:14:352:25|Input AXI_2_ARPROT is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":353:14:353:26|Input AXI_2_ARVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":354:14:354:25|Input AXI_2_AWADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":355:14:355:25|Input AXI_2_AWPROT is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":356:14:356:26|Input AXI_2_AWVALID is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":357:14:357:25|Input AXI_2_BREADY is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":358:14:358:25|Input AXI_2_RREADY is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":359:14:359:24|Input AXI_2_WDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":360:14:360:24|Input AXI_2_WSTRB is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":361:14:361:25|Input AXI_2_WVALID is unused.
 Finished optimization stage 2 on MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_interrupt_module_0s_8s_32s_0_8 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1786:65:1786:69|Input port bits 31 to 12 of WDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1786:65:1786:69|Input port bits 31 to 12 of WDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_interrupt_module_0s_8s_32s_0_8 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z14 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z14 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z13 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z13 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z12 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z12 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z11 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z11 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z10 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z10 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z9 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z9 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z8 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z8 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z7 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z7 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z6 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z6 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_channel_Z5 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1394:59:1394:68|Input port bits 31 to 6 of WDATA_CH_A[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1395:59:1395:68|Input port bits 31 to 6 of WDATA_CH_B[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_channel_Z5 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_core_Z4 .......
 Finished optimization stage 2 on miv_ihc_core_Z4 (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
@@ -955,69 +955,69 @@ Finished optimization stage 2 on miv_ihc_mailbox_address_decoder_Z3 (CPU Time 0h
 Running optimization stage 2 on miv_ihc_ram_singleport_addreg_128s_7s_32s .......
 Finished optimization stage 2 on miv_ihc_ram_singleport_addreg_128s_7s_32s (CPU Time 0h:00m:00s, Memory Used current: 175MB peak: 175MB)
 Running optimization stage 2 on miv_ihc_address_controller_Z2 .......
-@W: CL246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1940:32:1940:35|Input port bits 31 to 20 of ADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1940:32:1940:35|Input port bits 31 to 20 of ADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on miv_ihc_address_controller_Z2 (CPU Time 0h:00m:01s, Memory Used current: 188MB peak: 188MB)
 Running optimization stage 2 on miv_ihc_apb_target_0s_32s_32s .......
-@N: CL201 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3403:0:3403:5|Trying to extract state machine for register fsm.
+@N: CL201 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3403:0:3403:5|Trying to extract state machine for register fsm.
 Extracted state machine for register fsm
 State machine has 4 reachable states with original encodings of:
    00
    01
    10
    11
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3351:4:3351:10|Input PENABLE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3351:4:3351:10|Input PENABLE is unused.
 Finished optimization stage 2 on miv_ihc_apb_target_0s_32s_32s (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 Running optimization stage 2 on miv_ihc_apb_arbiter_top_0s_1_0_0 .......
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5393:1:5393:8|Input APB_PCLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5394:1:5394:11|Input APB_PRESETN is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5398:1:5398:20|Input APB_INITIATOR_1_PSEL is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5399:1:5399:23|Input APB_INITIATOR_1_PENABLE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5400:1:5400:22|Input APB_INITIATOR_1_PWRITE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5401:1:5401:20|Input APB_INITIATOR_2_PSEL is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5402:1:5402:23|Input APB_INITIATOR_2_PENABLE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5403:1:5403:22|Input APB_INITIATOR_2_PWRITE is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5409:1:5409:21|Input APB_INITIATOR_1_PADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5410:1:5410:22|Input APB_INITIATOR_1_PWDATA is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5411:1:5411:21|Input APB_INITIATOR_2_PADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5412:1:5412:22|Input APB_INITIATOR_2_PWDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5393:1:5393:8|Input APB_PCLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5394:1:5394:11|Input APB_PRESETN is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5398:1:5398:20|Input APB_INITIATOR_1_PSEL is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5399:1:5399:23|Input APB_INITIATOR_1_PENABLE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5400:1:5400:22|Input APB_INITIATOR_1_PWRITE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5401:1:5401:20|Input APB_INITIATOR_2_PSEL is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5402:1:5402:23|Input APB_INITIATOR_2_PENABLE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5403:1:5403:22|Input APB_INITIATOR_2_PWRITE is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5409:1:5409:21|Input APB_INITIATOR_1_PADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5410:1:5410:22|Input APB_INITIATOR_1_PWDATA is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5411:1:5411:21|Input APB_INITIATOR_2_PADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":5412:1:5412:22|Input APB_INITIATOR_2_PWDATA is unused.
 Finished optimization stage 2 on miv_ihc_apb_arbiter_top_0s_1_0_0 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 Running optimization stage 2 on BIBUF .......
 Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 Running optimization stage 2 on FIC3_INITIATOR .......
 Finished optimization stage 2 on FIC3_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 Running optimization stage 2 on CoreAPB3_Z1 .......
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
-@N: CL159 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
 
-Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log /home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/MY_CUSTOM_FPGA_DESIGN_6F813211_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
+Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/MY_CUSTOM_FPGA_DESIGN_1485F08F_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
 Finished optimization stage 2 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
 Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
@@ -1028,6 +1028,6 @@ Finished optimization stage 2 on AND4 (CPU Time 0h:00m:00s, Memory Used current:
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: /home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/layer0.duruntime
+@L: /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/layer0.duruntime
 
 

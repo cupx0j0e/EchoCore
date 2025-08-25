@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about all compile points from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="4" name="Compile Points Summary">
+<row>
+<data>Name</data>
+<data>Status</data>
+<data>Reason</data>
+<data>Real Time</data>
+<data>CPU Time</data>
+</row>
+<row>
+<data>
+<value>MY_CUSTOM_FPGA_DESIGN_E1068E8F</value>
+<report_link name="Report">
+<data>/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_E1068E8F/MY_CUSTOM_FPGA_DESIGN_E1068E8F.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:04s</data>
+<data>0h:00m:05s</data>
+</row>
+<row>
+<data>
+<value>miv_ihc_core_Z4</value>
+<report_link name="Report">
+<data>/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/miv_ihc_core_Z4/miv_ihc_core_Z4.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:09s</data>
+<data>0h:00m:09s</data>
+</row>
+</report_table>

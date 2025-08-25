@@ -1,4 +1,4 @@
-# Thu Aug 21 08:49:33 2025
+# Sun Aug 24 03:57:30 2025
 
 
 Copyright (C) 1994-2022 Synopsys, Inc.
@@ -10,7 +10,7 @@ Tool: Synplify Pro (R)
 Build: T-2022.09M-SP2-1
 Install: /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro
 OS: Ubuntu 20.04.6 LTS
-Hostname: bbbio-ci-ubuntu-2004-0
+Hostname: bbbio-ci-ubuntu-2004-1
 max virtual memory: unlimited (bytes)
 max user processes: 127981
 max stack size: 8388608 (bytes)
@@ -38,7 +38,7 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
 
 
-@N: MF104 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z4(verilog) 
+@N: MF104 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z4(verilog) 
 
 
 @N: MF105 |Performing bottom-up mapping of Compile point view:work.miv_ihc_core_Z4(verilog) 
@@ -57,7 +57,7 @@ Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 
 Begin compile point sub-process log
 
-@N: MF106 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Mapping Compile point view:work.miv_ihc_core_Z4(verilog) because 
+@N: MF106 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3540:7:3540:18|Mapping Compile point view:work.miv_ihc_core_Z4(verilog) because 
 		 no database from previous run found.
 
 
@@ -70,58 +70,58 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 284MB peak: 284MB)
 
-@N: FX106 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1319:4:1319:9|Using block RAM for single-port RAM
-@W: FX107 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1319:4:1319:9|RAM common_mailbox_ram.mem[31:0] (in view: work.miv_ihc_core_Z4(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1319:4:1319:9|Using block RAM for single-port RAM
+@W: FX107 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":1319:4:1319:9|RAM common_mailbox_ram.mem[31:0] (in view: work.miv_ihc_core_Z4(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 Encoding state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3403:0:3403:5|There are no possible illegal states for state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog)); safe FSM implementation is not required.
+@N: MO225 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3403:0:3403:5|There are no possible illegal states for state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog)); safe FSM implementation is not required.
 
 Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 289MB peak: 289MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 313MB peak: 313MB)
+Finished factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 313MB peak: 313MB)
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 327MB peak: 327MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 327MB peak: 327MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 327MB peak: 327MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 327MB peak: 327MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 327MB peak: 327MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:12s; Memory used current: 327MB peak: 327MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 327MB peak: 327MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 327MB peak: 327MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 327MB peak: 327MB)
+Finished preparing to map (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 327MB peak: 327MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 365MB peak: 365MB)
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 365MB peak: 365MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:08s		     6.50ns		1287 /       340
+   1		0h:00m:13s		     6.50ns		1287 /       340
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 365MB peak: 365MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 365MB peak: 365MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 365MB peak: 365MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 365MB peak: 365MB)
 
 
 End compile point sub-process log
 
-@W: MT246 :"/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":15:17:15:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":15:17:15:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @N: MT615 |Found clock osc_rc160mhz with period 6.25ns 
 @N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
 @N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
@@ -130,15 +130,15 @@ End compile point sub-process log
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Aug 21 08:49:42 2025
+# Timing report written on Sun Aug 24 03:57:44 2025
 #
 
 
-Top view:               MY_CUSTOM_FPGA_DESIGN_6F813211
+Top view:               MY_CUSTOM_FPGA_DESIGN_1485F08F
 Requested Frequency:    4.9 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    /home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_6F813211/synthesis.fdc
+Constraint File(s):    /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_1485F08F/synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -304,7 +304,7 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
-Writing compile point status file /home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/miv_ihc_core_Z4/cpprop
+Writing compile point status file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/miv_ihc_core_Z4/cpprop
 
 Summary of Compile Points :
 *************************** 
@@ -313,7 +313,7 @@ Name                Status     Reason
 miv_ihc_core_Z4     Mapped     No database
 ==========================================
 
-Process took 0h:00m:09s realtime, 0h:00m:09s cputime
-# Thu Aug 21 08:49:42 2025
+Process took 0h:00m:14s realtime, 0h:00m:14s cputime
+# Sun Aug 24 03:57:44 2025
 
 ###########################################################]

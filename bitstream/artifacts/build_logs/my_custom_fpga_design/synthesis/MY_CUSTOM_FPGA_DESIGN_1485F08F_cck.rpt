@@ -1,0 +1,387 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro
+OS: Ubuntu 20.04.6 LTS
+Hostname: bbbio-ci-ubuntu-2004-1
+max virtual memory: unlimited (bytes)
+max user processes: 127981
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+# Written on Sun Aug 24 03:57:29 2025
+
+##### DESIGN INFO #######################################################
+
+Top View:                "MY_CUSTOM_FPGA_DESIGN_1485F08F"
+Constraint File(s):      "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_1485F08F/synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 12 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                                 Ending                                                                   |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                   CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     |     8.000            |     No paths         |     No paths         |     No paths                         
+System                                                                   CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     |     20.000           |     No paths         |     No paths         |     No paths                         
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     |     8.000            |     No paths         |     No paths         |     No paths                         
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     |     20.000           |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:ADC_CSn
+p:ADC_IRQn
+p:ADC_MISO (bidir end point)
+p:ADC_MISO (bidir start point)
+p:ADC_MOSI (bidir end point)
+p:ADC_MOSI (bidir start point)
+p:ADC_SCK
+p:CA[0]
+p:CA[1]
+p:CA[2]
+p:CA[3]
+p:CA[4]
+p:CA[5]
+p:CK
+p:CKE
+p:CK_N
+p:CS
+p:CSI1_PWND
+p:DM[0]
+p:DM[1]
+p:DM[2]
+p:DM[3]
+p:DQS[0] (bidir end point)
+p:DQS[0] (bidir start point)
+p:DQS[1] (bidir end point)
+p:DQS[1] (bidir start point)
+p:DQS[2] (bidir end point)
+p:DQS[2] (bidir start point)
+p:DQS[3] (bidir end point)
+p:DQS[3] (bidir start point)
+p:DQS_N[0] (bidir end point)
+p:DQS_N[0] (bidir start point)
+p:DQS_N[1] (bidir end point)
+p:DQS_N[1] (bidir start point)
+p:DQS_N[2] (bidir end point)
+p:DQS_N[2] (bidir start point)
+p:DQS_N[3] (bidir end point)
+p:DQS_N[3] (bidir start point)
+p:DQ[0] (bidir end point)
+p:DQ[0] (bidir start point)
+p:DQ[1] (bidir end point)
+p:DQ[1] (bidir start point)
+p:DQ[2] (bidir end point)
+p:DQ[2] (bidir start point)
+p:DQ[3] (bidir end point)
+p:DQ[3] (bidir start point)
+p:DQ[4] (bidir end point)
+p:DQ[4] (bidir start point)
+p:DQ[5] (bidir end point)
+p:DQ[5] (bidir start point)
+p:DQ[6] (bidir end point)
+p:DQ[6] (bidir start point)
+p:DQ[7] (bidir end point)
+p:DQ[7] (bidir start point)
+p:DQ[8] (bidir end point)
+p:DQ[8] (bidir start point)
+p:DQ[9] (bidir end point)
+p:DQ[9] (bidir start point)
+p:DQ[10] (bidir end point)
+p:DQ[10] (bidir start point)
+p:DQ[11] (bidir end point)
+p:DQ[11] (bidir start point)
+p:DQ[12] (bidir end point)
+p:DQ[12] (bidir start point)
+p:DQ[13] (bidir end point)
+p:DQ[13] (bidir start point)
+p:DQ[14] (bidir end point)
+p:DQ[14] (bidir start point)
+p:DQ[15] (bidir end point)
+p:DQ[15] (bidir start point)
+p:DQ[16] (bidir end point)
+p:DQ[16] (bidir start point)
+p:DQ[17] (bidir end point)
+p:DQ[17] (bidir start point)
+p:DQ[18] (bidir end point)
+p:DQ[18] (bidir start point)
+p:DQ[19] (bidir end point)
+p:DQ[19] (bidir start point)
+p:DQ[20] (bidir end point)
+p:DQ[20] (bidir start point)
+p:DQ[21] (bidir end point)
+p:DQ[21] (bidir start point)
+p:DQ[22] (bidir end point)
+p:DQ[22] (bidir start point)
+p:DQ[23] (bidir end point)
+p:DQ[23] (bidir start point)
+p:DQ[24] (bidir end point)
+p:DQ[24] (bidir start point)
+p:DQ[25] (bidir end point)
+p:DQ[25] (bidir start point)
+p:DQ[26] (bidir end point)
+p:DQ[26] (bidir start point)
+p:DQ[27] (bidir end point)
+p:DQ[27] (bidir start point)
+p:DQ[28] (bidir end point)
+p:DQ[28] (bidir start point)
+p:DQ[29] (bidir end point)
+p:DQ[29] (bidir start point)
+p:DQ[30] (bidir end point)
+p:DQ[30] (bidir start point)
+p:DQ[31] (bidir end point)
+p:DQ[31] (bidir start point)
+p:EMMC_CLK
+p:EMMC_CMD (bidir end point)
+p:EMMC_CMD (bidir start point)
+p:EMMC_DATA0 (bidir end point)
+p:EMMC_DATA0 (bidir start point)
+p:EMMC_DATA1 (bidir end point)
+p:EMMC_DATA1 (bidir start point)
+p:EMMC_DATA2 (bidir end point)
+p:EMMC_DATA2 (bidir start point)
+p:EMMC_DATA3 (bidir end point)
+p:EMMC_DATA3 (bidir start point)
+p:EMMC_DATA4 (bidir end point)
+p:EMMC_DATA4 (bidir start point)
+p:EMMC_DATA5 (bidir end point)
+p:EMMC_DATA5 (bidir start point)
+p:EMMC_DATA6 (bidir end point)
+p:EMMC_DATA6 (bidir start point)
+p:EMMC_DATA7 (bidir end point)
+p:EMMC_DATA7 (bidir start point)
+p:EMMC_RSTN
+p:EMMC_STRB
+p:I2C_1_SCL (bidir end point)
+p:I2C_1_SCL (bidir start point)
+p:I2C_1_SDA (bidir end point)
+p:I2C_1_SDA (bidir start point)
+p:M2_W_DISABLE1
+p:M2_W_DISABLE2
+p:ODT
+p:P8_3 (bidir end point)
+p:P8_3 (bidir start point)
+p:P8_4 (bidir end point)
+p:P8_4 (bidir start point)
+p:P8_5 (bidir end point)
+p:P8_5 (bidir start point)
+p:P8_6 (bidir end point)
+p:P8_6 (bidir start point)
+p:P8_7 (bidir end point)
+p:P8_7 (bidir start point)
+p:P8_8 (bidir end point)
+p:P8_8 (bidir start point)
+p:P8_9 (bidir end point)
+p:P8_9 (bidir start point)
+p:P8_10 (bidir end point)
+p:P8_10 (bidir start point)
+p:P8_11 (bidir end point)
+p:P8_11 (bidir start point)
+p:P8_12 (bidir end point)
+p:P8_12 (bidir start point)
+p:P8_13 (bidir end point)
+p:P8_13 (bidir start point)
+p:P8_14 (bidir end point)
+p:P8_14 (bidir start point)
+p:P8_15 (bidir end point)
+p:P8_15 (bidir start point)
+p:P8_16 (bidir end point)
+p:P8_16 (bidir start point)
+p:P8_17 (bidir end point)
+p:P8_17 (bidir start point)
+p:P8_18 (bidir end point)
+p:P8_18 (bidir start point)
+p:P8_19 (bidir end point)
+p:P8_19 (bidir start point)
+p:P8_20 (bidir end point)
+p:P8_20 (bidir start point)
+p:P8_21 (bidir end point)
+p:P8_21 (bidir start point)
+p:P8_22 (bidir end point)
+p:P8_22 (bidir start point)
+p:P8_23 (bidir end point)
+p:P8_23 (bidir start point)
+p:P8_24 (bidir end point)
+p:P8_24 (bidir start point)
+p:P8_25 (bidir end point)
+p:P8_25 (bidir start point)
+p:P8_26 (bidir end point)
+p:P8_26 (bidir start point)
+p:P8_27 (bidir end point)
+p:P8_27 (bidir start point)
+p:P8_28 (bidir end point)
+p:P8_28 (bidir start point)
+p:P8_29 (bidir end point)
+p:P8_29 (bidir start point)
+p:P8_30 (bidir end point)
+p:P8_30 (bidir start point)
+p:P8_31 (bidir end point)
+p:P8_31 (bidir start point)
+p:P8_32 (bidir end point)
+p:P8_32 (bidir start point)
+p:P8_33 (bidir end point)
+p:P8_33 (bidir start point)
+p:P8_34 (bidir end point)
+p:P8_34 (bidir start point)
+p:P8_35 (bidir end point)
+p:P8_35 (bidir start point)
+p:P8_36 (bidir end point)
+p:P8_36 (bidir start point)
+p:P8_37 (bidir end point)
+p:P8_37 (bidir start point)
+p:P8_38 (bidir end point)
+p:P8_38 (bidir start point)
+p:P8_39 (bidir end point)
+p:P8_39 (bidir start point)
+p:P8_40 (bidir end point)
+p:P8_40 (bidir start point)
+p:P8_41 (bidir end point)
+p:P8_41 (bidir start point)
+p:P8_42 (bidir end point)
+p:P8_42 (bidir start point)
+p:P8_43 (bidir end point)
+p:P8_43 (bidir start point)
+p:P8_44 (bidir end point)
+p:P8_44 (bidir start point)
+p:P8_45 (bidir end point)
+p:P8_45 (bidir start point)
+p:P8_46 (bidir end point)
+p:P8_46 (bidir start point)
+p:P9_11 (bidir end point)
+p:P9_11 (bidir start point)
+p:P9_12 (bidir end point)
+p:P9_12 (bidir start point)
+p:P9_13 (bidir end point)
+p:P9_13 (bidir start point)
+p:P9_14 (bidir end point)
+p:P9_14 (bidir start point)
+p:P9_15 (bidir end point)
+p:P9_15 (bidir start point)
+p:P9_16 (bidir end point)
+p:P9_16 (bidir start point)
+p:P9_17 (bidir end point)
+p:P9_17 (bidir start point)
+p:P9_18 (bidir end point)
+p:P9_18 (bidir start point)
+p:P9_19 (bidir end point)
+p:P9_19 (bidir start point)
+p:P9_20 (bidir end point)
+p:P9_20 (bidir start point)
+p:P9_21 (bidir end point)
+p:P9_21 (bidir start point)
+p:P9_22 (bidir end point)
+p:P9_22 (bidir start point)
+p:P9_23 (bidir end point)
+p:P9_23 (bidir start point)
+p:P9_24 (bidir end point)
+p:P9_24 (bidir start point)
+p:P9_25 (bidir end point)
+p:P9_25 (bidir start point)
+p:P9_26 (bidir end point)
+p:P9_26 (bidir start point)
+p:P9_27 (bidir end point)
+p:P9_27 (bidir start point)
+p:P9_28 (bidir end point)
+p:P9_28 (bidir start point)
+p:P9_29 (bidir end point)
+p:P9_29 (bidir start point)
+p:P9_30 (bidir end point)
+p:P9_30 (bidir start point)
+p:P9_31 (bidir end point)
+p:P9_31 (bidir start point)
+p:P9_41 (bidir end point)
+p:P9_41 (bidir start point)
+p:P9_42 (bidir end point)
+p:P9_42 (bidir start point)
+p:PHY_INTn
+p:PHY_MDC
+p:PHY_MDIO (bidir end point)
+p:PHY_MDIO (bidir start point)
+p:PHY_RSTn
+p:REFCLK
+p:REFCLK_N
+p:RESET_N
+p:SD_CARD_CS
+p:SD_DET
+p:SGMII_RX0_N
+p:SGMII_RX0_P
+p:SGMII_RX1_N
+p:SGMII_RX1_P
+p:SGMII_TX0_N
+p:SGMII_TX0_P
+p:SGMII_TX1_N
+p:SGMII_TX1_P
+p:UART0_RXD
+p:UART0_TXD
+p:USB0_CLK
+p:USB0_DATA0 (bidir end point)
+p:USB0_DATA0 (bidir start point)
+p:USB0_DATA1 (bidir end point)
+p:USB0_DATA1 (bidir start point)
+p:USB0_DATA2 (bidir end point)
+p:USB0_DATA2 (bidir start point)
+p:USB0_DATA3 (bidir end point)
+p:USB0_DATA3 (bidir start point)
+p:USB0_DATA4 (bidir end point)
+p:USB0_DATA4 (bidir start point)
+p:USB0_DATA5 (bidir end point)
+p:USB0_DATA5 (bidir start point)
+p:USB0_DATA6 (bidir end point)
+p:USB0_DATA6 (bidir start point)
+p:USB0_DATA7 (bidir end point)
+p:USB0_DATA7 (bidir start point)
+p:USB0_DIR
+p:USB0_NXT
+p:USB0_OCn
+p:USB0_RESETB
+p:USB0_STP
+p:USER_BUTTON
+p:VIO_ENABLE
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

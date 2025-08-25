@@ -1,0 +1,1 @@
+run_tcl -fg MY_CUSTOM_FPGA_DESIGN_E1068E8F_syn.tcl

@@ -1,0 +1,1 @@
+run_tcl -fg MY_CUSTOM_FPGA_DESIGN_546BC67C_syn.tcl

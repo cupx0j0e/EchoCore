@@ -1,0 +1,138 @@
+# Mon Aug 25 03:29:27 2025
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro
+OS: Ubuntu 20.04.6 LTS
+Hostname: bbbio-ci-ubuntu-2004-1
+max virtual memory: unlimited (bytes)
+max user processes: 127981
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 10:02:01, @4799148
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+Reading constraint file: /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_E1068E8F/synthesis.fdc
+@L: /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_E1068E8F_scck.rpt 
+See clock summary report "/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_E1068E8F_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
+
+NConnInternalConnection caching is on
+@W: FX1183 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|User-specified initial value set for instance CLOCKS_AND_RESETS_inst_0.FIC_3_RESET_0.CORERESET_0.dff cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":139:10:139:20|Removing instance FIC_1_RESET (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":156:10:156:22|Removing instance FIC_2_RESET_0 (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":593:1:593:17|Removing instance apb_arbiter_top_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":647:3:647:14|Removing instance apb_tgt0\.apb_target_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15(verilog)) because it does not drive other instances.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+@N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point miv_ihc_core_Z4 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist MY_CUSTOM_FPGA_DESIGN_E1068E8F 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 303MB peak: 303MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                      Requested     Requested     Clock                             Clock                Clock
+Level     Clock                                                                      Frequency     Period        Type                              Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc_rc160mhz                                                               160.0 MHz     6.250         declared                          default_clkgroup     2    
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     50.0 MHz      20.000        generated (from osc_rc160mhz)     FIC3_clks            472  
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     125.0 MHz     8.000         generated (from osc_rc160mhz)     FIC0_clks            17   
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1     125.0 MHz     8.000         generated (from osc_rc160mhz)     FIC1_clks            1    
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2     125.0 MHz     8.000         generated (from osc_rc160mhz)     FIC2_clks            1    
+1 .         CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0       4.9 MHz       203.459       generated (from osc_rc160mhz)     default_clkgroup     0    
+                                                                                                                                                                             
+0 -       System                                                                     100.0 MHz     10.000        system                            system_clkgroup      0    
+=============================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                         Clock     Source                                                                                                Clock Pin                                                                   Non-clock Pin     Non-clock Pin                                                                              
+Clock                                                                    Load      Pin                                                                                                   Seq Example                                                                 Seq Example       Comb Example                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc_rc160mhz                                                             2         CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160.CLK(OSC_RC160MHZ)     CLOCKS_AND_RESETS_inst_0.PF_CCC_ADC_0.PF_CCC_ADC_0.pll_inst_0.REF_CLK_0     -                 CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160_INT.I(BUFG)
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     472       CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT3(PLL)                             CLOCKS_AND_RESETS_inst_0.FIC_3_RESET_0.CORERESET_0.dff_0.C                  -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_12.I(BUFG)                     
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     17        CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT0(PLL)                             CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0.C                    -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_0.I(BUFG)                      
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1     1         CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT1(PLL)                             BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS.FIC_1_ACLK               -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_4.I(BUFG)                      
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2     1         CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT2(PLL)                             BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS.FIC_2_ACLK               -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_8.I(BUFG)                      
+CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0       0         CLOCKS_AND_RESETS_inst_0.PF_CCC_ADC_0.PF_CCC_ADC_0.pll_inst_0.OUT0(PLL)                               -                                                                           -                 CLOCKS_AND_RESETS_inst_0.PF_CCC_ADC_0.PF_CCC_ADC_0.clkint_0.I(BUFG)                        
+                                                                                                                                                                                                                                                                                                                                                                                  
+System                                                                   0         -                                                                                                     -                                                                           -                 -                                                                                          
+==================================================================================================================================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_E1068E8F.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 303MB peak: 303MB)
+
+Encoding state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3403:0:3403:5|There are no possible illegal states for state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 303MB peak: 303MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 303MB peak: 303MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 303MB peak: 303MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Aug 25 03:29:30 2025
+
+###########################################################]

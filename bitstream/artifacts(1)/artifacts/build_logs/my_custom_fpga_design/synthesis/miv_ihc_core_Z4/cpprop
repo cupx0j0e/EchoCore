@@ -1,0 +1,9 @@
+n work miv_ihc_core_Z4 verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 9.86612;
+av .compile_point_starttime_stamp "Mon Aug 25 02:48:54 2025";
+av .compile_point_endtime_stamp "Mon Aug 25 02:49:04 2025";
+av .compile_point_realtime_used 9.61332;

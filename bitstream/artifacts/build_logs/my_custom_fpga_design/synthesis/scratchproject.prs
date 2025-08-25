@@ -1,43 +1,43 @@
 #--  Synopsys, Inc.
 #--  Version T-2022.09M-SP2-1
-#--  Project file /home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/scratchproject.prs
+#--  Project file /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/scratchproject.prs
 
 #project files
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v"
-add_file -verilog -lib COREAPB3_LIB "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/counter.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v"
-add_file -verilog "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_6F813211/MY_CUSTOM_FPGA_DESIGN_6F813211.v"
-add_file -fpga_constraint "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_6F813211/synthesis.fdc"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/polarfire_syn_comps.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_arbiter.v"
+add_file -verilog -lib COREAPB3_LIB "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_SOC_MSS/PF_SOC_MSS.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P8_IOPADS.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_11_18_IOPADS.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_21_31_IOPADS.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/P9_41_42_IOPADS.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/apb_ctrl_status.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/counter.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/hdl/CAPE.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET_0/core/corereset_pf.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CORERESET/CORERESET.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/INIT_MONITOR/INIT_MONITOR.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/PF_CCC_ADC/PF_CCC_ADC.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v"
+add_file -verilog "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/component/work/MY_CUSTOM_FPGA_DESIGN_1485F08F/MY_CUSTOM_FPGA_DESIGN_1485F08F.v"
+add_file -fpga_constraint "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/designer/MY_CUSTOM_FPGA_DESIGN_1485F08F/synthesis.fdc"
 
 
 #implementation: "synthesis"
-impl -add /home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis -type fpga
+impl -add /home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis -type fpga
 
 #
 #implementation attributes
@@ -53,7 +53,7 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "MY_CUSTOM_FPGA_DESIGN_6F813211"
+set_option -top_module "MY_CUSTOM_FPGA_DESIGN_1485F08F"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -129,5 +129,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "/home/beagle/builds/UqLYJU_q/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_6F813211.vm"
+project -result_file "/home/beagle/builds/B9sZd6qR/0/vedj773/count-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_1485F08F.vm"
 impl -active "synthesis"

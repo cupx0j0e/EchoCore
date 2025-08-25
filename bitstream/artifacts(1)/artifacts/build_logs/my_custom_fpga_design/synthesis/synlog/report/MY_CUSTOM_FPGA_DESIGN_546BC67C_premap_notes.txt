@@ -1,0 +1,13 @@
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":139:10:139:20|Removing instance FIC_1_RESET (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":156:10:156:22|Removing instance FIC_2_RESET_0 (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":593:1:593:17|Removing instance apb_arbiter_top_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":647:3:647:14|Removing instance apb_tgt0\.apb_target_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z15(verilog)) because it does not drive other instances.
+@N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point miv_ihc_core_Z4 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist MY_CUSTOM_FPGA_DESIGN_546BC67C 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/MY_CUSTOM_FPGA_DESIGN_546BC67C.sap.
+@N: MO225 :"/home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/component/work/MIV_IHC_C0/MIV_IHC_C0_0/rtl/core/core_merged/miv_ihc_core_merged.v":3403:0:3403:5|There are no possible illegal states for state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog)); safe FSM implementation is not required.

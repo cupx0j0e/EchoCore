@@ -1,0 +1,8 @@
+/home/beagle/Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter  -link  -top  MY_CUSTOM_FPGA_DESIGN_E1068E8F  -multisrs  /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_comp.srs  -osyn  /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_mult.srs  -log  /home/beagle/builds/B9sZd6qR/0/vedj773/echo-gateware/builds/my_custom_fpga_design/work/libero/synthesis/synlog/MY_CUSTOM_FPGA_DESIGN_E1068E8F_multi_srs_gen.srr 
+relcom:../../../../../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter -link -top MY_CUSTOM_FPGA_DESIGN_E1068E8F -multisrs ../synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_comp.srs -osyn ../synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_mult.srs -log ../synlog/MY_CUSTOM_FPGA_DESIGN_E1068E8F_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_comp.srs|io:i|time:1756110566|size:329947|exec:0|csum:A1D746293F2C9877140A8B9EA5DF5DDC
+file:../synwork/MY_CUSTOM_FPGA_DESIGN_E1068E8F_mult.srs|io:o|time:1756110567|size:20063|exec:0|csum:
+file:../synlog/MY_CUSTOM_FPGA_DESIGN_E1068E8F_multi_srs_gen.srr|io:o|time:1756110567|size:1164|exec:0|csum:
+file:../../../../../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1691490549|size:14188272|exec:1|csum:ED57C987B3F97AE52DA817307847C2BC
+file:../../../../../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter|io:i|time:1691490531|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0
