@@ -1,4 +1,4 @@
-`timescale 1ps/1ps
+`timescale 1ns/1ps
 
 module beam_tb();
     reg clk, reset, start;
