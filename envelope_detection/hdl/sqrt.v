@@ -8,85 +8,66 @@ module sqrt (
     output reg valid
 );
 
-reg [15:0] y_curr, y_next, quotient;
-reg [16:0] sum;
-reg [3:0] iter, state, next_state;
+parameter IDLE = 0, COMPUTE = 1, HALT = 2;
 
-parameter IDLE = 0, DIVIDE = 1, ADD = 2, SHIFT = 3, UPDATE = 4, CHECK = 5, HALT = 6;
+reg [31:0] a;
+reg [15:0] q;
+reg [17:0] left, right, r;
+reg [4:0] i;
+
+reg [1:0] state, next_state;
 
 always @(*) begin
-    case (state)
-        IDLE: begin
-            next_state = DIVIDE;
-        end
-
-        DIVIDE: begin
-            next_state = ADD;
-        end
-
-        ADD: begin
-            next_state = SHIFT;
-        end
-
-        SHIFT: begin
-            next_state = UPDATE;
-        end
-
-        UPDATE: begin
-            next_state = CHECK;
-        end
-
-        CHECK: begin
-            if (iter <= 10) begin
-                next_state = DIVIDE;
-            end else begin
-                next_state = HALT;
-            end
-        end
-
-        HALT: begin
-            next_state = IDLE;
-        end
+    case(state)
+    IDLE: next_state = enable ? COMPUTE : IDLE;
+    COMPUTE: next_state = (i == 5'd15) ? HALT : COMPUTE;
+    HALT: next_state = enable ? IDLE : HALT;
+    default: next_state = IDLE;
     endcase
 end
 
-always @(posedge clk or posedge reset) begin
+always @(posedge clk ) begin
     if (reset) begin
         state <= IDLE;
-        y_curr <= 16'd0;
-        quotient <= 16'd0;
-        sum <= 17'd0;
-        iter <= 4'd0;
         valid <= 1'b0;
-    end else if (enable) begin
-        case (state)
-            IDLE: begin
-                valid <= 1'b0;
-                y_curr <= din >> 1;
-                iter <= 0;
-            end
+        left <= 0;
+        right <= 0;
+        r <= 0;
+        q <= 0;
+        a <= 0;
+        dout <= 0;
+        i <= 0;
+    end else begin
+        case(state)
+        IDLE: begin
+            valid <= 1'b0;
+            left <= 0;
+            right <= 0;
+            r <= 0;
+            q <= 0;
+            a <= din;
+            i <= 0;
+        end
 
-            DIVIDE: begin
-                quotient <= din / y_curr;
-            end
+        COMPUTE: begin
+            right = {q,r[17], 1'b1};
+            left = {r[15:0], a[31:30]};
+            a = {a[29:0], 2'b00};
 
-            ADD: begin
-                sum <= y_curr + quotient;
-            end
+            if (r[17] == 1)
+                r = left + right;
+            else
+                r = left - right;
 
-            SHIFT: begin
-                y_next <= sum >> 1;
-            end
+            q = {q[14:0], !r[17]};      
 
-            UPDATE: begin
-                y_curr <= y_next;
-                iter <= iter + 1;
-            end
+            i <= i + 1;
+        end
 
-            HALT: begin
-                dout <= y_curr;
-                valid <= 1'b1;
-            end
+        HALT: begin
+            dout <= q;
+            valid <= 1'b1;
+        end
         endcase
 
         state <= next_state;
@@ -94,5 +75,5 @@ always @(posedge clk or posedge reset) begin
 end
 
 assign cstate = state;
-    
+
 endmodule
