@@ -2,10 +2,10 @@
 
 module sqrt_tb ();
     reg clk, reset, enable; 
-    wire valid;
-    reg [31:0] din = 32'd65536;
-    wire [15:0] dout;
-    wire [3:0] cstate;
+    wire valid, valid_nr;
+    reg [31:0] din = 32'd0;
+    wire [15:0] dout, dout_nr;
+    wire [3:0] cstate, cstate_nr;
 
     initial begin
         #0 clk = 1'b1;
@@ -26,7 +26,17 @@ module sqrt_tb ();
         #10000 $finish;
     end
 
-    sqrt uut(
+    sqrt_nr sqrt_nr_inst(
+        .clk(clk),
+        .enable(enable),
+        .reset(reset),
+        .din(din),
+        .dout(dout_nr),
+        .cstate(cstate_nr),
+        .valid(valid_nr)
+    );
+
+    sqrt sqrt_inst(
         .clk(clk),
         .enable(enable),
         .reset(reset),
@@ -35,4 +45,5 @@ module sqrt_tb ();
         .cstate(cstate),
         .valid(valid)
     );
+
 endmodule

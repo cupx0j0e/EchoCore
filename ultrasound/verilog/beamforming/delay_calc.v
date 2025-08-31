@@ -23,7 +23,7 @@ wire valid;
 reg [3:0] state, next_state;
 parameter IDLE = 0, SUB = 1, SQUARE = 2, SUM = 3, SQRT_START = 4, WAIT_SQRT = 5, DONE = 6;
 
-sqrt uut(
+sqrt_nr uut(
     .clk(clk),
     .enable(enable),
     .reset(reset),
