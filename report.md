@@ -156,6 +156,7 @@ The earlier iterations of the pipeline made use of the **Newton-Rapheson method*
 The idea is to start with an initial guess at a root, approximate the function by its tangent line near the guess, and then take the root of the linear approximation as a next guess at the function's root. This will typically be closer to the function's root than the previous guess, and the method can be iterated. 
 
 This can be easily understood by the formula:
+
 $$ y_{next} = \frac{1}{2}\left( y_{curr} + \frac{N}{y_{curr}} \right) $$
 
 where: $N$ = input number<br>
@@ -190,9 +191,11 @@ The generation of the quadrature component is done by using a technique known as
 The Hilbert Transform is a mathematical function which is used to shift the phase of a signal by 90deg. The Hilbert transform takes in a real valued function $ x\left( t \right) $ and outputs a function which is phase shifted by 90deg, $ \hat{x}\left( t \right) $.
 
 Together they form the analytic signal:
+
 $$ z\left( t \right) = x\left( t \right) + j\hat{x}\left( t \right) $$
 
 The envelope is calculated by simply taking the magnitude of the signal:
+
 $$ Envelope(t) = |z\left( t \right)| = \sqrt{x\left( t \right)^2 + \hat{x}\left( t \right)^2} $$
 
 This project uses the Hilbert Transform IP core provided by Microchip to generate the quadrature component of the signal. An additional IP core ensures that the quadrature component is fully computed before both the in-phase and quadrature signals are passed to another IP core, which calculates the magnitude of the analytic signal.
@@ -219,9 +222,11 @@ This method is highly efficient for hardware because it replaces complex multipl
 
 #### The Core Idea
 The algorithm leverages the following identity
+
 $$ \log_2x = \log_2\left( \prod_{i=0}^{N-1} k_i \right) = \sum_{i=0}^{N-1}\log_2\left( k_i \right) $$
 
 The CORDIC algorithm is an iterative process of conditional subtractions. For a set number of steps, the normalized input is compared against a series of constants of the form:
+
 $$ 1 + 2^{-i} $$
 
 If the input is greater than or equal to the constant, a shift-and-subtract operation is performed on the input, and a corresponding pre-calculated value is added to a running total. If the condition is false, nothing changes. This step-by-step process systematically reduces the input toward one while accumulating the fractional logarithm in the running total. The final accumulated total is the fractional part of the logarithm.
