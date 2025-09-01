@@ -1,30 +1,30 @@
 # Project Report : Echocore
 
 ## Table of Contents:
-- [Project Objective]()
-- [What is an FPGA and why use it?]()
-- [16-QAM digital communication]()
-    - [Brief Overview]()
-    - [How it works]()
-    - [System Overview]()
-        - [Flowchart]()
-    - [Data input]()
-    - [Symbol Mapping]()
-- [Ultrasound Imaging]() 
-    - [Brief Overview]()
-    - [Why use ultrasounds]()
-    - [System Overview]()
-        - [Flowchart]()
-    - [Data input]()
-    - [Beamforming]()
-        - [Newton-Rapheson Method]()
-        - [Non-restoring algorithm]()
-    - [Envelope Detection]()
-        - [Hilbert transform]()
-    - [Log Compression]()
-        - [Calculation of the integral part]()
-        - [Calculation of the fractional part using CORDIC]()
-    - [Scan Conversion]()
+- [Project Objective](#project-objective)
+- [What is an FPGA and why use it?](#what-is-an-fpga-and-why-use-it)
+- [16-QAM digital communication](#16-qam-digital-communication)
+    - [Brief Overview](#brief-overview)
+    - [How it works](#how-qam-works)
+    - [System Overview](#system-overview)
+        - [Flowchart](#flowchart)
+    - [Data input](#data-input)
+    - [Symbol Mapping](#symbol-mapping)
+- [Ultrasound Imaging](#ultrasound-imaging) 
+    - [Brief Overview](#brief-overview-1)
+    - [Why use ultrasounds](#why-use-ultrasounds)
+    - [System Overview](#system-overview-1)
+        - [Flowchart](#flowchart-1)
+    - [Data input](#data-input-1)
+    - [Beamforming](#beamforming)
+        - [Newton-Rapheson Method](#newton-rapheson-method)
+        - [Non-restoring algorithm](#non-restoring-method)
+    - [Envelope Detection](#envelope-detection)
+        - [Hilbert transform](#hilbert-transform)
+    - [Log Compression](#log-compression)
+        - [Calculation of the integral part](#calculation-of-the-integral-part)
+        - [Calculation of the fractional part using CORDIC](#calculation-of-the-fractional-part)
+    - [Scan Conversion](#scan-conversion)
 
 ## Project Objective
 This project combines two advanced real-world FPGA applications on a single platform: B-mode ultrasound imaging and 16-QAM digital communication. It involves building Verilog modules for both applications and simulate/test them using Vivado/ISE and ModelSim. Ultrasound signal processing includes beamforming, quadrature demodulation, envelope detection, and log compression. 
@@ -188,7 +188,7 @@ The signals formed after beamforming are oscillatory and not directly usable for
 The generation of the quadrature component is done by using a technique known as the Hilbert transform.
 
 #### Hilbert Transform
-The Hilbert Transform is a mathematical function which is used to shift the phase of a signal by 90deg. The Hilbert transform takes in a real valued function $ x\left( t \right) $ and outputs a function which is phase shifted by 90deg, $ \hat{x}\left( t \right) $.
+The Hilbert Transform is a mathematical function which is used to shift the phase of a signal by 90deg. The Hilbert transform takes in a real valued function $x\left( t \right)$ and outputs a function which is phase shifted by 90deg, $\hat{x}\left( t \right)$.
 
 Together they form the analytic signal:
 
@@ -207,12 +207,14 @@ To address this issue, log compression is applied to the ultrasound signals. Thi
 
 The process of Log compression begins with a FIFO buffer which is responsible for storing the incoming values from envelope detection until the pipeline ahead is done processing the current input.
 
-#### Log Calculation
+#### Calculation of the integral part
 The Log (base 2) calculation in verilog is accomplished using two modules, one responsible for calculating the integer part of the logarithm while the other responsible for the calculation of the fractional part in fixed point format.
 
 The process to find the integer part of the logarithm is quite straight forward, it can be easily accomplished by finding the index of the most significant bit of the number. That is,
 
 $$ \left\lfloor \log_{2}x \right\rfloor = n \Leftrightarrow 2^n < x < 2^{n+1} $$
+
+#### Calculation of the fractional part
 
 The calculation for the fractional part of the logarithm is however a different story; the world beyond the decimal has always posed a problem for digital systems for it introduces the dilemma of range and accuracy; it is impossible to gain one without losing the other. The most recent iterations of the pipeline have used a 16-bit fractional width for the log calculation. The accuracy provided by this is also good enough for ultrasound applications.
 
