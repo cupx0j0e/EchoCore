@@ -7,110 +7,112 @@ module log_frac_calc #(
     input reset,
     input in_valid,
     input out_ready,
-    input [NORM_WIDTH-1:0] data_in,
+    input [NORM_WIDTH-1:0] data_in,      
     output reg out_valid,
     output in_ready,
     output reg [NORM_WIDTH-1:0] log_frac_out
 );
 
-    reg [FRAC_WIDTH-1:0] log2_constants [FRAC_WIDTH-1:0];
-    reg [NORM_WIDTH-1:0] cordic_x_constants [FRAC_WIDTH-1:0];
+    assign in_ready = (state == IDLE);
 
-    initial begin
-        log2_constants[0] = 16'h8000;
-        log2_constants[1] = 16'h95d3;
-        log2_constants[2] = 16'h515a;
-        log2_constants[3] = 16'h2c71;
-        log2_constants[4] = 16'h166b;
-        log2_constants[5] = 16'h0b6f;
-        log2_constants[6] = 16'h05c0;
-        log2_constants[7] = 16'h02e8;
-        log2_constants[8] = 16'h0175;
-        log2_constants[9] = 16'h00ba;
-        log2_constants[10] = 16'h005d;
-        log2_constants[11] = 16'h002f;
-        log2_constants[12] = 16'h0018;
-        log2_constants[13] = 16'h000c;
-        log2_constants[14] = 16'h0006;
-        log2_constants[15] = 16'h0003;
-    end
+    localparam [NORM_WIDTH-1:0] ONE = {1'b1, {FRAC_WIDTH{1'b0}}};
 
-    initial begin
-        cordic_x_constants[0] = 17'h18000;
-        cordic_x_constants[1] = 17'h1C000;
-        cordic_x_constants[2] = 17'h1A000;
-        cordic_x_constants[3] = 17'h19000;
-        cordic_x_constants[4] = 17'h18800;
-        cordic_x_constants[5] = 17'h18400;
-        cordic_x_constants[6] = 17'h18200;
-        cordic_x_constants[7] = 17'h18100;
-        cordic_x_constants[8] = 17'h18080;
-        cordic_x_constants[9] = 17'h18040;
-        cordic_x_constants[10] = 17'h18020;
-        cordic_x_constants[11] = 17'h18010;
-        cordic_x_constants[12] = 17'h18008;
-        cordic_x_constants[13] = 17'h18004;
-        cordic_x_constants[14] = 17'h18002;
-        cordic_x_constants[15] = 17'h18001;
-    end
+    reg [NORM_WIDTH-1:0] x, y;
+    reg [4:0] iter;
+    reg [4:0] cycle_count;
 
-    reg [NORM_WIDTH-1:0] x_reg;
-    reg [NORM_WIDTH-1:0] z_reg = 0;
-    reg [$clog2(NORM_WIDTH):0] i = 1;
-
+    localparam IDLE    = 0,
+               LOAD    = 1,
+               ITERATE = 2,
+               DONE    = 3;
     reg [1:0] state, next_state;
-    localparam IDLE = 0, CALC = 1, DONE = 2;
+
+    reg [NORM_WIDTH-1:0] log_p_table [1:FRAC_WIDTH];
+    initial begin
+        log_p_table[1]  = 17'h095C0; log_p_table[2]  = 17'h05269;
+        log_p_table[3]  = 17'h02B80; log_p_table[4]  = 17'h01663;
+        log_p_table[5]  = 17'h00B5D; log_p_table[6]  = 17'h005B9;
+        log_p_table[7]  = 17'h002E0; log_p_table[8]  = 17'h00171;
+        log_p_table[9]  = 17'h000B9; log_p_table[10] = 17'h0005C;
+        log_p_table[11] = 17'h0002E; log_p_table[12] = 17'h00017;
+        log_p_table[13] = 17'h0000B; log_p_table[14] = 17'h00006;
+        log_p_table[15] = 17'h00003; log_p_table[16] = 17'h00001;
+    end
+    
+    reg [NORM_WIDTH-1:0] log_m_table [1:FRAC_WIDTH];
+    initial begin
+        log_m_table[1]  = 17'h10000; log_m_table[2]  = 17'h06A0A;
+        log_m_table[3]  = 17'h03144; log_m_table[4]  = 17'h0174F;
+        log_m_table[5]  = 17'h00B89; log_m_table[6]  = 17'h005C1;
+        log_m_table[7]  = 17'h002E2; log_m_table[8]  = 17'h00171;
+        log_m_table[9]  = 17'h000B9; log_m_table[10] = 17'h0005C;
+        log_m_table[11] = 17'h0002E; log_m_table[12] = 17'h00017;
+        log_m_table[13] = 17'h0000B; log_m_table[14] = 17'h00006;
+        log_m_table[15] = 17'h00003; log_m_table[16] = 17'h00001;
+    end
+
+    localparam TOTAL_CYCLES = FRAC_WIDTH + 1;
 
     always @(*) begin
         case(state)
-            IDLE: next_state = (in_valid && in_ready) ? CALC : IDLE;
-            CALC: next_state = (i == 16) ? DONE : CALC;
-            DONE: next_state = (out_valid && out_ready) ? IDLE : DONE;
+            IDLE:    next_state = (in_valid) ? LOAD : IDLE;
+            LOAD:    next_state = ITERATE;
+            ITERATE: next_state = (cycle_count == TOTAL_CYCLES) ? DONE : ITERATE;
+            DONE:    next_state = (out_ready) ? IDLE : DONE;
+            default: next_state = IDLE;
         endcase
     end
 
-    always @(posedge clk ) begin
+    always @(posedge clk) begin
         if (reset) begin
             state <= IDLE;
-            out_valid <= 0;
+            out_valid <= 1'b0;
+            iter <= 0;
+            cycle_count <= 0;
+            x <= 0;
+            y <= 0;
             log_frac_out <= 0;
-            x_reg <= 0;
-            z_reg <= 0;
-            i <= 1;
         end else begin
+            state <= next_state;
+
             case(state)
                 IDLE: begin
-                    if (in_ready && in_valid) begin
-                        x_reg <= data_in;
-                        z_reg <= 0;
-                        i <= 1; 
-                        out_valid <= 1;
-                    end
-                end 
+                    out_valid <= 1'b0;
+                end
 
-                CALC: begin
-                    if (x_reg >= cordic_x_constants[i]) begin
-                        x_reg <= x_reg - (x_reg >> i);
+                LOAD: begin
+                    x <= data_in;
+                    y <= 0;
+                    iter <= 1;
+                    cycle_count <= 1;
+                    out_valid <= 1'b0;
+                end
+
+                ITERATE: begin
+                    if (cycle_count <= TOTAL_CYCLES) begin
+                        if (x >= ONE) begin
+                            x <= x - (x >>> iter);
+                            y <= y + log_m_table[iter];
+                        end else begin
+                            x <= x + (x >>> iter);
+                            y <= y - log_p_table[iter];
+                        end
                         
-                        z_reg <= z_reg + log2_constants[i];
-                    end else begin
-                        x_reg <= x_reg;
-                        z_reg <= z_reg;
+                        cycle_count <= cycle_count + 1;
+                        if (iter == 4 && cycle_count == 4) begin
+                            iter <= 4; 
+                        end else begin
+                            iter <= iter + 1;
+                        end
                     end
-
-                    i <= i + 1;
-                end 
+                end
 
                 DONE: begin
-                    log_frac_out <= z_reg;
+                    log_frac_out <= y;
                     out_valid <= 1'b1;
                 end
             endcase
-
-            state <= next_state;
         end
     end
-
-    assign in_ready = (state == IDLE);
 
 endmodule

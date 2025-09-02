@@ -3,7 +3,7 @@
 module sqrt_tb ();
     reg clk, reset, enable; 
     wire valid, valid_nr;
-    reg [31:0] din = 32'd0;
+    reg [31:0] din = 32'd10000;
     wire [15:0] dout, dout_nr;
     wire [3:0] cstate, cstate_nr;
 

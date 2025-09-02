@@ -2,7 +2,7 @@
 
 module sample_delay_tb ();
 
-reg clk, reset;
+reg clk, reset, enable;
 reg [15:0] din;
 reg [7:0] delay;
 
@@ -23,6 +23,7 @@ initial begin
     #0 reset = 1'b1;
     #0 delay = 7'd3;
     #0 din = 15'd200;
+    #0 enable = 1'b1;
 
     #10 reset = 1'b0;
 
@@ -35,7 +36,8 @@ sample_delay #(16, 256) uut(
     .din(din),
     .delay(delay),
     .dout(dout),
-    .valid(valid)  
+    .valid(valid),
+    .enable(enable)
 );
 
 endmodule

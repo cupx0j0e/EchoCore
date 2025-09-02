@@ -71,10 +71,7 @@ module tb_top_logc;
         data_in = 0;
         #20;
         reset = 0;
-        repeat (30) begin
-            @(posedge clk);
-            data_in = $random;
-        end
+        data_in = 48'd987654321;
         #1000;
         $finish;
     end

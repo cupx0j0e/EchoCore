@@ -1,6 +1,7 @@
 # Project Report : Echocore
 
 ## Table of Contents:
+- [TLDR;](#)
 - [Project Objective](#project-objective)
 - [What is an FPGA and why use it?](#what-is-an-fpga-and-why-use-it)
 - [16-QAM digital communication](#16-qam-digital-communication)
@@ -25,6 +26,33 @@
         - [Calculation of the integral part](#calculation-of-the-integral-part)
         - [Calculation of the fractional part using CORDIC](#calculation-of-the-fractional-part)
     - [Scan Conversion](#scan-conversion)
+
+## TLDR;
+The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for wireless communication and an image processing pipeline for medical diagnostics onto one chip.
+
+16-QAM Digital Communication
+
+This part of the project focuses on transmitting data by altering the amplitude and phase of a carrier signal using Quadrature Amplitude Modulation (QAM). Key steps include:
+
+**Data Input:** Pseudorandom data is generated using a 4-bit linear-feedback shift register (LFSR).
+
+**Symbol Mapping:** The 4-bit data is split into in-phase (I) and quadrature (Q) components and mapped to specific points on a constellation diagram. Gray codes are used during this mapping to minimize bit errors caused by noise.
+
+**Modulation:** The I and Q components are used to modulate two carrier waves that are 90 degrees out of phase, creating a composite signal that represents a unique symbol.
+
+Ultrasound Imaging
+
+The ultrasound pipeline processes signals to create a 2D grayscale image from ultrasonic echoes. The process involves:
+
+**Data Input:** Ultrasound transducers convert returning echoes into digital values, which are read from a file.
+
+**Beamforming:** This crucial step aligns signals received at different times by multiple transducer channels. It applies calculated delays so the signals can be summed up coherently. The project switched from the resource-intensive Newton-Raphson method to the more hardware-efficient Non-Restoring algorithm for calculating square roots to determine these delays.
+
+**Envelope Detection:** The high-frequency oscillations are removed from the beamformed signal to reveal the "shape" or amplitude profile. This is done by creating an analytic signal using the Hilbert Transform and then calculating its magnitude.
+
+**Log Compression:** The wide range of signal amplitudes is compressed using a logarithmic scale to create a clearer image. The calculation for the fractional part of the logarithm is performed using the efficient CORDIC algorithm, which relies on simple shifts and additions.
+
+**Scan Conversion:** The final step transforms the raw polar coordinate data (from the transducer) into a Cartesian (x,y) grid for display, ensuring the image is smooth and correctly proportioned for a standard screen.
 
 ## Project Objective
 This project combines two advanced real-world FPGA applications on a single platform: B-mode ultrasound imaging and 16-QAM digital communication. It involves building Verilog modules for both applications and simulate/test them using Vivado/ISE and ModelSim. Ultrasound signal processing includes beamforming, quadrature demodulation, envelope detection, and log compression. 
@@ -249,70 +277,42 @@ The algorithm leverages the following identity
 
 $$ \log_2x = \log_2\left( \prod_{i=0}^{N-1} k_i \right) = \sum_{i=0}^{N-1}\log_2\left( k_i \right) $$
 
-The CORDIC algorithm is an iterative process of conditional subtractions. For a set number of steps, the normalized input is compared against a series of constants of the form:
+The basic idea of the process is as follows:
+The algorithm behaves like a weighing scale, the goal is to maipulate one 'side' such that the tip of the scale converges towards a value.
 
-$$ 1 + 2^{-i} $$
+In mathematical terms, the algorithm aims to solve the equation:
 
-<div align='center'>
-    <table style='text-align: center'>
-    <tr>
-        <td>i</td>
-        <td>1+2^(-i)</td>
-        <td>i</td>
-        <td>1+2^(-i)</td>
-    </tr>
-    <tr>
-        <td>0</td>
-        <td>18000</td>
-        <td>8</td>
-        <td>18080</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>1C000</td>
-        <td>9</td>
-        <td>18040</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>1A000</td>
-        <td>10</td>
-        <td>18020</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>19000</td>
-        <td>11</td>
-        <td>18010</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>18800</td>
-        <td>12</td>
-        <td>18008</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>18400</td>
-        <td>13</td>
-        <td>18004</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>18200</td>
-        <td>14</td>
-        <td>18002</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>18100</td>
-        <td>15</td>
-        <td>18001</td>
-    </tr>
-    </table>
-</div>
+$$ y = \log_2(x) $$
 
-If the input is greater than or equal to the constant, a shift-and-subtract operation is performed on the input, and a corresponding pre-calculated value is added to a running total. If the condition is false, nothing changes. This step-by-step process systematically reduces the input toward one while accumulating the fractional logarithm in the running total. The final accumulated total is the fractional part of the logarithm.
+This is hard to calculate directly, the equation is thus rearranged in the following manner:
+
+$$ y - \log_2(x) = 0 $$
+
+The goal now becomes to manipulate z in such a way that it approaches 1. This is done by leveraging the [identity](#the-core-idea) here.
+
+Z is now multiplied with several 'special' factors which are also added on the other side of the equation to keep it balanced.
+
+$$ y - \log(x\cdot F_1\cdot F_2\cdots) = \log(F_1) + \log(F_2) + \cdots $$
+
+Now, if these 'special' factors are chosen cleverly such that the product:
+
+$$ z\cdot F_1\cdot F_2\cdots F_n \to 1 $$
+
+then: 
+
+$$ y = \log(F_1) + \log(F_2) + \cdots + \log(F_n) $$
+
+These 'special' factors are constants of the form:
+
+$$1 \pm 2^{-i} $$
+
+At each step of the iteration the value of x is compared with 1. 
+- If x is greater than 1, it is multiplied by $(1-2^{-i})$
+- If x is less than 1, it is multiplied by $(1+2^{-i})$
+
+In both cases the value of y is updated by adding and subtracting precomputed values such that the original equation remains balanced.
+
+![log frac calculation](./assets/log_frac.png)
 
 ### Scan Conversion
 In ultrasound imaging, data is naturally acquired in a **polar or sector format** because the transducer elements send and receive waves at different angles relative to the probe. This raw data does not directly match the rectangular grid used by standard image displays. As a result, even if the underlying signals contain useful information, the image would appear distorted or unintuitive if shown directly.
