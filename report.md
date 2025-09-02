@@ -170,13 +170,25 @@ The recent iterations of the project switched to the non-restoring square root a
 
 This is done by performing bit shifts and subtractions instead of using the division operator making the process a lot more efficient and quick when compared to the Newton-Rapheson method.
 
-![Insert non-restoring algo pic here]()
+![non-restoring algo](./assets/non_restoring.png)
 
-In the [delay control module](), multiple delay calculation modules are instantiated using generate blocks (one for each channel). After the delays are computed, these values are passed to the [sample delay module](), which are also instantiated using generate blocks (again, one for each channel).
+#### A comparison between the algorithms
+The figure below compares different algorithms for calculating the square root of the decimal value 10,000. The Newton–Raphson method produces the correct result in 570 ps (57 cycles), while the Non-Restoring method achieves the result much faster, in 180 ps (18 cycles).
+
+![Algorithm comparison](./assets/algo_comp.png)
+
+In the [delay control module](./ultrasound/verilog/beamforming/delay_con.v), multiple delay calculation modules are instantiated using generate blocks (one for each channel). After the delays are computed, these values are passed to the [sample delay module](./ultrasound/verilog/beamforming/sample_delay.v), which are also instantiated using generate blocks (again, one for each channel).
 
 The sample delay module works like a FIFO delay line: it writes incoming samples into a buffer and reads them back after a programmable number of clock cycles, creating a flexible, per-channel time alignment unit.
 
-Finally the [summation module]() makes use of a serial accumulator to sum-up all the signals from the channels after the delay has been applied.
+![sample delay eg](./assets/sample_delay.png)
+
+Finally the [summation module](./ultrasound/verilog/beamforming/summ_sa.v) makes use of a serial accumulator to sum-up all the signals from the channels after the delay has been applied.
+
+The figure below highlights the entire pipeline at play:
+
+![beamforming delay calc](./assets/beam_delay.png)
+![beamforming after delay](./assets/after_delay.png)
 
 ### Envelope Detection
 When ultrasound waves are received by the transducer, the signals they produce are not smooth or directly interpretable; instead, they contain rapid oscillations at the carrier frequency.
@@ -200,6 +212,8 @@ $$ Envelope(t) = |z\left( t \right)| = \sqrt{x\left( t \right)^2 + \hat{x}\left(
 
 This project uses the Hilbert Transform IP core provided by Microchip to generate the quadrature component of the signal. An additional IP core ensures that the quadrature component is fully computed before both the in-phase and quadrature signals are passed to another IP core, which calculates the magnitude of the analytic signal.
 
+![envelope signal flow](./assets/envelope_ip.png)
+
 ### Log Compression
 The ultrasound signals still contain a wide range of amplitudes after they've been beamformed and their envelopes detected. Some echoes like the ones coming from bones are really strong, while others like the ones coming from softer tissues deeper in the body.
 
@@ -214,13 +228,21 @@ The process to find the integer part of the logarithm is quite straight forward,
 
 $$ \left\lfloor \log_{2}x \right\rfloor = n \Leftrightarrow 2^n < x < 2^{n+1} $$
 
+The implementation of this can be found [here](./ultrasound/verilog/logc/int_calc.v)
+
+![log integer calc](./assets/log_int.png)
+
 #### Calculation of the fractional part
 
 The calculation for the fractional part of the logarithm is however a different story; the world beyond the decimal has always posed a problem for digital systems for it introduces the dilemma of range and accuracy; it is impossible to gain one without losing the other. The most recent iterations of the pipeline have used a 16-bit fractional width for the log calculation. The accuracy provided by this is also good enough for ultrasound applications.
 
 Before computing the fractional part of the logarithm, the input is normalized by right-shifting it so that its MSB aligns with the fixed-point input range of the CORDIC unit. The fractional part is then calculated using the CORDIC algorithm.
 
+![log norm calc](./assets/log_norm.png)
+
 This method is highly efficient for hardware because it replaces complex multiplication and division with simple shifts and additions. The core of the algorithm is a series of conditional operations that converge to the correct fractional value over several clock cycles.
+
+The implementation of this can be found [here](./ultrasound/verilog/logc/log_frac_calc.v)
 
 #### The Core Idea
 The algorithm leverages the following identity
@@ -230,6 +252,65 @@ $$ \log_2x = \log_2\left( \prod_{i=0}^{N-1} k_i \right) = \sum_{i=0}^{N-1}\log_2
 The CORDIC algorithm is an iterative process of conditional subtractions. For a set number of steps, the normalized input is compared against a series of constants of the form:
 
 $$ 1 + 2^{-i} $$
+
+<div align='center'>
+    <table style='text-align: center'>
+    <tr>
+        <td>i</td>
+        <td>1+2^(-i)</td>
+        <td>i</td>
+        <td>1+2^(-i)</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>18000</td>
+        <td>8</td>
+        <td>18080</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1C000</td>
+        <td>9</td>
+        <td>18040</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>1A000</td>
+        <td>10</td>
+        <td>18020</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>19000</td>
+        <td>11</td>
+        <td>18010</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>18800</td>
+        <td>12</td>
+        <td>18008</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>18400</td>
+        <td>13</td>
+        <td>18004</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>18200</td>
+        <td>14</td>
+        <td>18002</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>18100</td>
+        <td>15</td>
+        <td>18001</td>
+    </tr>
+    </table>
+</div>
 
 If the input is greater than or equal to the constant, a shift-and-subtract operation is performed on the input, and a corresponding pre-calculated value is added to a running total. If the condition is false, nothing changes. This step-by-step process systematically reduces the input toward one while accumulating the fractional logarithm in the running total. The final accumulated total is the fractional part of the logarithm.
 
