@@ -30,7 +30,7 @@
 ## TLDR;
 The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for wireless communication and an image processing pipeline for medical diagnostics onto one chip.
 
-16-QAM Digital Communication
+### 16-QAM Digital Communication
 
 This part of the project focuses on transmitting data by altering the amplitude and phase of a carrier signal using Quadrature Amplitude Modulation (QAM). Key steps include:
 
@@ -40,7 +40,7 @@ This part of the project focuses on transmitting data by altering the amplitude 
 
 **Modulation:** The I and Q components are used to modulate two carrier waves that are 90 degrees out of phase, creating a composite signal that represents a unique symbol.
 
-Ultrasound Imaging
+### Ultrasound Imaging
 
 The ultrasound pipeline processes signals to create a 2D grayscale image from ultrasonic echoes. The process involves:
 
