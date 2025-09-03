@@ -1,9 +1,13 @@
 # Project Report : Echocore
 
+
+This project combines two advanced real-world FPGA applications on a single platform: B-mode ultrasound imaging and 16-QAM digital communication. It involves building Verilog modules for both applications and simulate/test them using Vivado/ISE and ModelSim. Ultrasound signal processing includes beamforming, quadrature demodulation, envelope detection, and log compression. 
+
+For communication, a full 16-QAM system is developed using LUT-based modulators/demodulators and phase accumulators. Data output via UART/SPI will allow real-time streaming of ultrasound scans and QAM symbol recovery on a host PC using Python/MATLAB GUI. This integrated project emphasizes DSP techniques, FPGA toolchains, and real-time interfacing.
+
+
 ## Table of Contents:
-- [TLDR;](#tldr)
 - [System Level Architecture](#system-level-architecture)
-- [Project Objective](#project-objective)
 - [What is an FPGA and why use it?](#what-is-an-fpga-and-why-use-it)
 - [16-QAM Digital Communication](#16-qam-digital-communication)
     - [Brief Overview](#brief-overview)
@@ -45,11 +49,7 @@
         - [Calculation of the fractional part using CORDIC](#calculation-of-the-fractional-part)
     - [Scan Conversion](#scan-conversion)
     - [References and Acknowledgements](#references-and-acknowledgments)
-
-
-
-## TLDR;
-The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for digital communication and an image processing pipeline for medical diagnostics onto one chip.
+- [TLDR;](#tldr)
 
 ## System Level Architecture
 ---
@@ -117,10 +117,6 @@ The ultrasound pipeline processes signals to create a 2D grayscale image from ul
 
 **Scan Conversion:** The final step transforms the raw polar coordinate data (from the transducer) into a Cartesian (x,y) grid for display, ensuring the image is smooth and correctly proportioned for a standard screen.
 
-## Project Objective
-This project combines two advanced real-world FPGA applications on a single platform: B-mode ultrasound imaging and 16-QAM digital communication. It involves building Verilog modules for both applications and simulate/test them using Vivado/ISE and ModelSim. Ultrasound signal processing includes beamforming, quadrature demodulation, envelope detection, and log compression. 
-
-For communication, a full 16-QAM system is developed using LUT-based modulators/demodulators and phase accumulators. Data output via UART/SPI will allow real-time streaming of ultrasound scans and QAM symbol recovery on a host PC using Python/MATLAB GUI. This integrated project emphasizes DSP techniques, FPGA toolchains, and real-time interfacing.
 
 ## What is an FPGA and why use it?
 A Field-Programmable Gate Array (FPGA) is a type of integrated circuit that can be reconfigured or reprogrammed to implement a custom digital circuit. Unlike a microprocessor that executes software instructions sequentially, the hardware logic on an FPGA is hard-wired and executes in parallel. This allows for extremely high performance and low latency, making FPGAs ideal for tasks requiring real-time, high-throughput data processing.
@@ -635,3 +631,7 @@ $$ \text{I}(x, y) = I\left(\sqrt{x^2 + y^2}, \text{ } arctan(\frac{y}{x}) \right
 - [16QAM implementation on an FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)
 - [Paper on calculating square roots using the non-restoring algorithm](https://drive.google.com/file/d/1bhOr-KdjjQjOQ13TKr4b6WiEq42trPQj/view)
 - [Github repository for implementing beamforing in verilog](https://github.com/SAFEERHYDER/FPGA_Ultrasound_DAS_Beamformer)
+
+
+## TLDR;
+The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for digital communication and an image processing pipeline for medical diagnostics onto one chip.
