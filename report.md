@@ -185,7 +185,7 @@ flowchart LR
 Currently, the input for the entire process is prepared using a **4‑bit linear‑feedback shift register (LFSR)**. An LFSR is a shift register where the input bit at each step is a function (usually XOR) of selected prior bits. This makes LFSRs perfect for pseudorandom number generation in hardware.
 
 
-The implementation of stage can be found [here](./qam_16/hdl/four_pr)
+The implementation of stage can be found [here](./qam_16/libero/hdl/four_pr)
 
 
 ### 2. Symbol Mapping
@@ -235,7 +235,7 @@ In verilog symbol mapping is achieved through the use of:
 - Bit Slicing to split the 4-bit input data to two 2-bit components 
 - Case statements (multiplexers) to map the components onto a constellation map
 
-The implementation of stage can be found [here](./qam_16/hdl/symmap.v)
+The implementation of stage can be found [here](./qam_16/libero/hdl/symmap.v)
 
 
 ### 3. Upsampling (Zero Stuffing)
@@ -257,7 +257,7 @@ flowchart TD
     B --> C["Upsampled Signal (with spectral images)"]
 ```
 
-The implementation of stage can be found [here](./qam_16/hdl/upsampler.v)
+The implementation of stage can be found [here](./qam_16/libero/hdl/upsampler.v)
 
 
 ### 4. RRC filter
@@ -414,7 +414,7 @@ flowchart TD
     C2["Sin Carrier"] --> M2
 ```
 
-The implementation of stage can be found [here](./qam_16/hdl/modulator.v)
+The implementation of stage can be found [here](./qam_16/libero/hdl/modulator.v)
 
 
 ### 7. Combiner
@@ -438,7 +438,7 @@ flowchart TD
 ```
 
 
-The implementation of stage can be found [here](./qam_16/hdl/combiner.v)
+The implementation of stage can be found [here](./qam_16/libero/hdl/combiner.v)
 
 ---
 
@@ -467,7 +467,7 @@ The signal flow involved in the process of ultrasound process on an FPGA is as f
 Ultrasound imaging systems typically use devices called transducers, which convert ultrasound waves into electrical signals. These transducers are usually arranged in an array, forming multiple channels. 
 When ultrasound signals are reflected from tissues and return to the transducers, they are converted into digital values, typically represented in hexadecimal form. These values are stored in a file and can be read using Verilog's `readmemh` function. 
 
-This is implemented using the module [here](./ultrasound/verilog/beamforming/readrf_vals.v)
+This is implemented using the module [here](./ultrasound/libero/hdl/readrf_vals.v)
 
 ### Beamforming
 As ultrasound waves bounce off tissues within the body, the returning echoes arrive at the multiple transducer channels at slightly different times depending on the distance they travelled. In beamforming, carefully calculated delays are applied to the channels that receive their signals earlier, aligning them in time with the signals arriving later, so that all the echoes can be combined and processed as if they had been received simultaneously.
@@ -476,9 +476,9 @@ These delays can be calculated ahead of time as they only rely on the position o
 
 $$ \text{t}=\sqrt{z^2 + (x_j-x)^2} $$
 
-The positions of all transducer channels are also stored in hex files and are read using the module [here](./ultrasound/verilog/beamforming/coord_rom.v)
+The positions of all transducer channels are also stored in hex files and are read using the module [here](./ultrasound/libero/hdl/coord_rom.v)
 
-These values are then fed into delay calculation modules, which determine the required delay values using a square root module [here](./ultrasound/verilog/beamforming/sqrt_nr.v)
+These values are then fed into delay calculation modules, which determine the required delay values using a square root module [here](./ultrasound/libero/hdl/sqrt_nr.v)
 
 The Square root calculation is one of the more important parts of the entire pipeline since it is particularly difficult to implement in verilog; the choice of algorithm for the calculation of the square root thus becomes very important for the pipeline.
 
@@ -501,25 +501,25 @@ The recent iterations of the project switched to the non-restoring square root a
 
 This is done by performing bit shifts and subtractions instead of using the division operator making the process a lot more efficient and quick when compared to the Newton-Rapheson method.
 
-![non-restoring algo](./assets/non_restoring.png)
+![non-restoring algo](./ultrasound/assets/non_restoring.png)
 
 #### A comparison between the algorithms
 The figure below compares different algorithms for calculating the square root of the decimal value 10,000. The Newton–Raphson method produces the correct result in 570 ps (57 cycles), while the Non-Restoring method achieves the result much faster, in 180 ps (18 cycles).
 
-![Algorithm comparison](./assets/algo_comp.png)
+![Algorithm comparison](./ultrasound/assets/algo_comp.png)
 
-In the [delay control module](./ultrasound/verilog/beamforming/delay_con.v), multiple delay calculation modules are instantiated using generate blocks (one for each channel). After the delays are computed, these values are passed to the [sample delay module](./ultrasound/verilog/beamforming/sample_delay.v), which are also instantiated using generate blocks (again, one for each channel).
+In the [delay control module](./ultrasound/libero/hdl/delay_con.v), multiple delay calculation modules are instantiated using generate blocks (one for each channel). After the delays are computed, these values are passed to the [sample delay module](./ultrasound/libero/hdl/sample_delay.v), which are also instantiated using generate blocks (again, one for each channel).
 
 The sample delay module works like a FIFO delay line: it writes incoming samples into a buffer and reads them back after a programmable number of clock cycles, creating a flexible, per-channel time alignment unit.
 
-![sample delay eg](./assets/sample_delay.png)
+![sample delay eg](./ultrasound/assets/sample_delay.png)
 
-Finally the [summation module](./ultrasound/verilog/beamforming/summ_sa.v) makes use of a serial accumulator to sum-up all the signals from the channels after the delay has been applied.
+Finally the [summation module](./ultrasound/libero/hdl/summ_sa.v) makes use of a serial accumulator to sum-up all the signals from the channels after the delay has been applied.
 
 The figure below highlights the entire pipeline at play:
 
-![beamforming delay calc](./assets/beam_delay.png)
-![beamforming after delay](./assets/after_delay.png)
+![beamforming delay calc](./ultrasound/assets/beam_delay.png)
+![beamforming after delay](./ultrasound/assets/after_delay.png)
 
 ### Envelope Detection
 When ultrasound waves are received by the transducer, the signals they produce are not smooth or directly interpretable; instead, they contain rapid oscillations at the carrier frequency.
@@ -543,7 +543,7 @@ $$ Envelope(t) = |z\left( t \right)| = \sqrt{x\left( t \right)^2 + \hat{x}\left(
 
 This project uses the Hilbert Transform IP core provided by Microchip to generate the quadrature component of the signal. An additional IP core ensures that the quadrature component is fully computed before both the in-phase and quadrature signals are passed to another IP core, which calculates the magnitude of the analytic signal.
 
-![envelope signal flow](./assets/envelope_ip.png)
+![envelope signal flow](./ultrasound/assets/envelope_ip.png)
 
 ### Log Compression
 The ultrasound signals still contain a wide range of amplitudes after they've been beamformed and their envelopes detected. Some echoes like the ones coming from bones are really strong, while others like the ones coming from softer tissues deeper in the body.
@@ -559,9 +559,9 @@ The process to find the integer part of the logarithm is quite straight forward,
 
 $$ \left\lfloor \log_{2}x \right\rfloor = n \Leftrightarrow 2^n < x < 2^{n+1} $$
 
-The implementation of this can be found [here](./ultrasound/verilog/logc/int_calc.v)
+The implementation of this can be found [here](./ultrasound/libero/hdl/int_calc.v)
 
-![log integer calc](./assets/log_int.png)
+![log integer calc](./ultrasound/assets/log_int.png)
 
 #### Calculation of the fractional part
 
@@ -569,11 +569,11 @@ The calculation for the fractional part of the logarithm is however a different 
 
 Before computing the fractional part of the logarithm, the input is normalized by right-shifting it so that its MSB aligns with the fixed-point input range of the CORDIC unit. The fractional part is then calculated using the CORDIC algorithm.
 
-![log norm calc](./assets/log_norm.png)
+![log norm calc](./ultrasound/assets/log_norm.png)
 
 This method is highly efficient for hardware because it replaces complex multiplication and division with simple shifts and additions. The core of the algorithm is a series of conditional operations that converge to the correct fractional value over several clock cycles.
 
-The implementation of this can be found [here](./ultrasound/verilog/logc/log_frac_calc.v)
+The implementation of this can be found [here](./ultrasound/libero/hdl/log_frac_calc.v)
 
 #### The Core Idea
 The algorithm leverages the following identity
@@ -615,7 +615,7 @@ At each step of the iteration the value of x is compared with 1.
 
 In both cases the value of y is updated by adding and subtracting precomputed values such that the original equation remains balanced.
 
-![log frac calculation](./assets/log_frac.png)
+![log frac calculation](./ultrasound/assets/log_frac.png)
 
 ### Scan Conversion
 In ultrasound imaging, data is naturally acquired in a **polar or sector format** because the transducer elements send and receive waves at different angles relative to the probe. This raw data does not directly match the rectangular grid used by standard image displays. As a result, even if the underlying signals contain useful information, the image would appear distorted or unintuitive if shown directly.
