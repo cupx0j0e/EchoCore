@@ -1,7 +1,7 @@
 # Project Report : Echocore
 
 ## Table of Contents:
-- [TLDR;](#)
+- [TLDR;](#tldr)
 - [Project Objective](#project-objective)
 - [What is an FPGA and why use it?](#what-is-an-fpga-and-why-use-it)
 - [16-QAM digital communication](#16-qam-digital-communication)
@@ -29,7 +29,7 @@
     - [References and Acknowledgements](#references-and-acknowledgments)
 
 ## TLDR;
-The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for wireless communication and an image processing pipeline for medical diagnostics onto one chip.
+The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for digital communication and an image processing pipeline for medical diagnostics onto one chip.
 
 ### 16-QAM Digital Communication
 
