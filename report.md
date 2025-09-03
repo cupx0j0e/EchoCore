@@ -228,15 +228,133 @@ flowchart TD
     B --> C["Spectrally compact baseband"]
 ```
 
+
+
+#### What is an RRC Filter ?
+
+An **RRC filter**, or **Root-Raised-Cosine filter**, is a specialized electronic filter used in digital communication for **pulse shaping**. Its main purpose is to modify a digital signal's pulse shape to minimize **intersymbol interference (ISI)** and control the signal's bandwidth. RRC filters are crucial because they're part of a **matched filtering** scheme, which both eliminates ISI and maximizes the **signal-to-noise ratio (SNR)** at the receiver.
+
+
+
+
+#### How RRC Filters Work
+
+In a digital communication system, data is sent as a series of pulses. If these pulses are too abrupt, their spectral energy spreads over a wide frequency range. When sent over a channel with limited bandwidth, these pulses get distorted and overlap, causing ISI.
+
+The RRC filter solves this by shaping pulses into a controlled waveform. It's designed to be used in a pair: one at the **transmitter** to shape the outgoing pulses and a second, identical filter at the **receiver** to perform matched filtering. The combined effect of these two filters is equivalent to a single **Raised-Cosine filter**. This filter's impulse response has zero crossings at every symbol period, ensuring a pulse's energy doesn't interfere with the next pulse's sampling point.  By splitting this functionality, the system achieves zero ISI and optimizes the SNR for the best possible data recovery.
+
+
+
+
+#### Digital Implementation and Convolution
+
+The RRC filter performs its function through a precise **digital convolution** process, using a **finite impulse response (FIR)** filter architecture. The input data stream is first **upsampled** by a factor of 11 by inserting 10 zero-value samples between each original data symbol. This prepares the data for shaping by increasing its sampling rate.
+
+The upsampled data then goes into an **11-tap shift register**, which holds the most recent 11 samples. The filter's operation is a series of **multiply-and-accumulate** operations. Each of the 11 samples in the register is multiplied by its corresponding pre-calculated filter coefficient, and the products are summed to produce a single output sample.
+
+Due to the upsampling, only one of the 11 taps in the shift register contains a non-zero value at any given time. This simplifies the convolution: at each clock cycle, only one of the 11 multiplications is a non-zero operation. As the non-zero data sample shifts its position through the register, it's sequentially multiplied by each of the filter's coefficients. This action effectively "paints" the filter's impulse response, transforming the discrete data impulses into a smooth, curved waveform. This pulse shaping is crucial for limiting the signal's bandwidth and, most importantly, for satisfying the **Nyquist ISI criterion**, ensuring the signal can be transmitted without causing intersymbol interference.
+
+
+
+
+#### Mathematical Formulas
+
+The RRC filter's behavior is defined by its frequency and impulse responses.
+
+
+
+
+#### Frequency Response ($$H_{RRC}(f)$$)
+
+The frequency response is the square root of the Raised-Cosine filter's frequency response, $$H_{RC}(f)$$:
+
+$$
+H_{RC}(f) = \begin{cases}
+    T_s & \text{for } 0 \le |f| \le \frac{1-\beta}{2T_s} \\
+    \frac{T_s}{2}\left[1 + \cos\left(\frac{\pi T_s}{\beta}\left[|f| - \frac{1-\beta}{2T_s}\right]\right)\right] & \text{for } \frac{1-\beta}{2T_s} < |f| \le \frac{1+\beta}{2T_s} \\
+    0 & \text{for } |f| > \frac{1+\beta}{2T_s}
+\end{cases}
+$$
+$$H_{RRC}(f) = \sqrt{H_{RC}(f)}$$
+
+Here, $$T_s$$ is the symbol period and $$\beta$$ is the **roll-off factor**, which controls the filter's bandwidth.
+
+
+
+
+#### Impulse Response ($$h_{RRC}(t)$$)
+
+The impulse response, $$h_{RRC}(t)$$, is the inverse Fourier transform of the frequency response and is used for calculating the digital filter's coefficients.
+
+$$h_{RRC}(t) = \frac{\cos\left(\pi(1+\beta)\frac{t}{T_s}\right) + \frac{\sin\left(\pi(1-\beta)\frac{t}{T_s}\right)}{\pi\frac{4\beta t}{T_s}}}{1-\left(\frac{4\beta t}{T_s}\right)^2}$$
+
+Unlike the RC filter, its impulse response does **not** have zero-crossings at integer multiples of the symbol period, which is why a single RRC filter can't eliminate ISI.
+
+
+
+
+#### Roll-off Factor ($\beta$)
+
+The **roll-off factor** is a design parameter, typically from 0 to 1, that balances **spectral efficiency** and **robustness to timing jitter**.
+
+* A **small $$\beta$$** (close to 0) results in a narrow transition band and high spectral efficiency, but the system is highly sensitive to timing errors.
+* A **large $$\beta$$** (close to 1) results in a wider transition band and is more robust to timing imperfections, but it uses more bandwidth.
+
 ---
 
 ### 5. Carrier Generation (CORDIC)
 
-Carrier signals are required for modulation. Instead of using large lookup tables or floating-point computations, the design uses the CORDIC IP core, which generates sine and cosine waveforms using only shift-and-add operations. 
-- CORDIC Advantages:
-  - Hardware-efficient (no multipliers, no floating-point).
-  - Scalable and real-time computation.
-  - Directly produces orthogonal sine (sin θ) and cosine (cos θ) carriers.
+**CORDIC**, which stands for **COordinate Rotation DIgital Computer**, is an efficient algorithm used to compute trigonometric functions like sine and cosine. Instead of relying on complex multipliers or large lookup tables, CORDIC uses only simple **shift-and-add** operations. This makes it a highly desirable solution for hardware implementations, such as on FPGAs, where minimizing logic area and power consumption is critical.
+
+
+
+
+#### How CORDIC Works for Sine and Cosine
+
+The core principle of CORDIC for sine and cosine generation is to iteratively **rotate a vector** in a circular coordinate system. The algorithm starts with an initial vector and rotates it through a series of small, successive steps until it reaches a target angle.
+
+The rotation is performed using a sequence of pre-computed angles, each of which corresponds to an `arctan` of a negative power of two (e.g., 45°, 26.56°, 14.04°, etc.). Because the tangent of these angles is $2^{-i}$, the rotation can be achieved using only bit shifts and additions, which are very fast and hardware-efficient.
+
+
+
+#### The Algorithm
+
+To generate `sin(θ)` and `cos(θ)`, the CORDIC algorithm operates in **Rotation Mode**. We start with an initial vector $(x_0, y_0)$ and a target angle $\theta_0$. For carrier generation, we begin with a vector pointing along the x-axis, so we can set $x_0 = 1$ and $y_0 = 0$.
+
+The algorithm then performs a series of iterations, indexed by $i = 0, 1, 2, \dots, N-1$:
+
+$$x_{i+1} = x_i - d_i \cdot y_i \cdot 2^{-i}$$
+$$y_{i+1} = y_i + d_i \cdot x_i \cdot 2^{-i}$$
+$$\theta_{i+1} = \theta_i - d_i \cdot \arctan(2^{-i})$$
+
+The variable $d_i$ is either +1 or -1. At each step, we choose the sign of $d_i$ to rotate the vector closer to the desired angle. After $N$ iterations, the final coordinates $(x_N, y_N)$ approximate the cosine and sine of the target angle, respectively.
+
+
+
+
+#### Output and Scaling
+
+The CORDIC algorithm also introduces a constant gain factor, $K$, which is a byproduct of the rotation process. The final outputs are scaled by this factor:
+
+$$x_N \approx K \cdot \cos(\theta)$$
+
+$$y_N \approx K \cdot \sin(\theta)$$
+
+This gain can be compensated for either in a post-processing step or by pre-scaling the initial input vector.
+
+
+
+
+#### Advantages for Carrier Generation
+
+The use of CORDIC for carrier generation provides several key benefits:
+
+* **Hardware Efficiency:** It eliminates the need for expensive multipliers, consuming less silicon area and power.
+* **Real-time Computation:** It computes values on the fly, avoiding the memory access latency associated with large lookup tables.
+* **Direct Orthogonal Output:** It simultaneously produces both sine and cosine values, which are the orthogonal carriers required for common modulation schemes like QPSK and QAM.
+* **Scalable Precision:** The precision of the output can be easily increased by simply adding more iterations.
+
+
 
 ```mermaid
 flowchart TD
@@ -268,8 +386,8 @@ The modulation stage maps the baseband I and Q signals onto the carriers generat
   
 ```mermaid
 flowchart TD
-    I["Filtered I"] --> M1["I × cos"]
-    Q["Filtered Q"] --> M2["Q × sin (± sign)"]
+    I["Filtered I"] --> M1["I × cos(θ)"]
+    Q["Filtered Q"] --> M2["Q × sin(θ)"]
     C1["Cos Carrier"] --> M1
     C2["Sin Carrier"] --> M2
 ```
@@ -293,8 +411,8 @@ This combined signal contains both amplitude and phase information and represent
 
 ```mermaid
 flowchart TD
-    M1["I × cos"] --> ADDER["Adder"]
-    M2["Q × sin (±)"] --> ADDER
+    M1["I × cos(θ)"] --> ADDER["Adder"]
+    M2["Q × sin(θ)"] --> ADDER
     ADDER --> OUT["Passband Output s(t)"]
 ```
 
