@@ -185,7 +185,7 @@ flowchart LR
 Currently, the input for the entire process is prepared using a **4‑bit linear‑feedback shift register (LFSR)**. An LFSR is a shift register where the input bit at each step is a function (usually XOR) of selected prior bits. This makes LFSRs perfect for pseudorandom number generation in hardware.
 
 
-The implementation of stage can be found [here](./qam_16/libero/hdl/four_pr)
+The implementation of stage can be found [here](./qam_16/libero/hdl/four_pr.v)
 
 
 ### 2. Symbol Mapping
