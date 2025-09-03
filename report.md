@@ -6,22 +6,34 @@
 - [Project Objective](#project-objective)
 - [What is an FPGA and why use it?](#what-is-an-fpga-and-why-use-it)
 - [16-QAM Digital Communication](#16-qam-digital-communication)
-   - [Libero Design](#libero-design)
-   - [Brief Overview](#brief-overview)
-   - [How QAM Works](#how-qam-works)
-   - [System Overview](#system-overview)
-   - [Data Input](#data-input)
-   - [Symbol Mapping](#symbol-mapping)
-   - [Upsampling (Zero Stuffing)](#upsampling-zero-stuffing)
-   - [Interpolation FIR (RRC/LPF)](#pulse-shaping--interpolation-fir-rrclpf)
-   - [Carrier Generation (CORDIC)](#carrier-generation-cordic)
-   - [Modulator (I/Q Mixing)](#modulator-iq-mixing)
-   - [Combiner](#combiner)
+    - [Brief Overview](#brief-overview)
+    - [How QAM Works](#how-qam-works)
+    - [System Overview](#system-overview)
+- [Libero Design](#libero-design)
+    - [Data Input](#data-input)
+    - [Symbol Mapping](#symbol-mapping)
+    - [Upsampling (Zero Stuffing)](#upsampling-zero-stuffing)
+    - [RRC filter](#rrc-filter)
+        - [What is an RRC Filter ?](#what-is-an-rrc-filter-)
+        - [How RRC Filters Work](#how-rrc-filters-work)
+        - [Digital Implementation and Convolution](#digital-implementation-and-convolution)
+        - [Mathematical Formulas](#mathematical-formulas)
+        - [Frequency Response]($$h_{rrc}(t)$$)
+        - [Impulse Response]($$h_{rrc}(t)$$)
+        - [Roll-off Factor](#roll-off-factor-(-β-))
+    - [Carrier Generation (CORDIC)](#carrier-generation-cordic)
+        - [How CORDIC Works for Sine and Cosine](#how-cordic-works-for-sine-and-cosine)
+        - [The Algorithm](#the-algorithm)
+        - [Output and Scaling](#output-and-scaling)
+        - [Advantages for Carrier Generation](#advantages-for-carrier-generation)
+    - [Modulator (I/Q Mixing)](#modulator-(i/q-mixing))
+    - [Combiner](#combiner)
 - [Ultrasound Imaging](#ultrasound-imaging) 
     - [Brief Overview](#brief-overview-1)
     - [Why use ultrasounds](#why-use-ultrasounds)
     - [System Overview](#system-overview-1)
         - [Flowchart](#flowchart-1)
+- [Libero Design](#libero-design)
     - [Data input](#data-input-1)
     - [Beamforming](#beamforming)
         - [Newton-Rapheson Method](#newton-rapheson-method)
@@ -165,7 +177,7 @@ flowchart LR
 
 ## Libero Design
 
-top sd picture here
+ ![Libero](./qam_16/assets/qam_16_libero.png)
 
 
 ### 1. Data Input
@@ -173,7 +185,7 @@ top sd picture here
 Currently, the input for the entire process is prepared using a **4‑bit linear‑feedback shift register (LFSR)**. An LFSR is a shift register where the input bit at each step is a function (usually XOR) of selected prior bits. This makes LFSRs perfect for pseudorandom number generation in hardware.
 
 
-The implementation of stage can be found [here](./qam16/verilog/transmission/four_pr)
+The implementation of stage can be found [here](./qam_16/hdl/four_pr)
 
 
 ### 2. Symbol Mapping
@@ -223,7 +235,7 @@ In verilog symbol mapping is achieved through the use of:
 - Bit Slicing to split the 4-bit input data to two 2-bit components 
 - Case statements (multiplexers) to map the components onto a constellation map
 
-The implementation of stage can be found [here](./qam16/verilog/transmission/symmap.v)
+The implementation of stage can be found [here](./qam_16/hdl/symmap.v)
 
 
 ### 3. Upsampling (Zero Stuffing)
@@ -245,7 +257,7 @@ flowchart TD
     B --> C["Upsampled Signal (with spectral images)"]
 ```
 
-The implementation of stage can be found [here]()
+The implementation of stage can be found [here](./qam_16/hdl/upsampler.v)
 
 
 ### 4. RRC filter
@@ -402,7 +414,7 @@ flowchart TD
     C2["Sin Carrier"] --> M2
 ```
 
-The implementation of stage can be found [here]()
+The implementation of stage can be found [here](./qam_16/hdl/modulator.v)
 
 
 ### 7. Combiner
@@ -426,7 +438,7 @@ flowchart TD
 ```
 
 
-The implementation of stage can be found [here]()
+The implementation of stage can be found [here](./qam_16/hdl/combiner.v)
 
 ---
 
@@ -447,6 +459,10 @@ Here are some of the reasons for using ultrasounds over imaging and scanning tec
 The signal flow involved in the process of ultrasound process on an FPGA is as follows:
 ![ultrasound flowchart](./ultrasound/assets/ultras.png)
 
+## Libero Design
+
+ ![Libero](./ultrasound/assets/ultrasound_libero.png)
+ 
 ### Data Input
 Ultrasound imaging systems typically use devices called transducers, which convert ultrasound waves into electrical signals. These transducers are usually arranged in an array, forming multiple channels. 
 When ultrasound signals are reflected from tissues and return to the transducers, they are converted into digital values, typically represented in hexadecimal form. These values are stored in a file and can be read using Verilog's `readmemh` function. 
