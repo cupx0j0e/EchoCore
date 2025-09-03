@@ -26,6 +26,7 @@
         - [Calculation of the integral part](#calculation-of-the-integral-part)
         - [Calculation of the fractional part using CORDIC](#calculation-of-the-fractional-part)
     - [Scan Conversion](#scan-conversion)
+    - [References and Acknowledgements](#references-and-acknowledgments)
 
 ## TLDR;
 The Echocore project combines two complex real-world applications—B-mode ultrasound imaging and 16-QAM digital communication—on a single Field-Programmable Gate Array (FPGA). The project leverages an FPGA's parallel processing capabilities for real-time performance, efficiency, and flexibility, integrating both a signal processing pipeline for wireless communication and an image processing pipeline for medical diagnostics onto one chip.
@@ -326,3 +327,9 @@ $$ \text{I}(r, \theta) $$
 with r as depth and θ as the steering angle, scan conversion maps it to a Cartesian grid:
 
 $$ \text{I}(x, y) = I\left(\sqrt{x^2 + y^2}, \text{ } arctan(\frac{y}{x}) \right) $$
+
+## References and Acknowledgments
+- [FPGA ultrasound imaging based system](https://drive.google.com/file/d/1WhMdFHd_UWQ18-SOCPe8W1E1RZc37owy/view)
+- [16QAM implementation on an FPGA](https://www.controlpaths.com/2022/12/05/implementing-qam16-on-fpga/?utm_source=chatgpt.com)
+- [Paper on calculating square roots using the non-restoring algorithm](https://drive.google.com/file/d/1bhOr-KdjjQjOQ13TKr4b6WiEq42trPQj/view)
+- [Github repository for implementing beamforing in verilog](https://github.com/SAFEERHYDER/FPGA_Ultrasound_DAS_Beamformer)
