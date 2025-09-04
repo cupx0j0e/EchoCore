@@ -13,9 +13,9 @@ FPGA-based parallelism for a 16-QAM wireless communication and Ultrasound POC di
       * [What is an FPGA?](#what-is-an-fpga)
       * [Why FPGA?](#why-fpga)
       * [Why 16-QAM?](#why-16-qam)
-           * [More About 16-QAM](https://github.com/cupx0j0e/EchoCore/blob/ved/qam16/README.md)
+           * [More About 16-QAM](./qam16/README.md)
       * [Why Ultrasound?](#why-ultrasound)
-           * [More About Ultrasound](https://github.com/cupx0j0e/EchoCore/blob/ved/ultrasound/README.md) 
+           * [More About Ultrasound](./ultrasound/README.md) 
       * [Tech Stack](#tech-stack)
       * [File Structure](#file-structure)
   * [Getting Started](#getting-started)
@@ -67,7 +67,7 @@ The FPGA's architecture is perfectly suited for a project like EchoCore for thre
 
 
 ## Why 16-QAM?
-[For detailed information](https://github.com/cupx0j0e/EchoCore/blob/ved/qam16/README.md)
+[For detailed information](./qam16/README.md)
 
 **Quadrature Amplitude Modulation (QAM)** is a modulation scheme that encodes data by altering both the **amplitude and phase** of a carrier signal. 16-QAM is specifically used for this project because it is a **high data rate modulation scheme**. By representing 4 bits per symbol (2^4 = 16), it efficiently transfers large amounts of data, making it ideal for the **wireless image transfer** from the ultrasound system to a PC or tablet.
 
@@ -83,13 +83,13 @@ The 16-QAM signal is composed of two carrier waves that are 90 degrees out of ph
 4.  **Filtering:** A Finite Impulse Response (FIR) filter is applied to the upsampled signal to limit its bandwidth and smooth the transitions between symbols.
 5.  **Carrier Mixing and Summation:** The filtered I and Q components are multiplied onto sine and cosine waves, respectively. These modulated signals are then summed to form the final transmitted QAM signal.
 
-![16QAM flowchart](./assets/qam_flowchart.png)
+![16QAM flowchart](./assets/qam_flow.png)
 
 ---
 
 
 ## Why Ultrasound?
-[For detailed information](https://github.com/cupx0j0e/EchoCore/blob/ved/ultrasound/README.md)
+[For detailed information](./ultrasound/README.md)
 
 The Ultrasound POC (Point-of-Care) system is a key component of this project, demonstrating how FPGAs can enable portable, real-time medical diagnostics. The system is designed to be a compact and cost-effective ultrasound solution.
 
@@ -295,8 +295,8 @@ We successfully flashed the **QAM** and **ultrasound** bitstreams on Libero. For
 
 ## Contributors
 
-  * [name](https://github.com/name)
-  * [name](https://github.com/name)
+  * [Jessica Jejoe](https://github.com/cupx0j0e)
+  * [Ved Jain](https://github.com/vedjain773)
 
 ---
 
