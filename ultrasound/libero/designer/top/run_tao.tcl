@@ -1,0 +1,42 @@
+set_device -family {PolarFireSoC} -die {MPFS025T} -speed {-1}
+read_verilog -mode system_verilog -lib CORECORDIC_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v}
+read_verilog -mode system_verilog -lib CORECORDIC_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v}
+read_verilog -mode system_verilog -lib CORECORDIC_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v}
+read_verilog -mode system_verilog -lib CORECORDIC_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd}
+read_vhdl -mode vhdl_2008 -lib COREFIR_PF_LIB {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd}
+read_vhdl -mode vhdl_2008 {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v}
+read_verilog -mode system_verilog {/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v}
+set_top_level {top}
+map_netlist
+check_constraints {/home/jessica/GITHUB/EchoCore/ultrasound/libero/constraint/synthesis_sdc_errors.log}
+write_fdc {/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/synthesis.fdc}

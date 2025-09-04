@@ -1,0 +1,183 @@
+@P:  Worst Slack : 3.573
+@P:  delay_calc_0|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_0|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_0|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_0|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_0|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_1|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_1|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_1|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_1|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_1|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_2|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_2|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_2|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_2|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_2|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_3|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_3|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_3|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_3|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_3|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_4|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_4|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_4|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_4|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_4|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_5|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_5|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_5|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_5|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_5|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_6|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_6|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_6|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_6|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_6|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_7|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_7|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_7|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_7|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_7|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_8|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_8|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_8|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_8|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_8|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_9|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_9|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_9|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_9|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_9|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_10|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_10|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_10|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_10|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_10|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_11|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_11|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_11|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_11|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_11|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_12|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_12|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_12|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_12|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_12|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_13|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_13|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_13|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_13|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_13|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_14|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_14|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_14|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_14|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_14|N_20_inferred_clock - Slack : NA
+@P:  delay_calc_15|N_20_inferred_clock - Estimated Frequency : NA
+@P:  delay_calc_15|N_20_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_calc_15|N_20_inferred_clock - Estimated Period : NA
+@P:  delay_calc_15|N_20_inferred_clock - Requested Period : 10.000
+@P:  delay_calc_15|N_20_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock - Slack : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock - Estimated Frequency : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock - Estimated Period : NA
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock - Requested Period : 10.000
+@P:  delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock - Slack : NA
+@P:  top|clk - Estimated Frequency : 155.6 MHz
+@P:  top|clk - Requested Frequency : 100.0 MHz
+@P:  top|clk - Estimated Period : 6.427
+@P:  top|clk - Requested Period : 10.000
+@P:  top|clk - Slack : 3.573
+@P: top Part : mpfs025tfcvg484-1
+@P: top Register bits  : 4703 
+@P: top DSP Blocks  : 31
+@P: top I/O primitives : 26
+@P: top RAM64x12 :  26
+@P:  CPU Time : 0h:00m:30s
+y_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock - Slack : 9.658
+@P:  top|clk - Estimated Frequency : NA
+@P:  top|clk - Requested Frequency : 100.0 MHz
+@P:  top|clk - Estimated Period : NA
+@P:  top|clk - Requested Period : 10.000
+@P:  top|clk - Slack : NA
+@P:  System - Estimated Frequency : 155.6 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 6.427
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 3.573

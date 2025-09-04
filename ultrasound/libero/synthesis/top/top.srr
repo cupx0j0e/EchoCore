@@ -1,0 +1,183 @@
+# Fri Sep  5 01:25:04 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 521MB peak: 521MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Found compile point of type hard on View view:work.top_bf(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.top(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 587MB peak: 587MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s_verilog_inst (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s_rtl_ilm(verilog)) because it does not drive other instances.
+
+Start creating ILM for FPGA CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 590MB peak: 590MB)
+
+
+Finished creating ILM for FPGA CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 591MB peak: 591MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_top_bf_verilog_inst (in view: work.top_bf_rtl_ilm(verilog)) because it does not drive other instances.
+
+Start creating ILM for FPGA top_bf (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 593MB peak: 593MB)
+
+
+Finished creating ILM for FPGA top_bf (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 593MB peak: 593MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 593MB peak: 593MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 593MB peak: 593MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|Found ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) with 16 words by 16 bits.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|Found ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) with 16 words by 15 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 596MB peak: 596MB)
+
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":17:4:17:9|RAM envelope_0.delay_line_signext_0.shift_reg_seqshift[47:0] is 8 words by 48 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] is 8 words by 18 bits.
+@W: FX107 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":17:4:17:9|RAM delay_line_signext_0.shift_reg_seqshift[46:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] (in view: work.envelope(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":314:4:314:5|Found counter in view:COREFIR_PF_LIB.enum_g5_latency_adv_15_3_3_2_2_2_6(rtl) instance syst_counter_0.count[4:0] 
+Encoding state machine state[5:0] (in view: work.int_calc_Z3_layer0(verilog))
+original code -> new code
+   000 -> 000000
+   001 -> 000011
+   010 -> 000101
+   011 -> 001001
+   100 -> 010001
+   101 -> 100001
+@N: FX493 |Applying initial value "0" on instance state_i[0].
+Encoding state machine state[2:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":73:4:73:9|Found counter in view:work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog) instance i[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 597MB peak: 597MB)
+
+@W: BN132 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[0] because it is equivalent to instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[1] because it is equivalent to instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[2] because it is equivalent to instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":400:4:400:5|Removing instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.end_of_ngrst_0.d_flop1 because it is equivalent to instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":400:4:400:5|Removing instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.end_of_ngrst_0.d_flop2 because it is equivalent to instance envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 601MB peak: 601MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 605MB peak: 605MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 605MB peak: 605MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 605MB peak: 605MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 605MB peak: 605MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 605MB peak: 605MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 655MB peak: 655MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		     3.70ns		 862 /       725
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 655MB peak: 655MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 655MB peak: 655MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/top/cpprop
+
+Summary of Compile Points :
+*************************** 
+Name     Status     Reason     
+-------------------------------
+top      Mapped     No database
+===============================
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Fri Sep  5 01:25:10 2025
+
+###########################################################]

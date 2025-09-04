@@ -7,7 +7,6 @@ module delay_calc (
     input [15:0] z_i,
     input [15:0] z_f,
     output reg [7:0] delay_out,
-    output [3:0] debug_state,
     output reg done
 );
 
@@ -112,6 +111,5 @@ always @(posedge clk ) begin
     end
 end
 
-   assign debug_state = state;
 
 endmodule

@@ -8,38 +8,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/jessica/Desktop/lultrasound_ibero/envelope_detection/simulation
+d/home/jessica/Desktop/lultrasound_ibero/envelope_detection/simulation
 Ecorefir_kitdelay_bit_reg
-Z1 w1755081311
-Z2 DPx4 work 16 corefir_rtl_pack 0 22 3BGJk>`jCOB3U@CO0jePX3
-Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 307
-R0
-Z6 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
-Z7 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
+Z0 w1756886651
+Z1 DPx4 work 16 corefir_rtl_pack 0 22 3BGJk>`jCOB3U@CO0jePX3
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1007
+Z5 d/home/jessica/GITHUB/EchoCore/ultrasound/libero/simulation
+Z6 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
+Z7 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd
 l0
 L29 1
 VYO>k0E@aa3e?zhUzeCWgV2
 !s100 mC[eFd^ABmoL25Dg]V`3]3
 Z8 OW;C;2024.2;79
 33
-Z9 !s110 1755081675
+Z9 !s110 1757016196
 !i10b 1
-Z10 !s108 1755081675.000000
-Z11 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
-Z12 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
+Z10 !s108 1757016196.000000
+Z11 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
+Z12 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd|
 !i113 1
 Z13 o-2008 -explicit -work COREFIR_PF_LIB -O0
 Z14 tCvgOpt 0
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 24 corefir_kitdelay_bit_reg 0 22 YO>k0E@aa3e?zhUzeCWgV2
-!i122 307
+!i122 1007
 l41
 L36 34
 VzAF[mm]J^eIE8kS6fMQi:0
@@ -55,13 +55,13 @@ R12
 R13
 R14
 Ecorefir_kitdelay_reg
+R0
 R1
 R2
 R3
 R4
+!i122 1007
 R5
-!i122 307
-R0
 R6
 R7
 l0
@@ -79,12 +79,12 @@ R12
 R13
 R14
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 20 corefir_kitdelay_reg 0 22 TE11ocAUXG7gel=T;I[]f3
-!i122 307
+!i122 1007
 l92
 L87 34
 Vd:VocgT_YcnM^`ccT9b8]1
@@ -100,13 +100,13 @@ R12
 R13
 R14
 Ecorefir_kitrndeven
+R0
 R1
 R2
 R3
 R4
+!i122 1007
 R5
-!i122 307
-R0
 R6
 R7
 l0
@@ -124,12 +124,12 @@ R12
 R13
 R14
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 18 corefir_kitrndeven 0 22 GIJNo`P9e``e_>ILbKc6V1
-!i122 307
+!i122 1007
 l247
 L234 66
 VQ>mcl1jK06gD?Vd3h3dn[1
@@ -145,13 +145,13 @@ R12
 R13
 R14
 Ecorefir_kitrndup
+R0
 R1
 R2
 R3
 R4
+!i122 1007
 R5
-!i122 307
-R0
 R6
 R7
 l0
@@ -169,12 +169,12 @@ R12
 R13
 R14
 Artl
+R1
 R2
 R3
 R4
-R5
 DEx4 work 16 corefir_kitrndup 0 22 BMWcKVfjbcC^maPgPm8R@0
-!i122 307
+!i122 1007
 l172
 L166 36
 V2Hhmeeg>Nkg=k:S_PkV7C2
@@ -190,13 +190,13 @@ R12
 R13
 R14
 Ecorefir_kitroundtop
+R0
+R2
 R1
 R3
-R2
 R4
+!i122 1007
 R5
-!i122 307
-R0
 R6
 R7
 l0
@@ -214,12 +214,12 @@ R12
 R13
 R14
 Artl
-R3
 R2
+R1
+R3
 R4
-R5
 DEx4 work 19 corefir_kitroundtop 0 22 1`1=`6gS:[R2anZHa=C:71
-!i122 307
+!i122 1007
 l335
 L333 55
 V27?femLZ3DWIg:l6g0KJ83
@@ -235,14 +235,14 @@ R12
 R13
 R14
 Pcorefir_rtl_pack
+R2
 R3
 R4
-R5
-!i122 306
-R1
+!i122 1006
 R0
-Z15 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
-Z16 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
+R5
+Z15 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
+Z16 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd
 l0
 L20 111
 V3BGJk>`jCOB3U@CO0jePX3
@@ -253,17 +253,17 @@ b1
 R9
 !i10b 1
 R10
-Z17 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
-Z18 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
+Z18 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd|
 !i113 1
 R13
 R14
 Bbody
+R1
 R2
 R3
 R4
-R5
-!i122 306
+!i122 1006
 l0
 L132 507
 VaEofA2URE>>3ITlnIUQiG3
@@ -279,166 +279,166 @@ R18
 R13
 R14
 Pcoreparameters_tgi
-!i122 322
-R1
+!i122 1022
 R0
-8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
-F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
+R5
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd
 l0
 L5 37
 V7z6;g<ohhbgDeOP1:a31I0
 !s100 SWiAhgRIje]@D=@`X?ga?3
 R8
 33
-Z19 !s110 1755081676
+!s110 1757016200
 !i10b 1
-Z20 !s108 1755081676.000000
-!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
-!s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
+!s108 1757016200.000000
+!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd|
 !i113 1
 R13
 R14
 Edebug_init
-R1
-R4
-R5
-!i122 309
 R0
-Z21 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
-Z22 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
+R3
+R4
+!i122 1009
+R5
+Z19 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
+Z20 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd
 l0
 L434 1
 V<K^LlgA3Y8B_T]g=5]GHR0
 !s100 X^o[_1Thh3S<2n9NbE1Rk0
 R8
 33
-R9
+Z21 !s110 1757016197
 !i10b 1
 R10
-Z23 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
-Z24 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
+Z22 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
+Z23 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd|
 !i113 1
 R13
 R14
 Artl
+R3
 R4
-R5
 DEx4 work 10 debug_init 0 22 <K^LlgA3Y8B_T]g=5]GHR0
-!i122 309
+!i122 1009
 l444
 L440 11
 VYRb^`dhFbJz04QGT:Eg_63
 !s100 9PBk__O[d`chNQ6?]BD8i1
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_dly_line_18x192
-R1
-Z25 DPx4 work 13 enum_rtl_pack 0 22 5<Z_Tf^Y;@lJYae_EzoB?1
+R0
+Z24 DPx4 work 13 enum_rtl_pack 0 22 5<Z_Tf^Y;@lJYae_EzoB?1
+R2
 R3
 R4
+!i122 1010
 R5
-!i122 310
-R0
-Z26 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
-Z27 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
+Z25 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
+Z26 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd
 l0
 L35 1
 V6ECiE<OOHg>]D5i<1??cS2
 !s100 DOBM7I<FWJBiQ?Ho01I2d3
 R8
 33
-R9
+R21
 !i10b 1
-R10
-Z28 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
-Z29 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
+Z27 !s108 1757016197.000000
+Z28 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
+Z29 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd|
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 20 enum_dly_line_18x192 0 22 6ECiE<OOHg>]D5i<1??cS2
-!i122 310
+!i122 1010
 l81
 L50 89
 V8Q224kGPK3dA9Qg>NVCLF1
 !s100 cVbD=;ISh0eK_08?o7G;U3
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Eenum_fir_adv_g5
-R1
+R0
 Z30 DPx4 work 39 fir_hilbert_fir_hilbert_0_enumfir_coefs 0 22 JaaT2g>82K1o[0A>GW]iZ1
-R25
+R24
+R2
 R3
 R4
+!i122 1012
 R5
-!i122 312
-R0
-Z31 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
-Z32 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
+Z31 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
+Z32 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd
 l0
 L55 1
 VzA=^F^l168^YGDEKV]Udi3
 !s100 9Yinj<OJ2zHa?ZO<TgLOX3
 R8
 33
-R9
+R21
 !i10b 1
-R10
-Z33 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
-Z34 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
+R27
+Z33 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
+Z34 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd|
 !i113 1
 R13
 R14
 Artl
 R30
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 15 enum_fir_adv_g5 0 22 zA=^F^l168^YGDEKV]Udi3
-!i122 312
+!i122 1012
 l255
 L107 350
 V=Z5BWh;U<<8g7aoUc[9:<0
 !s100 6QLF75@A1o92n@c9R2kOf0
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R33
 R34
 !i113 1
 R13
 R14
 Eenum_g5_latency_adv
-R1
-R3
-R25
-R4
-R5
-!i122 312
 R0
+R2
+R24
+R3
+R4
+!i122 1012
+R5
 R31
 R32
 l0
@@ -447,445 +447,445 @@ V^UGP9<mX6aYcO3Dd<Cbdg0
 !s100 m9h6J;bCm?1o2k[bK<9<H2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R33
 R34
 !i113 1
 R13
 R14
 Artl
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 19 enum_g5_latency_adv 0 22 ^UGP9<mX6aYcO3Dd<Cbdg0
-!i122 312
+!i122 1012
 l503
 L490 101
 V:^S=U5K6]BE3;lAz<j;Ph0
 !s100 C6h@nW[inFOFWNKJ_X_Ml3
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R33
 R34
 !i113 1
 R13
 R14
 Eenum_kitcounts
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1009
 R5
-!i122 309
-R0
-R21
-R22
+R19
+R20
 l0
 L297 1
 V0YLDdR0E?oT[NGCfW`N;U0
 !s100 CY<1TS>_LnYR0]bL`Il=i3
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 14 enum_kitcounts 0 22 0YLDdR0E?oT[NGCfW`N;U0
-!i122 309
+!i122 1009
 l308
 L306 21
 V<m^9Z^KGfnO5APoGNCC091
 !s100 ][X:50g@oZ:7SAcXBJ2V10
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_kitdelay_bit_reg
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1009
 R5
-!i122 309
-R0
-R21
-R22
+R19
+R20
 l0
 L42 1
 V<bgRGQTKGYB0l`WXRR[fP2
 !s100 J[6Jj@]f0Sgi9i97;Y]CB3
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 21 enum_kitdelay_bit_reg 0 22 <bgRGQTKGYB0l`WXRR[fP2
-!i122 309
+!i122 1009
 l54
 L49 34
 V2IWMBAceGge3k:o8k;R3U0
 !s100 Fl`z?AJ2_N4SkH@8hY4h41
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_kitdelay_bit_reg_attr
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1009
 R5
-!i122 309
-R0
-R21
-R22
+R19
+R20
 l0
 L153 1
 Vi19An5j=OcFJN9A;j[4<C1
 !s100 4bomZ^PIYMJz0ccmiiP0U2
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 26 enum_kitdelay_bit_reg_attr 0 22 i19An5j=OcFJN9A;j[4<C1
-!i122 309
+!i122 1009
 l167
 L160 36
 V=m>k@V0H3MgTGTSP>MIBY2
 !s100 Klc?RYd`k<M:CgJWbFL>=3
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_kitdelay_reg
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1009
 R5
-!i122 309
-R0
-R21
-R22
+R19
+R20
 l0
 L91 1
 V2go`I<igZVbNz^iGj_Ii23
 !s100 hb<Kad@TS?CYQ^1FLm3eW3
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 17 enum_kitdelay_reg 0 22 2go`I<igZVbNz^iGj_Ii23
-!i122 309
+!i122 1009
 l105
 L100 34
 V;DMh3Q7d6g]]c?Wzn0KhD3
 !s100 <>4j4Ci7O2BTd2nA60JT`1
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_kitdelay_reg_attr
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1009
 R5
-!i122 309
-R0
-R21
-R22
+R19
+R20
 l0
 L204 1
 VW=C:PDT9UMQFR:cUczG:X2
 !s100 :>]V6;hlXaEY@gURA2fc73
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_kitdelay_reg_attr 0 22 W=C:PDT9UMQFR:cUczG:X2
-!i122 309
+!i122 1009
 l221
 L213 37
 Vl8Fz<4IzCT:UIfNQ4A88g3
 !s100 e4cG5DDzD>JSjD354znL90
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_kitdelay_reg_cond
-R1
-R3
-R25
-R4
-R5
-!i122 309
 R0
-R21
-R22
+R2
+R24
+R3
+R4
+!i122 1009
+R5
+R19
+R20
 l0
 L257 1
 V^O<_f1?gTNi1J?zcmK4ZK2
 !s100 aGVJPkD=3lVPlOaS=:_dM1
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 22 enum_kitdelay_reg_cond 0 22 ^O<_f1?gTNi1J?zcmK4ZK2
-!i122 309
+!i122 1009
 l268
 L267 13
 VS@Y;AahzJRRPB<dNlzAb`1
 !s100 U9`Tfo975<;N7b2QWdH>02
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_kitedge
-R1
-R4
-R5
-!i122 309
 R0
-R21
-R22
+R3
+R4
+!i122 1009
+R5
+R19
+R20
 l0
 L386 1
 VRMZc]4RXLILPHFIGWagbN2
 !s100 P_2GRL[@]`h@c[6BG^0=e2
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
+R3
 R4
-R5
 DEx4 work 12 enum_kitedge 0 22 RMZc]4RXLILPHFIGWagbN2
-!i122 309
+!i122 1009
 l395
 L393 21
 VS8TL9YG;;eXZ8c457oR=k2
 !s100 HN]b;h9<R8mG`Dhkf>QOU2
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_pad_g5
-R1
-R3
-R25
-R4
-R5
-!i122 313
 R0
-Z35 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
-Z36 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
+R2
+R24
+R3
+R4
+!i122 1013
+R5
+Z35 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
+Z36 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd
 l0
 L46 1
 VQ>;n8OKeKWmJTdeHHK>g;3
 !s100 3IH5hPIm>QIAHFcB9:[3I2
 R8
 33
-R9
+R21
 !i10b 1
-R10
-Z37 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
-Z38 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
+R27
+Z37 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
+Z38 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 11 enum_pad_g5 0 22 Q>;n8OKeKWmJTdeHHK>g;3
-!i122 313
+!i122 1013
 l79
 L76 82
 VQQ7GUQAIkzaalffL_3P>o1
 !s100 g3YYLzSn[MmmGNE1UHjV>0
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R37
 R38
 !i113 1
 R13
 R14
 Eenum_row_g5
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1018
 R5
-!i122 318
-R0
-Z39 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
-Z40 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
+Z39 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
+Z40 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd
 l0
 L39 1
 Vg]>FiikSUX;E]lLzlh=zf2
 !s100 ]cSg@inkGO3:0Am6GXIKo3
 R8
 33
-R19
+Z41 !s110 1757016198
 !i10b 1
-R20
-Z41 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
-Z42 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
+Z42 !s108 1757016198.000000
+Z43 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
+Z44 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 11 enum_row_g5 0 22 g]>FiikSUX;E]lLzlh=zf2
-!i122 318
+!i122 1018
 l177
 L88 380
 V_=`ZBB@bQ9Q@31z9bEem30
 !s100 Db[3E0:cn1>zET?c8L?lz0
 R8
 33
-R19
-!i10b 1
-R20
 R41
+!i10b 1
 R42
+R43
+R44
 !i113 1
 R13
 R14
 Penum_rtl_pack
+R2
 R3
 R4
-R5
-!i122 308
-R1
+!i122 1008
 R0
-Z43 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
-Z44 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
+R5
+Z45 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
+Z46 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd
 l0
 L32 134
 V5<Z_Tf^Y;@lJYae_EzoB?1
@@ -896,17 +896,17 @@ b1
 R9
 !i10b 1
 R10
-Z45 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
-Z46 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
+Z47 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
+Z48 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd|
 !i113 1
 R13
 R14
 Bbody
-R25
+R24
+R2
 R3
 R4
-R5
-!i122 308
+!i122 1008
 l0
 L167 490
 V>?6l=55iEi_7F>WfP]AAP1
@@ -916,832 +916,832 @@ R8
 R9
 !i10b 1
 R10
-R45
-R46
+R47
+R48
 !i113 1
 R13
 R14
 Eenum_signext
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1009
 R5
-!i122 309
-R0
-R21
-R22
+R19
+R20
 l0
 L345 1
 V=LGo6gUMA7MIKDaf3S_cb2
 !s100 NXiO<8A1bCGL3ld=_ZG_z3
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 12 enum_signext 0 22 =LGo6gUMA7MIKDaf3S_cb2
-!i122 309
+!i122 1009
 l359
 L355 23
 VjzEmLOO>OfPZSnl`;PNQQ0
 !s100 HzVFO]f9LQ0_<K@=f=K4?1
 R8
 33
-R9
+R21
 !i10b 1
 R10
+R22
 R23
-R24
 !i113 1
 R13
 R14
 Eenum_tap_g5
-R1
-R3
-R25
-R4
-R5
-!i122 315
 R0
-Z47 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
-Z48 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
+R2
+R24
+R3
+R4
+!i122 1015
+R5
+Z49 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
+Z50 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd
 l0
 L34 1
 V]hgJ97`8hS9SN8FL;zeQa1
 !s100 ?bNlG;54n3NkKdgg<z]7o3
 R8
 33
-R9
+R21
 !i10b 1
-R10
-Z49 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
-Z50 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
+R27
+Z51 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
+Z52 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 11 enum_tap_g5 0 22 ]hgJ97`8hS9SN8FL;zeQa1
-!i122 315
+!i122 1015
 l136
 L71 165
 VE7=`BSgo7hBdWkfZ9`CFh0
 !s100 25D3[E=Dh>DKJMI4>>jB22
 R8
 33
-R9
+R21
 !i10b 1
-R10
-R49
-R50
+R27
+R51
+R52
 !i113 1
 R13
 R14
 Eenum_tap_nibble
-R1
-R3
-R25
-R4
-R5
-!i122 317
 R0
-Z51 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
-Z52 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
+R2
+R24
+R3
+R4
+!i122 1017
+R5
+Z53 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
+Z54 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd
 l0
 L37 1
 VNdRe>z2ZJSWmE02meWGi=1
 !s100 _^f_T_Jz=adK]Nzhi7H9m2
 R8
 33
-R19
+R41
 !i10b 1
-R20
-Z53 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
-Z54 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
+R27
+Z55 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
+Z56 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 15 enum_tap_nibble 0 22 NdRe>z2ZJSWmE02meWGi=1
-!i122 317
+!i122 1017
 l249
 L89 352
 VJ^k54:^n]Kk<lih@5RHbe1
 !s100 :1zY^`_UI6k7;7?fgL:RS1
 R8
 33
-R19
+R41
 !i10b 1
-R20
-R53
-R54
+R27
+R55
+R56
 !i113 1
 R13
 R14
 Eenum_tap_undernibble_1
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1016
 R5
-!i122 316
-R0
-Z55 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
-Z56 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
+Z57 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
+Z58 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd
 l0
-Z57 L33 1
+Z59 L33 1
 VJYlBI6CHWmzT>lld_SXHl1
 !s100 [iLM3V@0AUB]JOH2;mg]m2
 R8
 33
-R19
+R21
 !i10b 1
-R10
-Z58 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
-Z59 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
+R27
+Z60 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
+Z61 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_tap_undernibble_1 0 22 JYlBI6CHWmzT>lld_SXHl1
-!i122 316
+!i122 1016
 l134
 L87 84
 Vf@SZz26=YA5<?@5d=O_DY2
 !s100 5@V<]eR`<nSG;02j4gPk43
 R8
 33
-R19
+R21
 !i10b 1
-R10
-R58
-R59
+R27
+R60
+R61
 !i113 1
 R13
 R14
 Eenum_tap_undernibble_2
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1016
 R5
-!i122 316
-R0
-R55
-R56
+R57
+R58
 l0
 L180 1
 VOFV2VSkz5:dB=^1kfU2FR3
 !s100 KJWYaN8JMMNEHICKIX75f2
 R8
 33
-R19
+R21
 !i10b 1
-R10
-R58
-R59
+R27
+R60
+R61
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_tap_undernibble_2 0 22 OFV2VSkz5:dB=^1kfU2FR3
-!i122 316
+!i122 1016
 l287
 L232 126
 VaN=BNek^lVP3c[`9zXj0d1
 !s100 PmFI2TVLDdcXDHkZ2?eli1
 R8
 33
-R19
+R21
 !i10b 1
-R10
-R58
-R59
+R27
+R60
+R61
 !i113 1
 R13
 R14
 Eenum_tap_undernibble_3
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1016
 R5
-!i122 316
-R0
-R55
-R56
+R57
+R58
 l0
 L367 1
 V<Z;P04G?R7IhBUnQh^>610
 !s100 ;_g=:`1=6lGS[gnLBL>:W0
 R8
 33
-R19
+R21
 !i10b 1
-R10
-R58
-R59
+R27
+R60
+R61
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 22 enum_tap_undernibble_3 0 22 <Z;P04G?R7IhBUnQh^>610
-!i122 316
+!i122 1016
 l484
 L421 193
 VRXQ`3eb7UBGCNCcHcnhBo2
 !s100 `DHOW<QUQj3ZZY[WbG<3T0
 R8
 33
-R19
+R21
 !i10b 1
-R10
-R58
-R59
+R27
+R60
+R61
 !i113 1
 R13
 R14
 Eenum_uram_shift_reg_18x192
-R1
-R25
+R0
+R24
+R2
 R3
 R4
+!i122 1010
 R5
-!i122 310
-R0
+R25
 R26
-R27
 l0
 L147 1
 V8N<4ijA2W>RV[G?oZ]^=M3
 !s100 zALQlQjedVWXM;mZ[BZJ80
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Artl
-R25
+R24
+R2
 R3
 R4
-R5
 DEx4 work 26 enum_uram_shift_reg_18x192 0 22 8N<4ijA2W>RV[G?oZ]^=M3
-!i122 310
+!i122 1010
 l189
 L160 103
 VnI>nT9cZ>N6WnKXmG>I<d0
 !s100 ;TAEj8azPjf@6nAMLZhW:1
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Efir_hilbert_fir_hilbert_0_corefir_pf
+R0
+R2
 R1
 R3
-R2
 R4
+!i122 1021
 R5
-!i122 321
-R0
-Z60 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
-Z61 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
+Z62 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
+Z63 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd
 l0
 L20 1
 VDUaBzdCez>;T6a;n^:^[T2
 !s100 R:e=o[[<iOoNM_VRMD2iX1
 R8
 33
-R19
+R41
 !i10b 1
-R20
-Z62 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
-Z63 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
+R42
+Z64 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
+Z65 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd|
 !i113 1
 R13
 R14
 Artl
-R3
 R2
+R1
+R3
 R4
-R5
 DEx4 work 36 fir_hilbert_fir_hilbert_0_corefir_pf 0 22 DUaBzdCez>;T6a;n^:^[T2
-!i122 321
+!i122 1021
 l279
 L91 630
 V>>0i;@`>2YYcN`R4NM9hO3
 !s100 Oja>QM^[[a<JI[6EojPU63
 R8
 33
-R19
+R41
 !i10b 1
-R20
-R62
-R63
+R42
+R64
+R65
 !i113 1
 R13
 R14
 Efir_hilbert_fir_hilbert_0_enum_fir_g5
-R1
-Z64 DPx4 work 37 fir_hilbert_fir_hilbert_0_enum_params 0 22 ;;Z1no_h5i@_hllnTXn5h1
-R3
-R25
-R4
-R5
-!i122 320
 R0
-Z65 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
-Z66 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
+Z66 DPx4 work 37 fir_hilbert_fir_hilbert_0_enum_params 0 22 ;;Z1no_h5i@_hllnTXn5h1
+R2
+R24
+R3
+R4
+!i122 1020
+R5
+Z67 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
+Z68 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd
 l0
-R57
+R59
 VHoBcI?Jnk88G6cennh:l90
 !s100 T_[gQY`3baA5ADWIjQQgJ2
 R8
 33
-R19
+R41
 !i10b 1
-R20
-Z67 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
-Z68 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
+R42
+Z69 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
+Z70 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd|
 !i113 1
 R13
 R14
 Artl
-R64
+R66
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 37 fir_hilbert_fir_hilbert_0_enum_fir_g5 0 22 HoBcI?Jnk88G6cennh:l90
-!i122 320
+!i122 1020
 l162
 L69 199
 VIK_B1Gg`Q?O1?mRk1Y67C2
 !s100 nRS;C:^6NlTOde`F`OQXR1
 R8
 33
-R19
+R41
 !i10b 1
-R20
-R67
-R68
+R42
+R69
+R70
 !i113 1
 R13
 R14
 Pfir_hilbert_fir_hilbert_0_enum_params
+R3
 R4
-R5
-!i122 319
-R1
+!i122 1019
 R0
-8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd
-F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd
+R5
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd
 l0
 L7 15
 V;;Z1no_h5i@_hllnTXn5h1
 !s100 C=K4JIej<d?Z:k9j3ch9o2
 R8
 33
-R19
+R41
 !i10b 1
-R20
-!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd|
-!s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd|
+R42
+!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd|
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd|
 !i113 1
 R13
 R14
 Pfir_hilbert_fir_hilbert_0_enumfir_coefs
+R3
 R4
-R5
-!i122 311
-R1
+!i122 1011
 R0
-8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd
-F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd
+R5
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd
 l0
 L23 25
 VJaaT2g>82K1o[0A>GW]iZ1
 !s100 `iCM0Db[dkUK2lEH_aC^M1
 R8
 33
-R9
+R21
 !i10b 1
-R10
-!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd|
-!s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd|
+R27
+!s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd|
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd|
 !i113 1
 R13
 R14
 Eg5_uram12x128
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L685 1
 VPc01d:loZ2SFz:LS_JFW`3
 !s100 Q9O]hiY>c6<4m2?>j?N`f1
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram12x128 0 22 Pc01d:loZ2SFz:LS_JFW`3
-!i122 310
+!i122 1010
 l772
 L703 209
 Vnd1meN?4oU5gGkj=mT^6Z2
 !s100 Mf1cULMkVJo;GMMdzbifb2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Eg5_uram12x192
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L921 1
 V3UildN4_aB^B=FFn[Z`4>2
 !s100 :P3[`ciKiCX[Q_F;D^FSK1
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram12x192 0 22 3UildN4_aB^B=FFn[Z`4>2
-!i122 310
+!i122 1010
 l1014
 L937 261
 Vg>9m^[EWSIb9QVA=^:l4;3
 !s100 F=3`dc0m`3dVc:WP2W5;c2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Eg5_uram12x64
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L582 1
 VY`mjlCcYj0jahm:8`mRP33
 !s100 3YQXF9W3ZMUGE7;g?Ei5C1
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 12 g5_uram12x64 0 22 Y`mjlCcYj0jahm:8`mRP33
-!i122 310
+!i122 1010
 l637
 L598 79
 VV2=<BNXO;o<H`27m?SiD]1
 !s100 ;jcK2LXKg081Zc>h`I6LM2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Eg5_uram18x128
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L1337 1
 VBoGhk6NA44HXXAPhXYTNU1
 !s100 Ta:1dDCN<c:@?K`CWWE4W1
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram18x128 0 22 BoGhk6NA44HXXAPhXYTNU1
-!i122 310
+!i122 1010
 l1433
 L1355 294
 V9hhYefCbi0bLdcWRa:?^L3
 !s100 GjHF1<P4NHh8UKD1LngR?0
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Eg5_uram18x192
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L1657 1
 VYS9MH_;1cL1ZD4c[6PVkz0
 !s100 XoJRo8PkJ?ADMURz;]z;n2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 13 g5_uram18x192 0 22 YS9MH_;1cL1ZD4c[6PVkz0
-!i122 310
+!i122 1010
 l1764
 L1674 377
 V00=M<Z2F11C:eGnfDSC^n0
 !s100 [4>AzOS:NPDZ<7oiCdS1A1
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Eg5_uram18x64
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L1207 1
 VcPmVnATY3ZOWQfXGH[VRJ1
 !s100 h^CAzSdaY;Kj4n8gW^e940
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Adef_arch
+R3
 R4
-R5
 DEx4 work 12 g5_uram18x64 0 22 cPmVnATY3ZOWQfXGH[VRJ1
-!i122 310
+!i122 1010
 l1264
 L1223 106
 Va9M1UVomX46S927mSclHE1
 !s100 ni<BPkE<?dcKJ<FAZ2Rmj3
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Einfer_dly_line_18x192
-R1
-R4
-R5
-!i122 310
 R0
+R3
+R4
+!i122 1010
+R5
+R25
 R26
-R27
 l0
 L533 1
 V8j0g`oZDQk?3FkelJ4P@e3
 !s100 jKCc:K:Ti:J0BZT9FQo2P3
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Ainfer
+R3
 R4
-R5
 DEx4 work 21 infer_dly_line_18x192 0 22 8j0g`oZDQk?3FkelJ4P@e3
-!i122 310
+!i122 1010
 l550
 L543 24
 VBV_jTJDNVj0zMhJJ3OCa;3
 !s100 @QPUo:EKgV2fN=R[oJ76d2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Emacc_pa_bc_rom_wrap
-R1
-R3
-R25
-R4
-R5
-!i122 314
 R0
-Z69 8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
-Z70 F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
+R2
+R24
+R3
+R4
+!i122 1014
+R5
+Z71 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
+Z72 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd
 l0
 L117 1
 VjK?>9kO;ghTBZm^`Bf3lg2
 !s100 :0[f[>=hicE6iQA5;ZYba3
 R8
 33
-R9
+R21
 !i10b 1
-R10
-Z71 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
-Z72 !s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
+R27
+Z73 !s90 -reportprogress|300|-2008|-explicit|-work|COREFIR_PF_LIB|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
+Z74 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd|
 !i113 1
 R13
 R14
 Artl
+R2
+R24
 R3
-R25
 R4
-R5
 DEx4 work 19 macc_pa_bc_rom_wrap 0 22 jK?>9kO;ghTBZm^`Bf3lg2
-!i122 314
+!i122 1014
 l231
 L158 174
 VNBUfGME<_1Uc0@13^dHGL1
 !s100 iRzXfMC6@m02o09:1S2bF2
 R8
 33
-R9
+R21
 !i10b 1
-R10
-R71
-R72
+R27
+R73
+R74
 !i113 1
 R13
 R14
 Euram_wrap
-R1
+R0
+R2
 R3
 R4
+!i122 1010
 R5
-!i122 310
-R0
+R25
 R26
-R27
 l0
 L271 1
 VaFBEU[QQVDQG0KMcZgJUT2
 !s100 A1d5bc614z:CK>zkVEdJD2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1
 R13
 R14
 Artl
+R2
 R3
 R4
-R5
 DEx4 work 9 uram_wrap 0 22 aFBEU[QQVDQG0KMcZgJUT2
-!i122 310
+!i122 1010
 l388
 L287 238
 V;L7JJfkmFPoRR2d4cfhT^1
 !s100 D:hoM87kP8<`ai>:IEKGG2
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R27
 R28
 R29
 !i113 1

@@ -1,0 +1,104 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : OFF
+Driver Replication       : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file /home/jessica/GITHUB/EchoCore/ultrasound/libero/constraint/io/user1.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  Globals Assigner found no global involed in the problem.
+Info:  I/O Bank and Globals Assigner identified 26 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.2.0
+Design: top                             Started: Fri Sep  5 01:27:45 2025
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 1 seconds
+Placement                : 2 seconds
+Improvement              : 8 seconds
+
+Placer completed successfully.
+
+Design: top
+Finished: Fri Sep  5 01:28:16 2025
+Total CPU Time:     00:00:33            Total Elapsed Time: 00:00:31
+Total Memory Usage: 1050.1 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_6_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_733
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_3_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_740
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_2_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_737
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_5_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_734
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_4_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_735
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_1_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_738
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_11_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_732
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_0_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_739
+Clock pins: 2
+    Driver: top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_7_0_a4:Y
+       Net: top_bf_0/delay_ctrl/N_736
+Clock pins: 2
+
+Router
+Design: top                             Started: Fri Sep  5 01:28:23 2025
+
+
+Router completed successfully.
+
+Design: top
+Finished: Fri Sep  5 01:28:33 2025
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:10
+Total Memory Usage: 787.2 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 6017 | 22956 | 26.21      |
+| DFF           | 6131 | 22956 | 26.71      |
+| I/O Register  | 0    | 106   | 0.00       |
+| Logic Element | 6969 | 22956 | 30.36      |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  26   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
+Completed writing pin report files.

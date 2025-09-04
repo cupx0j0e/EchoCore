@@ -13,10 +13,10 @@ The file contains the information about all compile points from mapper to be dis
 <data>
 <value>CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s</value>
 <report_link name="Report">
-<data>/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.srr</data>
+<data>/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.srr</data>
 </report_link>
 </data>
 <data>Remapped</data>
-<data>Design changed</data>
+<data>Mapping options changed</data>
 </row>
 </report_table>

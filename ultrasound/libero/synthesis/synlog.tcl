@@ -1,1 +1,1 @@
-run_tcl -fg envelope_syn.tcl
+run_tcl -fg top_syn.tcl

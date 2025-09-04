@@ -22,10 +22,10 @@
 Starting:    /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/mbin/synbatch
 Install:     /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
 Hostname:    jessica-IdeaPad-Slim-3-14IAH8
-Date:        Wed Aug 13 16:07:11 2025
+Date:        Fri Sep  5 01:24:45 2025
 Version:     V-2023.09M-3
 
-Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log envelope_syn.tcl
+Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log top_syn.tcl
 ProductType: synplify_pro
 
 License checkout: synplifypro_actel
@@ -36,73 +36,36 @@ License Option: actel_oem
 Running in Vendor Mode
 
 
-scm2hydra_preserve_rtl_sig is not supported in current product.
-Warning: option 'slr_aware_debug' is read-only
-add_dut_hierarchy is not supported in current product.
-prepare_readback is not supported in current product.
-auto_infer_blackbox is not supported in current product.
-log file: "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.srr"
+log file: "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/top.srr"
 Running: synthesis in foreground
 
-Running envelope_syn|synthesis
+Running top_syn|synthesis
 
-Running Flow: compile (Compile) on envelope_syn|synthesis
-# Wed Aug 13 16:07:11 2025
+Running Flow: compile (Compile) on top_syn|synthesis
+# Fri Sep  5 01:24:46 2025
 
-Running Flow: compile_flow (Compile Process) on envelope_syn|synthesis
-# Wed Aug 13 16:07:11 2025
+Running Flow: compile_flow (Compile Process) on top_syn|synthesis
+# Fri Sep  5 01:24:46 2025
 
-Running: compiler (Compile Input) on envelope_syn|synthesis
-# Wed Aug 13 16:07:11 2025
-Process ID: 53000
-Copied /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_comp.srs to /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.srs
+Running: compiler (Compile Input) on top_syn|synthesis
+# Fri Sep  5 01:24:46 2025
+Process ID: 23633
+compiler exited with errors
+Job failed on: top_syn|synthesis
 
-compiler completed
-# Wed Aug 13 16:07:14 2025
+Job: "compiler" terminated with error status: 25
+See log file: "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synlog/top_compiler.srr"
+# Fri Sep  5 01:24:46 2025
 
-Return Code: 0
-Run Time:00h:00m:02s
-
-Running: multi_srs_gen (Multi-srs Generator) on envelope_syn|synthesis
-# Wed Aug 13 16:07:14 2025
-Process ID: 53129
-
-multi_srs_gen completed
-# Wed Aug 13 16:07:14 2025
-
-Return Code: 0
+Return Code: 25
 Run Time:00h:00m:00s
-Copied /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_mult.srs to /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.srs
-Complete: Compile Process on envelope_syn|synthesis
-
-Running: premap (Premap) on envelope_syn|synthesis
-# Wed Aug 13 16:07:14 2025
-Process ID: 53147
-
-premap completed with warnings
-# Wed Aug 13 16:07:15 2025
-
-Return Code: 1
-Run Time:00h:00m:01s
-Complete: Compile on envelope_syn|synthesis
-
-Running Flow: map (Map) on envelope_syn|synthesis
-# Wed Aug 13 16:07:15 2025
-License granted for 4 parallel jobs
-
-Running: fpga_mapper (Map & Optimize) on envelope_syn|synthesis
-# Wed Aug 13 16:07:15 2025
-Process ID: 53163
-Copied /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_m.srm to /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.srm
-
-fpga_mapper completed with warnings
-# Wed Aug 13 16:07:19 2025
-
-Return Code: 1
-Run Time:00h:00m:04s
-Complete: Map on envelope_syn|synthesis
-Complete: Logic Synthesis on envelope_syn|synthesis
-TCL script complete: "envelope_syn.tcl"
-exit status=0
-exit status=0
+Complete: Compile Process on top_syn|synthesis
+Complete: Compile on top_syn|synthesis
+Complete: Logic Synthesis on top_syn|synthesis
+Error: At line 2 while processing "top_syn.tcl"
+25
+TCL script complete: "top_syn.tcl"
+TCL script had errors: "top_syn.tcl"
+exit status=9
+exit status=9
 License checkin: synplifypro_actel

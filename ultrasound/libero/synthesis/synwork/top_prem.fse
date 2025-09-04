@@ -1,0 +1,212 @@
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {15310314} sequential
+
+fsm_state_encoding {15310314} 00 {00}
+
+fsm_state_encoding {15310314} 01 {01}
+
+fsm_state_encoding {15310314} 10 {10}
+
+fsm_registers {15310314} {state[1]}  {state[0]} 
+
+fsm_encoding {18364365} onehot
+
+fsm_state_encoding {18364365} 000 {00000}
+
+fsm_state_encoding {18364365} 001 {00011}
+
+fsm_state_encoding {18364365} 010 {00101}
+
+fsm_state_encoding {18364365} 011 {01001}
+
+fsm_state_encoding {18364365} 110 {10001}
+
+fsm_registers {18364365} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state_i[0]} 
+
+fsm_encoding {21394393} sequential
+
+fsm_state_encoding {21394393} IDLE {00}
+
+fsm_state_encoding {21394393} WAIT_DELAY {01}
+
+fsm_state_encoding {21394393} SUMMING {10}
+
+fsm_state_encoding {21394393} DONE {11}
+
+fsm_registers {21394393} {state[1]}  {state[0]} 
+
+fsm_encoding {22454452} onehot
+
+fsm_state_encoding {22454452} 000 {000000}
+
+fsm_state_encoding {22454452} 001 {000011}
+
+fsm_state_encoding {22454452} 010 {000101}
+
+fsm_state_encoding {22454452} 011 {001001}
+
+fsm_state_encoding {22454452} 100 {010001}
+
+fsm_state_encoding {22454452} 101 {100001}
+
+fsm_registers {22454452} {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state_i[0]} 
+
+fsm_encoding {23734731} sequential
+
+fsm_state_encoding {23734731} 00 {00}
+
+fsm_state_encoding {23734731} 01 {01}
+
+fsm_state_encoding {23734731} 10 {10}
+
+fsm_registers {23734731} {state[1]}  {state[0]} 

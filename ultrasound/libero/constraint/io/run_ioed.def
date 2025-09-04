@@ -1,8 +1,8 @@
 data HELP_TYPE_DES 2
-data DESIGN envelope
-data HPATH '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope'
-data CPATH '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/constraint/io'
-data CDIR '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/constraint'
+data DESIGN top
+data HPATH '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top'
+data CPATH '/home/jessica/GITHUB/EchoCore/ultrasound/libero/constraint/io'
+data CDIR '/home/jessica/GITHUB/EchoCore/ultrasound/libero/constraint'
 data NLV_HIDE_OPTION_DLG 1
 data REGION_DEFCOLOR_EMPTY 2143322112
 data REGION_DEFCOLOR_INCLUSIVE 2147442270
@@ -22,13 +22,13 @@ data VCCI_2.5_VOLTR EXT
 data VCCI_3.3_VOLTR EXT
 data FLOW_TYPE NEW
 data PLANNER_IOMODE 1
-data AFL '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/COMPILE/envelope.afl'
-data ADL '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/envelope.adl'
-data LOC '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/COMPILE/envelope.loc'
-data SEG '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/COMPILE/envelope.seg'
+data AFL '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/COMPILE/top.afl'
+data ADL '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/top.adl'
+data LOC '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/COMPILE/top.loc'
+data SEG '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/COMPILE/top.seg'
 
-data TARGET_IOPDC  '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/constraint/io/user.pdc'
-data TARGET_FPPDC  '/home/jessica/Desktop/lultrasound_ibero/envelope_detection/constraint/fp/user.pdc'
+data TARGET_IOPDC  '/home/jessica/GITHUB/EchoCore/ultrasound/libero/constraint/io/user1.pdc'
+data TARGET_FPPDC  '/home/jessica/GITHUB/EchoCore/ultrasound/libero/constraint/fp/user.pdc'
 data TARGET_DEVICES_FOR_MIGRATION 'PA5SOC025T '
 data RESTRICTPROBEPINS 1
 data RESTRICTSPIPINS 0

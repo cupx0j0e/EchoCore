@@ -17,28 +17,22 @@ module delay_con #(
     reg [NUM_CHANNELS-1:0] enable_buff;
     wire [NUM_CHANNELS-1:0] valid_buff;
 
-    // Channel index
     reg [$clog2(NUM_CHANNELS)-1:0] channel_idx = 0;
 
-    // Delay values
     wire [7:0] delay_values [0:NUM_CHANNELS-1];
 
-    // FSM states
     localparam IDLE = 0, LOAD_COORD = 1, START_CALC = 2,
                WAIT_VALID = 3, STORE = 4, INCREMENT = 5, DONE = 6;
 
     reg [2:0] state, next_state;
 
-    // Coord ROM outputs
     wire [15:0] x_i, z_i;
     reg [DATA_WIDTH-1:0] x_ic [0:NUM_CHANNELS-1];
     reg [DATA_WIDTH-1:0] z_ic [0:NUM_CHANNELS-1];
 
-    // Delay Calc signals
     wire [NUM_CHANNELS-1:0] done;
     reg calc_start;
 
-    // FSM sequential logic
     always @(posedge clk) begin
         if (reset) begin
             state <= IDLE;
@@ -53,7 +47,7 @@ module delay_con #(
                 START_CALC: calc_start <= 1;
                 LOAD_COORD: channel_idx <= channel_idx + 1;
                 DONE: begin
-                    enable_buff <= {NUM_CHANNELS{1'b1}}; // Simultaneous enabling
+                    enable_buff <= {NUM_CHANNELS{1'b1}}; 
                     ready <= &valid_buff;
                 end
                 default:    calc_start <= 0;
@@ -61,7 +55,6 @@ module delay_con #(
         end
     end
 
-    // FSM next-state logic
     always @(*) begin
         case (state)
             IDLE:        next_state = start ? LOAD_COORD : IDLE;
@@ -76,7 +69,6 @@ module delay_con #(
         z_ic[channel_idx] = z_i;
     end
 
-    // Coordinate ROM instance
     coord_rom #(
         .NUM_CHANNELS(NUM_CHANNELS)
     ) coord_inst (
@@ -86,7 +78,6 @@ module delay_con #(
         .z_out(z_i)
     );
 
-    // Delay calculator instance
     genvar j;
     generate
         for (j = 0; j < NUM_CHANNELS; j=j+1) begin: delay_calc_arr
@@ -104,7 +95,6 @@ module delay_con #(
         end
     endgenerate
 
-    // Sample delay module instantiations
     genvar i;
     generate
         for (i = 0; i < NUM_CHANNELS; i = i + 1) begin : sample_array

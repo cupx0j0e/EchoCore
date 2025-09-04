@@ -2,16 +2,16 @@
 <!-- 
   Synopsys, Inc.
   Version V-2023.09M-3
-  Project file /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/syntmp/run_option.xml
-  Written on Wed Aug 13 16:11:53 2025
+  Project file /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/syntmp/run_option.xml
+  Written on Fri Sep  5 01:24:54 2025
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
-     <option name="project_name" display_name="Project Name">envelope_syn</option>
+     <option name="project_name" display_name="Project Name">top_syn</option>
      <option name="device_name" display_name="Device Name">synthesis: Microchip PolarFireSoC : MPFS025T</option>
      <option name="impl_name" display_name="Implementation Name">synthesis</option>
-     <option name="top_module" display_name="Top Module">envelope</option>
+     <option name="top_module" display_name="Top Module">top</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">1</option>
      <option name="maxfan" display_name="Fanout Guide">10000</option>

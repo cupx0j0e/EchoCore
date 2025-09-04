@@ -1,16 +1,16 @@
-@N: CG775 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Component CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC not found in library "work" or "__hyper__lib__", but found in library CORECORDIC_LIB
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":116:7:116:19|Synthesizing module cordic_countS in library CORECORDIC_LIB.
+@N: CG775 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Component CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC not found in library "work" or "__hyper__lib__", but found in library CORECORDIC_LIB
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":116:7:116:19|Synthesizing module cordic_countS in library CORECORDIC_LIB.
 
 	WIDTH=32'b00000000000000000000000000000100
 	DCVALUE=32'b00000000000000000000000000001111
 	BUILD_DC=32'b00000000000000000000000000000001
    Generated name = cordic_countS_4s_15s_1s
 Running optimization stage 1 on cordic_countS_4s_15s_1s .......
-Finished optimization stage 1 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":451:7:451:27|Synthesizing module cordic_init_kickstart in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":451:7:451:27|Synthesizing module cordic_init_kickstart in library CORECORDIC_LIB.
 Running optimization stage 1 on cordic_init_kickstart .......
-Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC in library CORECORDIC_LIB.
 
 	ARCHITECT=32'b00000000000000000000000000000010
 	MODE=32'b00000000000000000000000000000010
@@ -38,49 +38,49 @@ Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Mem
 	FPGA_FAMILY=32'b00000000000000000000000000010011
 	DIE_SIZE=32'b00000000000000000000000000010100
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":609:7:609:31|Synthesizing module cordic_coarse_pre_rotator in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":609:7:609:31|Synthesizing module cordic_coarse_pre_rotator in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000110000
 	MODE_VECTOR=1'b1
 	COARSE=32'b00000000000000000000000000000000
    Generated name = cordic_coarse_pre_rotator_48s_1_0s
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:21:621:25|Removing wire x2u_w, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:28:621:32|Removing wire y2u_w, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:35:621:39|Removing wire a2u_w, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":622:13:622:25|Removing wire coarse_flag_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:21:621:25|Removing wire x2u_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:28:621:32|Removing wire y2u_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:35:621:39|Removing wire a2u_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":622:13:622:25|Removing wire coarse_flag_w, as there is no assignment to it.
 Running optimization stage 1 on cordic_coarse_pre_rotator_48s_1_0s .......
-Finished optimization stage 1 on cordic_coarse_pre_rotator_48s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_coarse_pre_rotator_48s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000000010
 	DELAY=32'b00000000000000000000000000010010
    Generated name = cordic_kitDelay_reg_2s_18s
 Running optimization stage 1 on cordic_kitDelay_reg_2s_18s .......
-Finished optimization stage 1 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000110000
 	OUTWIDTH=32'b00000000000000000000000000110000
 	UNSIGNED=32'b00000000000000000000000000000000
 	DROP_MSB=32'b00000000000000000000000000000000
    Generated name = cordic_signExt_48s_48_0s_0s
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":797:11:797:14|Removing wire u_sB, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":797:11:797:14|Removing wire u_sB, as there is no assignment to it.
 Running optimization stage 1 on cordic_signExt_48s_48_0s_0s .......
-Finished optimization stage 1 on cordic_signExt_48s_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":507:7:507:26|Synthesizing module cordic_dp_bits_trans in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_signExt_48s_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":507:7:507:26|Synthesizing module cordic_dp_bits_trans in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000110000
 	DP_BITS=32'b00000000000000000000000000110000
    Generated name = cordic_dp_bits_trans_48s_48
 Running optimization stage 1 on cordic_dp_bits_trans_48s_48 .......
-Finished optimization stage 1 on cordic_dp_bits_trans_48s_48 (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_dp_bits_trans_48s_48 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
 
 	DELAY=32'b00000000000000000000000000010000
    Generated name = cordic_kitDelay_bit_reg_16s
 Running optimization stage 1 on cordic_kitDelay_bit_reg_16s .......
-Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000110000
 	DP_BITS=32'b00000000000000000000000000110000
@@ -89,7 +89,7 @@ Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00
 	MODE_VECTOR=1'b1
 	MODE=32'b00000000000000000000000000000010
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -98,7 +98,7 @@ Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00
    Generated name = cordic_par_calc_1_48_4_0s
 Running optimization stage 1 on cordic_par_calc_1_48_4_0s .......
 Finished optimization stage 1 on cordic_par_calc_1_48_4_0s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000000
@@ -106,7 +106,7 @@ Finished optimization stage 1 on cordic_par_calc_1_48_4_0s (CPU Time 0h:00m:00s,
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s .......
 Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -115,7 +115,7 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48
    Generated name = cordic_par_calc_1_48_4_1s
 Running optimization stage 1 on cordic_par_calc_1_48_4_1s .......
 Finished optimization stage 1 on cordic_par_calc_1_48_4_1s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000001
@@ -123,7 +123,7 @@ Finished optimization stage 1 on cordic_par_calc_1_48_4_1s (CPU Time 0h:00m:00s,
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s .......
 Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -132,7 +132,7 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48
    Generated name = cordic_par_calc_1_48_4_2s
 Running optimization stage 1 on cordic_par_calc_1_48_4_2s .......
 Finished optimization stage 1 on cordic_par_calc_1_48_4_2s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000010
@@ -140,7 +140,7 @@ Finished optimization stage 1 on cordic_par_calc_1_48_4_2s (CPU Time 0h:00m:00s,
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s .......
 Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -149,7 +149,7 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48
    Generated name = cordic_par_calc_1_48_4_3s
 Running optimization stage 1 on cordic_par_calc_1_48_4_3s .......
 Finished optimization stage 1 on cordic_par_calc_1_48_4_3s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000011
@@ -157,7 +157,7 @@ Finished optimization stage 1 on cordic_par_calc_1_48_4_3s (CPU Time 0h:00m:00s,
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s .......
 Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -165,16 +165,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48
 	ITER_NUM=32'b00000000000000000000000000000100
    Generated name = cordic_par_calc_1_48_4_4s
 Running optimization stage 1 on cordic_par_calc_1_48_4_4s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_4s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_4s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000100
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -182,16 +182,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48
 	ITER_NUM=32'b00000000000000000000000000000101
    Generated name = cordic_par_calc_1_48_4_5s
 Running optimization stage 1 on cordic_par_calc_1_48_4_5s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_5s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_5s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000101
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -199,16 +199,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48
 	ITER_NUM=32'b00000000000000000000000000000110
    Generated name = cordic_par_calc_1_48_4_6s
 Running optimization stage 1 on cordic_par_calc_1_48_4_6s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_6s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_6s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000110
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -216,16 +216,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48
 	ITER_NUM=32'b00000000000000000000000000000111
    Generated name = cordic_par_calc_1_48_4_7s
 Running optimization stage 1 on cordic_par_calc_1_48_4_7s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_7s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_7s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000000111
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -233,16 +233,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48
 	ITER_NUM=32'b00000000000000000000000000001000
    Generated name = cordic_par_calc_1_48_4_8s
 Running optimization stage 1 on cordic_par_calc_1_48_4_8s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_8s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_8s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001000
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -250,16 +250,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48
 	ITER_NUM=32'b00000000000000000000000000001001
    Generated name = cordic_par_calc_1_48_4_9s
 Running optimization stage 1 on cordic_par_calc_1_48_4_9s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_9s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_9s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001001
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -267,16 +267,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48
 	ITER_NUM=32'b00000000000000000000000000001010
    Generated name = cordic_par_calc_1_48_4_10s
 Running optimization stage 1 on cordic_par_calc_1_48_4_10s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_10s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_10s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001010
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -284,16 +284,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_4
 	ITER_NUM=32'b00000000000000000000000000001011
    Generated name = cordic_par_calc_1_48_4_11s
 Running optimization stage 1 on cordic_par_calc_1_48_4_11s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_11s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_11s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001011
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -301,16 +301,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_4
 	ITER_NUM=32'b00000000000000000000000000001100
    Generated name = cordic_par_calc_1_48_4_12s
 Running optimization stage 1 on cordic_par_calc_1_48_4_12s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_12s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_12s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001100
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -319,7 +319,7 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_4
    Generated name = cordic_par_calc_1_48_4_13s
 Running optimization stage 1 on cordic_par_calc_1_48_4_13s .......
 Finished optimization stage 1 on cordic_par_calc_1_48_4_13s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001101
@@ -327,7 +327,7 @@ Finished optimization stage 1 on cordic_par_calc_1_48_4_13s (CPU Time 0h:00m:00s
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s .......
 Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -335,16 +335,16 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_4
 	ITER_NUM=32'b00000000000000000000000000001110
    Generated name = cordic_par_calc_1_48_4_14s
 Running optimization stage 1 on cordic_par_calc_1_48_4_14s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_14s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_14s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001110
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
 
 	MODE_VECTOR=1'b1
 	DP_BITS=32'b00000000000000000000000000110000
@@ -352,25 +352,25 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_4
 	ITER_NUM=32'b00000000000000000000000000001111
    Generated name = cordic_par_calc_1_48_4_15s
 Running optimization stage 1 on cordic_par_calc_1_48_4_15s .......
-Finished optimization stage 1 on cordic_par_calc_1_48_4_15s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_par_calc_1_48_4_15s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
 
 	DP_BITS=32'b00000000000000000000000000110000
 	ITERATION=32'b00000000000000000000000000001111
 	IN_BITS=32'b00000000000000000000000000110000
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000110000
 	OUTWIDTH=32'b00000000000000000000000000110000
 	ROUND=32'b00000000000000000000000000000000
 	VALID_BIT=32'b00000000000000000000000000000001
    Generated name = cordic_kitRoundTop_48_48_0s_1s
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000110000
 	OUTWIDTH=32'b00000000000000000000000000110000
@@ -378,23 +378,23 @@ Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotat
 	DROP_MSB=32'b00000000000000000000000000000000
    Generated name = cordic_signExt_48_48_0s_0s
 Running optimization stage 1 on cordic_signExt_48_48_0s_0s .......
-Finished optimization stage 1 on cordic_signExt_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_signExt_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000110000
 	DELAY=32'b00000000000000000000000000000010
    Generated name = cordic_kitDelay_reg_48_2s
 Running optimization stage 1 on cordic_kitDelay_reg_48_2s .......
-Finished optimization stage 1 on cordic_kitDelay_reg_48_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitDelay_reg_48_2s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
 
 	DELAY=32'b00000000000000000000000000000010
    Generated name = cordic_kitDelay_bit_reg_2s
 Running optimization stage 1 on cordic_kitDelay_bit_reg_2s .......
-Finished optimization stage 1 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
 Running optimization stage 1 on cordic_kitRoundTop_48_48_0s_1s .......
-Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
 
 	INWIDTH=32'b00000000000000000000000000110000
 	OUTWIDTH=32'b00000000000000000000000000110000
@@ -402,21 +402,21 @@ Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m
 	VALID_BIT=32'b00000000000000000000000000000000
    Generated name = cordic_kitRoundTop_48_48_0s_0s
 Running optimization stage 1 on cordic_kitRoundTop_48_48_0s_0s .......
-@W: CL318 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|*Output valido has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":710:7:710:32|Synthesizing module cordic_coarse_post_rotator in library CORECORDIC_LIB.
+@W: CL318 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|*Output valido has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":710:7:710:32|Synthesizing module cordic_coarse_post_rotator in library CORECORDIC_LIB.
 
 	BITS=32'b00000000000000000000000000110000
 	MODE_VECTOR=1'b1
 	COARSE=32'b00000000000000000000000000000000
    Generated name = cordic_coarse_post_rotator_48_1_0s
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:18:722:20|Removing wire x_w, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:23:722:25|Removing wire y_w, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:28:722:30|Removing wire a_w, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":725:7:725:19|Removing wire coarse_flag_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:18:722:20|Removing wire x_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:23:722:25|Removing wire y_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:28:722:30|Removing wire a_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":725:7:725:19|Removing wire coarse_flag_w, as there is no assignment to it.
 Running optimization stage 1 on cordic_coarse_post_rotator_48_1_0s .......
-Finished optimization stage 1 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":98:7:98:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par in library CORECORDIC_LIB.
+Finished optimization stage 1 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":98:7:98:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par in library CORECORDIC_LIB.
 
 	IN_BITS=32'b00000000000000000000000000110000
 	OUT_BITS=32'b00000000000000000000000000110000
@@ -434,140 +434,383 @@ Finished optimization stage 1 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h
 	WORDSIZE_MIN=32'b00000000000000000000000000001000
 	LOGITER=32'b00000000000000000000000000000100
    Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
-@W: CG781 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":189:11:189:11|Input validi on instance roundy_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":194:11:194:11|Input validi on instance rounda_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":128:21:128:30|Removing wire iter_count, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":129:21:129:28|Removing wire romAngle, as there is no assignment to it.
-@W: CG360 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":132:7:132:18|Removing wire ld_data2calc, as there is no assignment to it.
+@W: CG781 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":189:11:189:11|Input validi on instance roundy_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":194:11:194:11|Input validi on instance rounda_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":128:21:128:30|Removing wire iter_count, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":129:21:129:28|Removing wire romAngle, as there is no assignment to it.
+@W: CG360 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":132:7:132:18|Removing wire ld_data2calc, as there is no assignment to it.
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
 Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 .......
-Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0.v":30:7:30:19|Synthesizing module CORECORDIC_C0 in library work.
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v":30:7:30:19|Synthesizing module CORECORDIC_C0 in library work.
 Running optimization stage 1 on CORECORDIC_C0 .......
-Finished optimization stage 1 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v":8:7:8:24|Synthesizing module delay_line_signext in library work.
+Finished optimization stage 1 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":1:7:1:24|Synthesizing module delay_line_signext in library work.
 Running optimization stage 1 on delay_line_signext .......
-Finished optimization stage 1 on delay_line_signext (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
-@N: CG364 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v":9:7:9:14|Synthesizing module envelope in library work.
-@N: CG794 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v":101:12:101:24|Using module fir_hilbert from library work
+Finished optimization stage 1 on delay_line_signext (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v":9:7:9:14|Synthesizing module envelope in library work.
+@N: CG794 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v":101:12:101:24|Using module fir_hilbert from library work
 Running optimization stage 1 on envelope .......
-Finished optimization stage 1 on envelope (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 1 on envelope (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v":1:7:1:27|Synthesizing module start_pulse_generator in library work.
+Running optimization stage 1 on start_pulse_generator .......
+Finished optimization stage 1 on start_pulse_generator (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":1:7:1:17|Synthesizing module readrf_vals in library work.
+Opening data file readrf_vals_rf_vals_1_23849_initial_block from directory .
+Opening data file readrf_vals_rf_vals_2_23849_initial_block from directory .
+Opening data file readrf_vals_rf_vals_3_23849_initial_block from directory .
+Opening data file readrf_vals_rf_vals_4_23849_initial_block from directory .
+@W: CG532 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":17:0:17:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@N: CG179 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":107:25:107:29|Removing redundant assignment.
+Running optimization stage 1 on readrf_vals .......
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[15] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[14] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[13] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[12] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[11] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[10] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[9] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val1[8] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[15] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[14] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[13] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[12] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[11] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[10] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[9] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val2[8] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[15] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[14] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[13] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[12] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[11] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[10] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[9] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val3[8] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[15] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[14] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[13] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[12] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[11] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[10] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[9] is always 0.
+@N: CL189 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Register bit val4[8] is always 0.
+@W: CL279 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val3[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val4[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on readrf_vals (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":1:7:1:15|Synthesizing module coord_rom in library work.
+
+	NUM_CHANNELS=32'b00000000000000000000000000010000
+	DATA_WIDTH=32'b00000000000000000000000000000100
+   Generated name = coord_rom_16s_4s
+Opening data file coord_rom_16s_4s_x_rom_23849_initial_block from directory .
+Opening data file coord_rom_16s_4s_z_rom_23849_initial_block from directory .
+@W: CG532 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":14:0:14:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on coord_rom_16s_4s .......
+Finished optimization stage 1 on coord_rom_16s_4s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":1:7:1:15|Synthesizing module delay_con in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	NUM_CHANNELS=32'b00000000000000000000000000010000
+	MAX_DELAY=32'b00000000000000000000000100000000
+	IDLE=32'b00000000000000000000000000000000
+	LOAD_COORD=32'b00000000000000000000000000000001
+	START_CALC=32'b00000000000000000000000000000010
+	WAIT_VALID=32'b00000000000000000000000000000011
+	STORE=32'b00000000000000000000000000000100
+	INCREMENT=32'b00000000000000000000000000000101
+	DONE=32'b00000000000000000000000000000110
+   Generated name = delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":1:7:1:10|Synthesizing module sqrt in library work.
+Running optimization stage 1 on sqrt .......
+@W: CL265 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing unused bit 16 of r[17:0]. Either assign all bits or reduce the width of the signal.
+Finished optimization stage 1 on sqrt (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v":1:7:1:16|Synthesizing module delay_calc in library work.
+Running optimization stage 1 on delay_calc .......
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v":36:4:36:7|Latch generated from always block for signal next_state[3:0]; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on delay_calc (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v":1:7:1:18|Synthesizing module sample_delay in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	MAX_DELAY=32'b00000000000000000000000100000000
+	ADDR_WIDTH=32'b00000000000000000000000000001000
+   Generated name = sample_delay_16s_256s_8s
+Running optimization stage 1 on sample_delay_16s_256s_8s .......
+@N: CL134 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v":19:4:19:9|Found RAM buffer, depth=256, width=16
+Finished optimization stage 1 on sample_delay_16s_256s_8s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Running optimization stage 1 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s .......
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[15][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[14][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[13][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[12][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[11][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[10][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[9][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[8][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[7][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[6][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[5][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[4][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[3][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[2][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[1][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal z_ic[0][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[15][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[14][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[13][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[12][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[11][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[10][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[9][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[8][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[7][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[6][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[5][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[4][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[3][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[2][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[1][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":58:4:58:9|Latch generated from always block for signal x_ic[0][15:0]; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 197MB peak: 197MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v":1:7:1:13|Synthesizing module summ_sa in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	NUM_CHANNELS=32'b00000000000000000000000000010000
+	SUM_WIDTH=32'b00000000000000000000000000010010
+   Generated name = summ_sa_16s_16s_18s
+Running optimization stage 1 on summ_sa_16s_16s_18s .......
+Finished optimization stage 1 on summ_sa_16s_16s_18s (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Synthesizing module top_bf in library work.
+@W: CG133 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":13:15:13:21|Object x_f_reg is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":13:24:13:30|Object z_f_reg is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on top_bf .......
+Finished optimization stage 1 on top_bf (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 198MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v":1:7:1:14|Synthesizing module int_calc in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000110000
+	FRAC_WIDTH=32'b00000000000000000000000000010000
+	MIN_THRESHOLD=32'b00000000000000000000000000000001
+	NORM_WIDTH=32'b00000000000000000000000000010001
+	SHIFT_WIDTH=32'b00000000000000000000000000000110
+	IDLE=32'b00000000000000000000000000000000
+	CALC_ZP=32'b00000000000000000000000000000001
+	PROCESS=32'b00000000000000000000000000000010
+	CALC_SHIFT=32'b00000000000000000000000000000011
+	LOAD_DOUT=32'b00000000000000000000000000000100
+	SEND=32'b00000000000000000000000000000101
+   Generated name = int_calc_Z3_layer0
+Running optimization stage 1 on int_calc_Z3_layer0 .......
+@W: CL271 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v":45:4:45:9|Pruning unused bits 47 to 16 of shift_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on int_calc_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":1:7:1:19|Synthesizing module log_frac_calc in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000110000
+	FRAC_WIDTH=32'b00000000000000000000000000010000
+	NORM_WIDTH=32'b00000000000000000000000000010001
+	IDLE=32'b00000000000000000000000000000000
+	CALC=32'b00000000000000000000000000000001
+	DONE=32'b00000000000000000000000000000010
+   Generated name = log_frac_calc_48s_16s_17s_0s_1s_2s
+Opening data file log_frac_calc_48s_16s_17s_0s_1s_2s_log2_constants_23849_initial_block from directory .
+Opening data file log_frac_calc_48s_16s_17s_0s_1s_2s_cordic_x_constants_23849_initial_block from directory .
+@W: CG532 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":19:4:19:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG532 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":38:4:38:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on log_frac_calc_48s_16s_17s_0s_1s_2s .......
+Finished optimization stage 1 on log_frac_calc_48s_16s_17s_0s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 199MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v":1:7:1:14|Synthesizing module top_logc in library work.
+Running optimization stage 1 on top_logc .......
+Finished optimization stage 1 on top_logc (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 199MB)
+@N: CG364 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v":9:7:9:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 199MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 199MB)
+Running optimization stage 2 on top_logc .......
+Finished optimization stage 2 on top_logc (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 199MB)
+Running optimization stage 2 on log_frac_calc_48s_16s_17s_0s_1s_2s .......
+@N: CL201 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":73:4:73:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on log_frac_calc_48s_16s_17s_0s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Running optimization stage 2 on int_calc_Z3_layer0 .......
+@N: CL201 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v":45:4:45:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+Finished optimization stage 2 on int_calc_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Running optimization stage 2 on top_bf .......
+@W: CL177 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":39:4:39:9|Sharing sequential element sum_en_reg and merging start_sum_reg. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":39:4:39:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@A: CL153 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":13:15:13:21|*Unassigned bits of x_f_reg[15:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":13:24:13:30|*Unassigned bits of z_f_reg[15:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on top_bf (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Running optimization stage 2 on summ_sa_16s_16s_18s .......
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v":8:10:8:18|Input start_sum is unused.
+Finished optimization stage 2 on summ_sa_16s_16s_18s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Running optimization stage 2 on sample_delay_16s_256s_8s .......
+Finished optimization stage 2 on sample_delay_16s_256s_8s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 201MB)
+Running optimization stage 2 on delay_calc .......
+Finished optimization stage 2 on delay_calc (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 201MB)
+Running optimization stage 2 on sqrt .......
+@N: CL201 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on sqrt (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
+Running optimization stage 2 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s .......
+@N: CL201 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":36:4:36:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   110
+@W: CL279 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":36:4:36:9|Pruning register bits 15 to 1 of enable_buff[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
+Running optimization stage 2 on coord_rom_16s_4s .......
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":5:10:5:12|Input clk is unused.
+Finished optimization stage 2 on coord_rom_16s_4s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
+Running optimization stage 2 on readrf_vals .......
+Finished optimization stage 2 on readrf_vals (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
+Running optimization stage 2 on start_pulse_generator .......
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v":2:10:2:12|Input clk is unused.
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v":3:10:3:14|Input reset is unused.
+Finished optimization stage 2 on start_pulse_generator (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on envelope .......
-Finished optimization stage 2 on envelope (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on envelope (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on delay_line_signext .......
-@N: CL135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v":32:4:32:9|Found sequential shift shift_reg with address depth of 9 words and data bit width of 48.
-Finished optimization stage 2 on delay_line_signext (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CL135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":17:4:17:9|Found sequential shift shift_reg with address depth of 9 words and data bit width of 48.
+Finished optimization stage 2 on delay_line_signext (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0 .......
-Finished optimization stage 2 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_coarse_post_rotator_48_1_0s .......
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:8:716:12|Input nGrst is unused.
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:15:716:17|Input rst is unused.
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:20:716:22|Input clk is unused.
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":717:14:717:24|Input coarse_flag is unused.
-Finished optimization stage 2 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:8:716:12|Input nGrst is unused.
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:15:716:17|Input rst is unused.
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:20:716:22|Input clk is unused.
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":717:14:717:24|Input coarse_flag is unused.
+Finished optimization stage 2 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_kitRoundTop_48_48_0s_0s .......
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":373:25:373:30|Input validi is unused.
-Finished optimization stage 2 on cordic_kitRoundTop_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":373:25:373:30|Input validi is unused.
+Finished optimization stage 2 on cordic_kitRoundTop_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_kitDelay_bit_reg_2s .......
-Finished optimization stage 2 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_kitDelay_reg_48_2s .......
-Finished optimization stage 2 on cordic_kitDelay_reg_48_2s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on cordic_kitDelay_reg_48_2s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_signExt_48_48_0s_0s .......
-Finished optimization stage 2 on cordic_signExt_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on cordic_signExt_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_kitRoundTop_48_48_0s_1s .......
-Finished optimization stage 2 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_15s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_15s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_15s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_14s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_14s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_14s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_13s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_13s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_13s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_12s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_12s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_12s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_11s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_11s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_11s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_10s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_10s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_10s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_9s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_9s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_9s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_8s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_8s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_8s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_7s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_7s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_7s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_6s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_6s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_6s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_5s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_5s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_5s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_4s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_4s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_4s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_3s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_3s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_3s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_2s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_2s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_2s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_1s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_1s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_par_calc_1_48_4_0s .......
-Finished optimization stage 2 on cordic_par_calc_1_48_4_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_par_calc_1_48_4_0s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s .......
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_kitDelay_bit_reg_16s .......
-Finished optimization stage 2 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_dp_bits_trans_48s_48 .......
-Finished optimization stage 2 on cordic_dp_bits_trans_48s_48 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_dp_bits_trans_48s_48 (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_signExt_48s_48_0s_0s .......
-Finished optimization stage 2 on cordic_signExt_48s_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_signExt_48s_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_kitDelay_reg_2s_18s .......
-Finished optimization stage 2 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_coarse_pre_rotator_48s_1_0s .......
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:8:615:12|Input nGrst is unused.
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:15:615:17|Input rst is unused.
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:20:615:22|Input clk is unused.
-Finished optimization stage 2 on cordic_coarse_pre_rotator_48s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:8:615:12|Input nGrst is unused.
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:15:615:17|Input rst is unused.
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:20:615:22|Input clk is unused.
+Finished optimization stage 2 on cordic_coarse_pre_rotator_48s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 .......
-@N: CL159 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:37:116:41|Input DIN_A is unused.
-Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+@N: CL159 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:37:116:41|Input DIN_A is unused.
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_init_kickstart .......
-Finished optimization stage 2 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 Running optimization stage 2 on cordic_countS_4s_15s_1s .......
-Finished optimization stage 2 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 196MB peak: 196MB)
+Finished optimization stage 2 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/layer0.duruntime
+@L: /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/layer0.duruntime
 
 

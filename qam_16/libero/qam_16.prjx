@@ -481,8 +481,8 @@ SIZE="75485"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1756905257"
-SIZE="4761"
+TIME="1756988787"
+SIZE="4751"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_postlayout_simulation.log,log"
 STATE="utd"
@@ -496,8 +496,8 @@ SIZE="28426"
 ENDFILE
 VALUE "<project>/simulation/tb_my_design_presynth_simulation.log,log"
 STATE="utd"
-TIME="1756905257"
-SIZE="50032"
+TIME="1756990464"
+SIZE="79392"
 ENDFILE
 VALUE "<project>/stimulus/newtestbench.v,tb_hdl"
 STATE="utd"
@@ -516,8 +516,8 @@ SIZE="708715"
 ENDFILE
 VALUE "<project>/synthesis/my_design_syn.prj,prj"
 STATE="utd"
-TIME="1756905257"
-SIZE="7351"
+TIME="1756988778"
+SIZE="7041"
 ENDFILE
 VALUE "<project>/synthesis/my_design_vm.sdc,syn_sdc"
 STATE="utd"

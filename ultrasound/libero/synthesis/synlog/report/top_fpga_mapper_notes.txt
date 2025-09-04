@@ -1,0 +1,75 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Found compile point of type hard on View view:work.top_bf(verilog) 
+**** Begin Compile Point : CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Mapping Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) because 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s ****
+**** Begin Compile Point : top ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Found compile point of type hard on View view:work.top_bf(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.top(verilog) 
+@N: MF106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|Found ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) with 16 words by 16 bits.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|Found ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) with 16 words by 15 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":17:4:17:9|RAM envelope_0.delay_line_signext_0.shift_reg_seqshift[47:0] is 8 words by 48 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] is 8 words by 18 bits.
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":314:4:314:5|Found counter in view:COREFIR_PF_LIB.enum_g5_latency_adv_15_3_3_2_2_2_6(rtl) instance syst_counter_0.count[4:0] 
+@N: FX493 |Applying initial value "0" on instance state_i[0].
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":73:4:73:9|Found counter in view:work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog) instance i[4:0] 
+**** End Compile Point : top ****
+**** Begin Compile Point : top_bf ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Found compile point of type hard on View view:work.top_bf(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.top_bf(verilog) 
+@N: MF106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Mapping Compile point view:work.top_bf(verilog) because 
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":99:16:99:32|ROM val4_2[7:0] (in view: work.readrf_vals(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":97:16:97:32|ROM val2_2[7:0] (in view: work.readrf_vals(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":96:16:96:32|ROM val1_2[7:0] (in view: work.readrf_vals(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":99:16:99:32|ROM val4_2[7:0] (in view: work.readrf_vals(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":99:16:99:32|Found ROM val4_2[7:0] (in view: work.readrf_vals(verilog)) with 12 words by 8 bits.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":97:16:97:32|ROM val2_2[7:0] (in view: work.readrf_vals(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":97:16:97:32|Found ROM val2_2[7:0] (in view: work.readrf_vals(verilog)) with 1 words by 8 bits.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":96:16:96:32|ROM val1_2[7:0] (in view: work.readrf_vals(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":96:16:96:32|Found ROM val1_2[7:0] (in view: work.readrf_vals(verilog)) with 12 words by 8 bits.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":51:12:51:23|ROM coord_inst.x_out_1[15:13] (in view: work.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":51:12:51:23|ROM coord_inst.x_out_1[15:13] (in view: work.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":51:12:51:23|Found ROM coord_inst.x_out_1[15:13] (in view: work.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s(verilog)) with 4 words by 3 bits.
+@N: MO225 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":39:4:39:9|There are no possible illegal states for state machine state[3:0] (in view: work.top_bf(verilog)); safe FSM implementation is not required.
+@N: FX493 |Applying initial value "0" on instance state_i[0].
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Found counter in view:work.sqrt_top_bf(verilog) instance i[4:0] 
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[8] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[9] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[10] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[11] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[12] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[13] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[14] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":31:0:31:5|Removing sequential instance dout[15] (in view: work.sqrt_top_bf(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v":67:0:67:5|Removing sequential instance delay_ctrl.delay_calc_arr\[0\]\.delay_calc_inst.dx[10] (in view: work.top_bf(verilog)) because it does not drive other instances.
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : top_bf ****
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

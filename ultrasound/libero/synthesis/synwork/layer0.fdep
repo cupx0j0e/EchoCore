@@ -1,31 +1,65 @@
-#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/_verilog_hintfile|-top|envelope|-layerid|0|-orig_srs|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/envelope_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/_verilog_hintfile|-top|top|-layerid|0|-orig_srs|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_ver":1721969462
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/synwork/_verilog_hintfile":1755081410
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/_verilog_hintfile":1757015694
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":1721922091
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v":1721921486
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/umr_capim.v":1721920057
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_objects.v":1721921486
 #CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1721921486
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/polarfire_syn_comps.v":1755081712
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1754998734
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1754998734
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1754998734
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1754998734
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1754998734
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v":1755078522
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v":1755081570
-#CUR:"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/MSS_syn_comps.v":1755081712
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/polarfire_syn_comps.v":1757015693
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":1757007729
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v":1756991531
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":1757013274
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":1757015648
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v":1756828235
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":1757014195
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":1757013605
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1756711963
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v":1757014260
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":1757014274
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v":1757013688
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v":1757011605
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/MSS_syn_comps.v":1757015693
+#CUR:"readrf_vals_rf_vals_1_23849_initial_block":1757015695
+#CUR:"readrf_vals_rf_vals_2_23849_initial_block":1757015695
+#CUR:"readrf_vals_rf_vals_3_23849_initial_block":1757015695
+#CUR:"readrf_vals_rf_vals_4_23849_initial_block":1757015695
+#CUR:"coord_rom_16s_4s_x_rom_23849_initial_block":1757015695
+#CUR:"coord_rom_16s_4s_z_rom_23849_initial_block":1757015695
+#CUR:"log_frac_calc_48s_16s_17s_0s_1s_2s_log2_constants_23849_initial_block":1757015695
+#CUR:"log_frac_calc_48s_16s_17s_0s_1s_2s_cordic_x_constants_23849_initial_block":1757015695
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/polarfire_syn_comps.v" verilog
-1			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
-2			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
-3			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
-4			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
-5			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
-6			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v" verilog
-7			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v" verilog
-8			"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/MSS_syn_comps.v" verilog
+0			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/polarfire_syn_comps.v" verilog
+1			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
+2			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
+3			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
+4			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
+5			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
+6			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v" verilog
+7			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v" verilog
+8			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v" verilog
+9			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v" verilog
+10			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v" verilog
+11			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v" verilog
+12			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v" verilog
+13			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v" verilog
+14			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v" verilog
+15			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v" verilog
+16			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v" verilog
+17			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v" verilog
+18			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v" verilog
+19			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v" verilog
+20			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v" verilog
+21			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/MSS_syn_comps.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -36,6 +70,19 @@
 6 -1
 7 5 6
 8 -1
+9 -1
+10 -1
+11 10
+12 -1
+13 9 11 12
+14 -1
+15 -1
+16 15 13 14
+17 -1
+18 -1
+19 17 18
+20 7 8 16 19
+21 -1
 #Dependency Lists(Users Of)
 0 -1
 1 3
@@ -44,8 +91,21 @@
 4 5
 5 7
 6 7
-7 -1
-8 -1
+7 20
+8 20
+9 13
+10 11
+11 13
+12 13
+13 16
+14 16
+15 16
+16 20
+17 19
+18 19
+19 20
+20 -1
+21 -1
 #Design Unit to File Association
 module work APBM 0
 module work APBS 0
@@ -121,7 +181,20 @@ module work CLKBUF_DIFF_ODT 0
 module work CORECORDIC_C0 5
 module work delay_line_signext 6
 module work envelope 7
-module work MSS 8
+module work start_pulse_generator 8
+module work coord_rom 9
+module work sqrt 10
+module work delay_calc 11
+module work sample_delay 12
+module work delay_con 13
+module work summ_sa 14
+module work readrf_vals 15
+module work top_bf 16
+module work int_calc 17
+module work log_frac_calc 18
+module work top_logc 19
+module work top 20
+module work MSS 21
 module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cROM_par 1
 module CORECORDIC_LIB cordic_kitDelay_bit_reg 2
 module CORECORDIC_LIB cordic_kitDelay_reg 2

@@ -1,0 +1,182 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+# Written on Fri Sep  5 01:24:59 2025
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                Requested     Requested     Clock        Clock               Clock
+Level     Clock                                                                Frequency     Period        Type         Group               Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                               100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                                                                                 
+0 -       top|clk                                                              100.0 MHz     10.000        inferred     (multiple)          6438 
+                                                                                                                                                 
+0 -       delay_calc_0|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_1|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_2|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_3|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_4|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_5|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_6|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_7|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_8|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_9|N_20_inferred_clock                                     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_10|N_20_inferred_clock                                    100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_11|N_20_inferred_clock                                    100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_12|N_20_inferred_clock                                    100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_13|N_20_inferred_clock                                    100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_14|N_20_inferred_clock                                    100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_calc_15|N_20_inferred_clock                                    100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+                                                                                                                                                 
+0 -       delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          3    
+=================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                     Clock     Source                                                                             Clock Pin                                                                     Non-clock Pin     Non-clock Pin                                                          
+Clock                                                                Load      Pin                                                                                Seq Example                                                                   Seq Example       Comb Example                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                               0         -                                                                                  -                                                                             -                 -                                                                      
+                                                                                                                                                                                                                                                                                                                                         
+top|clk                                                              6438      clk(port)                                                                          top_logc_0.log_frac_calc_0.z_reg[16:0].C                                      -                 I_1.A(CLKINT)                                                          
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_0|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[8\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[8\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[8\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_1|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[3\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[3\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[3\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_2|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[7\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[7\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[7\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_3|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[5\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[5\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[5\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_4|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[6\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[6\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[6\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_5|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[13\]\.delay_calc_inst.un1_state_16.OUT(or)     top_bf_0.delay_ctrl.delay_calc_arr\[13\]\.delay_calc_inst.next_state[0].C     -                 top_bf_0.delay_ctrl.delay_calc_arr\[13\]\.delay_calc_inst.I_1.A(CLKINT)
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_6|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[14\]\.delay_calc_inst.un1_state_16.OUT(or)     top_bf_0.delay_ctrl.delay_calc_arr\[14\]\.delay_calc_inst.next_state[0].C     -                 top_bf_0.delay_ctrl.delay_calc_arr\[14\]\.delay_calc_inst.I_1.A(CLKINT)
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_7|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[12\]\.delay_calc_inst.un1_state_16.OUT(or)     top_bf_0.delay_ctrl.delay_calc_arr\[12\]\.delay_calc_inst.next_state[0].C     -                 top_bf_0.delay_ctrl.delay_calc_arr\[12\]\.delay_calc_inst.I_1.A(CLKINT)
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_8|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[2\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[2\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[2\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_9|N_20_inferred_clock                                     3         top_bf_0.delay_ctrl.delay_calc_arr\[9\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[9\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[9\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_10|N_20_inferred_clock                                    3         top_bf_0.delay_ctrl.delay_calc_arr\[0\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[0\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[0\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_11|N_20_inferred_clock                                    3         top_bf_0.delay_ctrl.delay_calc_arr\[1\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[1\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[1\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_12|N_20_inferred_clock                                    3         top_bf_0.delay_ctrl.delay_calc_arr\[15\]\.delay_calc_inst.un1_state_16.OUT(or)     top_bf_0.delay_ctrl.delay_calc_arr\[15\]\.delay_calc_inst.next_state[0].C     -                 top_bf_0.delay_ctrl.delay_calc_arr\[15\]\.delay_calc_inst.I_1.A(CLKINT)
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_13|N_20_inferred_clock                                    3         top_bf_0.delay_ctrl.delay_calc_arr\[11\]\.delay_calc_inst.un1_state_16.OUT(or)     top_bf_0.delay_ctrl.delay_calc_arr\[11\]\.delay_calc_inst.next_state[0].C     -                 top_bf_0.delay_ctrl.delay_calc_arr\[11\]\.delay_calc_inst.I_1.A(CLKINT)
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_14|N_20_inferred_clock                                    3         top_bf_0.delay_ctrl.delay_calc_arr\[4\]\.delay_calc_inst.un1_state_16.OUT(or)      top_bf_0.delay_ctrl.delay_calc_arr\[4\]\.delay_calc_inst.next_state[0].C      -                 top_bf_0.delay_ctrl.delay_calc_arr\[4\]\.delay_calc_inst.I_1.A(CLKINT) 
+                                                                                                                                                                                                                                                                                                                                         
+delay_calc_15|N_20_inferred_clock                                    3         top_bf_0.delay_ctrl.delay_calc_arr\[10\]\.delay_calc_inst.un1_state_16.OUT(or)     top_bf_0.delay_ctrl.delay_calc_arr\[10\]\.delay_calc_inst.next_state[0].C     -                 top_bf_0.delay_ctrl.delay_calc_arr\[10\]\.delay_calc_inst.I_1.A(CLKINT)
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_14.OUT(and)                                    top_bf_0.delay_ctrl.x_ic\[14\][0].C                                           -                 top_bf_0.delay_ctrl.I_1.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_13.OUT(and)                                    top_bf_0.delay_ctrl.x_ic\[13\][0].C                                           -                 top_bf_0.delay_ctrl.I_2.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_12.OUT(and)                                    top_bf_0.delay_ctrl.x_ic\[12\][0].C                                           -                 top_bf_0.delay_ctrl.I_3.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_15.OUT(and)                                    top_bf_0.delay_ctrl.x_ic\[15\][0].C                                           -                 top_bf_0.delay_ctrl.I_4.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_10.OUT(and)                                    top_bf_0.delay_ctrl.x_ic\[10\][0].C                                           -                 top_bf_0.delay_ctrl.I_5.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_9.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[9\][0].C                                            -                 top_bf_0.delay_ctrl.I_6.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_8.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[8\][0].C                                            -                 top_bf_0.delay_ctrl.I_7.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_11.OUT(and)                                    top_bf_0.delay_ctrl.x_ic\[11\][0].C                                           -                 top_bf_0.delay_ctrl.I_8.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_6.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[6\][0].C                                            -                 top_bf_0.delay_ctrl.I_9.A(CLKINT)                                      
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_5.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[5\][0].C                                            -                 top_bf_0.delay_ctrl.I_10.A(CLKINT)                                     
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_4.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[4\][0].C                                            -                 top_bf_0.delay_ctrl.I_11.A(CLKINT)                                     
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_7.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[7\][0].C                                            -                 top_bf_0.delay_ctrl.I_12.A(CLKINT)                                     
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_2.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[2\][0].C                                            -                 top_bf_0.delay_ctrl.I_13.A(CLKINT)                                     
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_1.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[1\][0].C                                            -                 top_bf_0.delay_ctrl.I_14.A(CLKINT)                                     
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_0.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[0\][0].C                                            -                 top_bf_0.delay_ctrl.I_15.A(CLKINT)                                     
+                                                                                                                                                                                                                                                                                                                                         
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock     3         top_bf_0.delay_ctrl.un1_channel_idx_3.OUT(and)                                     top_bf_0.delay_ctrl.x_ic\[3\][0].C                                            -                 top_bf_0.delay_ctrl.I_16.A(CLKINT)                                     
+=========================================================================================================================================================================================================================================================================================================================================

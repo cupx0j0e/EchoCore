@@ -1,5 +1,5 @@
 quietly set ACTELLIBNAME PolarFireSoC
-quietly set PROJECT_DIR "/home/jessica/Desktop/lultrasound_ibero/envelope_detection"
+quietly set PROJECT_DIR "/home/jessica/GITHUB/EchoCore/ultrasound/libero"
 
 if {[file exists presynth/_info]} {
    echo "INFO: Simulation library presynth already exists"
@@ -48,9 +48,22 @@ vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/fir_hi
 vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/component/work/fir_hilbert/fir_hilbert.vhd"
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/envelope/envelope.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/start_pulse_generator.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/coord_rom.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/sqrt.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/delay_calc.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/sample_delay.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/delay_con.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/summ_sa.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/readrf_vals.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/top_bf.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/int_calc.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/log_frac_calc.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/top_logc.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/top/top.v"
 vcom -2008 -explicit  -work COREFIR_PF_LIB "${PROJECT_DIR}/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd"
 vlog "+incdir+${PROJECT_DIR}/stimulus" -sv -work presynth "${PROJECT_DIR}/stimulus/testbench.v"
 
-vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so presynth.tb_envelope
-add wave /tb_envelope/*
+vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB  -t 1ps -pli /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so presynth.tb_top_logc
+add wave /tb_top_logc/*
 run 1000ns
