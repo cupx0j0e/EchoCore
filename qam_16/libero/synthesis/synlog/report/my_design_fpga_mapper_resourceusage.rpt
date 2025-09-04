@@ -1,0 +1,44 @@
+Resource Usage Report for my_design 
+
+Mapping to part: mpfs025tfcvg484-1
+Cell usage:
+CLKINT          1 use
+CFG1           23 uses
+CFG2           64 uses
+CFG3           45 uses
+CFG4           126 uses
+
+Carry cells:
+ARI1            928 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1363 uses
+SLE_INIT       8 uses - used for Seqshift to URAM mapping
+Total SLE          1371 uses
+
+DSP Blocks:   28 of 68 (41%)
+ MACC_PA:         4 MultAdds
+ MACC_PA:         2 Mults
+ MACC_PA_BC_ROM: 22 Mults
+
+I/O ports: 70
+I/O primitives: 70
+INBUF          2 uses
+OUTBUF         68 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    1186
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 24; LUTs = 24;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 216; LUTs = 216;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 792; LUTs = 792;
+
+Total number of SLEs after P&R:  1371 + 24 + 0 + 1008 = 2403;
+Total number of LUTs after P&R:  1186 + 24 + 0 + 1008 = 2218;
+

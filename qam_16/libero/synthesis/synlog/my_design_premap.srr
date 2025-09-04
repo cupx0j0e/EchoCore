@@ -1,0 +1,213 @@
+# Wed Aug 20 14:42:25 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
+
+Reading constraint file: /home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/synthesis.fdc
+@L: /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/my_design_scck.rpt 
+See clock summary report "/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/my_design_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 535MB peak: 536MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 535MB peak: 536MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 537MB peak: 537MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 539MB peak: 539MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_5layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_9layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_6layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_8layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_7layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_10layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":493:2:493:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_undernibble_3_work_corefir_pf_c0_rtl_1layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_0layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_2layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_1layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_3layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_corefir_pf_c0_rtl_4layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":493:2:493:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_undernibble_3_work_corefir_pf_c0_rtl_0layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1(rtl)) because it does not drive other instances.
+NConnInternalConnection caching is on
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":467:2:467:7|User-specified initial value defined for instance CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi is being ignored due to limitations in architecture. 
+@N: FX1171 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v":9:0:9:5|Found instance four_pr_0.q[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":11:4:11:9|User-specified initial value defined for instance upsampler_0.count[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0:4] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_1.delayLine[0:1] is being ignored due to limitations in architecture. 
+@W: FX1183 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value set for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine[3:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.left_nibble_0.valid_pipe_0.delayLine[0:2] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.valid_pipe_0.delayLine[0:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.inter_advanced.end_dly_0.delayLine_1[47:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.inter_advanced.end_dly_0.delayLine_0[47:0] is being ignored due to limitations in architecture. 
+@W: FX1183 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value set for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.non_symm_bus.1.dly_link_22.fabric_shift_reg.fabric_dly_0.delayLine[3:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[0:2] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.shift_reg_1.delayLine[0:6] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 597MB peak: 597MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 597MB peak: 597MB)
+
+@N: MO111 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|Tristate driver valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_1(verilog)) on net valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|Tristate driver valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_0(verilog)) on net valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_0(verilog)) has its enable tied to GND.
+@W: MO129 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":467:2:467:7|Sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":50:6:50:11|Sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.pre_rotat_0.coarse_regs.dly_0.genblk1.delayLine[0] is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 597MB peak: 597MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 597MB peak: 597MB)
+
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":460:59:460:67|Removing instance counter_0 (in view: CORECORDIC_LIB.cordic_init_kickstart(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":653:59:653:72|Removing instance coarse_regs\.preCoarseReg_y (in view: CORECORDIC_LIB.cordic_coarse_pre_rotator_16s_0_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":649:59:649:72|Removing instance coarse_regs\.preCoarseReg_x (in view: CORECORDIC_LIB.cordic_coarse_pre_rotator_16s_0_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":662:42:662:46|Removing instance coarse_regs\.dly_0 (in view: CORECORDIC_LIB.cordic_coarse_pre_rotator_16s_0_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":525:20:525:31|Removing instance sign_ext_x_0 (in view: CORECORDIC_LIB.cordic_dp_bits_trans_16s_18(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":530:20:530:31|Removing instance sign_ext_y_0 (in view: CORECORDIC_LIB.cordic_dp_bits_trans_16s_18(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":535:20:535:31|Removing instance sign_ext_a_0 (in view: CORECORDIC_LIB.cordic_dp_bits_trans_16s_18(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[3\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[15\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[13\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[11\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[1\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[9\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[10\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[8\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[6\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[12\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[4\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[5\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[2\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[14\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[7\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[0\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":89:49:89:53|Removing instance dly_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_16s_18_16s_4_0_3s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":434:42:434:53|Removing instance create_valid_bit\.valid_pipe_0 (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":751:56:751:69|Removing instance coarse_regs\.preCoarseReg_a (in view: CORECORDIC_LIB.cordic_coarse_post_rotator_16_0_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":756:42:756:46|Removing instance coarse_regs\.dly_0 (in view: CORECORDIC_LIB.cordic_coarse_post_rotator_16_0_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":191:55:191:62|Removing instance rounda_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":154:40:154:53|Removing instance trans_inp2dp_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":126:6:126:16|Removing instance kickstart_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":144:4:144:19|Removing instance reload_sel_pad\.symm_data_pipe_0 (in view: COREFIR_PF_LIB.enum_pad_g5_3_2_2_0_0_12_0_4_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":357:2:357:14|Removing instance dvalid_pipe_1 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":455:4:455:12|Removing instance inter_advanced\.end_dly_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":404:2:404:12|Removing instance dly_link_33 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":421:4:421:14|Removing instance symm_bus\.1\.dly_link_44 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":144:4:144:19|Removing instance reload_sel_pad\.symm_data_pipe_0 (in view: COREFIR_PF_LIB.enum_pad_g5_3_2_2_0_0_12_0_4_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_1layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":357:2:357:14|Removing instance dvalid_pipe_1 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":455:4:455:12|Removing instance inter_advanced\.end_dly_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":404:2:404:12|Removing instance dly_link_33 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":421:4:421:14|Removing instance symm_bus\.1\.dly_link_44 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":426:46:426:57|Removing instance converg_round\.kitRndEven_0 (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":346:58:346:70|Removing instance result_pipe_0 (in view: CORECORDIC_LIB.cordic_kitRndEven_18_16_1_1(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[17:0] (in view: CORECORDIC_LIB.cordic_par_calc_0_18_4_15s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_1layer1_0(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_0layer1_1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_corefir_pf_c0_rtl_1layer1_1(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":91:6:91:11|Removing sequential instance genblk1\.delayLine\[0\][15:0] (in view: CORECORDIC_LIB.cordic_kitDelay_reg_16_1s_0_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":332:40:332:54|Removing instance roundBit_pipe_0 (in view: CORECORDIC_LIB.cordic_kitRndEven_18_16_1_1(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":339:58:339:67|Removing instance inp_pipe_0 (in view: CORECORDIC_LIB.cordic_kitRndEven_18_16_1_1(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":50:6:50:11|Removing sequential instance genblk1\.delayLine\[0\] (in view: CORECORDIC_LIB.cordic_kitDelay_bit_reg_1s_1_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":91:6:91:11|Removing sequential instance genblk1\.delayLine\[0\][15:0] (in view: CORECORDIC_LIB.cordic_kitDelay_reg_16_1s_1_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:2] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_3_1_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:1] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_2_1_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:2] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_3_3_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:2] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_3_5_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:1] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_2_4_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:2] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_3_1_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:1] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_2_1_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:2] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_3_3_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:2] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_3_5_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|Removing sequential instance delayLine[0:1] (in view: COREFIR_PF_LIB.enum_kitDelay_bit_reg_attr_2_4_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84,dsps=68 on top level netlist my_design 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 599MB peak: 599MB)
+
+
+
+Clock Summary
+******************
+
+          Start             Requested     Requested     Clock        Clock               Clock
+Level     Clock             Frequency     Period        Type         Group               Load 
+----------------------------------------------------------------------------------------------
+0 -       System            100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                              
+0 -       my_design|clk     100.0 MHz     10.000        inferred     (multiple)          1607 
+==============================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                  Clock     Source        Clock Pin                                                                                          Non-clock Pin     Non-clock Pin
+Clock             Load      Pin           Seq Example                                                                                        Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System            0         -             -                                                                                                  -                 -            
+                                                                                                                                                                            
+my_design|clk     1607      clk(port)     COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.latency_0.init_rst.C     -                 I_1.A(CLKINT)
+============================================================================================================================================================================
+
+@W: MT530 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":9:4:9:9|Found inferred clock my_design|clk which controls 1607 sequential elements including combiner_0.combined_output[64:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/my_design.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 602MB peak: 602MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 602MB peak: 602MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 602MB peak: 602MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 514MB peak: 602MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 20 14:42:27 2025
+
+###########################################################]

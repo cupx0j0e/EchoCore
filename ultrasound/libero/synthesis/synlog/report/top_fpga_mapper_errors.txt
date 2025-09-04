@@ -1,0 +1,6 @@
+**** Begin Compile Point : CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s ****
+**** End Compile Point : CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s ****
+**** Begin Compile Point : top ****
+**** End Compile Point : top ****
+**** Begin Compile Point : top_bf ****
+**** End Compile Point : top_bf ****

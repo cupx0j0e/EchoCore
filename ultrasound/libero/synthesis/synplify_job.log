@@ -1,0 +1,90 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "01:25:22    05-Sep-2025",
+	"Working Directory" : "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis",
+	"CDPL Log file" : "-",
+	"Install" : "/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "01:24:54",
+   "Runtime" : "28s",
+   "Executable Run Time" : "27s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "01:24:54",
+      "Runtime" : "28s",
+      "Executable Run Time" : "27s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "01:24:54",
+         "Runtime" : "08s",
+         "Executable Run Time" : "07s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "01:24:54",
+            "Runtime" : "05s",
+            "Executable Run Time" : "04s",
+            "compiler" : {
+               "executable" : "bin/c_hdl",
+               "Run Directory" : "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "01:24:54",
+               "Run Time" : "04s",
+               "Exe Run Time" : "03s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin/syn_nfilter",
+               "Run Directory" : "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "01:24:58",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "01:24:59",
+            "Run Time" : "03s",
+            "Exe Run Time" : "03s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "01:25:02",
+         "Runtime" : "20s",
+         "Executable Run Time" : "20s",
+         "fpga_mapper" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "01:25:02",
+            "Run Time" : "20s",
+            "Exe Run Time" : "20s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

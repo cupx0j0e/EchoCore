@@ -1,0 +1,133 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: top
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: top_logc
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: log_frac_calc_48s_16s_17s_0s_1s_2s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: int_calc_Z3_layer0
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: top_bf
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: summ_sa_16s_16s_18s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: sample_delay_16s_256s_8s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: delay_calc
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: sqrt
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: coord_rom_16s_4s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: readrf_vals
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: start_pulse_generator
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: envelope
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: delay_line_signext
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CORECORDIC_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_coarse_post_rotator_48_1_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_kitRoundTop_48_48_0s_0s
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_kitDelay_bit_reg_2s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_kitDelay_reg_48_2s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_signExt_48_48_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_kitRoundTop_48_48_0s_1s
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_15s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_14s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_13s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_12s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_11s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_10s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_9s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_8s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_7s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_6s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_5s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_4s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_3s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_2s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_par_calc_1_48_4_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_kitDelay_bit_reg_16s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_dp_bits_trans_48s_48
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_signExt_48s_48_0s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_kitDelay_reg_2s_18s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_coarse_pre_rotator_48s_1_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_init_kickstart
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: CORECORDIC_LIB, DesignUnit: cordic_countS_4s_15s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

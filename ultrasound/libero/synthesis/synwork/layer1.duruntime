@@ -1,0 +1,113 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_bit_reg_5, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_bit_reg_2, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_reg_18_7, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_reg_4_7, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_pad_g5_3_2_2_0_0_0_18_0_18, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_8layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_7layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_7layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_8layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_6layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_9layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_nibble_work_fir_hilbert_rtl_2layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_row_g5_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: debug_INIT_96, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_5layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_3layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_4layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_4layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_3layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_5layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_6layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_nibble_work_fir_hilbert_rtl_1layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_row_g5_work_fir_hilbert_rtl_1layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: debug_INIT_48, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_2layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_1layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: debug_INIT_16, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_g5_work_fir_hilbert_rtl_2layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_tap_nibble_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_bit_reg_attr_3, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_bit_reg_attr_2, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_reg_48_2, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_row_g5_work_fir_hilbert_rtl_2layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_reg_18_10, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_dly_line_18x192_18_10_1_0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_reg_18_13, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_dly_line_18x192_18_13_1_0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_dly_line_18x192_18_0_0_0, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_bit_reg_3, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitEdge_1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitDelay_bit_reg_7, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_kitCountS_5_14_1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_g5_latency_adv_15_3_3_2_2_2_6, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: fir_hilbert, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: corefir_pf_lib, Entity: MACC_PA_BC_ROM, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

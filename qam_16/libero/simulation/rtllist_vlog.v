@@ -1,0 +1,10 @@
+../../core/CoreAXI4SRAM_SLVIF.v
+../../core/CoreAXI4SRAM_MAINCTRL.v
+../../core/COREAXI4SRAM_LSRAM_top.v
+../../core/COREAXI4SRAM_USRAM_BYTE3_top.v
+../../core/COREAXI4SRAM_USRAM_BYTE2_top.v
+../../core/COREAXI4SRAM_USRAM_BYTE1_top.v
+../../core/COREAXI4SRAM_USRAM_BYTE0_top.v
+../../core/CoreAXI4SRAM.v
+axi_master.v
+testbench.v

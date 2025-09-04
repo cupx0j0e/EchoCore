@@ -1,0 +1,397 @@
+# ERROR: No extended dataflow license exists
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap polarfire /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library CORECORDIC_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap CORECORDIC_LIB CORECORDIC_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREFIR_PF_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap COREFIR_PF_LIB COREFIR_PF_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:45 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/start_pulse_generator.v 
+# -- Compiling module start_pulse_generator
+# 
+# Top level modules:
+# 	start_pulse_generator
+# End time: 17:21:45 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:45 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/coord_rom.v 
+# -- Compiling module coord_rom
+# 
+# Top level modules:
+# 	coord_rom
+# End time: 17:21:45 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:45 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/sqrt.v 
+# -- Compiling module sqrt
+# 
+# Top level modules:
+# 	sqrt
+# End time: 17:21:45 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:45 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/delay_calc.v 
+# -- Compiling module delay_calc
+# 
+# Top level modules:
+# 	delay_calc
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/sample_delay.v 
+# -- Compiling module sample_delay
+# 
+# Top level modules:
+# 	sample_delay
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/delay_con.v 
+# -- Compiling module delay_con
+# 
+# Top level modules:
+# 	delay_con
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/summ_sa.v 
+# -- Compiling module summ_sa
+# 
+# Top level modules:
+# 	summ_sa
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/readrf_vals.v 
+# -- Compiling module readrf_vals
+# 
+# Top level modules:
+# 	readrf_vals
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/top_bf.v 
+# -- Compiling module top_bf
+# 
+# Top level modules:
+# 	top_bf
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/component/work/bf/bf.v 
+# -- Compiling module bf
+# 
+# Top level modules:
+# 	bf
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package corefir_rtl_pack
+# -- Compiling package body corefir_rtl_pack
+# -- Loading package corefir_rtl_pack
+# ** Warning: /home/jessica/Desktop/EchoCore/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd(469): Function 'running_sum_basic' may complete without a RETURN at line 466.
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package enum_rtl_pack
+# -- Compiling package body enum_rtl_pack
+# -- Loading package enum_rtl_pack
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:46 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fir_hilbert_fir_hilbert_0_enumFIR_coefs
+# End time: 17:21:46 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:47 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fir_hilbert_fir_hilbert_0_enum_params
+# End time: 17:21:47 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:47 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd 
+# -- Loading package STANDARD
+# -- Compiling package coreparameters_tgi
+# End time: 17:21:47 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:21:47 on Sep 03,2025
+# vlog -reportprogress 300 "+incdir+/home/jessica/Desktop/EchoCore/envelope_detection/stimulus" -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v 
+# -- Compiling module tb_bf
+# 
+# Top level modules:
+# 	tb_bf
+# End time: 17:21:47 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" presynth.tb_bf 
+# Start time: 17:21:47 on Sep 03,2025
+# //  ModelSim Microsemi Pro 2024.2 May 20 2024 Linux 6.8.0-65-generic
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading presynth.tb_bf
+# Loading presynth.bf
+# Loading presynth.start_pulse_generator
+# Loading presynth.top_bf
+# Loading presynth.readrf_vals
+# Loading presynth.delay_con
+# Loading presynth.coord_rom
+# Loading presynth.summ_sa
+# Loading presynth.delay_calc
+# Loading presynth.sqrt
+# Loading presynth.sample_delay
+# Loading /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+# Time	clk reset beamformed_output
+# 0	0   1    00000
+# 5000	1   1    00000
+# 10000	0   1    00000
+# 15000	1   1    00000
+# 20000	0   0    00000
+# 25000	1   0    00000
+# 30000	0   0    00000
+# 35000	1   0    00000
+# 40000	0   0    00000
+# 45000	1   0    00000
+# 50000	0   0    00000
+# 55000	1   0    00000
+# 60000	0   0    00000
+# 65000	1   0    00000
+# 70000	0   0    00000
+# 75000	1   0    00000
+# 80000	0   0    00000
+# 85000	1   0    00000
+# 90000	0   0    00000
+# 95000	1   0    00000
+# 100000	0   0    00000
+# 105000	1   0    00000
+# 110000	0   0    00000
+# 115000	1   0    00000
+# 120000	0   0    00000
+# 125000	1   0    00000
+# 130000	0   0    00000
+# 135000	1   0    00000
+# 140000	0   0    00000
+# 145000	1   0    00000
+# 150000	0   0    00000
+# 155000	1   0    00000
+# 160000	0   0    00000
+# 165000	1   0    00000
+# 170000	0   0    00000
+# 175000	1   0    00000
+# 180000	0   0    00000
+# 185000	1   0    00000
+# 190000	0   0    00000
+# 195000	1   0    00000
+# 200000	0   0    00000
+# 205000	1   0    00000
+# 210000	0   0    00000
+# 215000	1   0    00000
+# 220000	0   0    00000
+# 225000	1   0    00000
+# 230000	0   0    00000
+# 235000	1   0    00000
+# 240000	0   0    00000
+# 245000	1   0    00000
+# 250000	0   0    00000
+# 255000	1   0    00000
+# 260000	0   0    00000
+# 265000	1   0    00000
+# 270000	0   0    00000
+# 275000	1   0    00000
+# 280000	0   0    00000
+# 285000	1   0    00000
+# 290000	0   0    00000
+# 295000	1   0    00000
+# 300000	0   0    00000
+# 305000	1   0    00000
+# 310000	0   0    00000
+# 315000	1   0    00000
+# 320000	0   0    00000
+# 325000	1   0    00000
+# 330000	0   0    00000
+# 335000	1   0    00000
+# 340000	0   0    00000
+# 345000	1   0    00000
+# 350000	0   0    00000
+# 355000	1   0    00000
+# 360000	0   0    00000
+# 365000	1   0    00000
+# 370000	0   0    00000
+# 375000	1   0    00000
+# 380000	0   0    00000
+# 385000	1   0    00000
+# 390000	0   0    00000
+# 395000	1   0    00000
+# 400000	0   0    00000
+# 405000	1   0    00000
+# 410000	0   0    00000
+# 415000	1   0    00000
+# 420000	0   0    00000
+# 425000	1   0    00000
+# 430000	0   0    00000
+# 435000	1   0    00000
+# 440000	0   0    00000
+# 445000	1   0    00000
+# 450000	0   0    00000
+# 455000	1   0    00000
+# 460000	0   0    00000
+# 465000	1   0    00000
+# 470000	0   0    00000
+# 475000	1   0    00000
+# 480000	0   0    00000
+# 485000	1   0    00000
+# 490000	0   0    00000
+# 495000	1   0    00000
+# 500000	0   0    00000
+# 505000	1   0    00000
+# 510000	0   0    00000
+# 515000	1   0    00000
+# 520000	0   0    00000
+# 525000	1   0    00000
+# 530000	0   0    00000
+# 535000	1   0    00000
+# 540000	0   0    00000
+# 545000	1   0    00000
+# 550000	0   0    00000
+# 555000	1   0    00000
+# 560000	0   0    00000
+# 565000	1   0    00000
+# 570000	0   0    00000
+# 575000	1   0    00000
+# 580000	0   0    00000
+# 585000	1   0    00000
+# 590000	0   0    00000
+# 595000	1   0    00000
+# 600000	0   0    00000
+# 605000	1   0    00000
+# 610000	0   0    00000
+# 615000	1   0    00000
+# 620000	0   0    00000
+# 625000	1   0    00000
+# 630000	0   0    00000
+# 635000	1   0    00000
+# 640000	0   0    00000
+# 645000	1   0    00000
+# 650000	0   0    00000
+# 655000	1   0    00000
+# 660000	0   0    00000
+# 665000	1   0    00000
+# 670000	0   0    00000
+# 675000	1   0    00000
+# 680000	0   0    00000
+# 685000	1   0    00000
+# 690000	0   0    00000
+# 695000	1   0    00000
+# 700000	0   0    00000
+# 705000	1   0    00000
+# 710000	0   0    00000
+# 715000	1   0    00000
+# 720000	0   0    00000
+# 725000	1   0    00000
+# 730000	0   0    00000
+# 735000	1   0    00000
+# 740000	0   0    00000
+# 745000	1   0    00000
+# 750000	0   0    00000
+# 755000	1   0    00000
+# 760000	0   0    00000
+# 765000	1   0    00000
+# 770000	0   0    00000
+# 775000	1   0    00000
+# 780000	0   0    00000
+# 785000	1   0    00000
+# 790000	0   0    00000
+# 795000	1   0    00000
+# 800000	0   0    00000
+# 805000	1   0    00000
+# 810000	0   0    00000
+# 815000	1   0    00000
+# 820000	0   0    00000
+# 825000	1   0    00000
+# 830000	0   0    00000
+# 835000	1   0    00000
+# 840000	0   0    00000
+# 845000	1   0    00000
+# 850000	0   0    00000
+# 855000	1   0    00000
+# 860000	0   0    00000
+# 865000	1   0    00000
+# 870000	0   0    00000
+# 875000	1   0    00000
+# 880000	0   0    00000
+# 885000	1   0    00000
+# 890000	0   0    00000
+# 895000	1   0    00000
+# 900000	0   0    00000
+# 905000	1   0    00000
+# 910000	0   0    00000
+# 915000	1   0    00000
+# 920000	0   0    00000
+# 925000	1   0    00000
+# 930000	0   0    00000
+# 935000	1   0    00000
+# 940000	0   0    00000
+# 945000	1   0    00000
+# 950000	0   0    00000
+# 955000	1   0    00000
+# 960000	0   0    00000
+# 965000	1   0    00000
+# 970000	0   0    00000
+# 975000	1   0    00000
+# 980000	0   0    00000
+# 985000	1   0    00000
+# 990000	0   0    00000
+# 995000	1   0    00000
+# End time: 17:28:09 on Sep 03,2025, Elapsed time: 0:06:22
+# Errors: 0, Warnings: 0

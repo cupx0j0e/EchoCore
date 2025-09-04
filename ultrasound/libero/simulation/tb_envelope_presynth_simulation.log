@@ -1,0 +1,643 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap polarfire /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library CORECORDIC_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap CORECORDIC_LIB CORECORDIC_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREFIR_PF_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap COREFIR_PF_LIB COREFIR_PF_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:14 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v 
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+# 
+# Top level modules:
+# 	CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+# End time: 16:11:14 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:14 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v 
+# -- Compiling module cordic_kitDelay_bit_reg
+# -- Compiling module cordic_kitDelay_reg
+# -- Compiling module cordic_countS
+# -- Compiling module cordicSm
+# -- Compiling module cordic_kitRndUp
+# -- Compiling module cordic_kitRndSymm
+# -- Compiling module cordic_kitRndEven
+# -- Compiling module cordic_kitRoundTop
+# -- Compiling module cordic_init_kickstart
+# -- Compiling module cordic_dp_bits_trans
+# -- Compiling module cordic_coarse_pre_rotator
+# -- Compiling module cordic_coarse_post_rotator
+# -- Compiling module cordic_signExt
+# -- Compiling module cordic_word_calc
+# -- Compiling module cordic_par_calc
+# 
+# Top level modules:
+# 	cordicSm
+# 	cordic_kitRoundTop
+# 	cordic_init_kickstart
+# 	cordic_dp_bits_trans
+# 	cordic_coarse_pre_rotator
+# 	cordic_coarse_post_rotator
+# 	cordic_word_calc
+# 	cordic_par_calc
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v 
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+# 
+# Top level modules:
+# 	CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work CORECORDIC_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v 
+# -- Compiling module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+# 
+# Top level modules:
+# 	CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0.v 
+# -- Compiling module CORECORDIC_C0
+# 
+# Top level modules:
+# 	CORECORDIC_C0
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v 
+# -- Compiling module delay_line_signext
+# 
+# Top level modules:
+# 	delay_line_signext
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package corefir_rtl_pack
+# -- Compiling package body corefir_rtl_pack
+# -- Loading package corefir_rtl_pack
+# ** Warning: /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd(469): Function 'running_sum_basic' may complete without a RETURN at line 466.
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package corefir_rtl_pack
+# -- Compiling entity corefir_kitDelay_bit_reg
+# -- Compiling architecture rtl of corefir_kitDelay_bit_reg
+# -- Compiling entity corefir_kitDelay_reg
+# -- Compiling architecture rtl of corefir_kitDelay_reg
+# -- Compiling entity corefir_kitRndUp
+# -- Compiling architecture rtl of corefir_kitRndUp
+# -- Compiling entity corefir_kitRndEven
+# -- Compiling architecture rtl of corefir_kitRndEven
+# ** Warning: /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd(279): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# -- Compiling entity corefir_kitRoundTop
+# -- Compiling architecture rtl of corefir_kitRoundTop
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package enum_rtl_pack
+# -- Compiling package body enum_rtl_pack
+# -- Loading package enum_rtl_pack
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_kitDelay_bit_reg
+# -- Compiling architecture rtl of enum_kitDelay_bit_reg
+# -- Compiling entity enum_kitDelay_reg
+# -- Compiling architecture rtl of enum_kitDelay_reg
+# -- Compiling entity enum_kitDelay_bit_reg_attr
+# -- Compiling architecture rtl of enum_kitDelay_bit_reg_attr
+# -- Compiling entity enum_kitDelay_reg_attr
+# -- Compiling architecture rtl of enum_kitDelay_reg_attr
+# -- Compiling entity enum_kitDelay_reg_cond
+# -- Compiling architecture rtl of enum_kitDelay_reg_cond
+# -- Compiling entity enum_kitCountS
+# -- Compiling architecture rtl of enum_kitCountS
+# -- Compiling entity enum_signExt
+# -- Compiling architecture rtl of enum_signExt
+# -- Compiling entity enum_kitEdge
+# -- Compiling architecture rtl of enum_kitEdge
+# -- Compiling entity debug_INIT
+# -- Compiling architecture rtl of debug_INIT
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_dly_line_18x192
+# -- Compiling architecture rtl of enum_dly_line_18x192
+# -- Compiling entity enum_uram_shift_reg_18x192
+# -- Compiling architecture rtl of enum_uram_shift_reg_18x192
+# -- Compiling entity uram_wrap
+# -- Compiling architecture rtl of uram_wrap
+# -- Compiling entity infer_dly_line_18x192
+# -- Compiling architecture infer of infer_dly_line_18x192
+# -- Compiling entity g5_uram12x64
+# -- Compiling architecture DEF_ARCH of g5_uram12x64
+# -- Compiling entity g5_uram12x128
+# -- Compiling architecture DEF_ARCH of g5_uram12x128
+# -- Compiling entity g5_uram12x192
+# -- Compiling architecture DEF_ARCH of g5_uram12x192
+# -- Compiling entity g5_uram18x64
+# -- Compiling architecture DEF_ARCH of g5_uram18x64
+# -- Compiling entity g5_uram18x128
+# -- Compiling architecture DEF_ARCH of g5_uram18x128
+# -- Compiling entity g5_uram18x192
+# -- Compiling architecture DEF_ARCH of g5_uram18x192
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fir_hilbert_fir_hilbert_0_enumFIR_coefs
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Loading package fir_hilbert_fir_hilbert_0_enumFIR_coefs
+# -- Compiling entity enum_fir_adv_g5
+# -- Compiling architecture rtl of enum_fir_adv_g5
+# -- Compiling entity enum_g5_latency_adv
+# -- Compiling architecture rtl of enum_g5_latency_adv
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_pad_g5
+# -- Compiling architecture rtl of enum_pad_g5
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity MACC_PA_BC_ROM_wrap
+# -- Compiling architecture rtl of MACC_PA_BC_ROM_wrap
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_tap_g5
+# -- Compiling architecture rtl of enum_tap_g5
+# End time: 16:11:15 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:15 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_tap_undernibble_1
+# -- Compiling architecture rtl of enum_tap_undernibble_1
+# -- Compiling entity enum_tap_undernibble_2
+# -- Compiling architecture rtl of enum_tap_undernibble_2
+# -- Compiling entity enum_tap_undernibble_3
+# -- Compiling architecture rtl of enum_tap_undernibble_3
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_tap_nibble
+# -- Compiling architecture rtl of enum_tap_nibble
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Compiling entity enum_row_g5
+# -- Compiling architecture rtl of enum_row_g5
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fir_hilbert_fir_hilbert_0_enum_params
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package enum_rtl_pack
+# -- Loading package fir_hilbert_fir_hilbert_0_enum_params
+# -- Compiling entity fir_hilbert_fir_hilbert_0_enum_fir_g5
+# -- Compiling architecture rtl of fir_hilbert_fir_hilbert_0_enum_fir_g5
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package corefir_rtl_pack
+# -- Compiling entity fir_hilbert_fir_hilbert_0_COREFIR_PF
+# -- Compiling architecture rtl of fir_hilbert_fir_hilbert_0_COREFIR_PF
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fir_hilbert
+# -- Compiling architecture RTL of fir_hilbert
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v 
+# -- Compiling module envelope
+# 
+# Top level modules:
+# 	envelope
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd 
+# -- Loading package STANDARD
+# -- Compiling package coreparameters_tgi
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 16:11:16 on Aug 13,2025
+# vlog -reportprogress 300 "+incdir+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus" -sv -work presynth /home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus/testbench.v 
+# -- Compiling module tb_envelope
+# 
+# Top level modules:
+# 	tb_envelope
+# End time: 16:11:16 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" presynth.tb_envelope 
+# Start time: 16:11:16 on Aug 13,2025
+# //  ModelSim Microsemi Pro 2024.2 May 20 2024 Linux 6.8.0-65-generic
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading presynth.tb_envelope
+# Loading presynth.envelope
+# Loading presynth.CORECORDIC_C0
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC
+# Loading CORECORDIC_LIB.cordic_init_kickstart
+# Loading CORECORDIC_LIB.cordic_countS
+# Loading presynth.delay_line_signext
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par
+# Loading CORECORDIC_LIB.cordic_coarse_pre_rotator
+# Loading CORECORDIC_LIB.cordic_kitDelay_reg
+# Loading CORECORDIC_LIB.cordic_dp_bits_trans
+# Loading CORECORDIC_LIB.cordic_signExt
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator
+# Loading CORECORDIC_LIB.cordic_kitDelay_bit_reg
+# Loading CORECORDIC_LIB.cordic_kitRoundTop
+# Loading CORECORDIC_LIB.cordic_coarse_post_rotator
+# Loading CORECORDIC_LIB.cordic_par_calc
+# Loading CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cROM_par
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.fir_hilbert(rtl)
+# Loading ieee.numeric_std(body)
+# Loading COREFIR_PF_LIB.corefir_rtl_pack(body)
+# Loading COREFIR_PF_LIB.fir_hilbert_fir_hilbert_0_corefir_pf(rtl)
+# Loading COREFIR_PF_LIB.enum_rtl_pack(body)
+# Loading COREFIR_PF_LIB.fir_hilbert_fir_hilbert_0_enum_params
+# Loading COREFIR_PF_LIB.fir_hilbert_fir_hilbert_0_enum_fir_g5(rtl)
+# Loading COREFIR_PF_LIB.fir_hilbert_fir_hilbert_0_enumfir_coefs
+# Loading COREFIR_PF_LIB.enum_fir_adv_g5(rtl)
+# Loading COREFIR_PF_LIB.enum_kitdelay_bit_reg(rtl)
+# Loading COREFIR_PF_LIB.enum_pad_g5(rtl)
+# Loading COREFIR_PF_LIB.enum_kitdelay_reg(rtl)
+# Loading COREFIR_PF_LIB.enum_row_g5(rtl)
+# Loading COREFIR_PF_LIB.enum_tap_nibble(rtl)
+# Loading COREFIR_PF_LIB.debug_init(rtl)
+# Loading COREFIR_PF_LIB.enum_tap_undernibble_3(rtl)
+# Loading COREFIR_PF_LIB.enum_tap_g5(rtl)
+# Loading COREFIR_PF_LIB.macc_pa_bc_rom_wrap(rtl)
+# Loading polarfire.MACC_PA_BC_ROM
+# Loading polarfire.ROM16x18
+# Loading polarfire.PIPE_REG_BYPASS
+# Loading polarfire.MACC_IP
+# Loading polarfire.OUTPUT_PMOS
+# Loading polarfire.MACC_PA_COMB
+# Loading polarfire.CFG4
+# Loading polarfire.SLE_Prim
+# Loading COREFIR_PF_LIB.enum_kitdelay_bit_reg_attr(rtl)
+# Loading COREFIR_PF_LIB.enum_dly_line_18x192(rtl)
+# Loading COREFIR_PF_LIB.enum_g5_latency_adv(rtl)
+# Loading COREFIR_PF_LIB.enum_kitedge(rtl)
+# Loading COREFIR_PF_LIB.enum_kitcounts(rtl)
+# Loading polarfire.UDP_MUX2
+# Loading polarfire.UDP_DFF
+# Loading polarfire.UDP_DL
+# Loading /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+# ** Warning: (vsim-8683) Uninitialized out port /tb_envelope/uut/fir_hilbert_0/fir_hilbert_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/enum_pad_g5_0/coefi_dly(17 downto 0) has no driver.
+# This port will contribute value (XXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_envelope/uut/fir_hilbert_0/fir_hilbert_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/enum_pad_g5_0/coefi_valid_minus_row has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_envelope/uut/fir_hilbert_0/fir_hilbert_0/enum_g5/enum_fir_g5/adv_enum/adv_enum_0/latency_0/syst_counter_0
+# Time=0 | CLK=0 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=5000 | CLK=1 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=10000 | CLK=0 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=15000 | CLK=1 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=20000 | CLK=0 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=25000 | CLK=1 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=30000 | CLK=0 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=35000 | CLK=1 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=40000 | CLK=0 | reset=1 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=45000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=50000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=55000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=60000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=65000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=70000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=75000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=80000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=85000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=90000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=95000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=100000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=105000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=110000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=115000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=120000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=125000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=130000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=135000 | CLK=1 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=140000 | CLK=0 | reset=0 | DATAI=0 | DOUT_X=0 | DOUT_VALID=0
+# Time=145000 | CLK=1 | reset=0 | DATAI=-131072 | DOUT_X=0 | DOUT_VALID=0
+# Time=150000 | CLK=0 | reset=0 | DATAI=-131072 | DOUT_X=0 | DOUT_VALID=0
+# Time=155000 | CLK=1 | reset=0 | DATAI=-130048 | DOUT_X=0 | DOUT_VALID=0
+# Time=160000 | CLK=0 | reset=0 | DATAI=-130048 | DOUT_X=0 | DOUT_VALID=0
+# Time=165000 | CLK=1 | reset=0 | DATAI=-129024 | DOUT_X=0 | DOUT_VALID=0
+# Time=170000 | CLK=0 | reset=0 | DATAI=-129024 | DOUT_X=0 | DOUT_VALID=0
+# Time=175000 | CLK=1 | reset=0 | DATAI=-128000 | DOUT_X=0 | DOUT_VALID=0
+# Time=180000 | CLK=0 | reset=0 | DATAI=-128000 | DOUT_X=0 | DOUT_VALID=0
+# Time=185000 | CLK=1 | reset=0 | DATAI=-126976 | DOUT_X=0 | DOUT_VALID=0
+# Time=190000 | CLK=0 | reset=0 | DATAI=-126976 | DOUT_X=0 | DOUT_VALID=0
+# Time=195000 | CLK=1 | reset=0 | DATAI=-125952 | DOUT_X=0 | DOUT_VALID=0
+# Time=200000 | CLK=0 | reset=0 | DATAI=-125952 | DOUT_X=0 | DOUT_VALID=0
+# Time=205000 | CLK=1 | reset=0 | DATAI=-124928 | DOUT_X=0 | DOUT_VALID=0
+# Time=210000 | CLK=0 | reset=0 | DATAI=-124928 | DOUT_X=0 | DOUT_VALID=0
+# Time=215000 | CLK=1 | reset=0 | DATAI=-123904 | DOUT_X=0 | DOUT_VALID=0
+# Time=220000 | CLK=0 | reset=0 | DATAI=-123904 | DOUT_X=0 | DOUT_VALID=0
+# Time=225000 | CLK=1 | reset=0 | DATAI=-122880 | DOUT_X=0 | DOUT_VALID=0
+# Time=230000 | CLK=0 | reset=0 | DATAI=-122880 | DOUT_X=0 | DOUT_VALID=0
+# Time=235000 | CLK=1 | reset=0 | DATAI=-121856 | DOUT_X=0 | DOUT_VALID=0
+# Time=240000 | CLK=0 | reset=0 | DATAI=-121856 | DOUT_X=0 | DOUT_VALID=0
+# Time=245000 | CLK=1 | reset=0 | DATAI=-120832 | DOUT_X=0 | DOUT_VALID=0
+# Time=250000 | CLK=0 | reset=0 | DATAI=-120832 | DOUT_X=0 | DOUT_VALID=0
+# Time=255000 | CLK=1 | reset=0 | DATAI=-119808 | DOUT_X=0 | DOUT_VALID=0
+# Time=260000 | CLK=0 | reset=0 | DATAI=-119808 | DOUT_X=0 | DOUT_VALID=0
+# Time=265000 | CLK=1 | reset=0 | DATAI=-118784 | DOUT_X=0 | DOUT_VALID=0
+# Time=270000 | CLK=0 | reset=0 | DATAI=-118784 | DOUT_X=0 | DOUT_VALID=0
+# Time=275000 | CLK=1 | reset=0 | DATAI=-117760 | DOUT_X=0 | DOUT_VALID=0
+# Time=280000 | CLK=0 | reset=0 | DATAI=-117760 | DOUT_X=0 | DOUT_VALID=0
+# Time=285000 | CLK=1 | reset=0 | DATAI=-116736 | DOUT_X=0 | DOUT_VALID=0
+# Time=290000 | CLK=0 | reset=0 | DATAI=-116736 | DOUT_X=0 | DOUT_VALID=0
+# Time=295000 | CLK=1 | reset=0 | DATAI=-115712 | DOUT_X=0 | DOUT_VALID=0
+# Time=300000 | CLK=0 | reset=0 | DATAI=-115712 | DOUT_X=0 | DOUT_VALID=0
+# Time=305000 | CLK=1 | reset=0 | DATAI=-114688 | DOUT_X=0 | DOUT_VALID=0
+# Time=310000 | CLK=0 | reset=0 | DATAI=-114688 | DOUT_X=0 | DOUT_VALID=0
+# Time=315000 | CLK=1 | reset=0 | DATAI=-113664 | DOUT_X=0 | DOUT_VALID=0
+# Time=320000 | CLK=0 | reset=0 | DATAI=-113664 | DOUT_X=0 | DOUT_VALID=0
+# Time=325000 | CLK=1 | reset=0 | DATAI=-112640 | DOUT_X=0 | DOUT_VALID=0
+# Time=330000 | CLK=0 | reset=0 | DATAI=-112640 | DOUT_X=0 | DOUT_VALID=0
+# Time=335000 | CLK=1 | reset=0 | DATAI=-111616 | DOUT_X=0 | DOUT_VALID=0
+# Time=340000 | CLK=0 | reset=0 | DATAI=-111616 | DOUT_X=0 | DOUT_VALID=0
+# Time=345000 | CLK=1 | reset=0 | DATAI=-110592 | DOUT_X=0 | DOUT_VALID=0
+# Time=350000 | CLK=0 | reset=0 | DATAI=-110592 | DOUT_X=0 | DOUT_VALID=0
+# Time=355000 | CLK=1 | reset=0 | DATAI=-109568 | DOUT_X=0 | DOUT_VALID=0
+# Time=360000 | CLK=0 | reset=0 | DATAI=-109568 | DOUT_X=0 | DOUT_VALID=0
+# Time=365000 | CLK=1 | reset=0 | DATAI=-108544 | DOUT_X=0 | DOUT_VALID=0
+# Time=370000 | CLK=0 | reset=0 | DATAI=-108544 | DOUT_X=0 | DOUT_VALID=0
+# Time=375000 | CLK=1 | reset=0 | DATAI=-107520 | DOUT_X=0 | DOUT_VALID=0
+# Time=380000 | CLK=0 | reset=0 | DATAI=-107520 | DOUT_X=0 | DOUT_VALID=0
+# Time=385000 | CLK=1 | reset=0 | DATAI=-106496 | DOUT_X=0 | DOUT_VALID=0
+# Time=390000 | CLK=0 | reset=0 | DATAI=-106496 | DOUT_X=0 | DOUT_VALID=0
+# Time=395000 | CLK=1 | reset=0 | DATAI=-105472 | DOUT_X=0 | DOUT_VALID=0
+# Time=400000 | CLK=0 | reset=0 | DATAI=-105472 | DOUT_X=0 | DOUT_VALID=0
+# Time=405000 | CLK=1 | reset=0 | DATAI=-104448 | DOUT_X=0 | DOUT_VALID=0
+# Time=410000 | CLK=0 | reset=0 | DATAI=-104448 | DOUT_X=0 | DOUT_VALID=0
+# Time=415000 | CLK=1 | reset=0 | DATAI=-103424 | DOUT_X=18513 | DOUT_VALID=0
+# Time=420000 | CLK=0 | reset=0 | DATAI=-103424 | DOUT_X=18513 | DOUT_VALID=0
+# Time=425000 | CLK=1 | reset=0 | DATAI=-102400 | DOUT_X=18370 | DOUT_VALID=0
+# Time=430000 | CLK=0 | reset=0 | DATAI=-102400 | DOUT_X=18370 | DOUT_VALID=0
+# Time=435000 | CLK=1 | reset=0 | DATAI=-101376 | DOUT_X=18226 | DOUT_VALID=0
+# Time=440000 | CLK=0 | reset=0 | DATAI=-101376 | DOUT_X=18226 | DOUT_VALID=0
+# Time=445000 | CLK=1 | reset=0 | DATAI=-100352 | DOUT_X=18081 | DOUT_VALID=0
+# Time=450000 | CLK=0 | reset=0 | DATAI=-100352 | DOUT_X=18081 | DOUT_VALID=0
+# Time=455000 | CLK=1 | reset=0 | DATAI=-99328 | DOUT_X=17937 | DOUT_VALID=0
+# Time=460000 | CLK=0 | reset=0 | DATAI=-99328 | DOUT_X=17937 | DOUT_VALID=0
+# Time=465000 | CLK=1 | reset=0 | DATAI=-98304 | DOUT_X=17791 | DOUT_VALID=0
+# Time=470000 | CLK=0 | reset=0 | DATAI=-98304 | DOUT_X=17791 | DOUT_VALID=0
+# Time=475000 | CLK=1 | reset=0 | DATAI=-97280 | DOUT_X=17646 | DOUT_VALID=0
+# Time=480000 | CLK=0 | reset=0 | DATAI=-97280 | DOUT_X=17646 | DOUT_VALID=0
+# Time=485000 | CLK=1 | reset=0 | DATAI=-96256 | DOUT_X=17503 | DOUT_VALID=0
+# Time=490000 | CLK=0 | reset=0 | DATAI=-96256 | DOUT_X=17503 | DOUT_VALID=0
+# Time=495000 | CLK=1 | reset=0 | DATAI=-95232 | DOUT_X=17357 | DOUT_VALID=1
+# Time=500000 | CLK=0 | reset=0 | DATAI=-95232 | DOUT_X=17357 | DOUT_VALID=1
+# Time=505000 | CLK=1 | reset=0 | DATAI=-94208 | DOUT_X=17214 | DOUT_VALID=1
+# Time=510000 | CLK=0 | reset=0 | DATAI=-94208 | DOUT_X=17214 | DOUT_VALID=1
+# Time=515000 | CLK=1 | reset=0 | DATAI=-93184 | DOUT_X=17065 | DOUT_VALID=1
+# Time=520000 | CLK=0 | reset=0 | DATAI=-93184 | DOUT_X=17065 | DOUT_VALID=1
+# Time=525000 | CLK=1 | reset=0 | DATAI=-92160 | DOUT_X=16921 | DOUT_VALID=1
+# Time=530000 | CLK=0 | reset=0 | DATAI=-92160 | DOUT_X=16921 | DOUT_VALID=1
+# Time=535000 | CLK=1 | reset=0 | DATAI=-91136 | DOUT_X=16777 | DOUT_VALID=1
+# Time=540000 | CLK=0 | reset=0 | DATAI=-91136 | DOUT_X=16777 | DOUT_VALID=1
+# Time=545000 | CLK=1 | reset=0 | DATAI=-90112 | DOUT_X=25685639 | DOUT_VALID=1
+# Time=550000 | CLK=0 | reset=0 | DATAI=-90112 | DOUT_X=25685639 | DOUT_VALID=1
+# Time=555000 | CLK=1 | reset=0 | DATAI=-89088 | DOUT_X=25484969 | DOUT_VALID=1
+# Time=560000 | CLK=0 | reset=0 | DATAI=-89088 | DOUT_X=25484969 | DOUT_VALID=1
+# Time=565000 | CLK=1 | reset=0 | DATAI=-88064 | DOUT_X=139249869 | DOUT_VALID=1
+# Time=570000 | CLK=0 | reset=0 | DATAI=-88064 | DOUT_X=139249869 | DOUT_VALID=1
+# Time=575000 | CLK=1 | reset=0 | DATAI=-87040 | DOUT_X=138158842 | DOUT_VALID=1
+# Time=580000 | CLK=0 | reset=0 | DATAI=-87040 | DOUT_X=138158842 | DOUT_VALID=1
+# Time=585000 | CLK=1 | reset=0 | DATAI=-86016 | DOUT_X=619155724 | DOUT_VALID=1
+# Time=590000 | CLK=0 | reset=0 | DATAI=-86016 | DOUT_X=619155724 | DOUT_VALID=1
+# Time=595000 | CLK=1 | reset=0 | DATAI=-84992 | DOUT_X=614298389 | DOUT_VALID=1
+# Time=600000 | CLK=0 | reset=0 | DATAI=-84992 | DOUT_X=614298389 | DOUT_VALID=1
+# Time=605000 | CLK=1 | reset=0 | DATAI=-83968 | DOUT_X=2758169664 | DOUT_VALID=1
+# Time=610000 | CLK=0 | reset=0 | DATAI=-83968 | DOUT_X=2758169664 | DOUT_VALID=1
+# Time=615000 | CLK=1 | reset=0 | DATAI=-82944 | DOUT_X=2736525386 | DOUT_VALID=1
+# Time=620000 | CLK=0 | reset=0 | DATAI=-82944 | DOUT_X=2736525386 | DOUT_VALID=1
+# Time=625000 | CLK=1 | reset=0 | DATAI=-81920 | DOUT_X=566152493 | DOUT_VALID=1
+# Time=630000 | CLK=0 | reset=0 | DATAI=-81920 | DOUT_X=566152493 | DOUT_VALID=1
+# Time=635000 | CLK=1 | reset=0 | DATAI=-80896 | DOUT_X=561295158 | DOUT_VALID=1
+# Time=640000 | CLK=0 | reset=0 | DATAI=-80896 | DOUT_X=561295158 | DOUT_VALID=1
+# Time=645000 | CLK=1 | reset=0 | DATAI=-79872 | DOUT_X=74349938 | DOUT_VALID=1
+# Time=650000 | CLK=0 | reset=0 | DATAI=-79872 | DOUT_X=74349938 | DOUT_VALID=1
+# Time=655000 | CLK=1 | reset=0 | DATAI=-78848 | DOUT_X=73258912 | DOUT_VALID=1
+# Time=660000 | CLK=0 | reset=0 | DATAI=-78848 | DOUT_X=73258912 | DOUT_VALID=1
+# Time=665000 | CLK=1 | reset=0 | DATAI=-77824 | DOUT_X=41797973 | DOUT_VALID=1
+# Time=670000 | CLK=0 | reset=0 | DATAI=-77824 | DOUT_X=41797973 | DOUT_VALID=1
+# Time=675000 | CLK=1 | reset=0 | DATAI=-76800 | DOUT_X=41998640 | DOUT_VALID=1
+# Time=680000 | CLK=0 | reset=0 | DATAI=-76800 | DOUT_X=41998640 | DOUT_VALID=1
+# Time=685000 | CLK=1 | reset=0 | DATAI=-75776 | DOUT_X=67884728 | DOUT_VALID=1
+# Time=690000 | CLK=0 | reset=0 | DATAI=-75776 | DOUT_X=67884728 | DOUT_VALID=1
+# Time=695000 | CLK=1 | reset=0 | DATAI=-74752 | DOUT_X=67884727 | DOUT_VALID=1
+# Time=700000 | CLK=0 | reset=0 | DATAI=-74752 | DOUT_X=67884727 | DOUT_VALID=1
+# Time=705000 | CLK=1 | reset=0 | DATAI=-73728 | DOUT_X=67884726 | DOUT_VALID=1
+# Time=710000 | CLK=0 | reset=0 | DATAI=-73728 | DOUT_X=67884726 | DOUT_VALID=1
+# Time=715000 | CLK=1 | reset=0 | DATAI=-72704 | DOUT_X=67884723 | DOUT_VALID=1
+# Time=720000 | CLK=0 | reset=0 | DATAI=-72704 | DOUT_X=67884723 | DOUT_VALID=1
+# Time=725000 | CLK=1 | reset=0 | DATAI=-71680 | DOUT_X=67884724 | DOUT_VALID=1
+# Time=730000 | CLK=0 | reset=0 | DATAI=-71680 | DOUT_X=67884724 | DOUT_VALID=1
+# Time=735000 | CLK=1 | reset=0 | DATAI=-70656 | DOUT_X=67884723 | DOUT_VALID=1
+# Time=740000 | CLK=0 | reset=0 | DATAI=-70656 | DOUT_X=67884723 | DOUT_VALID=1
+# Time=745000 | CLK=1 | reset=0 | DATAI=-69632 | DOUT_X=67884720 | DOUT_VALID=1
+# Time=750000 | CLK=0 | reset=0 | DATAI=-69632 | DOUT_X=67884720 | DOUT_VALID=1
+# Time=755000 | CLK=1 | reset=0 | DATAI=-68608 | DOUT_X=67884720 | DOUT_VALID=1
+# Time=760000 | CLK=0 | reset=0 | DATAI=-68608 | DOUT_X=67884720 | DOUT_VALID=1
+# Time=765000 | CLK=1 | reset=0 | DATAI=-67584 | DOUT_X=67884719 | DOUT_VALID=1
+# Time=770000 | CLK=0 | reset=0 | DATAI=-67584 | DOUT_X=67884719 | DOUT_VALID=1
+# Time=775000 | CLK=1 | reset=0 | DATAI=-66560 | DOUT_X=67884718 | DOUT_VALID=1
+# Time=780000 | CLK=0 | reset=0 | DATAI=-66560 | DOUT_X=67884718 | DOUT_VALID=1
+# Time=785000 | CLK=1 | reset=0 | DATAI=-65536 | DOUT_X=67884716 | DOUT_VALID=1
+# Time=790000 | CLK=0 | reset=0 | DATAI=-65536 | DOUT_X=67884716 | DOUT_VALID=1
+# Time=795000 | CLK=1 | reset=0 | DATAI=-64512 | DOUT_X=67884717 | DOUT_VALID=1
+# Time=800000 | CLK=0 | reset=0 | DATAI=-64512 | DOUT_X=67884717 | DOUT_VALID=1
+# Time=805000 | CLK=1 | reset=0 | DATAI=-63488 | DOUT_X=67884714 | DOUT_VALID=1
+# Time=810000 | CLK=0 | reset=0 | DATAI=-63488 | DOUT_X=67884714 | DOUT_VALID=1
+# Time=815000 | CLK=1 | reset=0 | DATAI=-62464 | DOUT_X=67884714 | DOUT_VALID=1
+# Time=820000 | CLK=0 | reset=0 | DATAI=-62464 | DOUT_X=67884714 | DOUT_VALID=1
+# Time=825000 | CLK=1 | reset=0 | DATAI=-61440 | DOUT_X=67884714 | DOUT_VALID=1
+# Time=830000 | CLK=0 | reset=0 | DATAI=-61440 | DOUT_X=67884714 | DOUT_VALID=1
+# Time=835000 | CLK=1 | reset=0 | DATAI=-60416 | DOUT_X=67884711 | DOUT_VALID=1
+# Time=840000 | CLK=0 | reset=0 | DATAI=-60416 | DOUT_X=67884711 | DOUT_VALID=1
+# Time=845000 | CLK=1 | reset=0 | DATAI=-59392 | DOUT_X=67884711 | DOUT_VALID=1
+# Time=850000 | CLK=0 | reset=0 | DATAI=-59392 | DOUT_X=67884711 | DOUT_VALID=1
+# Time=855000 | CLK=1 | reset=0 | DATAI=-58368 | DOUT_X=67884710 | DOUT_VALID=1
+# Time=860000 | CLK=0 | reset=0 | DATAI=-58368 | DOUT_X=67884710 | DOUT_VALID=1
+# Time=865000 | CLK=1 | reset=0 | DATAI=-57344 | DOUT_X=67884708 | DOUT_VALID=1
+# Time=870000 | CLK=0 | reset=0 | DATAI=-57344 | DOUT_X=67884708 | DOUT_VALID=1
+# Time=875000 | CLK=1 | reset=0 | DATAI=-56320 | DOUT_X=67884710 | DOUT_VALID=1
+# Time=880000 | CLK=0 | reset=0 | DATAI=-56320 | DOUT_X=67884710 | DOUT_VALID=1
+# Time=885000 | CLK=1 | reset=0 | DATAI=-55296 | DOUT_X=67884707 | DOUT_VALID=1
+# Time=890000 | CLK=0 | reset=0 | DATAI=-55296 | DOUT_X=67884707 | DOUT_VALID=1
+# Time=895000 | CLK=1 | reset=0 | DATAI=-54272 | DOUT_X=67884709 | DOUT_VALID=1
+# Time=900000 | CLK=0 | reset=0 | DATAI=-54272 | DOUT_X=67884709 | DOUT_VALID=1
+# Time=905000 | CLK=1 | reset=0 | DATAI=-53248 | DOUT_X=67884706 | DOUT_VALID=1
+# Time=910000 | CLK=0 | reset=0 | DATAI=-53248 | DOUT_X=67884706 | DOUT_VALID=1
+# Time=915000 | CLK=1 | reset=0 | DATAI=-52224 | DOUT_X=67884704 | DOUT_VALID=1
+# Time=920000 | CLK=0 | reset=0 | DATAI=-52224 | DOUT_X=67884704 | DOUT_VALID=1
+# Time=925000 | CLK=1 | reset=0 | DATAI=-51200 | DOUT_X=67884704 | DOUT_VALID=1
+# Time=930000 | CLK=0 | reset=0 | DATAI=-51200 | DOUT_X=67884704 | DOUT_VALID=1
+# Time=935000 | CLK=1 | reset=0 | DATAI=-50176 | DOUT_X=67884703 | DOUT_VALID=1
+# Time=940000 | CLK=0 | reset=0 | DATAI=-50176 | DOUT_X=67884703 | DOUT_VALID=1
+# Time=945000 | CLK=1 | reset=0 | DATAI=-49152 | DOUT_X=67884702 | DOUT_VALID=1
+# Time=950000 | CLK=0 | reset=0 | DATAI=-49152 | DOUT_X=67884702 | DOUT_VALID=1
+# Time=955000 | CLK=1 | reset=0 | DATAI=-48128 | DOUT_X=67884701 | DOUT_VALID=1
+# Time=960000 | CLK=0 | reset=0 | DATAI=-48128 | DOUT_X=67884701 | DOUT_VALID=1
+# Time=965000 | CLK=1 | reset=0 | DATAI=-47104 | DOUT_X=67884700 | DOUT_VALID=1
+# Time=970000 | CLK=0 | reset=0 | DATAI=-47104 | DOUT_X=67884700 | DOUT_VALID=1
+# Time=975000 | CLK=1 | reset=0 | DATAI=-46080 | DOUT_X=67884700 | DOUT_VALID=1
+# Time=980000 | CLK=0 | reset=0 | DATAI=-46080 | DOUT_X=67884700 | DOUT_VALID=1
+# Time=985000 | CLK=1 | reset=0 | DATAI=-45056 | DOUT_X=67884700 | DOUT_VALID=1
+# Time=990000 | CLK=0 | reset=0 | DATAI=-45056 | DOUT_X=67884700 | DOUT_VALID=1
+# Time=995000 | CLK=1 | reset=0 | DATAI=-44032 | DOUT_X=67884699 | DOUT_VALID=1

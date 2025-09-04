@@ -1,0 +1,710 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jessica/Desktop/lultrasound_ibero/envelope_detection/simulation
+vbf
+2/home/jessica/Desktop/EchoCore/envelope_detection/component/work/bf/bf.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1756900306
+!i10b 1
+!s100 lJ28Pj:UaQBI9=]VAKBSn1
+IlV9T`n6B32deIOF78h2cl3
+S1
+Z2 d/home/jessica/Desktop/EchoCore/envelope_detection/simulation
+w1756812895
+8/home/jessica/Desktop/EchoCore/envelope_detection/component/work/bf/bf.v
+F/home/jessica/Desktop/EchoCore/envelope_detection/component/work/bf/bf.v
+!i122 126
+L0 9 54
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1756900306.000000
+!s107 /home/jessica/Desktop/EchoCore/envelope_detection/component/work/bf/bf.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/EchoCore/envelope_detection/component/work/bf/bf.v|
+!s101 -O0
+!i113 1
+Z5 o-sv -work presynth -O0
+Z6 tCvgOpt 0
+vcoord_rom
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v
+R1
+Z7 !s110 1757016199
+!i10b 1
+!s100 6HT6Rn>kB@d:B72Az5Z;V0
+IdWBcVa>G=SS5P4Q@WPB:L0
+S1
+Z8 d/home/jessica/GITHUB/EchoCore/ultrasound/libero/simulation
+w1757013274
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v
+!i122 857
+L0 1 55
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1757016198.000000
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vCORECORDIC_C0
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+R1
+Z10 !s110 1757016196
+!i10b 1
+!s100 kQPUDI5ADmUM0Z2B5Acze0
+I_F^ZNZ6a@gh43G6]mSM=U1
+S1
+R8
+Z11 w1756710267
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+!i122 852
+L0 30 94
+R3
+R4
+r1
+!s85 0
+31
+Z12 !s108 1757016196.000000
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@c@o@r@e@c@o@r@d@i@c_@c0
+vdelay_calc
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v
+R1
+R7
+!i10b 1
+!s100 =f6VNYz=>GG2dkN7Z9KDW2
+I<>bn:m<f9zc5L^RNnAW?F1
+S1
+R8
+w1756828235
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v
+!i122 859
+L0 1 115
+R3
+R4
+r1
+!s85 0
+31
+Z13 !s108 1757016199.000000
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vdelay_con
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v
+R1
+R7
+!i10b 1
+!s100 3R34eIJaM:g0>0YFz9iOH1
+I367BPi:6Fz3If:@V]HgZ?1
+S1
+R8
+w1757014195
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v
+!i122 861
+L0 1 122
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vdelay_line_signext
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v
+R1
+R10
+!i10b 1
+!s100 :zQ7^75NnI_@55FX41AcP0
+IVOBW3Jn9[I`@fHX9S5]Ud2
+S1
+R8
+w1757007729
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v
+!i122 853
+L0 1 31
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v|
+!s101 -O0
+!i113 1
+R5
+R6
+venvelope
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v
+R1
+Z14 !s110 1757016198
+!i10b 1
+!s100 =60Q=j=8zDnAi:bYH4iF@0
+IPdU41R7W03VaJe9Le8R^h3
+S1
+R8
+R11
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v
+!i122 855
+L0 9 106
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vfifo
+2/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v
+R1
+!s110 1757011420
+!i10b 1
+!s100 JZK@IG39RkG^Lz^foRb@U0
+IW7WMMSXmACa`DaP`?jM]K3
+S1
+Z15 d/home/jessica/Desktop/Echo/ultrasound/simulation
+w1756993059
+8/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v
+F/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v
+!i122 581
+L0 1 57
+R3
+R4
+r1
+!s85 0
+31
+!s108 1757011420.000000
+!s107 /home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v|
+!s101 -O0
+!i113 1
+R5
+R6
+Efir_hilbert
+Z16 w1756886651
+Z17 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z18 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 854
+R8
+Z19 8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd
+Z20 F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd
+l0
+L92 1
+VZ4THldm[Ah?`BDV]@9S^E2
+!s100 lQSLgS2F_UCCHiV^@VX>43
+Z21 OW;C;2024.2;79
+33
+R14
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd|
+Z23 !s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd|
+!i113 1
+Z24 o-2008 -explicit -work presynth -O0
+R6
+Artl
+R17
+R18
+DEx4 work 11 fir_hilbert 0 22 Z4THldm[Ah?`BDV]@9S^E2
+!i122 854
+l192
+L109 165
+VOe@=QBPMXzF:7D<cP8RNR3
+!s100 eH4>dkWSH1R5fS3V?a2kl0
+R21
+33
+R14
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R24
+R6
+vint_calc
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v
+R1
+R7
+!i10b 1
+!s100 hMV<]@0c=BWicfe>:@f<@0
+ICk>E@cPZQYmd]jiR8ImRd3
+S1
+R8
+w1757014260
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v
+!i122 865
+L0 1 99
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vlog_frac_calc
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v
+R1
+R7
+!i10b 1
+!s100 11o<?=?kfGL`RDGb216<21
+I`_7G`X0OA_6eG8Q`hj@e11
+S1
+R8
+w1757014274
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v
+!i122 866
+Z25 L0 1 112
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vread_val
+2/home/jessica/Desktop/EchoCore/envelope_detection/component/work/read_val/read_val.v
+R1
+!s110 1756900697
+!i10b 1
+!s100 n3j_9JG0gHM<AVTSLG9K51
+ImljoWkTEKLgGMN:3o:QGT3
+S1
+R2
+w1756900597
+8/home/jessica/Desktop/EchoCore/envelope_detection/component/work/read_val/read_val.v
+F/home/jessica/Desktop/EchoCore/envelope_detection/component/work/read_val/read_val.v
+!i122 129
+L0 9 68
+R3
+R4
+r1
+!s85 0
+31
+!s108 1756900697.000000
+!s107 /home/jessica/Desktop/EchoCore/envelope_detection/component/work/read_val/read_val.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/Desktop/EchoCore/envelope_detection/component/work/read_val/read_val.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vread_val_tb
+Z26 2/home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v
+R1
+!s110 1756900698
+!i10b 1
+!s100 491kcgmh[4=?XBi@oD7DR0
+IKmk5N<3kHLZZVVo=2@<gX2
+S1
+R2
+w1756900665
+Z27 8/home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v
+Z28 F/home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v
+!i122 130
+L0 4 80
+R3
+R4
+r1
+!s85 0
+31
+!s108 1756900698.000000
+Z29 !s107 /home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v|
+Z30 !s90 -reportprogress|300|+incdir+/home/jessica/Desktop/EchoCore/envelope_detection/stimulus|-sv|-work|presynth|/home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v|
+!s101 -O0
+!i113 1
+R5
+Z31 !s92 +incdir+/home/jessica/Desktop/EchoCore/envelope_detection/stimulus -sv -work presynth -O0
+R6
+vreadrf_vals
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v
+R1
+R7
+!i10b 1
+!s100 O2B]0GoY@?[b[3YbGCbG=3
+IeZicHczd;abVI>Mmd?cZn0
+S1
+R8
+w1757013605
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v
+!i122 863
+R25
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vsample_delay
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v
+R1
+R7
+!i10b 1
+!s100 :2kF29TA]oXPOdm6e1F<:1
+Iho_b[goMecF2DX9gDKQ1K1
+S1
+R8
+R11
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v
+!i122 860
+L0 1 34
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vsqrt
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v
+R1
+R7
+!i10b 1
+!s100 g[H=3ICcRkVXROG52gHF73
+IQNZ6C0]`MGNCn``@09c9O0
+S1
+R8
+w1757015648
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v
+!i122 858
+L0 1 77
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vstart_pulse_generator
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v
+R1
+R14
+!i10b 1
+!s100 OYm@N<hN`Fem=?BjQbT]j0
+I=_CkdoNoU2YI>>6Ff_h;@1
+S1
+R8
+w1756991531
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v
+!i122 856
+L0 1 9
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vsumm_sa
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v
+R1
+R7
+!i10b 1
+!s100 2D>AdTPif0bff<Y<mI3<n3
+IfOFLKc5MF3ITU5=CLCGgG3
+S1
+R8
+R11
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v
+!i122 862
+L0 1 43
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtb_bf
+R26
+R1
+!s110 1756900307
+!i10b 1
+!s100 ke37f@gVi0<c87cJhb3Gk2
+InB[J8T76Gzcm1g34]MC^Q3
+S1
+R2
+w1756900279
+R27
+R28
+!i122 127
+L0 3 37
+R3
+R4
+r1
+!s85 0
+31
+!s108 1756900307.000000
+R29
+R30
+!s101 -O0
+!i113 1
+R5
+R31
+R6
+vtb_envelope
+2/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus/testbench.v
+R1
+!s110 1755081676
+!i10b 1
+!s100 SUYHYCT[RTD7<?KdC@oUo2
+INM>@a6mH9]hMi@P]DkG7F2
+S1
+R0
+w1755081656
+8/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus/testbench.v
+F/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus/testbench.v
+!i122 94
+L0 3 69
+R3
+R4
+r1
+!s85 0
+31
+!s108 1755081676.000000
+!s107 /home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus|-sv|-work|presynth|/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+/home/jessica/Desktop/lultrasound_ibero/envelope_detection/stimulus -sv -work presynth -O0
+R6
+vtb_top
+Z32 2/home/jessica/Desktop/Echo/ultrasound/stimulus/testbench.v
+R1
+!s110 1757011425
+!i10b 1
+!s100 N6g5Z8L4]aPlUNbTKj7e@3
+I=ZcW1li4kkj93UGk0]Qm_1
+S1
+R15
+w1757011406
+Z33 8/home/jessica/Desktop/Echo/ultrasound/stimulus/testbench.v
+Z34 F/home/jessica/Desktop/Echo/ultrasound/stimulus/testbench.v
+!i122 599
+L0 3 54
+R3
+R4
+r1
+!s85 0
+31
+!s108 1757011425.000000
+Z35 !s107 /home/jessica/Desktop/Echo/ultrasound/stimulus/testbench.v|
+Z36 !s90 -reportprogress|300|+incdir+/home/jessica/Desktop/Echo/ultrasound/stimulus|-sv|-work|presynth|/home/jessica/Desktop/Echo/ultrasound/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R5
+Z37 !s92 +incdir+/home/jessica/Desktop/Echo/ultrasound/stimulus -sv -work presynth -O0
+R6
+vtb_top_logc
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus/testbench.v
+R1
+Z38 !s110 1757016200
+!i10b 1
+!s100 ]?MHdn8[A5ScjC90146Of0
+I]>3XN`oFO=YAn;K_z7;K62
+S1
+R8
+w1757014384
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus/testbench.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus/testbench.v
+!i122 869
+L0 3 48
+R3
+R4
+r1
+!s85 0
+31
+Z39 !s108 1757016200.000000
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+/home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+/home/jessica/GITHUB/EchoCore/ultrasound/libero/stimulus -sv -work presynth -O0
+R6
+vtop
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v
+R1
+R38
+!i10b 1
+!s100 @GPflTeC=fPT3Wd`Yd[gi1
+IYXV[[B^gBRz_SJDNCOTjA3
+S1
+R8
+w1757011605
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v
+!i122 868
+L0 9 93
+R3
+R4
+r1
+!s85 0
+31
+R39
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop_bf
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v
+R1
+R7
+!i10b 1
+!s100 ;XL1]VK2^5_hfB83OGVJn0
+IXG`Ee6Yi8Un:2If<W`FBI1
+S1
+R8
+w1756711963
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v
+!i122 864
+L0 1 121
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop_logc
+2/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v
+R1
+R38
+!i10b 1
+!s100 6KcV:lGADlM`N6eH_Tjb72
+IzVQ`7_b=nlKDfB]mWdD[J2
+S1
+R8
+w1757013688
+8/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v
+F/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v
+!i122 867
+L0 1 66
+R3
+R4
+r1
+!s85 0
+31
+R39
+!s107 /home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop_tb
+R32
+R1
+!s110 1757010627
+!i10b 1
+!s100 O_MFH=noII7TbljNiWj0k3
+IaAZ?1PTn7Kdgo;3d9;TbD2
+S1
+R15
+w1757008023
+R33
+R34
+!i122 561
+L0 3 73
+R3
+R4
+r1
+!s85 0
+31
+!s108 1757010627.000000
+R35
+R36
+!s101 -O0
+!i113 1
+R5
+R37
+R6

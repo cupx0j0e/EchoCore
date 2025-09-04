@@ -1,0 +1,178 @@
+#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/_verilog_hintfile|-top|my_design|-layerid|0|-orig_srs|/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/my_design_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_ver":1721969462
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/_verilog_hintfile":1755681142
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":1721922091
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/umr_capim.v":1721920057
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_objects.v":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1721921486
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/polarfire_syn_comps.v":1755681140
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1754672856
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1754672856
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1754672856
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1754672856
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1754672856
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v":1755633630
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v":1754672585
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v":1754679672
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":1754672585
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/symmap.v":1754672585
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":1754672585
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v":1755680358
+#CUR:"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/MSS_syn_comps.v":1755681140
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/polarfire_syn_comps.v" verilog
+1			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
+2			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
+3			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
+4			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
+5			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
+6			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/combiner.v" verilog
+7			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/four_pr.v" verilog
+8			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v" verilog
+9			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v" verilog
+10			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/symmap.v" verilog
+11			"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v" verilog
+12			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/my_design/my_design.v" verilog
+13			"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2 1
+4 2 3
+5 4
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 6 5 7 8 9 10 11
+13 -1
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 3 4
+3 4
+4 5
+5 12
+6 12
+7 12
+8 12
+9 12
+10 12
+11 12
+12 -1
+13 -1
+#Design Unit to File Association
+module work APBM 0
+module work APBS 0
+module work BANKCTRLM 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRL_HSIO 0
+module work BANKEN 0
+module work CRN_COMMON 0
+module work CRN_INT 0
+module work CRYPTO 0
+module work CRYPTO_SOC 0
+module work DEBUG 0
+module work DLL 0
+module work DRI 0
+module work ENFORCE 0
+module work GLITCHDETECT 0
+module work GPSS_COMMON 0
+module work HS_IO_CLK 0
+module work ICB_BANKCLK 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_CLKDIV 0
+module work ICB_CLKINT 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKSTOP 0
+module work ICB_INT 0
+module work ICB_MUXING 0
+module work ICB_NGMUX 0
+module work INIT 0
+module work IOD 0
+module work LANECTRL 0
+module work LANERST 0
+module work OSC_RC160MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC2MHZ 0
+module work PCIE_COMMON 0
+module work PCIE 0
+module work PF_SPI 0
+module work PLL 0
+module work QUADRST_PCIE 0
+module work QUADRST 0
+module work SCB 0
+module work SYSCTRL_RESET_STATUS 0
+module work SYSRESET 0
+module work SYS_SERVICES 0
+module work TAMPER 0
+module work TVS 0
+module work TX_PLL 0
+module work UPROM 0
+module work USPI 0
+module work VOLTAGEDETECT 0
+module work VREFBANKDYN 0
+module work VREFCTRL 0
+module work XCVR_64B6XB 0
+module work XCVR_8B10B 0
+module work XCVR_APB_LINK 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE 0
+module work XCVR_PMA 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK 0
+module work XCVR_TEST 0
+module work XCVR_VV 0
+module work XCVR 0
+module work CORELNKTMR_V 0
+module work PFSOC_SCSM 0
+module work CLKBUF_DIFF 0
+module work CLKBUF_DIFF_ODT 0
+module work CORECORDIC_C0 5
+module work combiner 6
+module work four_pr 7
+module work modulator 8
+module work phase_counter 9
+module work symmap 10
+module work upsampler 11
+module work my_design 12
+module work MSS 13
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cROM_par 1
+module CORECORDIC_LIB cordic_kitDelay_bit_reg 2
+module CORECORDIC_LIB cordic_kitDelay_reg 2
+module CORECORDIC_LIB cordic_countS 2
+module CORECORDIC_LIB cordicSm 2
+module CORECORDIC_LIB cordic_kitRndUp 2
+module CORECORDIC_LIB cordic_kitRndSymm 2
+module CORECORDIC_LIB cordic_kitRndEven 2
+module CORECORDIC_LIB cordic_kitRoundTop 2
+module CORECORDIC_LIB cordic_signExt 2
+module CORECORDIC_LIB cordic_init_kickstart 2
+module CORECORDIC_LIB cordic_dp_bits_trans 2
+module CORECORDIC_LIB cordic_coarse_pre_rotator 2
+module CORECORDIC_LIB cordic_coarse_post_rotator 2
+module CORECORDIC_LIB cordic_word_calc 2
+module CORECORDIC_LIB cordic_par_calc 2
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator 3
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par 3
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC 4
+#Unbound instances to file Association.
+inst work my_design COREFIR_PF_C0 12
+inst work my_design COREFIR_PF_C0 12
+inst work my_design COREFIR_PF_C0 12
+inst work my_design COREFIR_PF_C0 12
+inst CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_word CORECORDIC_C0_CORECORDIC_C0_0_cordic_word 4
+inst CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_word CORECORDIC_C0_CORECORDIC_C0_0_cordic_word 4
+
+#identified top module
+top_module MSS

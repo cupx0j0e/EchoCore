@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)</text>
+<text>Date: Fri Sep  5 01:28:18 2025
+</text>
+<section>
+<name>Global Nets Information</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> GB Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>I_1/U0</cell>
+ <cell>(720, 0)</cell>
+ <cell>I_1/U0_Y</cell>
+ <cell>5004</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM/U0</cell>
+ <cell>(720, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51/U0</cell>
+ <cell>(721, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1/U0</cell>
+ <cell>(722, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92/U0</cell>
+ <cell>(723, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2/U0</cell>
+ <cell>(724, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73/U0</cell>
+ <cell>(725, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3/U0</cell>
+ <cell>(726, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254/U0</cell>
+ <cell>(727, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1/U0</cell>
+ <cell>(728, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4/U0</cell>
+ <cell>(728, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7/U0</cell>
+ <cell>(729, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25/U0</cell>
+ <cell>(729, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7/U0</cell>
+ <cell>(730, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5/U0</cell>
+ <cell>(730, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28/U0</cell>
+ <cell>(731, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06/U0</cell>
+ <cell>(731, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06/U0_Y</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2/U0</cell>
+ <cell>(721, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2/U0_Y</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566/U0</cell>
+ <cell>(722, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566/U0_Y</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1/U0</cell>
+ <cell>(723, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1/U0_Y</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4/U0</cell>
+ <cell>(724, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4/U0_Y</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825/U0</cell>
+ <cell>(725, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825/U0_Y</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7/U0</cell>
+ <cell>(726, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7/U0_Y</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63/U0</cell>
+ <cell>(727, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63/U0_Y</cell>
+ <cell>2</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>clk</cell>
+ <cell>A5</cell>
+ <cell>GPIO40NB1</cell>
+ <cell>clk_ibuf/U_IOIN:Y</cell>
+ <cell>(108, 4)</cell>
+ <cell>I_1/U0</cell>
+ <cell>clk_ibuf_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(895, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_10</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(780, 33)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_9</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(946, 30)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_3</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(813, 48)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_4</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(764, 57)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_7</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(952, 75)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_14</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(769, 27)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_1</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(831, 27)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_12</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(830, 54)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_5</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(680, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_11</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(948, 42)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_0</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(800, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_13</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(864, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_2</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(832, 45)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_15</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(894, 42)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_8</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/un1_state_16:Y</cell>
+ <cell>(584, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06/U0</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_6</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_14_0_a4:Y</cell>
+ <cell>(776, 18)</cell>
+ <cell>top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_725</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_13_0_a4:Y</cell>
+ <cell>(772, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_726</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_12_0_a4:Y</cell>
+ <cell>(771, 18)</cell>
+ <cell>top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_727</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_15_0_a2:Y</cell>
+ <cell>(776, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_728</cell>
+ <cell>ROUTED</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_10_0_a4:Y</cell>
+ <cell>(769, 21)</cell>
+ <cell>top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_729</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_9_0_a4:Y</cell>
+ <cell>(775, 18)</cell>
+ <cell>top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_730</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_8_0_a4:Y</cell>
+ <cell>(774, 18)</cell>
+ <cell>top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63/U0</cell>
+ <cell>top_bf_0/delay_ctrl/N_731</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>CCC Input Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Local Nets to RGB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+ <cell> RGB Location </cell>
+ <cell> Local Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>reset</cell>
+ <cell>AB19</cell>
+ <cell>HSIO10PB0</cell>
+ <cell>reset_ibuf/U_IOIN:Y</cell>
+ <cell>(1008, 148)</cell>
+ <cell>reset_c</cell>
+ <cell>ROUTED</cell>
+ <cell>2297</cell>
+ <cell>(726, 151)</cell>
+ <cell>246</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell>(727, 42)</cell>
+ <cell>50</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell>(726, 97)</cell>
+ <cell>750</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell>(720, 16)</cell>
+ <cell>114</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell>(726, 124)</cell>
+ <cell>709</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell> </cell>
+ <cell>(726, 70)</cell>
+ <cell>428</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Global Nets to RGB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+ <cell> </cell>
+ <cell> RGB Location </cell>
+ <cell> Local Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>I_1/U0</cell>
+ <cell>(720, 0)</cell>
+ <cell>I_1/U0_Y</cell>
+ <cell>5004</cell>
+ <cell>1</cell>
+ <cell>(720, 15)</cell>
+ <cell>357</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(726, 15)</cell>
+ <cell>610</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(726, 42)</cell>
+ <cell>1191</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(726, 69)</cell>
+ <cell>857</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(726, 96)</cell>
+ <cell>828</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(726, 123)</cell>
+ <cell>745</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(726, 150)</cell>
+ <cell>416</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM/U0</cell>
+ <cell>(720, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(727, 15)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51/U0</cell>
+ <cell>(721, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(730, 42)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1/U0</cell>
+ <cell>(722, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(728, 44)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92/U0</cell>
+ <cell>(723, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(731, 44)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2/U0</cell>
+ <cell>(724, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(727, 70)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73/U0</cell>
+ <cell>(725, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(730, 70)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3/U0</cell>
+ <cell>(726, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(727, 16)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254/U0</cell>
+ <cell>(727, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(731, 17)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1/U0</cell>
+ <cell>(728, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(726, 44)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4/U0</cell>
+ <cell>(728, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(721, 16)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7/U0</cell>
+ <cell>(729, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(729, 44)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25/U0</cell>
+ <cell>(729, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(730, 16)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7/U0</cell>
+ <cell>(730, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(728, 16)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5/U0</cell>
+ <cell>(730, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(730, 43)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28/U0</cell>
+ <cell>(731, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(731, 43)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06/U0</cell>
+ <cell>(731, 1)</cell>
+ <cell>top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06/U0_Y</cell>
+ <cell>3</cell>
+ <cell> </cell>
+ <cell>(724, 16)</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2/U0</cell>
+ <cell>(721, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(729, 42)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566/U0</cell>
+ <cell>(722, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(727, 17)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1/U0</cell>
+ <cell>(723, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(730, 44)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4/U0</cell>
+ <cell>(724, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(726, 43)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825/U0</cell>
+ <cell>(725, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(729, 43)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7/U0</cell>
+ <cell>(726, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(722, 15)</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63/U0</cell>
+ <cell>(727, 0)</cell>
+ <cell>top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63/U0_Y</cell>
+ <cell>2</cell>
+ <cell> </cell>
+ <cell>(731, 42)</cell>
+ <cell>2</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Clock Signals Summary</name>
+<table>
+<header>
+</header>
+<row>
+ <cell>The number of clock signals through  H-Chip Global resources</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell>The number of clock signals through     Row Global resources</cell>
+ <cell>30</cell>
+</row>
+<row>
+ <cell>The number of clock signals through  Sector Global resources</cell>
+ <cell>51</cell>
+</row>
+<row>
+ <cell>The number of clock signals through Cluster Global resources</cell>
+ <cell>572</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Warning: Local Clock Nets</name>
+<text>The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing have less predictable amounts of clock jitter versus the dedicated global resources. Microchip recommends using clock input and clock generation paths that maximize the usage of dedicated global routing resources, as well as promoting these signals below to dedicated global resources. Refer to the PolarFire and PolarFire SoC Clocking Resources User Guide for more information
+</text>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> Driving Net </cell>
+ <cell> To </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_6_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_733</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[6][0]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[6][1]:CLK</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_3_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_740</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[3][0]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[3][1]:CLK</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_2_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_737</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[2][0]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[2][1]:CLK</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_5_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_734</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[5][1]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[5][0]:CLK</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_4_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_735</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[4][0]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[4][1]:CLK</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_1_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_738</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[1][1]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[1][0]:CLK</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_11_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_732</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[11][0]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[11][1]:CLK</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_0_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_739</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[0][1]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[0][0]:CLK</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>top_bf_0/delay_ctrl/coord_inst/un1_channel_idx_7_0_a4:Y</cell>
+ <cell>top_bf_0/delay_ctrl/N_736</cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[7][1]:CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>top_bf_0/delay_ctrl/x_ic[7][0]:CLK</cell>
+</row>
+</table>
+</section>
+</doc>

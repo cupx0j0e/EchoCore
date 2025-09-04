@@ -1,0 +1,369 @@
+#OPTIONS:"|-mixedhdl|-modhint|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/_verilog_hintfile|-top|top|-layerid|0|-orig_srs|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/|-I|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib|-sysv|-devicelib|/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|CORECORDIC_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_ver":1721969462
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/_verilog_hintfile":1757015694
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v":1721922091
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/umr_capim.v":1721920057
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_objects.v":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1721921486
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/polarfire_syn_comps.v":1757015693
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":1757007729
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v":1756991531
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v":1757013274
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v":1757015648
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v":1756828235
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v":1757014195
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v":1756710267
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v":1757013605
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1756711963
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v":1757014260
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":1757014274
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v":1757013688
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v":1757011605
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/MSS_syn_comps.v":1757015693
+#CUR:"readrf_vals_rf_vals_1_23849_initial_block":1757015695
+#CUR:"readrf_vals_rf_vals_2_23849_initial_block":1757015695
+#CUR:"readrf_vals_rf_vals_3_23849_initial_block":1757015695
+#CUR:"readrf_vals_rf_vals_4_23849_initial_block":1757015695
+#CUR:"coord_rom_16s_4s_x_rom_23849_initial_block":1757015695
+#CUR:"coord_rom_16s_4s_z_rom_23849_initial_block":1757015695
+#CUR:"log_frac_calc_48s_16s_17s_0s_1s_2s_log2_constants_23849_initial_block":1757015695
+#CUR:"log_frac_calc_48s_16s_17s_0s_1s_2s_cordic_x_constants_23849_initial_block":1757015695
+#OPTIONS:"|-mixedhdl|-top|work.fir_hilbert|-mpparams|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/_mh_params|-layerid|1|-orig_srs|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_vhdl":1721969498
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/location.map":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std_textio.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/numeric.vhd":1721922073
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/umr_capim.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/arith.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/unsigned.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/hyperents.vhd":1721921486
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":1756886651
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.vhd":1721922091
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd":1756886651
+0			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/polarfire_syn_comps.v" verilog
+1			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" verilog
+2			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" verilog
+3			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" verilog
+4			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" verilog
+5			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v" verilog
+6			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v" verilog
+7			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/envelope/envelope.v" verilog
+8			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/start_pulse_generator.v" verilog
+9			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/coord_rom.v" verilog
+10			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sqrt.v" verilog
+11			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_calc.v" verilog
+12			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/sample_delay.v" verilog
+13			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay_con.v" verilog
+14			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/summ_sa.v" verilog
+15			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/readrf_vals.v" verilog
+16			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v" verilog
+17			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/int_calc.v" verilog
+18			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v" verilog
+19			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_logc.v" verilog
+20			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v" verilog
+21			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/MSS_syn_comps.v" verilog
+22			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd" vhdl
+23			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd" vhdl
+24			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd" vhdl
+25			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd" vhdl
+26			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd" vhdl
+27			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd" vhdl
+28			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd" vhdl
+29			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd" vhdl
+30			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd" vhdl
+31			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd" vhdl
+32			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd" vhdl
+33			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd" vhdl
+34			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd" vhdl
+35			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd" vhdl
+36			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd" vhdl
+37			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd" vhdl
+38			"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 1 2
+4 3 2
+5 4
+6 -1
+7 38 6 5
+8 -1
+9 -1
+10 -1
+11 10
+12 -1
+13 12 11 9
+14 -1
+15 -1
+16 14 13 15
+17 -1
+18 -1
+19 18 17
+20 19 16 8 7
+21 -1
+22 -1
+23 22
+24 -1
+25 24
+26 24 25
+27 -1
+28 24 27 26 34 29 25
+29 24 25
+30 24
+31 24 30 25
+32 24 31 25
+33 24 32 25
+34 24 25 33
+35 -1
+36 35 24 28
+37 22 23 36
+38 37
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 4 3
+3 4
+4 5
+5 7
+6 7
+7 20
+8 20
+9 13
+10 11
+11 13
+12 13
+13 16
+14 16
+15 16
+16 20
+17 19
+18 19
+19 20
+20 -1
+21 -1
+22 23 37
+23 37
+24 25 26 28 29 30 31 32 33 34 36
+25 29 31 32 33 34 26 28
+26 28
+27 28
+28 36
+29 28
+30 31
+31 32
+32 33
+33 34
+34 28
+35 36
+36 37
+37 38
+38 7
+#Design Unit to File Association
+module work fir_hilbert 38
+arch work fir_hilbert rtl 38
+module corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf 37
+arch corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf rtl 37
+module corefir_pf_lib fir_hilbert_fir_hilbert_0_enum_fir_g5 36
+arch corefir_pf_lib fir_hilbert_fir_hilbert_0_enum_fir_g5 rtl 36
+module corefir_pf_lib enum_row_g5 34
+arch corefir_pf_lib enum_row_g5 rtl 34
+module corefir_pf_lib enum_tap_nibble 33
+arch corefir_pf_lib enum_tap_nibble rtl 33
+module corefir_pf_lib enum_tap_undernibble_1 32
+arch corefir_pf_lib enum_tap_undernibble_1 rtl 32
+module corefir_pf_lib enum_tap_undernibble_2 32
+arch corefir_pf_lib enum_tap_undernibble_2 rtl 32
+module corefir_pf_lib enum_tap_undernibble_3 32
+arch corefir_pf_lib enum_tap_undernibble_3 rtl 32
+module corefir_pf_lib enum_tap_g5 31
+arch corefir_pf_lib enum_tap_g5 rtl 31
+module corefir_pf_lib macc_pa_bc_rom_wrap 30
+arch corefir_pf_lib macc_pa_bc_rom_wrap rtl 30
+module corefir_pf_lib enum_pad_g5 29
+arch corefir_pf_lib enum_pad_g5 rtl 29
+module corefir_pf_lib enum_fir_adv_g5 28
+arch corefir_pf_lib enum_fir_adv_g5 rtl 28
+module corefir_pf_lib enum_g5_latency_adv 28
+arch corefir_pf_lib enum_g5_latency_adv rtl 28
+module corefir_pf_lib enum_dly_line_18x192 26
+arch corefir_pf_lib enum_dly_line_18x192 rtl 26
+module corefir_pf_lib enum_uram_shift_reg_18x192 26
+arch corefir_pf_lib enum_uram_shift_reg_18x192 rtl 26
+module corefir_pf_lib uram_wrap 26
+arch corefir_pf_lib uram_wrap rtl 26
+module corefir_pf_lib infer_dly_line_18x192 26
+arch corefir_pf_lib infer_dly_line_18x192 infer 26
+module corefir_pf_lib g5_uram12x64 26
+arch corefir_pf_lib g5_uram12x64 def_arch 26
+module corefir_pf_lib g5_uram12x128 26
+arch corefir_pf_lib g5_uram12x128 def_arch 26
+module corefir_pf_lib g5_uram12x192 26
+arch corefir_pf_lib g5_uram12x192 def_arch 26
+module corefir_pf_lib g5_uram18x64 26
+arch corefir_pf_lib g5_uram18x64 def_arch 26
+module corefir_pf_lib g5_uram18x128 26
+arch corefir_pf_lib g5_uram18x128 def_arch 26
+module corefir_pf_lib g5_uram18x192 26
+arch corefir_pf_lib g5_uram18x192 def_arch 26
+module corefir_pf_lib enum_kitdelay_bit_reg 25
+arch corefir_pf_lib enum_kitdelay_bit_reg rtl 25
+module corefir_pf_lib enum_kitdelay_reg 25
+arch corefir_pf_lib enum_kitdelay_reg rtl 25
+module corefir_pf_lib enum_kitdelay_bit_reg_attr 25
+arch corefir_pf_lib enum_kitdelay_bit_reg_attr rtl 25
+module corefir_pf_lib enum_kitdelay_reg_attr 25
+arch corefir_pf_lib enum_kitdelay_reg_attr rtl 25
+module corefir_pf_lib enum_kitdelay_reg_cond 25
+arch corefir_pf_lib enum_kitdelay_reg_cond rtl 25
+module corefir_pf_lib enum_kitcounts 25
+arch corefir_pf_lib enum_kitcounts rtl 25
+module corefir_pf_lib enum_signext 25
+arch corefir_pf_lib enum_signext rtl 25
+module corefir_pf_lib enum_kitedge 25
+arch corefir_pf_lib enum_kitedge rtl 25
+module corefir_pf_lib debug_init 25
+arch corefir_pf_lib debug_init rtl 25
+module corefir_pf_lib corefir_kitdelay_bit_reg 23
+arch corefir_pf_lib corefir_kitdelay_bit_reg rtl 23
+module corefir_pf_lib corefir_kitdelay_reg 23
+arch corefir_pf_lib corefir_kitdelay_reg rtl 23
+module corefir_pf_lib corefir_kitrndup 23
+arch corefir_pf_lib corefir_kitrndup rtl 23
+module corefir_pf_lib corefir_kitrndeven 23
+arch corefir_pf_lib corefir_kitrndeven rtl 23
+module corefir_pf_lib corefir_kitroundtop 23
+arch corefir_pf_lib corefir_kitroundtop rtl 23
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC 4
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par 3
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator 3
+module CORECORDIC_LIB cordic_par_calc 2
+module CORECORDIC_LIB cordic_word_calc 2
+module CORECORDIC_LIB cordic_coarse_post_rotator 2
+module CORECORDIC_LIB cordic_coarse_pre_rotator 2
+module CORECORDIC_LIB cordic_dp_bits_trans 2
+module CORECORDIC_LIB cordic_init_kickstart 2
+module CORECORDIC_LIB cordic_signExt 2
+module CORECORDIC_LIB cordic_kitRoundTop 2
+module CORECORDIC_LIB cordic_kitRndEven 2
+module CORECORDIC_LIB cordic_kitRndSymm 2
+module CORECORDIC_LIB cordic_kitRndUp 2
+module CORECORDIC_LIB cordicSm 2
+module CORECORDIC_LIB cordic_countS 2
+module CORECORDIC_LIB cordic_kitDelay_reg 2
+module CORECORDIC_LIB cordic_kitDelay_bit_reg 2
+module CORECORDIC_LIB CORECORDIC_C0_CORECORDIC_C0_0_cROM_par 1
+module work MSS 21
+module work top 20
+module work top_logc 19
+module work log_frac_calc 18
+module work int_calc 17
+module work top_bf 16
+module work readrf_vals 15
+module work summ_sa 14
+module work delay_con 13
+module work sample_delay 12
+module work delay_calc 11
+module work sqrt 10
+module work coord_rom 9
+module work start_pulse_generator 8
+module work envelope 7
+module work delay_line_signext 6
+module work CORECORDIC_C0 5
+module work CLKBUF_DIFF_ODT 0
+module work CLKBUF_DIFF 0
+module work PFSOC_SCSM 0
+module work CORELNKTMR_V 0
+module work XCVR 0
+module work XCVR_VV 0
+module work XCVR_TEST 0
+module work XCVR_REF_CLK 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_PMA 0
+module work XCVR_PIPE 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK 0
+module work XCVR_8B10B 0
+module work XCVR_64B6XB 0
+module work VREFCTRL 0
+module work VREFBANKDYN 0
+module work VOLTAGEDETECT 0
+module work USPI 0
+module work UPROM 0
+module work TX_PLL 0
+module work TVS 0
+module work TAMPER 0
+module work SYS_SERVICES 0
+module work SYSRESET 0
+module work SYSCTRL_RESET_STATUS 0
+module work SCB 0
+module work QUADRST 0
+module work QUADRST_PCIE 0
+module work PLL 0
+module work PF_SPI 0
+module work PCIE 0
+module work PCIE_COMMON 0
+module work OSC_RC2MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC160MHZ 0
+module work LANERST 0
+module work LANECTRL 0
+module work IOD 0
+module work INIT 0
+module work ICB_NGMUX 0
+module work ICB_MUXING 0
+module work ICB_INT 0
+module work ICB_CLKSTOP 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKINT 0
+module work ICB_CLKDIV 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_BANKCLK 0
+module work HS_IO_CLK 0
+module work GPSS_COMMON 0
+module work GLITCHDETECT 0
+module work ENFORCE 0
+module work DRI 0
+module work DLL 0
+module work DEBUG 0
+module work CRYPTO_SOC 0
+module work CRYPTO 0
+module work CRN_INT 0
+module work CRN_COMMON 0
+module work BANKEN 0
+module work BANKCTRL_HSIO 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRLM 0
+module work APBS 0
+module work APBM 0

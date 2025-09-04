@@ -1,0 +1,3269 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS025TFCVG484-1 (Microchip)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4703               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top:	4703 (48.88 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2016               100 %                
+ARI1     2558               100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block top:	4574 (47.54 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     31                 100 %                
+====================================================
+Total DSP in the block top:	31 (0.32 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     26                 100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block top:	26 (0.27 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     34                 100 %                
+===================================================
+Total GLOBAL BUFFERS in the block top:	34 (0.35 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       26                 100 %                
+=================================================
+Total IO PADS in the block top:	26 (0.27 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   envelope   ########
+Instance path:   top.envelope                                 
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1952               41.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.envelope:	1952 (20.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      273                13.5 %               
+ARI1     1519               59.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.envelope:	1792 (18.63 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     15                 48.4 %               
+====================================================
+Total DSP in the block top.envelope:	15 (0.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     10                 38.5 %               
+=====================================================
+Total MEMORY ELEMENTS in the block top.envelope:	10 (0.10 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CORECORDIC_C0   ########
+Instance path:   envelope.CORECORDIC_C0                            
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1592               33.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block envelope.CORECORDIC_C0:	1592 (16.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      59                 2.93 %               
+ARI1     1519               59.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block envelope.CORECORDIC_C0:	1578 (16.40 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0   ########
+Instance path:   CORECORDIC_C0.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0                       
+========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1592               33.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0:	1592 (16.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      59                 2.93 %               
+ARI1     1519               59.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0.CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0:	1578 (16.40 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0   ########              
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1587               33.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0:	1587 (16.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      51                 2.53 %               
+ARI1     1519               59.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0:	1570 (16.32 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s   ########              
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s
+=======================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1489               31.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s:	1489 (15.48 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      51                 2.53 %               
+ARI1     1519               59.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s:	1570 (16.32 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_kitDelay_bit_reg_16s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_kitDelay_bit_reg_16s
+================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 0.340 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_kitDelay_bit_reg_16s:	16 (0.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 0.7940 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_kitDelay_bit_reg_16s:	16 (0.17 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_0s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_0s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_0s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_0s:	98 (1.02 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_10s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_10s
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_10s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_10s:	98 (1.02 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_11s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_11s
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_11s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_11s:	98 (1.02 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_12s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_12s
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_12s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_12s:	98 (1.02 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_13s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_13s
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_13s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_13s:	98 (1.02 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_14s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_14s
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      81                 1.72 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_14s:	81 (0.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      33                 1.64 %               
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_14s:	131 (1.36 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_15s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_15s
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      48                 1.02 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_15s:	48 (0.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     49                 1.92 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_15s:	49 (0.51 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_1s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_1s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_1s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_1s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_2s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_2s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_2s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_2s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_3s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_3s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_3s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_3s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_4s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_4s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_4s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_4s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_5s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_5s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_5s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_5s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_6s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_6s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_6s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_6s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_7s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_7s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_7s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_7s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_8s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_8s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_8s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_8s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_par_calc_1_48_4_9s   ########                               
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_9s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_9s:	96 (1.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     98                 3.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s.cordic_par_calc_1_48_4_9s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_kitRoundTop_48_48_0s_1s   ########              
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0.cordic_kitRoundTop_48_48_0s_1s
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 2.08 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0.cordic_kitRoundTop_48_48_0s_1s:	98 (1.02 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_kitDelay_bit_reg_2s   ########
+Instance path:   cordic_kitRoundTop_48_48_0s_1s.cordic_kitDelay_bit_reg_2s      
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cordic_kitRoundTop_48_48_0s_1s.cordic_kitDelay_bit_reg_2s:	2 (0.02 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_kitDelay_reg_48_2s_0   ########
+Instance path:   cordic_kitRoundTop_48_48_0s_1s.cordic_kitDelay_reg_48_2s_0      
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cordic_kitRoundTop_48_48_0s_1s.cordic_kitDelay_reg_48_2s_0:	96 (1.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_init_kickstart   ########              
+Instance path:   CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0.cordic_init_kickstart
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      5                  0.1060 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0.cordic_init_kickstart:	5 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0.cordic_init_kickstart:	8 (0.08 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   cordic_countS_4s_15s_1s   ########
+Instance path:   cordic_init_kickstart.cordic_countS_4s_15s_1s               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.08510 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cordic_init_kickstart.cordic_countS_4s_15s_1s:	4 (0.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.2480 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block cordic_init_kickstart.cordic_countS_4s_15s_1s:	5 (0.05 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_line_signext   ########
+Instance path:   envelope.delay_line_signext                            
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      58                 1.23 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block envelope.delay_line_signext:	58 (0.60 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      65                 3.22 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block envelope.delay_line_signext:	65 (0.68 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     4                  15.4 %               
+=====================================================
+Total MEMORY ELEMENTS in the block envelope.delay_line_signext:	4 (0.04 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   fir_hilbert   ########
+Instance path:   envelope.fir_hilbert                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      302                6.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block envelope.fir_hilbert:	302 (3.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      149                7.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block envelope.fir_hilbert:	149 (1.55 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     15                 48.4 %               
+====================================================
+Total DSP in the block envelope.fir_hilbert:	15 (0.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  23.1 %               
+=====================================================
+Total MEMORY ELEMENTS in the block envelope.fir_hilbert:	6 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1   ########
+Instance path:   fir_hilbert.fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1                         
+=======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      302                6.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fir_hilbert.fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1:	302 (3.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      149                7.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block fir_hilbert.fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1:	149 (1.55 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     15                 48.4 %               
+====================================================
+Total DSP in the block fir_hilbert.fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1:	15 (0.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  23.1 %               
+=====================================================
+Total MEMORY ELEMENTS in the block fir_hilbert.fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1:	6 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2   ########                             
+Instance path:   fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1.fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2
+=================================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      302                6.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1.fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2:	302 (3.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      149                7.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1.fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2:	149 (1.55 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     15                 48.4 %               
+====================================================
+Total DSP in the block fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1.fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2:	15 (0.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  23.1 %               
+=====================================================
+Total MEMORY ELEMENTS in the block fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1.fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2:	6 (0.06 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1   ########                                          
+Instance path:   fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1
+============================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      302                6.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1:	302 (3.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      149                7.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1:	149 (1.55 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     15                 48.4 %               
+====================================================
+Total DSP in the block fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1:	15 (0.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  23.1 %               
+=====================================================
+Total MEMORY ELEMENTS in the block fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1:	6 (0.06 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_dly_line_18x192_18_10_1_0   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_10_1_0
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 0.4250 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_10_1_0:	20 (0.21 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      52                 2.58 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_10_1_0:	52 (0.54 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  7.69 %               
+=====================================================
+Total MEMORY ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_10_1_0:	2 (0.02 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_reg_18_10   ########
+Instance path:   enum_dly_line_18x192_18_10_1_0.enum_kitDelay_reg_18_10      
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 0.4250 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_dly_line_18x192_18_10_1_0.enum_kitDelay_reg_18_10:	20 (0.21 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      52                 2.58 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_dly_line_18x192_18_10_1_0.enum_kitDelay_reg_18_10:	52 (0.54 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  7.69 %               
+=====================================================
+Total MEMORY ELEMENTS in the block enum_dly_line_18x192_18_10_1_0.enum_kitDelay_reg_18_10:	2 (0.02 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_dly_line_18x192_18_13_1_0   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_13_1_0
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 0.4250 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_13_1_0:	20 (0.21 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      53                 2.63 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_13_1_0:	53 (0.55 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  7.69 %               
+=====================================================
+Total MEMORY ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_dly_line_18x192_18_13_1_0:	2 (0.02 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_reg_18_13   ########
+Instance path:   enum_dly_line_18x192_18_13_1_0.enum_kitDelay_reg_18_13      
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 0.4250 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_dly_line_18x192_18_13_1_0.enum_kitDelay_reg_18_13:	20 (0.21 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      53                 2.63 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_dly_line_18x192_18_13_1_0.enum_kitDelay_reg_18_13:	53 (0.55 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  7.69 %               
+=====================================================
+Total MEMORY ELEMENTS in the block enum_dly_line_18x192_18_13_1_0.enum_kitDelay_reg_18_13:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_g5_latency_adv_15_3_3_2_2_2_6   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_g5_latency_adv_15_3_3_2_2_2_6
+================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      15                 0.3190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_g5_latency_adv_15_3_3_2_2_2_6:	15 (0.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      14                 0.6940 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_g5_latency_adv_15_3_3_2_2_2_6:	14 (0.15 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitCountS_5_14_1   ########
+Instance path:   enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitCountS_5_14_1  
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      5                  0.1060 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitCountS_5_14_1:	5 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      7                  0.3470 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitCountS_5_14_1:	7 (0.07 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_3   ########
+Instance path:   enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitDelay_bit_reg_3  
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.02130 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitDelay_bit_reg_3:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_7   ########
+Instance path:   enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitDelay_bit_reg_7  
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.1490 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_g5_latency_adv_15_3_3_2_2_2_6.enum_kitDelay_bit_reg_7:	7 (0.07 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_5   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_5
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      5                  0.1060 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_5:	5 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_5:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_pad_g5_3_2_2_0_0_0_18_0_18   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_pad_g5_3_2_2_0_0_0_18_0_18
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 0.2980 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_pad_g5_3_2_2_0_0_0_18_0_18:	14 (0.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      26                 1.29 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_pad_g5_3_2_2_0_0_0_18_0_18:	26 (0.27 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  7.69 %               
+=====================================================
+Total MEMORY ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_pad_g5_3_2_2_0_0_0_18_0_18:	2 (0.02 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_2_0   ########
+Instance path:   enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_bit_reg_2_0     
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_bit_reg_2_0:	2 (0.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_bit_reg_2_0:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_2_1   ########
+Instance path:   enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_bit_reg_2_1     
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.02130 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_bit_reg_2_1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_reg_18_7   ########
+Instance path:   enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_reg_18_7     
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      11                 0.2340 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_reg_18_7:	11 (0.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      25                 1.24 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_reg_18_7:	25 (0.26 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  7.69 %               
+=====================================================
+Total MEMORY ELEMENTS in the block enum_pad_g5_3_2_2_0_0_0_18_0_18.enum_kitDelay_reg_18_7:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_row_g5_work_fir_hilbert_rtl_0layer1   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_0layer1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 0.2130 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_0layer1:	10 (0.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_0layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     6                  19.4 %               
+====================================================
+Total DSP in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_0layer1:	6 (0.06 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_2   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_2
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_2:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_2_6   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_2_6
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_2_6:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_nibble_work_fir_hilbert_rtl_2layer1   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_tap_nibble_work_fir_hilbert_rtl_2layer1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  0.1280 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_tap_nibble_work_fir_hilbert_rtl_2layer1:	6 (0.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_tap_nibble_work_fir_hilbert_rtl_2layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     6                  19.4 %               
+====================================================
+Total DSP in the block enum_row_g5_work_fir_hilbert_rtl_0layer1.enum_tap_nibble_work_fir_hilbert_rtl_2layer1:	6 (0.06 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_3
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_3:	3 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_8   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_3_8
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_3_8:	3 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1
+=================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     6                  19.4 %               
+====================================================
+Total DSP in the block enum_tap_nibble_work_fir_hilbert_rtl_2layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1:	6 (0.06 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_1layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_1layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1
+==========================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_1layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_0   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_0
+===============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_0:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_2   ########      
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_0.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_2
+================================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_1layer1_0.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_2:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_1
+===============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_1:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_0   ########      
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_0
+==============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_1layer1_1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_0:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_7layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_7layer1
+=============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_7layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_7layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_8layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_7layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_8layer1
+==========================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_g5_work_fir_hilbert_rtl_7layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_8layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_7layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_8layer1:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_8layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_8layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_8layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_7layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_8layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_7layer1
+==========================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_8layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_7layer1:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_9layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_9layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1.enum_tap_g5_work_fir_hilbert_rtl_9layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_6layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_9layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_6layer1
+==========================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_9layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_6layer1:	1 (0.01 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_row_g5_work_fir_hilbert_rtl_1layer1   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_1layer1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      109                2.32 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_1layer1:	109 (1.13 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_1layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     6                  19.4 %               
+====================================================
+Total DSP in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_1layer1:	6 (0.06 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_2_0   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_2_0
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_2_0:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_2_6_0   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_2_6_0
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_2_6_0:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_8_1   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_3_8_1
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_3_8_1:	3 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_reg_48_2   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_reg_48_2
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_kitDelay_reg_48_2:	96 (1.00 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_nibble_work_fir_hilbert_rtl_1layer1   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_tap_nibble_work_fir_hilbert_rtl_1layer1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  0.1280 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_tap_nibble_work_fir_hilbert_rtl_1layer1:	6 (0.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_tap_nibble_work_fir_hilbert_rtl_1layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     6                  19.4 %               
+====================================================
+Total DSP in the block enum_row_g5_work_fir_hilbert_rtl_1layer1.enum_tap_nibble_work_fir_hilbert_rtl_1layer1:	6 (0.06 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_0   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_3_0
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_3_0:	3 (0.03 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_8_0   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_3_8_0
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_kitDelay_bit_reg_attr_3_8_0:	3 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1
+=================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     6                  19.4 %               
+====================================================
+Total DSP in the block enum_tap_nibble_work_fir_hilbert_rtl_1layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1:	6 (0.06 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_2   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_2
+===============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_2:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1   ########      
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_2.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1
+==============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_1layer1_2.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_3   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_3
+===============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_3:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_2   ########      
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_3.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_2
+==============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_1layer1_3.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_2:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_3layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_3layer1
+=============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_3layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_3layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_5layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_3layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_5layer1
+==========================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_g5_work_fir_hilbert_rtl_3layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_5layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_3layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_5layer1:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_4layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_4layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_4layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_4layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_4layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_4layer1
+==========================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_4layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_4layer1:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_5layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_5layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_5layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_3layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_5layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_3layer1
+==========================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_5layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_3layer1:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_6layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_6layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1.enum_tap_g5_work_fir_hilbert_rtl_6layer1:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_5   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_6layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_5
+==============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_6layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_5:	1 (0.01 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_row_g5_work_fir_hilbert_rtl_2layer1   ########        
+Instance path:   enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_2layer1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      109                2.32 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_2layer1:	109 (1.13 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_2layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  9.68 %               
+====================================================
+Total DSP in the block enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1.enum_row_g5_work_fir_hilbert_rtl_2layer1:	3 (0.03 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_2_1   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_2_1
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_2_1:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_2_6_1   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_2_6_1
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.04250 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_2_6_1:	2 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_8_3   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_3_8_3
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_bit_reg_attr_3_8_3:	3 (0.03 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_reg_48_2_0   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_reg_48_2_0
+==================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 2.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_kitDelay_reg_48_2_0:	96 (1.00 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_nibble_work_fir_hilbert_rtl_0layer1   ########    
+Instance path:   enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_tap_nibble_work_fir_hilbert_rtl_0layer1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  0.1280 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_tap_nibble_work_fir_hilbert_rtl_0layer1:	6 (0.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_tap_nibble_work_fir_hilbert_rtl_0layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  9.68 %               
+====================================================
+Total DSP in the block enum_row_g5_work_fir_hilbert_rtl_2layer1.enum_tap_nibble_work_fir_hilbert_rtl_0layer1:	3 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_1   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_3_1
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_3_1:	3 (0.03 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_kitDelay_bit_reg_attr_3_8_2   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_3_8_2
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.06380 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_kitDelay_bit_reg_attr_3_8_2:	3 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1   ########        
+Instance path:   enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1
+=================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  9.68 %               
+====================================================
+Total DSP in the block enum_tap_nibble_work_fir_hilbert_rtl_0layer1.enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1:	3 (0.03 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_0layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_0layer1
+=============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_0layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_0layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_2layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_0layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_2layer1
+==========================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.04960 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block enum_tap_g5_work_fir_hilbert_rtl_0layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_2layer1:	1 (0.01 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_0layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_2layer1:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_4   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_4
+===============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_1layer1_4:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_3   ########      
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_1layer1_4.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_3
+==============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_1layer1_4.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_3:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   enum_tap_g5_work_fir_hilbert_rtl_2layer1   ########               
+Instance path:   enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_2layer1
+=============================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1.enum_tap_g5_work_fir_hilbert_rtl_2layer1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_0layer1   ########    
+Instance path:   enum_tap_g5_work_fir_hilbert_rtl_2layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_0layer1
+==========================================================================================================
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block enum_tap_g5_work_fir_hilbert_rtl_2layer1.MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_0layer1:	1 (0.01 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   top_bf   ########
+Instance path:   top.top_bf                                 
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2545               54.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.top_bf:	2545 (26.45 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1302               64.6 %               
+ARI1     963                37.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.top_bf:	2265 (23.54 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     16                 51.6 %               
+====================================================
+Total DSP in the block top.top_bf:	16 (0.17 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     16                 61.5 %               
+=====================================================
+Total MEMORY ELEMENTS in the block top.top_bf:	16 (0.17 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     32                 94.1 %               
+===================================================
+Total GLOBAL BUFFERS in the block top.top_bf:	32 (0.33 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s   ########
+Instance path:   top_bf.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s                              
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2500               53.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top_bf.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s:	2500 (25.98 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1255               62.3 %               
+ARI1     889                34.8 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_bf.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s:	2144 (22.28 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     16                 51.6 %               
+====================================================
+Total DSP in the block top_bf.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s:	16 (0.17 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     16                 61.5 %               
+=====================================================
+Total MEMORY ELEMENTS in the block top_bf.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s:	16 (0.17 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     32                 94.1 %               
+===================================================
+Total GLOBAL BUFFERS in the block top_bf.delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s:	32 (0.33 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   coord_rom_16s_4s   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.coord_rom_16s_4s
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      22                 1.09 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.coord_rom_16s_4s:	22 (0.23 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_0   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_0
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_0:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_0:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_0:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_0:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_14   ########
+Instance path:   delay_calc_0.sqrt_top_bf_15_14                        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_0.sqrt_top_bf_15_14:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_0.sqrt_top_bf_15_14:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_1   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_1
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_1:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      74                 3.67 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_1:	116 (1.21 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_1:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_1:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_13   ########
+Instance path:   delay_calc_1.sqrt_top_bf_15_13                        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_1.sqrt_top_bf_15_13:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_1.sqrt_top_bf_15_13:	104 (1.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_10   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_10
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_10:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_10:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_10:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_10:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_4   ########
+Instance path:   delay_calc_10.sqrt_top_bf_15_4                       
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_10.sqrt_top_bf_15_4:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_10.sqrt_top_bf_15_4:	104 (1.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_11   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_11
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_11:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_11:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_11:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_11:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_3   ########
+Instance path:   delay_calc_11.sqrt_top_bf_15_3                       
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_11.sqrt_top_bf_15_3:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_11.sqrt_top_bf_15_3:	104 (1.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_12   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_12
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_12:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_12:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_12:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_12:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_2   ########
+Instance path:   delay_calc_12.sqrt_top_bf_15_2                       
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_12.sqrt_top_bf_15_2:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_12.sqrt_top_bf_15_2:	104 (1.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_13   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_13
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_13:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_13:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_13:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_13:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_1   ########
+Instance path:   delay_calc_13.sqrt_top_bf_15_1                       
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_13.sqrt_top_bf_15_1:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_13.sqrt_top_bf_15_1:	104 (1.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_14   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_14
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_14:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      75                 3.72 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_14:	117 (1.22 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_14:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_14:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_0   ########
+Instance path:   delay_calc_14.sqrt_top_bf_15_0                       
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_14.sqrt_top_bf_15_0:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_14.sqrt_top_bf_15_0:	104 (1.08 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_15   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_15
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_15:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_15:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_15:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_15:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15   ########
+Instance path:   delay_calc_15.sqrt_top_bf_15                       
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_15.sqrt_top_bf_15:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_15.sqrt_top_bf_15:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_2   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_2
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_2:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_2:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_2:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_2:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_12   ########
+Instance path:   delay_calc_2.sqrt_top_bf_15_12                        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_2.sqrt_top_bf_15_12:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_2.sqrt_top_bf_15_12:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_3   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_3
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_3:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_3:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_3:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_3:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_11   ########
+Instance path:   delay_calc_3.sqrt_top_bf_15_11                        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_3.sqrt_top_bf_15_11:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_3.sqrt_top_bf_15_11:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_4   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_4
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_4:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_4:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_4:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_4:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_10   ########
+Instance path:   delay_calc_4.sqrt_top_bf_15_10                        
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_4.sqrt_top_bf_15_10:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_4.sqrt_top_bf_15_10:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_5   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_5
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_5:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_5:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_5:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_5:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_9   ########
+Instance path:   delay_calc_5.sqrt_top_bf_15_9                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_5.sqrt_top_bf_15_9:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_5.sqrt_top_bf_15_9:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_6   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_6
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_6:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_6:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_6:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_6:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_8   ########
+Instance path:   delay_calc_6.sqrt_top_bf_15_8                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_6.sqrt_top_bf_15_8:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_6.sqrt_top_bf_15_8:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_7   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_7
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_7:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_7:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_7:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_7:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_7   ########
+Instance path:   delay_calc_7.sqrt_top_bf_15_7                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_7.sqrt_top_bf_15_7:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_7.sqrt_top_bf_15_7:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_8   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_8
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_8:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_8:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_8:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_8:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_6   ########
+Instance path:   delay_calc_8.sqrt_top_bf_15_6                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_8.sqrt_top_bf_15_6:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_8.sqrt_top_bf_15_6:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   delay_calc_9   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_9
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      153                3.25 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_9:	153 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      73                 3.62 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_9:	115 (1.20 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     1                  3.23 %               
+====================================================
+Total DSP in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_9:	1 (0.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  2.94 %               
+===================================================
+Total GLOBAL BUFFERS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.delay_calc_9:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   sqrt_top_bf_15_5   ########
+Instance path:   delay_calc_9.sqrt_top_bf_15_5                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      102                2.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_calc_9.sqrt_top_bf_15_5:	102 (1.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      62                 3.08 %               
+ARI1     42                 1.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_calc_9.sqrt_top_bf_15_5:	104 (1.08 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s
+=====================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 0.7440 %             
+ARI1     32                 1.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s:	47 (0.49 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     4                  15.4 %               
+=====================================================
+Total MEMORY ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s:	4 (0.04 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_0   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_0
+=======================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  0.3970 %             
+ARI1     32                 1.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_0:	40 (0.42 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     4                  15.4 %               
+=====================================================
+Total MEMORY ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_0:	4 (0.04 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_1   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_1
+=======================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      7                  0.3470 %             
+ARI1     16                 0.6250 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_1:	23 (0.24 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     4                  15.4 %               
+=====================================================
+Total MEMORY ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_1:	4 (0.04 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.170 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13:	8 (0.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_0   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_0
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_0:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_1   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_1
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_1:	8 (0.08 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_10   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_10
+===========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     17                 0.6650 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_10:	17 (0.18 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_2   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_2
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_2:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_3   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_3
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_3:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_4   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_4
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_4:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_5   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_5
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_5:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_6   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_6
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_6:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_7   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_7
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_7:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_8   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_8
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_8:	8 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_13_9   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_9
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     8                  0.3130 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_13_9:	8 (0.08 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sample_delay_16s_256s_8s_2   ########       
+Instance path:   delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_2
+=======================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 0.7940 %             
+ARI1     32                 1.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_2:	48 (0.50 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     4                  15.4 %               
+=====================================================
+Total MEMORY ELEMENTS in the block delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s.sample_delay_16s_256s_8s_2:	4 (0.04 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   readrf_vals   ########
+Instance path:   top_bf.readrf_vals                              
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      24                 0.510 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top_bf.readrf_vals:	24 (0.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      22                 1.09 %               
+ARI1     17                 0.6650 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block top_bf.readrf_vals:	39 (0.41 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   summ_sa_16s_16s_18s   ########
+Instance path:   top_bf.summ_sa_16s_16s_18s                              
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 0.3830 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top_bf.summ_sa_16s_16s_18s:	18 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 0.7440 %             
+ARI1     57                 2.23 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_bf.summ_sa_16s_16s_18s:	72 (0.75 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   top_logc   ########
+Instance path:   top.top_logc                                 
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      206                4.38 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.top_logc:	206 (2.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      439                21.8 %               
+ARI1     76                 2.97 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.top_logc:	515 (5.35 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   int_calc_Z3_layer0   ########
+Instance path:   top_logc.int_calc_Z3_layer0                            
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      148                3.15 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top_logc.int_calc_Z3_layer0:	148 (1.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      354                17.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_logc.int_calc_Z3_layer0:	354 (3.68 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   log_frac_calc_48s_16s_17s_0s_1s_2s   ########
+Instance path:   top_logc.log_frac_calc_48s_16s_17s_0s_1s_2s                            
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      58                 1.23 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top_logc.log_frac_calc_48s_16s_17s_0s_1s_2s:	58 (0.60 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      85                 4.22 %               
+ARI1     76                 2.97 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_logc.log_frac_calc_48s_16s_17s_0s_1s_2s:	161 (1.67 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

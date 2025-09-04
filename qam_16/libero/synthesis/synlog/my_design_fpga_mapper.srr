@@ -1,0 +1,498 @@
+# Wed Aug 20 14:42:27 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 521MB peak: 521MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 575MB peak: 575MB)
+
+@N: MO111 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|Tristate driver valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_1(verilog)) on net valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_18_16_1s_0s_1(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":8:4:8:9|Removing sequential instance phase_counter_0.phase_angle_0[15:0] because it is equivalent to instance phase_counter_0.phase_angle[15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 586MB peak: 586MB)
+
+@N: MO231 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/counter.v":8:4:8:9|Found counter in view:work.my_design(verilog) instance phase_counter_0.phase_angle[15:0] 
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/upsampler.v":11:4:11:9|Removing instance upsampler_0.qup_mod[0] because it is equivalent to instance upsampler_0.iup_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[9] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[6] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[17] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[16] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[15] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[13] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[12] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[8] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[7] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[5] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[4] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[14] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[11] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[10] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[0].par_calc_0.yn[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF135 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[3:0] is 16 words by 4 bits.
+@W: FX107 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[3:0] (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_corefir_pf_c0_rtl_0layer1(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":314:4:314:5|Found counter in view:COREFIR_PF_LIB.enum_g5_latency_adv_11_2_3_2_2_2_6(rtl) instance syst_counter_0.count[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 586MB peak: 586MB)
+
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[0] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[1] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[2] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":400:4:400:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.end_of_ngrst_0.d_flop1 because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":400:4:400:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.end_of_ngrst_0.d_flop2 because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 586MB peak: 586MB)
+
+NConnInternalConnection caching is on
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_0.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[1] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[1] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_0_0[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_0_0[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_0_0[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_0_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_0_0[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_0_0[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[2] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_1_1[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_1_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_1_1[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_1_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_1_1[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_1_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_2_2[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_2_2[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_2_2[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_2_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_2_2[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_2_2[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[4] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/work/COREFIR_PF_C0/COREFIR_PF_C0_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":536:4:536:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.init_rst because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.init_rst. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_3_3[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_3_3[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_3_3[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_3_3[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_3_3[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_3_3[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_4_4[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_4_4[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_4_4[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_4_4[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_4_4[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_4_4[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_5_5[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_5_5[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_5_5[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_5_5[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_5_5[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_5_5[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_6_6[3] because it is equivalent to instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_6_6[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_1.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_6_6[0] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_6_6[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Removing instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_6_6[3] because it is equivalent to instance COREFIR_PF_C0_0.COREFIR_PF_C0_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_6_6[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FF150 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v":23:27:23:44|Multiplier modulator_0.modulated_q_2[63:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/hdl/modulator.v":22:27:22:46|Multiplier modulator_0.modulated_i_2[63:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[1].par_calc_0.an[1] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[1].par_calc_0.an[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[4\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[5\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[3\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[2\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[6\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 602MB peak: 602MB)
+
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.xn[17] (in view: work.my_design(verilog)) because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.xn[16] (in view: work.my_design(verilog)). To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.yn[17] (in view: work.my_design(verilog)) because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.yn[16] (in view: work.my_design(verilog)). To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 603MB peak: 603MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 603MB peak: 603MB)
+
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[2].par_calc_0.an[1] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[1].par_calc_0.yn[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[1].par_calc_0.yn[0] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[1].par_calc_0.xn[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[7].par_calc_0.an[0] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[1].par_calc_0.xn[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[8].par_calc_0.an[0] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[3].par_calc_0.an[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[9].par_calc_0.an[0] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[4].par_calc_0.an[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[5].par_calc_0.an[1] because it is equivalent to instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel.cordic_paral_0.uRotator_par_0.cLayer[10].par_calc_0.an[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 603MB peak: 603MB)
+
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.xn[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[3\]\.par_calc_0.an[1] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[4\]\.par_calc_0.an[1] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[11\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[10\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[12\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[6\]\.par_calc_0.an[1] (in view: work.my_design(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:04s; Memory used current: 603MB peak: 603MB)
+
+@N: BN362 :"/home/jessica/Desktop/github__echocore_jessica/qam_16/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[13\]\.par_calc_0.an[0] (in view: work.my_design(verilog)) because it does not drive other instances.
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 604MB peak: 604MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		     5.73ns		1241 /      1379
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 606MB peak: 606MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 609MB peak: 609MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 610MB peak: 610MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 610MB peak: 610MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 610MB peak: 610MB)
+
+Writing Analyst data base /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/my_design_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:07s; Memory used current: 610MB peak: 610MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 610MB peak: 610MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 610MB peak: 610MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 610MB peak: 610MB)
+
+@W: MT420 |Found inferred clock my_design|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Aug 20 14:42:36 2025
+#
+
+
+Top view:               my_design
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 5.434
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+my_design|clk      100.0 MHz     219.0 MHz     10.000        4.566         5.434     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+my_design|clk  my_design|clk  |  10.000      5.434  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: my_design|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                             Arrival          
+Instance                     Reference         Type        Pin          Net                       Time        Slack
+                             Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------------
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[0]     WideMult_1_0_cas[0]       0.387       5.434
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[1]     WideMult_1_0_cas[1]       0.387       5.442
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[2]     WideMult_1_0_cas[2]       0.387       5.450
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[3]     WideMult_1_0_cas[3]       0.387       5.458
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[4]     WideMult_1_0_cas[4]       0.387       5.466
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[5]     WideMult_1_0_cas[5]       0.387       5.474
+modulator_0.WideMult_0       my_design|clk     MACC_PA     CDOUT[0]     WideMult_1_0_cas_0[0]     0.387       5.477
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[6]     WideMult_1_0_cas[6]       0.387       5.482
+modulator_0.WideMult_0       my_design|clk     MACC_PA     CDOUT[1]     WideMult_1_0_cas_0[1]     0.387       5.485
+modulator_0.WideMult_0_0     my_design|clk     MACC_PA     CDOUT[7]     WideMult_1_0_cas[7]       0.387       5.490
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                       Required          
+Instance                           Reference         Type     Pin     Net                         Time         Slack
+                                   Clock                                                                            
+--------------------------------------------------------------------------------------------------------------------
+combiner_0.combined_output[64]     my_design|clk     SLE      D       un2_combined_output[64]     10.000       5.434
+combiner_0.combined_output[63]     my_design|clk     SLE      D       un2_combined_output[63]     10.000       5.442
+combiner_0.combined_output[62]     my_design|clk     SLE      D       un2_combined_output[62]     10.000       5.450
+combiner_0.combined_output[61]     my_design|clk     SLE      D       un2_combined_output[61]     10.000       5.458
+combiner_0.combined_output[60]     my_design|clk     SLE      D       un2_combined_output[60]     10.000       5.466
+combiner_0.combined_output[59]     my_design|clk     SLE      D       un2_combined_output[59]     10.000       5.474
+combiner_0.combined_output[58]     my_design|clk     SLE      D       un2_combined_output[58]     10.000       5.482
+combiner_0.combined_output[57]     my_design|clk     SLE      D       un2_combined_output[57]     10.000       5.490
+combiner_0.combined_output[56]     my_design|clk     SLE      D       un2_combined_output[56]     10.000       5.498
+combiner_0.combined_output[55]     my_design|clk     SLE      D       un2_combined_output[55]     10.000       5.506
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      4.566
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.434
+
+    Number of logic level(s):                33
+    Starting point:                          modulator_0.WideMult_0_0 / CDOUT[0]
+    Ending point:                            combiner_0.combined_output[64] / D
+    The start point is clocked by            my_design|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            my_design|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                          Pin          Pin               Arrival     No. of    
+Name                                        Type        Name         Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+modulator_0.WideMult_0_0                    MACC_PA     CDOUT[0]     Out     0.387     0.387 f     -         
+WideMult_1_0_cas[0]                         Net         -            -       0.612     -           1         
+modulator_0.WideMult_1_0                    MACC_PA     CDIN[0]      In      -         0.999 f     -         
+modulator_0.WideMult_1_0                    MACC_PA     CDOUT[0]     Out     1.859     2.858 r     -         
+WideMult_2_0_cas[0]                         Net         -            -       0.612     -           1         
+modulator_0.WideMult_2_0                    MACC_PA     CDIN[0]      In      -         3.470 r     -         
+modulator_0.WideMult_2_0                    MACC_PA     P[0]         Out     0.000     3.470 r     -         
+modulated_q_2_0[34]                         Net         -            -       0.118     -           1         
+combiner_0.un2_combined_output_0_cry_34     ARI1        B            In      -         3.588 r     -         
+combiner_0.un2_combined_output_0_cry_34     ARI1        FCO          Out     0.328     3.916 r     -         
+un2_combined_output_0_cry_34                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_35     ARI1        FCI          In      -         3.916 r     -         
+combiner_0.un2_combined_output_0_cry_35     ARI1        FCO          Out     0.008     3.924 r     -         
+un2_combined_output_0_cry_35                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_36     ARI1        FCI          In      -         3.924 r     -         
+combiner_0.un2_combined_output_0_cry_36     ARI1        FCO          Out     0.008     3.932 r     -         
+un2_combined_output_0_cry_36                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_37     ARI1        FCI          In      -         3.932 r     -         
+combiner_0.un2_combined_output_0_cry_37     ARI1        FCO          Out     0.008     3.940 r     -         
+un2_combined_output_0_cry_37                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_38     ARI1        FCI          In      -         3.940 r     -         
+combiner_0.un2_combined_output_0_cry_38     ARI1        FCO          Out     0.008     3.948 r     -         
+un2_combined_output_0_cry_38                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_39     ARI1        FCI          In      -         3.948 r     -         
+combiner_0.un2_combined_output_0_cry_39     ARI1        FCO          Out     0.008     3.956 r     -         
+un2_combined_output_0_cry_39                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_40     ARI1        FCI          In      -         3.956 r     -         
+combiner_0.un2_combined_output_0_cry_40     ARI1        FCO          Out     0.008     3.964 r     -         
+un2_combined_output_0_cry_40                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_41     ARI1        FCI          In      -         3.964 r     -         
+combiner_0.un2_combined_output_0_cry_41     ARI1        FCO          Out     0.008     3.972 r     -         
+un2_combined_output_0_cry_41                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_42     ARI1        FCI          In      -         3.972 r     -         
+combiner_0.un2_combined_output_0_cry_42     ARI1        FCO          Out     0.008     3.980 r     -         
+un2_combined_output_0_cry_42                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_43     ARI1        FCI          In      -         3.980 r     -         
+combiner_0.un2_combined_output_0_cry_43     ARI1        FCO          Out     0.008     3.988 r     -         
+un2_combined_output_0_cry_43                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_44     ARI1        FCI          In      -         3.988 r     -         
+combiner_0.un2_combined_output_0_cry_44     ARI1        FCO          Out     0.008     3.996 r     -         
+un2_combined_output_0_cry_44                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_45     ARI1        FCI          In      -         3.996 r     -         
+combiner_0.un2_combined_output_0_cry_45     ARI1        FCO          Out     0.008     4.004 r     -         
+un2_combined_output_0_cry_45                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_46     ARI1        FCI          In      -         4.004 r     -         
+combiner_0.un2_combined_output_0_cry_46     ARI1        FCO          Out     0.008     4.012 r     -         
+un2_combined_output_0_cry_46                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_47     ARI1        FCI          In      -         4.012 r     -         
+combiner_0.un2_combined_output_0_cry_47     ARI1        FCO          Out     0.008     4.020 r     -         
+un2_combined_output_0_cry_47                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_48     ARI1        FCI          In      -         4.020 r     -         
+combiner_0.un2_combined_output_0_cry_48     ARI1        FCO          Out     0.008     4.028 r     -         
+un2_combined_output_0_cry_48                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_49     ARI1        FCI          In      -         4.028 r     -         
+combiner_0.un2_combined_output_0_cry_49     ARI1        FCO          Out     0.008     4.036 r     -         
+un2_combined_output_0_cry_49                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_50     ARI1        FCI          In      -         4.036 r     -         
+combiner_0.un2_combined_output_0_cry_50     ARI1        FCO          Out     0.008     4.044 r     -         
+un2_combined_output_0_cry_50                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_51     ARI1        FCI          In      -         4.044 r     -         
+combiner_0.un2_combined_output_0_cry_51     ARI1        FCO          Out     0.008     4.052 r     -         
+un2_combined_output_0_cry_51                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_52     ARI1        FCI          In      -         4.052 r     -         
+combiner_0.un2_combined_output_0_cry_52     ARI1        FCO          Out     0.008     4.060 r     -         
+un2_combined_output_0_cry_52                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_53     ARI1        FCI          In      -         4.060 r     -         
+combiner_0.un2_combined_output_0_cry_53     ARI1        FCO          Out     0.008     4.068 r     -         
+un2_combined_output_0_cry_53                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_54     ARI1        FCI          In      -         4.068 r     -         
+combiner_0.un2_combined_output_0_cry_54     ARI1        FCO          Out     0.008     4.076 r     -         
+un2_combined_output_0_cry_54                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_55     ARI1        FCI          In      -         4.076 r     -         
+combiner_0.un2_combined_output_0_cry_55     ARI1        FCO          Out     0.008     4.084 r     -         
+un2_combined_output_0_cry_55                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_56     ARI1        FCI          In      -         4.084 r     -         
+combiner_0.un2_combined_output_0_cry_56     ARI1        FCO          Out     0.008     4.092 r     -         
+un2_combined_output_0_cry_56                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_57     ARI1        FCI          In      -         4.092 r     -         
+combiner_0.un2_combined_output_0_cry_57     ARI1        FCO          Out     0.008     4.100 r     -         
+un2_combined_output_0_cry_57                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_58     ARI1        FCI          In      -         4.100 r     -         
+combiner_0.un2_combined_output_0_cry_58     ARI1        FCO          Out     0.008     4.108 r     -         
+un2_combined_output_0_cry_58                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_59     ARI1        FCI          In      -         4.108 r     -         
+combiner_0.un2_combined_output_0_cry_59     ARI1        FCO          Out     0.008     4.116 r     -         
+un2_combined_output_0_cry_59                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_60     ARI1        FCI          In      -         4.116 r     -         
+combiner_0.un2_combined_output_0_cry_60     ARI1        FCO          Out     0.008     4.124 r     -         
+un2_combined_output_0_cry_60                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_61     ARI1        FCI          In      -         4.124 r     -         
+combiner_0.un2_combined_output_0_cry_61     ARI1        FCO          Out     0.008     4.132 r     -         
+un2_combined_output_0_cry_61                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_62     ARI1        FCI          In      -         4.132 r     -         
+combiner_0.un2_combined_output_0_cry_62     ARI1        FCO          Out     0.008     4.140 r     -         
+un2_combined_output_0_cry_62                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_cry_63     ARI1        FCI          In      -         4.140 r     -         
+combiner_0.un2_combined_output_0_cry_63     ARI1        FCO          Out     0.008     4.148 r     -         
+un2_combined_output_0_cry_63                Net         -            -       0.000     -           1         
+combiner_0.un2_combined_output_0_s_64       ARI1        FCI          In      -         4.148 r     -         
+combiner_0.un2_combined_output_0_s_64       ARI1        S            Out     0.300     4.448 r     -         
+un2_combined_output[64]                     Net         -            -       0.118     -           1         
+combiner_0.combined_output[64]              SLE         D            In      -         4.566 r     -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 4.566 is 3.106(68.0%) logic and 1.460(32.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 610MB peak: 610MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 610MB peak: 610MB)
+
+---------------------------------------
+Resource Usage Report for my_design 
+
+Mapping to part: mpfs025tfcvg484-1
+Cell usage:
+CLKINT          1 use
+CFG1           23 uses
+CFG2           64 uses
+CFG3           45 uses
+CFG4           126 uses
+
+Carry cells:
+ARI1            928 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1363 uses
+SLE_INIT       8 uses - used for Seqshift to URAM mapping
+Total SLE          1371 uses
+
+DSP Blocks:   28 of 68 (41%)
+ MACC_PA:         4 MultAdds
+ MACC_PA:         2 Mults
+ MACC_PA_BC_ROM: 22 Mults
+
+I/O ports: 70
+I/O primitives: 70
+INBUF          2 uses
+OUTBUF         68 uses
+
+
+Global Clock Buffers: 1
+
+RAM/ROM usage summary
+Block RAMs (RAM64x12) : 2 - RAMs inferred for SeqShift
+Total Block RAMs (RAM64x12) : 2 of 204 (0%)
+
+Total LUTs:    1186
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 24; LUTs = 24;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 216; LUTs = 216;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 792; LUTs = 792;
+
+Total number of SLEs after P&R:  1371 + 24 + 0 + 1008 = 2403;
+Total number of LUTs after P&R:  1186 + 24 + 0 + 1008 = 2218;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 521MB peak: 610MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Wed Aug 20 14:42:37 2025
+
+###########################################################]

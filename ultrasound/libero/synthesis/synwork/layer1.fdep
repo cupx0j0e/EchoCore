@@ -1,0 +1,201 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.fir_hilbert|-mpparams|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/_mh_params|-layerid|1|-orig_srs|/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|COREFIR_PF_LIB|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/c_vhdl":1721969498
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/location.map":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1721921486
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std_textio.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/numeric.vhd":1721922073
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/umr_capim.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/arith.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/unsigned.vhd":1721921487
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd/hyperents.vhd":1721921486
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd":1756886651
+#CUR:"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.vhd":1721922091
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd":1756886651
+#CUR:"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd":1756886651
+0 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd" vhdl
+1 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd" vhdl
+2 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd" vhdl
+3 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd" vhdl
+4 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd" vhdl
+5 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd" vhdl
+6 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd" vhdl
+7 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd" vhdl
+8 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd" vhdl
+9 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd" vhdl
+10 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd" vhdl
+11 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd" vhdl
+12 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd" vhdl
+13 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd" vhdl
+14 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd" vhdl
+15 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd" vhdl
+16 "/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/fir_hilbert/fir_hilbert.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 -1
+3 2 
+4 3 2 
+5 -1
+6 3 7 12 4 5 2 
+7 3 2 
+8 2 
+9 3 8 2 
+10 3 9 2 
+11 3 10 2 
+12 11 3 2 
+13 -1
+14 6 2 13 
+15 14 1 0 
+16 15 
+
+# Dependency Lists (Users Of)
+0 15 1 
+1 15 
+2 14 12 11 10 9 8 7 6 4 3 
+3 6 4 12 11 10 9 7 
+4 6 
+5 6 
+6 14 
+7 6 
+8 9 
+9 10 
+10 11 
+11 12 
+12 6 
+13 14 
+14 15 
+15 16 
+16 -1
+
+# Design Unit to File Association
+arch corefir_pf_lib corefir_kitroundtop rtl 1
+module corefir_pf_lib corefir_kitroundtop 1
+arch corefir_pf_lib corefir_kitrndeven rtl 1
+module corefir_pf_lib corefir_kitrndeven 1
+arch corefir_pf_lib corefir_kitrndup rtl 1
+module corefir_pf_lib corefir_kitrndup 1
+arch corefir_pf_lib corefir_kitdelay_reg rtl 1
+module corefir_pf_lib corefir_kitdelay_reg 1
+arch corefir_pf_lib corefir_kitdelay_bit_reg rtl 1
+module corefir_pf_lib corefir_kitdelay_bit_reg 1
+arch corefir_pf_lib debug_init rtl 3
+module corefir_pf_lib debug_init 3
+arch corefir_pf_lib enum_kitedge rtl 3
+module corefir_pf_lib enum_kitedge 3
+arch corefir_pf_lib enum_signext rtl 3
+module corefir_pf_lib enum_signext 3
+arch corefir_pf_lib enum_kitcounts rtl 3
+module corefir_pf_lib enum_kitcounts 3
+arch corefir_pf_lib enum_kitdelay_reg_cond rtl 3
+module corefir_pf_lib enum_kitdelay_reg_cond 3
+arch corefir_pf_lib enum_kitdelay_reg_attr rtl 3
+module corefir_pf_lib enum_kitdelay_reg_attr 3
+arch corefir_pf_lib enum_kitdelay_bit_reg_attr rtl 3
+module corefir_pf_lib enum_kitdelay_bit_reg_attr 3
+arch corefir_pf_lib enum_kitdelay_reg rtl 3
+module corefir_pf_lib enum_kitdelay_reg 3
+arch corefir_pf_lib enum_kitdelay_bit_reg rtl 3
+module corefir_pf_lib enum_kitdelay_bit_reg 3
+arch corefir_pf_lib g5_uram18x192 def_arch 4
+module corefir_pf_lib g5_uram18x192 4
+arch corefir_pf_lib g5_uram18x128 def_arch 4
+module corefir_pf_lib g5_uram18x128 4
+arch corefir_pf_lib g5_uram18x64 def_arch 4
+module corefir_pf_lib g5_uram18x64 4
+arch corefir_pf_lib g5_uram12x192 def_arch 4
+module corefir_pf_lib g5_uram12x192 4
+arch corefir_pf_lib g5_uram12x128 def_arch 4
+module corefir_pf_lib g5_uram12x128 4
+arch corefir_pf_lib g5_uram12x64 def_arch 4
+module corefir_pf_lib g5_uram12x64 4
+arch corefir_pf_lib infer_dly_line_18x192 infer 4
+module corefir_pf_lib infer_dly_line_18x192 4
+arch corefir_pf_lib uram_wrap rtl 4
+module corefir_pf_lib uram_wrap 4
+arch corefir_pf_lib enum_uram_shift_reg_18x192 rtl 4
+module corefir_pf_lib enum_uram_shift_reg_18x192 4
+arch corefir_pf_lib enum_dly_line_18x192 rtl 4
+module corefir_pf_lib enum_dly_line_18x192 4
+arch corefir_pf_lib enum_g5_latency_adv rtl 6
+module corefir_pf_lib enum_g5_latency_adv 6
+arch corefir_pf_lib enum_fir_adv_g5 rtl 6
+module corefir_pf_lib enum_fir_adv_g5 6
+arch corefir_pf_lib enum_pad_g5 rtl 7
+module corefir_pf_lib enum_pad_g5 7
+arch corefir_pf_lib macc_pa_bc_rom_wrap rtl 8
+module corefir_pf_lib macc_pa_bc_rom_wrap 8
+arch corefir_pf_lib enum_tap_g5 rtl 9
+module corefir_pf_lib enum_tap_g5 9
+arch corefir_pf_lib enum_tap_undernibble_3 rtl 10
+module corefir_pf_lib enum_tap_undernibble_3 10
+arch corefir_pf_lib enum_tap_undernibble_2 rtl 10
+module corefir_pf_lib enum_tap_undernibble_2 10
+arch corefir_pf_lib enum_tap_undernibble_1 rtl 10
+module corefir_pf_lib enum_tap_undernibble_1 10
+arch corefir_pf_lib enum_tap_nibble rtl 11
+module corefir_pf_lib enum_tap_nibble 11
+arch corefir_pf_lib enum_row_g5 rtl 12
+module corefir_pf_lib enum_row_g5 12
+arch corefir_pf_lib fir_hilbert_fir_hilbert_0_enum_fir_g5 rtl 14
+module corefir_pf_lib fir_hilbert_fir_hilbert_0_enum_fir_g5 14
+arch corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf rtl 15
+module corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf 15
+arch work fir_hilbert rtl 16
+module work fir_hilbert 16
+
+# Unbound Instances to File Association
+inst corefir_pf_lib g5_uram18x192 vcc 4
+inst corefir_pf_lib g5_uram18x192 gnd 4
+inst corefir_pf_lib g5_uram18x192 cfg3 4
+inst corefir_pf_lib g5_uram18x192 or3 4
+inst corefir_pf_lib g5_uram18x192 ram64x12 4
+inst corefir_pf_lib g5_uram18x128 vcc 4
+inst corefir_pf_lib g5_uram18x128 gnd 4
+inst corefir_pf_lib g5_uram18x128 ram64x12 4
+inst corefir_pf_lib g5_uram18x128 or2 4
+inst corefir_pf_lib g5_uram18x128 cfg2 4
+inst corefir_pf_lib g5_uram18x64 vcc 4
+inst corefir_pf_lib g5_uram18x64 gnd 4
+inst corefir_pf_lib g5_uram18x64 ram64x12 4
+inst corefir_pf_lib g5_uram12x192 vcc 4
+inst corefir_pf_lib g5_uram12x192 gnd 4
+inst corefir_pf_lib g5_uram12x192 ram64x12 4
+inst corefir_pf_lib g5_uram12x192 cfg3 4
+inst corefir_pf_lib g5_uram12x192 or3 4
+inst corefir_pf_lib g5_uram12x128 vcc 4
+inst corefir_pf_lib g5_uram12x128 gnd 4
+inst corefir_pf_lib g5_uram12x128 ram64x12 4
+inst corefir_pf_lib g5_uram12x128 or2 4
+inst corefir_pf_lib g5_uram12x128 cfg2 4
+inst corefir_pf_lib g5_uram12x64 vcc 4
+inst corefir_pf_lib g5_uram12x64 gnd 4
+inst corefir_pf_lib g5_uram12x64 ram64x12 4
+inst corefir_pf_lib macc_pa_bc_rom_wrap macc_pa_bc_rom 8
+inst corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf fir_hilbert_fir_hilbert_0_higherwidth 15
+inst corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf fir_hilbert_fir_hilbert_0_corefoldfir 15
+inst corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf fir_hilbert_fir_hilbert_0_coredecmfir 15
+inst corefir_pf_lib fir_hilbert_fir_hilbert_0_corefir_pf fir_hilbert_fir_hilbert_0_coreintrpfir 15
+
+#identified top module
+top_module fir_hilbert
+
+
+# Configuration files used
