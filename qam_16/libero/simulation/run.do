@@ -1,5 +1,5 @@
 quietly set ACTELLIBNAME PolarFireSoC
-quietly set PROJECT_DIR "/home/jessica/Desktop/github__echocore_jessica/qam_16"
+quietly set PROJECT_DIR "/home/jessica/GITHUB/EchoCore/qam_16/libero"
 
 if {[file exists presynth/_info]} {
    echo "INFO: Simulation library presynth already exists"
