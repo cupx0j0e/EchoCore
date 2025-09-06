@@ -163,7 +163,7 @@ EchoCore
   * **Libero SoC v2024.2**
   * License setup for Microchip FPGA tools
 
-📌 Helpful learning links:
+### Helpful learning links:
 
   * [ChipVerify](https://www.chipverify.com/)
   * [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
@@ -248,9 +248,9 @@ The project has successfully demonstrated the individual implementation of both 
 
 | Feature | Status |
 | :--- | :--- |
-| 16-QAM TX | ✅ Completed |
-| Ultrasound | ✅ Completed |
-| Parallelism | 🔄 In Progress |
+| 16-QAM TX | Completed |
+| Ultrasound | Completed |
+| Parallelism | In Progress |
 
 ---
 
@@ -276,19 +276,19 @@ We successfully flashed the **QAM** and **ultrasound** bitstreams on Libero. For
 
 ## Future Work
 
-  * ✅ Implement 16-QAM on FPGA
-  * ✅ Implement Ultrasound signal chain
-  * 🔄 Integrate **QAM + Ultrasound** in real-time (parallel pipeline)
-  * 🔄 Test with live data and optimize latency
+  * Implement 16-QAM on FPGA
+  * Implement Ultrasound signal chain
+  * Integrate **QAM + Ultrasound** in real-time (parallel pipeline)
+  * Test with live data and optimize latency
 
 ---
 
 
 ## Troubleshooting
 
-  * ❌ **Missing IP cores (Libero 2025)** → ✅ Use **Libero 2024.2**
-  * ❌ **Licensing errors** → ✅ Verify license path
-  * ❌ **FPGA not detected** → ✅ Check USB drivers & cable connection
+  * **Missing IP cores (Libero 2025)** →  Use **Libero 2024.2**
+  * **Licensing errors** → Verify license path
+  * **FPGA not detected** → Check USB drivers & cable connection
 
 ---
 
