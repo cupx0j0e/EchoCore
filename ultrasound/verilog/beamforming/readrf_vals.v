@@ -8,17 +8,17 @@ module readrf_vals (
     output reg [15:0] val4
 );
 
-reg [15:0] rf_vals_1 [0:15];
-reg [15:0] rf_vals_2 [0:15];
-reg [15:0] rf_vals_3 [0:15];
-reg [15:0] rf_vals_4 [0:15];
+reg [15:0] rf_vals_1 [0:31];
+reg [15:0] rf_vals_2 [0:31];
+reg [15:0] rf_vals_3 [0:31];
+reg [15:0] rf_vals_4 [0:31];
 reg [15:0] count = 0;
 
 initial begin
-    $readmemh("data/RF_DATA_4.txt", rf_vals_1, 0, 15);
-    $readmemh("data/RF_DATA_3.txt", rf_vals_2, 0, 15);
-    $readmemh("data/RF_DATA_2.txt", rf_vals_3, 0, 15);
-    $readmemh("data/RF_DATA_1.txt", rf_vals_4, 0, 15);
+    $readmemh("data/RF_DATA_4.txt", rf_vals_1, 0, 31);
+    $readmemh("data/RF_DATA_3.txt", rf_vals_2, 0, 31);
+    $readmemh("data/RF_DATA_2.txt", rf_vals_3, 0, 31);
+    $readmemh("data/RF_DATA_1.txt", rf_vals_4, 0, 31);
 end
 
 always @(posedge clk ) begin

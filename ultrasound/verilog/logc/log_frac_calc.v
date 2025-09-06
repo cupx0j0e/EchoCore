@@ -7,7 +7,7 @@ module log_frac_calc #(
     input reset,
     input in_valid,
     input out_ready,
-    input [NORM_WIDTH-1:0] data_in,      
+    input [NORM_WIDTH-1:0] data_in,
     output reg out_valid,
     output in_ready,
     output reg [NORM_WIDTH-1:0] log_frac_out
@@ -57,7 +57,7 @@ module log_frac_calc #(
         case(state)
             IDLE:    next_state = (in_valid) ? LOAD : IDLE;
             LOAD:    next_state = ITERATE;
-            ITERATE: next_state = (cycle_count == TOTAL_CYCLES) ? DONE : ITERATE;
+            ITERATE: next_state = (cycle_count >= TOTAL_CYCLES) ? DONE : ITERATE;
             DONE:    next_state = (out_ready) ? IDLE : DONE;
             default: next_state = IDLE;
         endcase
@@ -81,11 +81,18 @@ module log_frac_calc #(
                 end
 
                 LOAD: begin
-                    x <= data_in;
-                    y <= 0;
-                    iter <= 1;
-                    cycle_count <= 1;
                     out_valid <= 1'b0;
+                    if (data_in == ONE) begin
+                        x <= ONE;
+                        y <= 0;
+                        cycle_count <= TOTAL_CYCLES + 1;
+                        iter <= 1;
+                    end else begin
+                        x <= data_in;
+                        y <= 0;
+                        iter <= 1;
+                        cycle_count <= 1;
+                    end
                 end
 
                 ITERATE: begin
