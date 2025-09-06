@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/top_bf/top_bf.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>delay_calc_0|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_1|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_2|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_3|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_4|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_5|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_6|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_7|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_8|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_9|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_10|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_11|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_12|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_13|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_14|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_calc_15|N_20_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2974.4 MHz</data>
+<data>9.664</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>9.658</data>
+</row>
+<row>
+<data>top|clk</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>155.6 MHz</data>
+<data>3.573</data>
+</row>
+</report_table>

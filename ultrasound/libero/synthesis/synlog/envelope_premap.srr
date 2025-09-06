@@ -1,0 +1,233 @@
+# Wed Aug 13 16:11:56 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 518MB peak: 518MB)
+
+Reading constraint file: /home/jessica/Desktop/lultrasound_ibero/envelope_detection/designer/envelope/synthesis.fdc
+@L: /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope_scck.rpt 
+See clock summary report "/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 545MB peak: 546MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 545MB peak: 546MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 549MB peak: 549MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 551MB peak: 551MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_7layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_9layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_1layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_8layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":493:2:493:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_fir_hilbert_rtl_2layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_3layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_5layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_4layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_6layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":493:2:493:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_fir_hilbert_rtl_1layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd":151:2:151:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_g5_work_fir_hilbert_rtl_2layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd":493:2:493:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@W: BN114 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":260:2:260:13|Removing instance debug_init_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+NConnInternalConnection caching is on
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":467:2:467:7|User-specified initial value defined for instance CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.rstoi is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.dvalid_pipe_3.delayLine[0:4] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.dvalid_pipe_1.delayLine[0:1] is being ignored due to limitations in architecture. 
+@W: FX1183 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value set for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine[17:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value set for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine[3:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.left_nibble_0.valid_pipe_0.delayLine[0:2] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":178:4:178:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.valid_pipe_0.delayLine[0:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.inter_advanced.end_dly_0.delayLine_1[47:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.rows_higher.1.a_row_higher.inter_advanced.end_dly_0.delayLine_0[47:0] is being ignored due to limitations in architecture. 
+@W: FX1183 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value set for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.non_symm_bus.1.dly_link_22.fabric_shift_reg.fabric_dly_0.delayLine[17:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|User-specified initial value set for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.non_symm_bus.2.dly_link_22.fabric_shift_reg.fabric_dly_0.delayLine[17:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.async2sync_0.delayLine[0:2] is being ignored due to limitations in architecture. 
+@W: FX1172 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":65:4:65:5|User-specified initial value defined for instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.latency_0.shift_reg_1.delayLine[0:6] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 605MB peak: 605MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 605MB peak: 605MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 605MB peak: 605MB)
+
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_1_1[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_1_1[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_1_1[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_1_1[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_2_2[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_2_2[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_2_2[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_2_2[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_3_3[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_3_3[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_3_3[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_3_3[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_4_4[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_4_4[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_4_4[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_4_4[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_5_5[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_5_5[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_5_5[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_5_5[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_6_6[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_6_6[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_6_6[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|Sequential instance fir_hilbert_0.fir_hilbert_0.enum_g5.enum_fir_g5.adv_enum.adv_enum_0.enum_pad_g5_0.reload_sel_pad.symm_data_pipe_0.delayLine_6_6[3] is reduced to a combinational gate by constant propagation.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd":144:4:144:19|Removing instance reload_sel_pad\.symm_data_pipe_0 (in view: COREFIR_PF_LIB.enum_pad_g5_3_2_2_0_0_0_18_0_18(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_fir_hilbert_rtl_2layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":357:2:357:14|Removing instance dvalid_pipe_1 (in view: COREFIR_PF_LIB.enum_row_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":455:4:455:12|Removing instance inter_advanced\.end_dly_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_fir_hilbert_rtl_1layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_fir_hilbert_rtl_1layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd":420:2:420:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_tap_nibble_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd":395:2:395:14|Removing instance cvalid_pipe_0 (in view: COREFIR_PF_LIB.enum_row_g5_work_fir_hilbert_rtl_2layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":404:2:404:12|Removing instance dly_link_33 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":421:4:421:14|Removing instance symm_bus\.1\.dly_link_44 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd":421:4:421:14|Removing instance symm_bus\.2\.dly_link_44 (in view: COREFIR_PF_LIB.enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1(rtl)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":525:20:525:31|Removing instance sign_ext_x_0 (in view: CORECORDIC_LIB.cordic_dp_bits_trans_48s_48(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":530:20:530:31|Removing instance sign_ext_y_0 (in view: CORECORDIC_LIB.cordic_dp_bits_trans_48s_48(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":535:20:535:31|Removing instance sign_ext_a_0 (in view: CORECORDIC_LIB.cordic_dp_bits_trans_48s_48(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[0\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[3\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[15\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[13\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[11\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[1\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[9\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[10\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[8\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[6\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[12\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[4\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[5\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[2\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[14\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":83:12:83:22|Removing instance cLayer\[7\]\.cordicRam_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog)) because it does not drive other instances.
+@N: MO111 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|Tristate driver valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_0s_0(verilog)) on net valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_0s_0(verilog)) has its enable tied to GND.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":383:79:383:87|Removing instance sign_extend\.signExt_0 (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_0s_0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":383:79:383:87|Removing instance sign_extend\.signExt_0 (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_1s(verilog)) because it does not drive other instances.
+@N: MO111 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|Tristate driver valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_0s_1(verilog)) on net valido (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_0s_1(verilog)) has its enable tied to GND.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":383:79:383:87|Removing instance sign_extend\.signExt_0 (in view: CORECORDIC_LIB.cordic_kitRoundTop_48_48_0s_0s_1(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":198:51:198:62|Removing instance post_rotat_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":145:62:145:79|Removing instance hold_coarse_flag_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":186:55:186:62|Removing instance roundy_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":191:55:191:62|Removing instance rounda_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":136:42:136:52|Removing instance pre_rotat_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":154:40:154:53|Removing instance trans_inp2dp_0 (in view: CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance yn[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_15s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_15s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_14s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_13s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_12s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_11s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_10s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_9s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_7s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_6s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_5s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_4s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_2s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_1s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":940:2:940:7|Removing sequential instance an[47:0] (in view: CORECORDIC_LIB.cordic_par_calc_1_48_4_0s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 605MB peak: 605MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 605MB peak: 605MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 605MB peak: 605MB)
+
+@N: FP130 |Promoting Net reset_arst on CLKINT  I_1 
+@N: FP130 |Promoting Net CLK on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist envelope 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 607MB peak: 607MB)
+
+
+
+Clock Summary
+******************
+
+          Start            Requested     Requested     Clock        Clock               Clock
+Level     Clock            Frequency     Period        Type         Group               Load 
+---------------------------------------------------------------------------------------------
+0 -       System           100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                             
+0 -       envelope|CLK     100.0 MHz     10.000        inferred     (multiple)          1980 
+=============================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                 Clock     Source        Clock Pin                                                                                      Non-clock Pin     Non-clock Pin
+Clock            Load      Pin           Seq Example                                                                                    Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System           0         -             -                                                                                              -                 -            
+                                                                                                                                                                       
+envelope|CLK     1980      CLK(port)     fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.latency_0.init_rst.C     -                 I_2.A(CLKINT)
+=======================================================================================================================================================================
+
+@W: MT530 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":128:2:128:7|Found inferred clock envelope|CLK which controls 1980 sequential elements including CORECORDIC_C0_0.CORECORDIC_C0_0.kickstart_0.counter_0.Q[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 607MB peak: 607MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 609MB peak: 609MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 611MB peak: 611MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 523MB peak: 611MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 13 16:11:57 2025
+
+###########################################################]

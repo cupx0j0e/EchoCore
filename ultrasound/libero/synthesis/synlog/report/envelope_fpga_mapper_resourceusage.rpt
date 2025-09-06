@@ -1,0 +1,42 @@
+Resource Usage Report for envelope 
+
+Mapping to part: mpfs025tfcvg484-1
+Cell usage:
+CLKINT          2 uses
+CFG1           11 uses
+CFG2           135 uses
+CFG3           37 uses
+CFG4           89 uses
+
+Carry cells:
+ARI1            1519 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1938 uses
+SLE_INIT       14 uses - used for Seqshift to URAM mapping
+Total SLE          1952 uses
+
+DSP Blocks:   15 of 68 (22%)
+ MACC_PA_BC_ROM: 15 Mults
+
+I/O ports: 69
+I/O primitives: 69
+INBUF          20 uses
+OUTBUF         49 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    1791
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 120; LUTs = 120;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 540; LUTs = 540;
+
+Total number of SLEs after P&R:  1952 + 120 + 0 + 540 = 2612;
+Total number of LUTs after P&R:  1791 + 120 + 0 + 540 = 2451;
+

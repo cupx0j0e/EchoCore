@@ -1,0 +1,1 @@
+ -link  -top  my_design  -multisrs  /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/my_design_comp.srs  -osyn  /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synwork/my_design_mult.srs  -log  /home/jessica/Desktop/github__echocore_jessica/qam_16/synthesis/synlog/my_design_multi_srs_gen.srr 

@@ -1,0 +1,316 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jessica/Desktop/final_final_working/qam_16/simulation
+vcombiner
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/combiner.v
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1756990910
+!i10b 1
+!s100 3gEz0gEUoAjBa<[=:2OZI2
+IA4@:j0>ajejaTF<E;=3OG1
+S1
+Z2 d/home/jessica/GITHUB/EchoCore/qam_16/libero/simulation
+Z3 w1756905257
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/combiner.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/combiner.v
+!i122 161
+Z4 L0 1 17
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OW;L;2024.2;79
+r1
+!s85 0
+31
+Z7 !s108 1756990910.000000
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/combiner.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/combiner.v|
+!s101 -O0
+!i113 1
+Z8 o-sv -work presynth -O0
+Z9 tCvgOpt 0
+vCORECORDIC_C0
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+R0
+!s110 1756990908
+!i10b 1
+!s100 oi9?c5N7DT_e>I6XYJd;H3
+I`>hYEUi<1WEbh>MMON@3A0
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v
+!i122 159
+L0 30 93
+R5
+R6
+r1
+!s85 0
+31
+!s108 1756990908.000000
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/CORECORDIC_C0/CORECORDIC_C0.v|
+!s101 -O0
+!i113 1
+R8
+R9
+n@c@o@r@e@c@o@r@d@i@c_@c0
+Ecorefir_pf_c0
+R3
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 160
+R2
+Z12 8/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
+Z13 F/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd
+l0
+L87 1
+V4RjQ8@TA4EU2gV;S5lUD82
+!s100 OY>IK[ZKm;gM9zJ>ofbI`1
+Z14 OW;C;2024.2;79
+33
+R1
+!i10b 1
+R7
+Z15 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd|
+Z16 !s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/COREFIR_PF_C0/COREFIR_PF_C0.vhd|
+!i113 1
+Z17 o-2008 -explicit -work presynth -O0
+R9
+Artl
+R10
+R11
+DEx4 work 13 corefir_pf_c0 0 22 4RjQ8@TA4EU2gV;S5lUD82
+!i122 160
+l187
+L104 165
+V[Sbzh4`hAU]KOR3]2A_iW2
+!s100 7=OV>CUjdl5EVQHVX<bCV2
+R14
+33
+R1
+!i10b 1
+R7
+R15
+R16
+!i113 1
+R17
+R9
+vfour_pr
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/four_pr.v
+R0
+Z18 !s110 1756990911
+!i10b 1
+!s100 CbHReO^H1XfZ>JfGY:PEf0
+IBWmKQ9>lJZM>NQn^6=@`K1
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/four_pr.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/four_pr.v
+!i122 162
+L0 1 20
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/four_pr.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/four_pr.v|
+!s101 -O0
+!i113 1
+R8
+R9
+vmodulator
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/modulator.v
+R0
+R18
+!i10b 1
+!s100 ?U>`<UP3nBjg^kPn27JeH1
+IzMe6LND=hU<:QfjSNkY=@2
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/modulator.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/modulator.v
+!i122 163
+Z19 L0 1 27
+R5
+R6
+r1
+!s85 0
+31
+Z20 !s108 1756990911.000000
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/modulator.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/modulator.v|
+!s101 -O0
+!i113 1
+R8
+R9
+vmy_design
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/my_design/my_design.v
+R0
+R18
+!i10b 1
+!s100 o9]Bm;T7z@MgGY04GNAW@2
+I55AZ8E6^5PaXW5CYOU6BT2
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/my_design/my_design.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/my_design/my_design.v
+!i122 167
+L0 9 192
+R5
+R6
+r1
+!s85 0
+31
+R20
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/my_design/my_design.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/component/work/my_design/my_design.v|
+!s101 -O0
+!i113 1
+R8
+R9
+vmy_design_tb
+2/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v
+R0
+!s110 1755680480
+!i10b 1
+!s100 DN>faF:bzChOPJK1n<h8e3
+IdZWM^n@:?HQkk1Xbc[90D2
+S1
+d/home/jessica/Desktop/github__echocore_jessica/qam_16/simulation
+w1755679649
+8/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v
+F/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v
+!i122 128
+L0 8 73
+R5
+R6
+r1
+!s85 0
+31
+!s108 1755680480.000000
+!s107 /home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v|
+!s90 -reportprogress|300|+incdir+/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus|-sv|-work|presynth|/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus/qam_test.v|
+!s101 -O0
+!i113 1
+R8
+!s92 +incdir+/home/jessica/Desktop/github__echocore_jessica/qam_16/stimulus -sv -work presynth -O0
+R9
+vphase_counter
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/counter.v
+R0
+R18
+!i10b 1
+!s100 >0@9PEQ5[PoI1;`oZ6D4W2
+I`MC29Pn1P87?Bgk^@bMd71
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/counter.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/counter.v
+!i122 164
+R4
+R5
+R6
+r1
+!s85 0
+31
+R20
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/counter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/counter.v|
+!s101 -O0
+!i113 1
+R8
+R9
+vsymmap
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/symmap.v
+R0
+R18
+!i10b 1
+!s100 UHYnQ@?DCF9FS29oCg[Pc1
+I5GQ@PDdEN@BINC[7c@8Y_1
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/symmap.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/symmap.v
+!i122 165
+L0 1 23
+R5
+R6
+r1
+!s85 0
+31
+R20
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/symmap.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/symmap.v|
+!s101 -O0
+!i113 1
+R8
+R9
+vtb_my_design
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus/newtestbench.v
+R0
+R18
+!i10b 1
+!s100 G9MLgaTaYKTGmf[=KhQ9B2
+I0=o9oEIGU5K^7l`2P5?Ob0
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus/newtestbench.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus/newtestbench.v
+!i122 168
+L0 3 55
+R5
+R6
+r1
+!s85 0
+31
+R20
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus/newtestbench.v|
+!s90 -reportprogress|300|+incdir+/home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus/newtestbench.v|
+!s101 -O0
+!i113 1
+R8
+!s92 +incdir+/home/jessica/GITHUB/EchoCore/qam_16/libero/stimulus -sv -work presynth -O0
+R9
+vupsampler
+2/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/upsampler.v
+R0
+R18
+!i10b 1
+!s100 0=4S2FXGoiXg35R@a7JQ12
+I54A3OgW@Ok48[G`noTdJ]3
+S1
+R2
+R3
+8/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/upsampler.v
+F/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/upsampler.v
+!i122 166
+R19
+R5
+R6
+r1
+!s85 0
+31
+R20
+!s107 /home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/upsampler.v|
+!s90 -reportprogress|300|-sv|-work|presynth|/home/jessica/GITHUB/EchoCore/qam_16/libero/hdl/upsampler.v|
+!s101 -O0
+!i113 1
+R8
+R9

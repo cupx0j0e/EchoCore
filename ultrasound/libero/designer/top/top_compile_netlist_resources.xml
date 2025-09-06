@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)</text>
+<text>Date: Fri Sep  5 01:25:31 2025
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPFS025T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCVG484</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>IND</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>/home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/top.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>6017</cell>
+ <cell>22956</cell>
+ <cell>26.21</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>6131</cell>
+ <cell>22956</cell>
+ <cell>26.71</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>324</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>26</cell>
+ <cell>108</cell>
+ <cell>24.07</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>26</cell>
+ <cell>108</cell>
+ <cell>24.07</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>54</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>26</cell>
+ <cell>204</cell>
+ <cell>12.75</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>0</cell>
+ <cell>84</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>31</cell>
+ <cell>68</cell>
+ <cell>45.59</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>24</cell>
+ <cell>24</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>Local Global</cell>
+ <cell>1</cell>
+ <cell>288</cell>
+ <cell>0.35</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>4</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>4589</cell>
+ <cell>4703</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>312</cell>
+ <cell>312</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>1116</cell>
+ <cell>1116</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>6017</cell>
+ <cell>6131</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>17</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>34</cell>
+</row>
+<row>
+ <cell>34</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>49</cell>
+ <cell>31</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>107</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>41</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>41</cell>
+</row>
+</table>
+<section><name>Detailed Math Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>19</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>24</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>5004</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NN_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I_1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[9].delay_calc_inst/N_20_inferred_clock_RNI97F06/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[10].delay_calc_inst/N_20_inferred_clock_RNIHICA7/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[7].delay_calc_inst/N_20_inferred_clock_RNI7TO25/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[8].delay_calc_inst/N_20_inferred_clock_RNI82KH5/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[15].delay_calc_inst/N_20_inferred_clock_RNIMBKK1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[1].delay_calc_inst/N_20_inferred_clock_RNI1VL92/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[11].delay_calc_inst/N_20_inferred_clock_RNIIN7P7/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[2].delay_calc_inst/N_20_inferred_clock_RNI24HO2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[0].delay_calc_inst/N_20_inferred_clock_RNI0QQQ1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[13].delay_calc_inst/N_20_inferred_clock_RNIK1UM/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[4].delay_calc_inst/N_20_inferred_clock_RNI4E7M3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[3].delay_calc_inst/N_20_inferred_clock_RNI39C73/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[6].delay_calc_inst/N_20_inferred_clock_RNI6OTJ4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[14].delay_calc_inst/N_20_inferred_clock_RNIL6P51/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[5].delay_calc_inst/N_20_inferred_clock_RNI5J254/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/delay_calc_arr[12].delay_calc_inst/N_20_inferred_clock_RNIJS28/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_730_inferred_clock_RNIHH5S7/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_731_inferred_clock_RNII0F63/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_728_inferred_clock_RNIOPOQ4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_727_inferred_clock_RNINAFG1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_725_inferred_clock_RNILCSR2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_726_inferred_clock_RNIMR566/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: top_bf_0/delay_ctrl/N_729_inferred_clock_RNIP825/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>2297</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : reset_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I_2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>2460</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : reset_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: reset_ibuf</cell>
+</row>
+<row>
+ <cell>1489</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/N_260_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/kickstart_0/rstoi_RNIPGER8</cell>
+</row>
+<row>
+ <cell>96</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.3.a_row_higher/systola</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.3.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+</row>
+<row>
+ <cell>96</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+</row>
+<row>
+ <cell>95</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/fir_hilbert_0_FIRO[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.3.a_row_higher/left_nibble_0/many_tap_nibble.many_tap_nibble_0/left_tap_0/MACC_PA_BC_ROM_wrap_0/MACC_PA_BC_ROM_0/MACC_PHYS_0</cell>
+</row>
+<row>
+ <cell>95</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_1_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[0].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>94</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_2_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[1].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>93</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_3_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[2].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>92</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_4_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[3].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>91</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_5_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[4].par_calc_0/yn[47]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>2460</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : reset_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: reset_ibuf</cell>
+</row>
+<row>
+ <cell>1489</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/N_260_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/kickstart_0/rstoi_RNIPGER8</cell>
+</row>
+<row>
+ <cell>96</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.3.a_row_higher/systola</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.3.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+</row>
+<row>
+ <cell>96</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/systola</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.2.a_row_higher/dvalid_pipe_1/delayLine[2]</cell>
+</row>
+<row>
+ <cell>95</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/fir_hilbert_0_FIRO[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/fir_hilbert_0/fir_hilbert_0/enum_g5.enum_fir_g5/adv_enum.adv_enum_0/rows_higher.3.a_row_higher/left_nibble_0/many_tap_nibble.many_tap_nibble_0/left_tap_0/MACC_PA_BC_ROM_wrap_0/MACC_PA_BC_ROM_0/MACC_PHYS_0</cell>
+</row>
+<row>
+ <cell>95</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_1_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[0].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>94</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_2_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[1].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>93</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_3_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[2].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>92</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_4_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[3].par_calc_0/yn[47]</cell>
+</row>
+<row>
+ <cell>91</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/yi_5_[47]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: envelope_0/CORECORDIC_C0_0/CORECORDIC_C0_0/parallel.cordic_paral_0/uRotator_par_0/cLayer[4].par_calc_0/yn[47]</cell>
+</row>
+</table>
+</doc>

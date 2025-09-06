@@ -1,0 +1,31 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+**** Begin Compile Point : envelope ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.envelope(verilog) 
+@N: MF106 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/envelope/envelope.v":9:7:9:14|Mapping Top level view:work.envelope(verilog) because 
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/hdl/delay.v":32:4:32:9|RAM delay_line_signext_0.shift_reg_seqshift[47:0] is 8 words by 48 bits.
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] is 8 words by 18 bits.
+@N: MO231 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":314:4:314:5|Found counter in view:COREFIR_PF_LIB.enum_g5_latency_adv_15_3_3_2_2_2_6(rtl) instance syst_counter_0.count[4:0] 
+**** End Compile Point : envelope ****
+**** Begin Compile Point : CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF106 :"/home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Mapping Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) because 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s ****
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

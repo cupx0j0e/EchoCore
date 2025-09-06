@@ -1,0 +1,105 @@
+RC_INFO analysis: 
+  phy_taps = 15; row_mac_count = 6
+rc_last_row=3; RC_ROWS=3 
+Running non-SYMMETRIC 15-tap 1-set FIR
+
+The following coefficients have been read in:
+
+ Coefficient Set 0
+c[  0] = -238
+c[  1] = 0
+c[  2] = -1056
+c[  3] = 0
+c[  4] = -4467
+c[  5] = 0
+c[  6] = -19910
+c[  7] = 0
+c[  8] = 19910
+c[  9] = 0
+c[ 10] = 4467
+c[ 11] = 0
+c[ 12] = 1056
+c[ 13] = 0
+c[ 14] = 238
+
+The following input data have been read in:
+d[  0] = 1
+d[  1] = -238
+d[  2] = 0
+d[  3] = -1056
+d[  4] = 0
+d[  5] = -4467
+d[  6] = 0
+d[  7] = -19910
+d[  8] = 0
+d[  9] = 19910
+d[ 10] = 0
+d[ 11] = 4467
+d[ 12] = 0
+d[ 13] = 1056
+d[ 14] = 0
+d[ 15] = 238
+d[ 16] = -2
+d[ 17] = -2
+d[ 18] = -2
+d[ 19] = -2
+d[ 20] = -2
+d[ 21] = -2
+d[ 22] = -2
+d[ 23] = -2
+d[ 24] = -2
+d[ 25] = -2
+d[ 26] = -2
+d[ 27] = -2
+d[ 28] = -2
+d[ 29] = -2
+d[ 30] = -2
+d[ 31] = -2
+d[ 32] = -2
+d[ 33] = -2
+d[ 34] = -2
+d[ 35] = -2
+d[ 36] = -2
+d[ 37] = -2
+d[ 38] = -2
+d[ 39] = -2
+d[ 40] = -2
+d[ 41] = -2
+d[ 42] = -2
+d[ 43] = -2
+d[ 44] = -2
+d[ 45] = -2
+
+Filtered results after 14 leading zero's:
+ Coef Set 0 
+Firout[  0] = -238
+Firout[  1] = 56644
+Firout[  2] = -1056
+Firout[  3] = 502656
+Firout[  4] = -4467
+Firout[  5] = 3241428
+Firout[  6] = -19910
+Firout[  7] = 18911464
+Firout[  8] = 19910
+Firout[  9] = 52526849
+Firout[ 10] = 4467
+Firout[ 11] = 133699728
+Firout[ 12] = 1056
+Firout[ 13] = 208595200
+Firout[ 14] = 238
+Firout[ 15] = -835067938
+Firout[ 16] = 476
+Firout[ 17] = 208595676
+Firout[ 18] = 2588
+Firout[ 19] = 133702316
+Firout[ 20] = 11522
+Firout[ 21] = 52538371
+Firout[ 22] = 51342
+Firout[ 23] = 18962806
+Firout[ 24] = 11522
+Firout[ 25] = 3252950
+Firout[ 26] = 2588
+Firout[ 27] = 505244
+Firout[ 28] = 476
+Firout[ 29] = 57120
+Firout[ 30] = 0

@@ -1,0 +1,11 @@
+DESIGN=top
+DESDIR=/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top
+TARGET_DIR=/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top
+FAM=PolarFireSoC
+DIE=PA5SOC025T
+PACKAGE=fcvg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+PINRPT_BOARDLAYOUT=1
+BANK_REPORT=1
+IOREG_REPORT=1

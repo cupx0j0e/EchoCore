@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+
+Date      :  Fri Sep  5 00:16:46 2025
+Project   :  /home/jessica/Desktop/Echo/ultrasound
+Component :  top
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/jessica/Desktop/Echo/ultrasound/component/work/top/top.v
+

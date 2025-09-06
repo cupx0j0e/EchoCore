@@ -1,0 +1,452 @@
+# Fri Sep  5 01:25:04 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309actp1, Build 008R, Built Jul 25 2024 09:00:52, @5544113
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 522MB peak: 522MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 574MB peak: 574MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 578MB peak: 578MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 578MB peak: 578MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 578MB peak: 578MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Mapping Compile point view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) because 
+		 Mapper or mapping options changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 578MB peak: 578MB)
+
+@W: FX147 |Found 1 instantiated DSPs or BlackBox DSP resources, but 0 are available. 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 583MB peak: 583MB)
+
+@W: FX147 |Found 1 instantiated DSPs or BlackBox DSP resources, but 0 are available. 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 583MB peak: 583MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 583MB peak: 583MB)
+
+@W: FX147 |Found 1 instantiated DSPs or BlackBox DSP resources, but 0 are available. 
+NConnInternalConnection caching is on
+@W: FX147 |Found 1 instantiated DSPs or BlackBox DSP resources, but 0 are available. 
+@W: FX147 |Found 1 instantiated DSPs or BlackBox DSP resources, but 0 are available. 
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 583MB peak: 583MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 583MB peak: 583MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 583MB peak: 583MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 583MB peak: 583MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 605MB peak: 605MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 608MB peak: 608MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		     6.48ns		1599 /      1539
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 608MB peak: 608MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 608MB peak: 608MB)
+
+
+End compile point sub-process log
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Sep  5 01:25:08 2025
+#
+
+
+Top view:               top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 7.399
+
+                                                                     Requested     Estimated     Requested     Estimated               Clock        Clock          
+Starting Clock                                                       Frequency     Frequency     Period        Period        Slack     Type         Group          
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+delay_calc_0|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_1|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_2|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_3|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_4|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_5|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_6|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_7|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_8|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_9|N_20_inferred_clock                                     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_10|N_20_inferred_clock                                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_11|N_20_inferred_clock                                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_12|N_20_inferred_clock                                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_13|N_20_inferred_clock                                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_14|N_20_inferred_clock                                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_calc_15|N_20_inferred_clock                                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+top|clk                                                              100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)     
+System                                                               100.0 MHz     384.5 MHz     10.000        2.601         7.399     system       system_clkgroup
+===================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+System    System  |  10.000      7.399  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                                                                                      Starting                                                                                                                     Arrival          
+Instance                                                                                                                                                                                                              Reference     Type               Pin       Net                                                                               Time        Slack
+                                                                                                                                                                                                                      Clock                                                                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.3\.a_row_higher.left_nibble_0.many_tap_nibble\.many_tap_nibble_0.right_tap_0.MACC_PA_BC_ROM_wrap_0.MACC_PA_BC_ROM_0     System        MACC_PA_BC_ROM     P[47]     envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.din_y[47]     0.291       7.399
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[13\]\.par_calc_0.yn[47]                                                                                                    System        SLE                Q         yi\[14\][47]                                                                      0.218       7.427
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[1\][47]                                                                       0.218       7.472
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[1\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[2\][47]                                                                       0.218       7.474
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[2\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[3\][47]                                                                       0.218       7.476
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[3\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[4\][47]                                                                       0.218       7.478
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[4\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[5\][47]                                                                       0.218       7.479
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[5\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[6\][47]                                                                       0.218       7.481
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[6\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[7\][47]                                                                       0.218       7.483
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[7\]\.par_calc_0.yn[47]                                                                                                     System        SLE                Q         yi\[8\][47]                                                                       0.218       7.485
+====================================================================================================================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                       Starting                                     Required          
+Instance                                                                                                               Reference     Type     Pin     Net           Time         Slack
+                                                                                                                       Clock                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[47]      System        SLE      D       xn_4[47]      10.000       7.399
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[47]      System        SLE      D       yn_4[47]      10.000       7.399
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[46]      System        SLE      D       xn_4[46]      10.000       7.407
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[46]      System        SLE      D       yn_4[46]      10.000       7.407
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[45]      System        SLE      D       xn_4[45]      10.000       7.415
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[45]      System        SLE      D       yn_4[45]      10.000       7.415
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[44]      System        SLE      D       xn_4[44]      10.000       7.423
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.yn[44]      System        SLE      D       yn_4[44]      10.000       7.423
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[14\]\.par_calc_0.yn[47]     System        SLE      D       yn_88[47]     10.000       7.427
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[43]      System        SLE      D       xn_4[43]      10.000       7.431
+======================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      2.601
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     7.399
+
+    Number of logic level(s):                48
+    Starting point:                          envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.3\.a_row_higher.left_nibble_0.many_tap_nibble\.many_tap_nibble_0.right_tap_0.MACC_PA_BC_ROM_wrap_0.MACC_PA_BC_ROM_0 / P[47]
+    Ending point:                            envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[47] / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            System [rising] on pin CLK
+
+Instance / Net                                                                                                                                                                                                                           Pin       Pin               Arrival     No. of    
+Name                                                                                                                                                                                                                  Type               Name      Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.rows_higher\.3\.a_row_higher.left_nibble_0.many_tap_nibble\.many_tap_nibble_0.right_tap_0.MACC_PA_BC_ROM_wrap_0.MACC_PA_BC_ROM_0     MACC_PA_BC_ROM     P[47]     Out     0.291     0.291 f     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.din_y[47]                                                                                                                                         Net                -         -       1.032     -           95        
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_0_0                                                                                               ARI1               D         In      -         1.323 f     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_0_0                                                                                               ARI1               FCO       Out     0.492     1.815 r     -         
+xn_4_cry_0                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_1_0                                                                                               ARI1               FCI       In      -         1.815 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_1_0                                                                                               ARI1               FCO       Out     0.008     1.823 r     -         
+xn_4_cry_1                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_2_0                                                                                               ARI1               FCI       In      -         1.823 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_2_0                                                                                               ARI1               FCO       Out     0.008     1.831 r     -         
+xn_4_cry_2                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_3_0                                                                                               ARI1               FCI       In      -         1.831 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_3_0                                                                                               ARI1               FCO       Out     0.008     1.839 r     -         
+xn_4_cry_3                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_4_0                                                                                               ARI1               FCI       In      -         1.839 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_4_0                                                                                               ARI1               FCO       Out     0.008     1.847 r     -         
+xn_4_cry_4                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_5_0                                                                                               ARI1               FCI       In      -         1.847 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_5_0                                                                                               ARI1               FCO       Out     0.008     1.855 r     -         
+xn_4_cry_5                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_6_0                                                                                               ARI1               FCI       In      -         1.855 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_6_0                                                                                               ARI1               FCO       Out     0.008     1.863 r     -         
+xn_4_cry_6                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_7_0                                                                                               ARI1               FCI       In      -         1.863 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_7_0                                                                                               ARI1               FCO       Out     0.008     1.871 r     -         
+xn_4_cry_7                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_8_0                                                                                               ARI1               FCI       In      -         1.871 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_8_0                                                                                               ARI1               FCO       Out     0.008     1.879 r     -         
+xn_4_cry_8                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_9_0                                                                                               ARI1               FCI       In      -         1.879 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_9_0                                                                                               ARI1               FCO       Out     0.008     1.887 r     -         
+xn_4_cry_9                                                                                                                                                                                                            Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_10_0                                                                                              ARI1               FCI       In      -         1.887 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_10_0                                                                                              ARI1               FCO       Out     0.008     1.895 r     -         
+xn_4_cry_10                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_11_0                                                                                              ARI1               FCI       In      -         1.895 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_11_0                                                                                              ARI1               FCO       Out     0.008     1.903 r     -         
+xn_4_cry_11                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_12_0                                                                                              ARI1               FCI       In      -         1.903 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_12_0                                                                                              ARI1               FCO       Out     0.008     1.911 r     -         
+xn_4_cry_12                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_13_0                                                                                              ARI1               FCI       In      -         1.911 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_13_0                                                                                              ARI1               FCO       Out     0.008     1.919 r     -         
+xn_4_cry_13                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_14_0                                                                                              ARI1               FCI       In      -         1.919 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_14_0                                                                                              ARI1               FCO       Out     0.008     1.927 r     -         
+xn_4_cry_14                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_15_0                                                                                              ARI1               FCI       In      -         1.927 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_15_0                                                                                              ARI1               FCO       Out     0.008     1.935 r     -         
+xn_4_cry_15                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_16_0                                                                                              ARI1               FCI       In      -         1.935 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_16_0                                                                                              ARI1               FCO       Out     0.008     1.943 r     -         
+xn_4_cry_16                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_17_0                                                                                              ARI1               FCI       In      -         1.943 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_17_0                                                                                              ARI1               FCO       Out     0.008     1.951 r     -         
+xn_4_cry_17                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_18_0                                                                                              ARI1               FCI       In      -         1.951 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_18_0                                                                                              ARI1               FCO       Out     0.008     1.959 r     -         
+xn_4_cry_18                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_19_0                                                                                              ARI1               FCI       In      -         1.959 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_19_0                                                                                              ARI1               FCO       Out     0.008     1.967 r     -         
+xn_4_cry_19                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_20_0                                                                                              ARI1               FCI       In      -         1.967 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_20_0                                                                                              ARI1               FCO       Out     0.008     1.975 r     -         
+xn_4_cry_20                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_21_0                                                                                              ARI1               FCI       In      -         1.975 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_21_0                                                                                              ARI1               FCO       Out     0.008     1.983 r     -         
+xn_4_cry_21                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_22_0                                                                                              ARI1               FCI       In      -         1.983 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_22_0                                                                                              ARI1               FCO       Out     0.008     1.991 r     -         
+xn_4_cry_22                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_23_0                                                                                              ARI1               FCI       In      -         1.991 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_23_0                                                                                              ARI1               FCO       Out     0.008     1.999 r     -         
+xn_4_cry_23                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_24_0                                                                                              ARI1               FCI       In      -         1.999 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_24_0                                                                                              ARI1               FCO       Out     0.008     2.007 r     -         
+xn_4_cry_24                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_25_0                                                                                              ARI1               FCI       In      -         2.007 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_25_0                                                                                              ARI1               FCO       Out     0.008     2.015 r     -         
+xn_4_cry_25                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_26_0                                                                                              ARI1               FCI       In      -         2.015 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_26_0                                                                                              ARI1               FCO       Out     0.008     2.023 r     -         
+xn_4_cry_26                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_27_0                                                                                              ARI1               FCI       In      -         2.023 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_27_0                                                                                              ARI1               FCO       Out     0.008     2.031 r     -         
+xn_4_cry_27                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_28_0                                                                                              ARI1               FCI       In      -         2.031 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_28_0                                                                                              ARI1               FCO       Out     0.008     2.039 r     -         
+xn_4_cry_28                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_29_0                                                                                              ARI1               FCI       In      -         2.039 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_29_0                                                                                              ARI1               FCO       Out     0.008     2.047 r     -         
+xn_4_cry_29                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_30_0                                                                                              ARI1               FCI       In      -         2.047 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_30_0                                                                                              ARI1               FCO       Out     0.008     2.055 r     -         
+xn_4_cry_30                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_31_0                                                                                              ARI1               FCI       In      -         2.055 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_31_0                                                                                              ARI1               FCO       Out     0.008     2.063 r     -         
+xn_4_cry_31                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_32_0                                                                                              ARI1               FCI       In      -         2.063 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_32_0                                                                                              ARI1               FCO       Out     0.008     2.071 r     -         
+xn_4_cry_32                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_33_0                                                                                              ARI1               FCI       In      -         2.071 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_33_0                                                                                              ARI1               FCO       Out     0.008     2.079 r     -         
+xn_4_cry_33                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_34_0                                                                                              ARI1               FCI       In      -         2.079 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_34_0                                                                                              ARI1               FCO       Out     0.008     2.087 r     -         
+xn_4_cry_34                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_35_0                                                                                              ARI1               FCI       In      -         2.087 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_35_0                                                                                              ARI1               FCO       Out     0.008     2.095 r     -         
+xn_4_cry_35                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_36_0                                                                                              ARI1               FCI       In      -         2.095 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_36_0                                                                                              ARI1               FCO       Out     0.008     2.103 r     -         
+xn_4_cry_36                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_37_0                                                                                              ARI1               FCI       In      -         2.103 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_37_0                                                                                              ARI1               FCO       Out     0.008     2.111 r     -         
+xn_4_cry_37                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_38_0                                                                                              ARI1               FCI       In      -         2.111 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_38_0                                                                                              ARI1               FCO       Out     0.008     2.119 r     -         
+xn_4_cry_38                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_39_0                                                                                              ARI1               FCI       In      -         2.119 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_39_0                                                                                              ARI1               FCO       Out     0.008     2.127 r     -         
+xn_4_cry_39                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_40_0                                                                                              ARI1               FCI       In      -         2.127 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_40_0                                                                                              ARI1               FCO       Out     0.008     2.135 r     -         
+xn_4_cry_40                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_41_0                                                                                              ARI1               FCI       In      -         2.135 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_41_0                                                                                              ARI1               FCO       Out     0.008     2.143 r     -         
+xn_4_cry_41                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_42_0                                                                                              ARI1               FCI       In      -         2.143 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_42_0                                                                                              ARI1               FCO       Out     0.008     2.151 r     -         
+xn_4_cry_42                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_43_0                                                                                              ARI1               FCI       In      -         2.151 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_43_0                                                                                              ARI1               FCO       Out     0.008     2.159 r     -         
+xn_4_cry_43                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_44_0                                                                                              ARI1               FCI       In      -         2.159 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_44_0                                                                                              ARI1               FCO       Out     0.008     2.167 r     -         
+xn_4_cry_44                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_45_0                                                                                              ARI1               FCI       In      -         2.167 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_45_0                                                                                              ARI1               FCO       Out     0.008     2.175 r     -         
+xn_4_cry_45                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_46_0                                                                                              ARI1               FCI       In      -         2.175 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_cry_46_0                                                                                              ARI1               FCO       Out     0.008     2.183 r     -         
+xn_4_cry_46                                                                                                                                                                                                           Net                -         -       0.000     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_s_47                                                                                                  ARI1               FCI       In      -         2.183 r     -         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn_4_s_47                                                                                                  ARI1               S         Out     0.300     2.483 r     -         
+xn_4[47]                                                                                                                                                                                                              Net                -         -       0.118     -           1         
+envelope_0.CORECORDIC_C0_0.CORECORDIC_C0_0.parallel\.cordic_paral_0.uRotator_par_0.cLayer\[0\]\.par_calc_0.xn[47]                                                                                                     SLE                D         In      -         2.601 r     -         
+===========================================================================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.601 is 1.451(55.8%) logic and 1.150(44.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+Writing compile point status file /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s/cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                                                    Status       Reason                 
+------------------------------------------------------------------------------------------------------------
+CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s     Remapped     Mapping options changed
+============================================================================================================
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Fri Sep  5 01:25:09 2025
+
+###########################################################]

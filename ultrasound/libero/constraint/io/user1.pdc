@@ -1,0 +1,199 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2024.2 2024.2.0.13
+
+# Family: PolarFireSoC , Die: MPFS025T , Package: FCVG484
+
+# Date generated: Fri Sep  5 01:27:24 2025 
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name clk  \
+    -pin_name A5       \
+    -fixed true        \
+    -LOCK_DOWN No      \
+    -DIRECTION INPUT
+
+
+set_io -port_name {comp_frac[0]}  \
+    -pin_name A6                  \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[1]}  \
+    -pin_name A7                  \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[2]}  \
+    -pin_name A8                  \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[3]}  \
+    -pin_name A10                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[4]}  \
+    -pin_name A11                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[5]}  \
+    -pin_name A12                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[6]}  \
+    -pin_name A13                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[7]}  \
+    -pin_name A15                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[8]}  \
+    -pin_name A18                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[9]}  \
+    -pin_name AA12                \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[10]}  \
+    -pin_name AA13                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[11]}  \
+    -pin_name AA15                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[12]}  \
+    -pin_name AA16                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[13]}  \
+    -pin_name AA17                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[14]}  \
+    -pin_name AA18                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[15]}  \
+    -pin_name AA20                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_frac[16]}  \
+    -pin_name AA21                 \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_int[0]}  \
+    -pin_name AA22               \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_int[1]}  \
+    -pin_name AB12               \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_int[2]}  \
+    -pin_name AB13               \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_int[3]}  \
+    -pin_name AB14               \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_int[4]}  \
+    -pin_name AB15               \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {comp_int[5]}  \
+    -pin_name AB17               \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name log_in_ready  \
+    -pin_name AB18              \
+    -fixed true                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name reset  \
+    -pin_name AB19       \
+    -fixed true          \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

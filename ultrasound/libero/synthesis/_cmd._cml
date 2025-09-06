@@ -1,0 +1,1 @@
+-link -encrypt -top top -osyn /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/layer0.srs /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/layer1.srs  -jobname linker  

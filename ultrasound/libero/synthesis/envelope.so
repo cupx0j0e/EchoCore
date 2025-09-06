@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>envelope</design>
+	<target_verilog>/home/jessica/Desktop/lultrasound_ibero/envelope_detection/synthesis/envelope.vm</target_verilog>
+</SynplifyOutput>

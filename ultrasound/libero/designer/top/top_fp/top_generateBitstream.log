@@ -1,0 +1,15 @@
+Software Version: 2024.2.0.13
+Opened '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/top_fp/top.pro'
+PDB file '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : F031;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version: 0
+File/Folder '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/jessica/GITHUB/EchoCore/ultrasound/libero/designer/top/top.ppd'; file programs Fabric and sNVM.
+Fabric component bitstream digest: e80c509f3caf586c714cb3817270a1410a11923ff22ff66bb5d85aa73a69cbce
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+Entire bitstream digest: a2aaeccd88688466f7c3e87d36da172e5923751a420886700926a014cea8a6e9
+Finished: Fri Sep  5 01:30:49 2025 (Elapsed time 00:00:20)
+
+Project saved.
+Project closed.

@@ -1,0 +1,145 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+# Written on Wed Aug 20 14:42:27 2025
+
+##### DESIGN INFO #######################################################
+
+Top View:                "my_design"
+Constraint File(s):      "/home/jessica/Desktop/github__echocore_jessica/qam_16/designer/my_design/synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting          Ending            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------
+my_design|clk     my_design|clk     |     10.000           |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DOUT_VALID
+p:FIRO_VALID
+p:FIRO_VALID_0
+p:combined_output[0]
+p:combined_output[1]
+p:combined_output[2]
+p:combined_output[3]
+p:combined_output[4]
+p:combined_output[5]
+p:combined_output[6]
+p:combined_output[7]
+p:combined_output[8]
+p:combined_output[9]
+p:combined_output[10]
+p:combined_output[11]
+p:combined_output[12]
+p:combined_output[13]
+p:combined_output[14]
+p:combined_output[15]
+p:combined_output[16]
+p:combined_output[17]
+p:combined_output[18]
+p:combined_output[19]
+p:combined_output[20]
+p:combined_output[21]
+p:combined_output[22]
+p:combined_output[23]
+p:combined_output[24]
+p:combined_output[25]
+p:combined_output[26]
+p:combined_output[27]
+p:combined_output[28]
+p:combined_output[29]
+p:combined_output[30]
+p:combined_output[31]
+p:combined_output[32]
+p:combined_output[33]
+p:combined_output[34]
+p:combined_output[35]
+p:combined_output[36]
+p:combined_output[37]
+p:combined_output[38]
+p:combined_output[39]
+p:combined_output[40]
+p:combined_output[41]
+p:combined_output[42]
+p:combined_output[43]
+p:combined_output[44]
+p:combined_output[45]
+p:combined_output[46]
+p:combined_output[47]
+p:combined_output[48]
+p:combined_output[49]
+p:combined_output[50]
+p:combined_output[51]
+p:combined_output[52]
+p:combined_output[53]
+p:combined_output[54]
+p:combined_output[55]
+p:combined_output[56]
+p:combined_output[57]
+p:combined_output[58]
+p:combined_output[59]
+p:combined_output[60]
+p:combined_output[61]
+p:combined_output[62]
+p:combined_output[63]
+p:combined_output[64]
+p:reset
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

@@ -1,0 +1,20 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Found compile point of type hard on View view:CORECORDIC_LIB.CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s(verilog) 
+@N: MF104 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/top_bf.v":1:7:1:12|Found compile point of type hard on View view:work.top_bf(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.top(verilog) 
+@N: MF106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/work/top/top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":95:41:95:58|Found ROM un9_z_reg[15:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) with 16 words by 16 bits.
+@N: BZ173 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) mapped in logic.
+@N: MO106 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":93:33:93:54|Found ROM un1_i[14:0] (in view: work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog)) with 16 words by 15 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/delay.v":17:4:17:9|RAM envelope_0.delay_line_signext_0.shift_reg_seqshift[47:0] is 8 words by 48 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.1\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.non_symm_bus\.2\.dly_link_22.fabric_shift_reg\.fabric_dly_0.delayLine_seqshift[17:0] is 16 words by 18 bits.
+@N: MF135 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":116:4:116:5|RAM envelope_0.fir_hilbert_0.fir_hilbert_0.enum_g5\.enum_fir_g5.adv_enum\.adv_enum_0.enum_pad_g5_0.data_pipe_0.delayLine_seqshift[17:0] is 8 words by 18 bits.
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd":314:4:314:5|Found counter in view:COREFIR_PF_LIB.enum_g5_latency_adv_15_3_3_2_2_2_6(rtl) instance syst_counter_0.count[4:0] 
+@N: FX493 |Applying initial value "0" on instance state_i[0].
+@N: MO231 :"/home/jessica/GITHUB/EchoCore/ultrasound/libero/hdl/log_frac_calc.v":73:4:73:9|Found counter in view:work.log_frac_calc_48s_16s_17s_0s_1s_2s(verilog) instance i[4:0] 

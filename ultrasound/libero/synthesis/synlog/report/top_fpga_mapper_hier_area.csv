@@ -1,0 +1,159 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. top, 4703, 2016, 2558, 0, 31, 0, 26, 34, 26
+.	. envelope, 1952, 273, 1519, 0, 15, 0, 10, 0, 0
+.	.	. CORECORDIC_C0, 1592, 59, 1519, 0, 0, 0, 0, 0, 0
+.	.	.	. CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0, 1592, 59, 1519, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0, 1587, 51, 1519, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s, 1489, 51, 1519, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_kitDelay_bit_reg_16s, 16, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_0s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_10s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_11s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_12s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_13s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_14s, 81, 33, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_15s, 48, 0, 49, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_1s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_2s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_3s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_4s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_5s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_6s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_7s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_8s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_par_calc_1_48_4_9s, 96, 0, 98, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. cordic_kitRoundTop_48_48_0s_1s, 98, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_kitDelay_bit_reg_2s, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. cordic_kitDelay_reg_48_2s_0, 96, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. cordic_init_kickstart, 5, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. cordic_countS_4s_15s_1s, 4, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	. delay_line_signext, 58, 65, 0, 0, 0, 0, 4, 0, 0
+.	.	. fir_hilbert, 302, 149, 0, 0, 15, 0, 6, 0, 0
+.	.	.	. fir_hilbert_fir_hilbert_0_COREFIR_PF_work_fir_hilbert_rtl_0layer1, 302, 149, 0, 0, 15, 0, 6, 0, 0
+.	.	.	.	. fir_hilbert_fir_hilbert_0_enum_fir_g5_1_15_0_1_0_0_18_0_18_0_0_3_2_2_1_1_1_4_2, 302, 149, 0, 0, 15, 0, 6, 0, 0
+.	.	.	.	.	. enum_fir_adv_g5_work_fir_hilbert_rtl_0layer1, 302, 149, 0, 0, 15, 0, 6, 0, 0
+.	.	.	.	.	.	. enum_dly_line_18x192_18_10_1_0, 20, 52, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_reg_18_10, 20, 52, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. enum_dly_line_18x192_18_13_1_0, 20, 53, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_reg_18_13, 20, 53, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. enum_g5_latency_adv_15_3_3_2_2_2_6, 15, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitCountS_5_14_1, 5, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_7, 7, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. enum_kitDelay_bit_reg_5, 5, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. enum_pad_g5_3_2_2_0_0_0_18_0_18, 14, 26, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_2_0, 2, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_2_1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_reg_18_7, 11, 25, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. enum_row_g5_work_fir_hilbert_rtl_0layer1, 10, 1, 0, 0, 6, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_2, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_2_6, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_tap_nibble_work_fir_hilbert_rtl_2layer1, 6, 1, 0, 0, 6, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_8, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_tap_undernibble_3_work_fir_hilbert_rtl_2layer1, 0, 1, 0, 0, 6, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_1layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_1layer1_0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_2, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_1layer1_1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_7layer1, 0, 1, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_8layer1, 0, 1, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_8layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_7layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_9layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_6layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	. enum_row_g5_work_fir_hilbert_rtl_1layer1, 109, 1, 0, 0, 6, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_2_0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_2_6_0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_8_1, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_reg_48_2, 96, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_tap_nibble_work_fir_hilbert_rtl_1layer1, 6, 1, 0, 0, 6, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_0, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_8_0, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_tap_undernibble_3_work_fir_hilbert_rtl_1layer1, 0, 1, 0, 0, 6, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_1layer1_2, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_1layer1_3, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_2, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_3layer1, 0, 1, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_5layer1, 0, 1, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_4layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_4layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_5layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_3layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_6layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_1_5, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	. enum_row_g5_work_fir_hilbert_rtl_2layer1, 109, 1, 0, 0, 3, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_2_1, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_2_6_1, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_8_3, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_kitDelay_reg_48_2_0, 96, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. enum_tap_nibble_work_fir_hilbert_rtl_0layer1, 6, 1, 0, 0, 3, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_1, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_kitDelay_bit_reg_attr_3_8_2, 3, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. enum_tap_undernibble_3_work_fir_hilbert_rtl_0layer1, 0, 1, 0, 0, 3, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_0layer1, 0, 1, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_2layer1, 0, 1, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_1layer1_4, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_1layer1_3, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. enum_tap_g5_work_fir_hilbert_rtl_2layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. MACC_PA_BC_ROM_wrap_work_fir_hilbert_rtl_0layer1, 0, 0, 0, 0, 1, 0, 0, 0, 0
+.	. top_bf, 2545, 1302, 963, 0, 16, 0, 16, 32, 0
+.	.	. delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s, 2500, 1255, 889, 0, 16, 0, 16, 32, 0
+.	.	.	. coord_rom_16s_4s, 0, 22, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_0, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_14, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_1, 153, 74, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_13, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_10, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_4, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_11, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_3, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_12, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_2, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_13, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_1, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_14, 153, 75, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_0, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_15, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_2, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_12, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_3, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_11, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_4, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_10, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_5, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_9, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_6, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_8, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_7, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_7, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_8, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_6, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. delay_calc_9, 153, 73, 42, 0, 1, 0, 0, 1, 0
+.	.	.	.	. sqrt_top_bf_15_5, 102, 62, 42, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s, 0, 15, 32, 0, 0, 0, 4, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_0, 0, 8, 32, 0, 0, 0, 4, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_1, 0, 7, 16, 0, 0, 0, 4, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13, 8, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_0, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_1, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_10, 0, 0, 17, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_2, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_3, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_4, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_5, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_6, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_7, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_8, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_13_9, 0, 0, 8, 0, 0, 0, 0, 0, 0
+.	.	.	. sample_delay_16s_256s_8s_2, 0, 16, 32, 0, 0, 0, 4, 0, 0
+.	.	. readrf_vals, 24, 22, 17, 0, 0, 0, 0, 0, 0
+.	.	. summ_sa_16s_16s_18s, 18, 15, 57, 0, 0, 0, 0, 0, 0
+.	. top_logc, 206, 439, 76, 0, 0, 0, 0, 0, 0
+.	.	. int_calc_Z3_layer0, 148, 354, 0, 0, 0, 0, 0, 0, 0
+.	.	. log_frac_calc_48s_16s_17s_0s_1s_2s, 58, 85, 76, 0, 0, 0, 0, 0, 0

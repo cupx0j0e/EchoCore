@@ -1,0 +1,1338 @@
+#Build: Synplify Pro (R) V-2023.09M-3, Build 307R, Jul 25 2024
+#install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+#OS: Linux 
+#Hostname: jessica-IdeaPad-Slim-3-14IAH8
+
+# Thu Sep  4 22:52:06 2025
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 280R, Built Jun 20 2024 08:33:30, @5482938
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202309synp1, Build 280R, Built Jun 20 2024 08:33:30, @5482938
+
+@N|Running in 64-bit mode
+@N|stack limit increased to max
+@N:"/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert.vhd":92:7:92:17|Top entity is set to fir_hilbert.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/jessica/Desktop/Echo/ultrasound/component/work/fir_hilbert/fir_hilbert.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_top_kit.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_kit.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/adv_dly_line.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_pad_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_macc_lib_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_tap_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_undernibble_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_nibble_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_PF/enum_row_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_adv_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/enum_fir_g5.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/COREFIR.vhd changed - recompiling
+File /home/jessica/Desktop/lultrasound_ibero/envelope_detection/component/work/fir_hilbert/fir_hilbert.vhd changed - recompiling
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 194MB)
+
+
+Process completed successfully.
+# Thu Sep  4 22:52:06 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: /usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro
+OS: Ubuntu 22.04.5 LTS
+Hostname: jessica-IdeaPad-Slim-3-14IAH8
+max virtual memory: unlimited (bytes)
+max user processes: 62417
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 280R, Built Jun 20 2024 08:33:30, @5482938
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v" (library work)
+@I::"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v" (library work)
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12833:13:12833:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12846:13:12846:25|User defined pragma syn_black_box detected
+
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/delay.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/envelope/envelope.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/start_pulse_generator.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/coord_rom.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_calc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/sample_delay.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/summ_sa.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/top_logc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/top/top.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+
+Process completed successfully.
+# Thu Sep  4 22:52:07 2025
+
+###########################################################]
+###########################################################[
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/generic/acg5.v" (library work)
+@I::"/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v" (library work)
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12833:13:12833:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/polarfire_syn_comps.v":12846:13:12846:25|User defined pragma syn_black_box detected
+
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v" (library CORECORDIC_LIB)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/delay.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/envelope/envelope.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/start_pulse_generator.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/coord_rom.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_calc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/sample_delay.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/summ_sa.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/hdl/top_logc.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/work/top/top.v" (library work)
+@I::"/home/jessica/Desktop/Echo/ultrasound/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/jessica/Desktop/Echo/ultrasound/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+Options changed - recompiling
+@N: CG775 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Component CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC not found in library "work" or "__hyper__lib__", but found in library CORECORDIC_LIB
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":116:7:116:19|Synthesizing module cordic_countS in library CORECORDIC_LIB.
+
+	WIDTH=32'b00000000000000000000000000000100
+	DCVALUE=32'b00000000000000000000000000001111
+	BUILD_DC=32'b00000000000000000000000000000001
+   Generated name = cordic_countS_4s_15s_1s
+Running optimization stage 1 on cordic_countS_4s_15s_1s .......
+Finished optimization stage 1 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":451:7:451:27|Synthesizing module cordic_init_kickstart in library CORECORDIC_LIB.
+Running optimization stage 1 on cordic_init_kickstart .......
+Finished optimization stage 1 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":66:7:66:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC in library CORECORDIC_LIB.
+
+	ARCHITECT=32'b00000000000000000000000000000010
+	MODE=32'b00000000000000000000000000000010
+	DP_OPTION=32'b00000000000000000000000000000000
+	DP_WIDTH=32'b00000000000000000000000000010000
+	IN_BITS=32'b00000000000000000000000000110000
+	OUT_BITS=32'b00000000000000000000000000110000
+	ROUND=32'b00000000000000000000000000000000
+	ITERATIONS=32'b00000000000000000000000000010000
+	COARSE=32'b00000000000000000000000000000000
+	WORDSIZE_MAX=32'b00000000000000000000000000110000
+	WORDSIZE_MIN=32'b00000000000000000000000000001000
+	MODE_VECTOR=1'b1
+	LOGITER=32'b00000000000000000000000000000100
+	BITS00=32'b00000000000000000000000000110010
+	BITS02=32'b00000000000000000000000001000100
+	BITS0=32'b00000000000000000000000000110010
+	BITS1=32'b00000000000000000000000000110010
+	DP_BITS=32'b00000000000000000000000000110000
+	EFFECT_OUT_BITS=32'b00000000000000000000000000110000
+	IN_REG=32'b00000000000000000000000000000000
+	OUT_REG=32'b00000000000000000000000000000000
+	USE_RAM=32'b00000000000000000000000000000000
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	DIE_SIZE=32'b00000000000000000000000000010100
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":609:7:609:31|Synthesizing module cordic_coarse_pre_rotator in library CORECORDIC_LIB.
+
+	IN_BITS=32'b00000000000000000000000000110000
+	MODE_VECTOR=1'b1
+	COARSE=32'b00000000000000000000000000000000
+   Generated name = cordic_coarse_pre_rotator_48s_1_0s
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:21:621:25|Removing wire x2u_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:28:621:32|Removing wire y2u_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":621:35:621:39|Removing wire a2u_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":622:13:622:25|Removing wire coarse_flag_w, as there is no assignment to it.
+Running optimization stage 1 on cordic_coarse_pre_rotator_48s_1_0s .......
+Finished optimization stage 1 on cordic_coarse_pre_rotator_48s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000010
+	DELAY=32'b00000000000000000000000000010010
+   Generated name = cordic_kitDelay_reg_2s_18s
+Running optimization stage 1 on cordic_kitDelay_reg_2s_18s .......
+Finished optimization stage 1 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
+
+	INWIDTH=32'b00000000000000000000000000110000
+	OUTWIDTH=32'b00000000000000000000000000110000
+	UNSIGNED=32'b00000000000000000000000000000000
+	DROP_MSB=32'b00000000000000000000000000000000
+   Generated name = cordic_signExt_48s_48_0s_0s
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":797:11:797:14|Removing wire u_sB, as there is no assignment to it.
+Running optimization stage 1 on cordic_signExt_48s_48_0s_0s .......
+Finished optimization stage 1 on cordic_signExt_48s_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":507:7:507:26|Synthesizing module cordic_dp_bits_trans in library CORECORDIC_LIB.
+
+	IN_BITS=32'b00000000000000000000000000110000
+	DP_BITS=32'b00000000000000000000000000110000
+   Generated name = cordic_dp_bits_trans_48s_48
+Running optimization stage 1 on cordic_dp_bits_trans_48s_48 .......
+Finished optimization stage 1 on cordic_dp_bits_trans_48s_48 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+
+	DELAY=32'b00000000000000000000000000010000
+   Generated name = cordic_kitDelay_bit_reg_16s
+Running optimization stage 1 on cordic_kitDelay_bit_reg_16s .......
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":33:7:33:55|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator in library CORECORDIC_LIB.
+
+	IN_BITS=32'b00000000000000000000000000110000
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATIONS=32'b00000000000000000000000000010000
+	LOGITER=32'b00000000000000000000000000000100
+	MODE_VECTOR=1'b1
+	MODE=32'b00000000000000000000000000000010
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000000
+   Generated name = cordic_par_calc_1_48_4_0s
+Running optimization stage 1 on cordic_par_calc_1_48_4_0s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_0s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000000
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000001
+   Generated name = cordic_par_calc_1_48_4_1s
+Running optimization stage 1 on cordic_par_calc_1_48_4_1s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_1s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000001
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000010
+   Generated name = cordic_par_calc_1_48_4_2s
+Running optimization stage 1 on cordic_par_calc_1_48_4_2s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_2s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000010
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000011
+   Generated name = cordic_par_calc_1_48_4_3s
+Running optimization stage 1 on cordic_par_calc_1_48_4_3s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_3s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000011
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000100
+   Generated name = cordic_par_calc_1_48_4_4s
+Running optimization stage 1 on cordic_par_calc_1_48_4_4s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_4s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000100
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000101
+   Generated name = cordic_par_calc_1_48_4_5s
+Running optimization stage 1 on cordic_par_calc_1_48_4_5s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_5s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000101
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000110
+   Generated name = cordic_par_calc_1_48_4_6s
+Running optimization stage 1 on cordic_par_calc_1_48_4_6s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_6s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000110
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000000111
+   Generated name = cordic_par_calc_1_48_4_7s
+Running optimization stage 1 on cordic_par_calc_1_48_4_7s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_7s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000000111
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001000
+   Generated name = cordic_par_calc_1_48_4_8s
+Running optimization stage 1 on cordic_par_calc_1_48_4_8s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_8s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001000
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001001
+   Generated name = cordic_par_calc_1_48_4_9s
+Running optimization stage 1 on cordic_par_calc_1_48_4_9s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_9s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001001
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001010
+   Generated name = cordic_par_calc_1_48_4_10s
+Running optimization stage 1 on cordic_par_calc_1_48_4_10s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_10s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001010
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001011
+   Generated name = cordic_par_calc_1_48_4_11s
+Running optimization stage 1 on cordic_par_calc_1_48_4_11s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_11s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001011
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001100
+   Generated name = cordic_par_calc_1_48_4_12s
+Running optimization stage 1 on cordic_par_calc_1_48_4_12s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_12s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001100
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001101
+   Generated name = cordic_par_calc_1_48_4_13s
+Running optimization stage 1 on cordic_par_calc_1_48_4_13s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_13s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001101
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001110
+   Generated name = cordic_par_calc_1_48_4_14s
+Running optimization stage 1 on cordic_par_calc_1_48_4_14s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_14s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001110
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":919:7:919:21|Synthesizing module cordic_par_calc in library CORECORDIC_LIB.
+
+	MODE_VECTOR=1'b1
+	DP_BITS=32'b00000000000000000000000000110000
+	LOGITER=32'b00000000000000000000000000000100
+	ITER_NUM=32'b00000000000000000000000000001111
+   Generated name = cordic_par_calc_1_48_4_15s
+Running optimization stage 1 on cordic_par_calc_1_48_4_15s .......
+Finished optimization stage 1 on cordic_par_calc_1_48_4_15s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/CORECORDIC_C0_CORECORDIC_C0_0_CordicLUT_par.v":26:7:26:44|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cROM_par in library CORECORDIC_LIB.
+
+	DP_BITS=32'b00000000000000000000000000110000
+	ITERATION=32'b00000000000000000000000000001111
+	IN_BITS=32'b00000000000000000000000000110000
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+
+	INWIDTH=32'b00000000000000000000000000110000
+	OUTWIDTH=32'b00000000000000000000000000110000
+	ROUND=32'b00000000000000000000000000000000
+	VALID_BIT=32'b00000000000000000000000000000001
+   Generated name = cordic_kitRoundTop_48_48_0s_1s
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":787:7:787:20|Synthesizing module cordic_signExt in library CORECORDIC_LIB.
+
+	INWIDTH=32'b00000000000000000000000000110000
+	OUTWIDTH=32'b00000000000000000000000000110000
+	UNSIGNED=32'b00000000000000000000000000000000
+	DROP_MSB=32'b00000000000000000000000000000000
+   Generated name = cordic_signExt_48_48_0s_0s
+Running optimization stage 1 on cordic_signExt_48_48_0s_0s .......
+Finished optimization stage 1 on cordic_signExt_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":73:7:73:25|Synthesizing module cordic_kitDelay_reg in library CORECORDIC_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000110000
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = cordic_kitDelay_reg_48_2s
+Running optimization stage 1 on cordic_kitDelay_reg_48_2s .......
+Finished optimization stage 1 on cordic_kitDelay_reg_48_2s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":33:7:33:29|Synthesizing module cordic_kitDelay_bit_reg in library CORECORDIC_LIB.
+
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = cordic_kitDelay_bit_reg_2s
+Running optimization stage 1 on cordic_kitDelay_bit_reg_2s .......
+Finished optimization stage 1 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+Running optimization stage 1 on cordic_kitRoundTop_48_48_0s_1s .......
+Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":365:7:365:24|Synthesizing module cordic_kitRoundTop in library CORECORDIC_LIB.
+
+	INWIDTH=32'b00000000000000000000000000110000
+	OUTWIDTH=32'b00000000000000000000000000110000
+	ROUND=32'b00000000000000000000000000000000
+	VALID_BIT=32'b00000000000000000000000000000000
+   Generated name = cordic_kitRoundTop_48_48_0s_0s
+Running optimization stage 1 on cordic_kitRoundTop_48_48_0s_0s .......
+@W: CL318 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":375:9:375:14|*Output valido has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on cordic_kitRoundTop_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":710:7:710:32|Synthesizing module cordic_coarse_post_rotator in library CORECORDIC_LIB.
+
+	BITS=32'b00000000000000000000000000110000
+	MODE_VECTOR=1'b1
+	COARSE=32'b00000000000000000000000000000000
+   Generated name = cordic_coarse_post_rotator_48_1_0s
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:18:722:20|Removing wire x_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:23:722:25|Removing wire y_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":722:28:722:30|Removing wire a_w, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":725:7:725:19|Removing wire coarse_flag_w, as there is no assignment to it.
+Running optimization stage 1 on cordic_coarse_post_rotator_48_1_0s .......
+Finished optimization stage 1 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":98:7:98:46|Synthesizing module CORECORDIC_C0_CORECORDIC_C0_0_cordic_par in library CORECORDIC_LIB.
+
+	IN_BITS=32'b00000000000000000000000000110000
+	OUT_BITS=32'b00000000000000000000000000110000
+	ITERATIONS=32'b00000000000000000000000000010000
+	MODE_VECTOR=1'b1
+	MODE=32'b00000000000000000000000000000010
+	DP_OPTION=32'b00000000000000000000000000000000
+	DP_BITS=32'b00000000000000000000000000110000
+	EFFECT_OUT_BITS=32'b00000000000000000000000000110000
+	ROUND=32'b00000000000000000000000000000000
+	COARSE=32'b00000000000000000000000000000000
+	IN_REG=32'b00000000000000000000000000000000
+	OUT_REG=32'b00000000000000000000000000000000
+	WORDSIZE_MAX=32'b00000000000000000000000000110000
+	WORDSIZE_MIN=32'b00000000000000000000000000001000
+	LOGITER=32'b00000000000000000000000000000100
+   Generated name = CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0
+@W: CG781 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":189:11:189:11|Input validi on instance roundy_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":194:11:194:11|Input validi on instance rounda_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":128:21:128:30|Removing wire iter_count, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":129:21:129:28|Removing wire romAngle, as there is no assignment to it.
+@W: CG360 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/cordic_par.v":132:7:132:18|Removing wire ld_data2calc, as there is no assignment to it.
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+Running optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 .......
+Finished optimization stage 1 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0.v":30:7:30:19|Synthesizing module CORECORDIC_C0 in library work.
+Running optimization stage 1 on CORECORDIC_C0 .......
+Finished optimization stage 1 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay.v":8:7:8:24|Synthesizing module delay_line_signext in library work.
+Running optimization stage 1 on delay_line_signext .......
+Finished optimization stage 1 on delay_line_signext (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/envelope/envelope.v":9:7:9:14|Synthesizing module envelope in library work.
+@N: CG794 :"/home/jessica/Desktop/Echo/ultrasound/component/work/envelope/envelope.v":101:12:101:24|Using module fir_hilbert from library work
+Running optimization stage 1 on envelope .......
+Finished optimization stage 1 on envelope (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 195MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":1:7:1:10|Synthesizing module fifo in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000110000
+	DEPTH=32'b00000000000000000000000000011110
+	ADDR_WIDTH=32'b00000000000000000000000000000101
+   Generated name = fifo_48s_30s_5s
+Running optimization stage 1 on fifo_48s_30s_5s .......
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[29][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[28][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[27][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[26][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[25][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[24][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[23][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[22][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[21][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[20][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[19][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[18][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[17][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[16][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[15][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[14][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[13][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[12][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[11][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[10][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[9][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[8][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[7][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[6][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[5][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[4][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[3][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[2][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[1][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Feedback mux created for signal fifo_mem[0][47:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on fifo_48s_30s_5s (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/start_pulse_generator.v":1:7:1:27|Synthesizing module start_pulse_generator in library work.
+Running optimization stage 1 on start_pulse_generator .......
+Finished optimization stage 1 on start_pulse_generator (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":1:7:1:17|Synthesizing module readrf_vals in library work.
+Opening data file readrf_vals_rf_vals_1_9058_initial_block from directory .
+Opening data file readrf_vals_rf_vals_2_9058_initial_block from directory .
+Opening data file readrf_vals_rf_vals_3_9058_initial_block from directory .
+Opening data file readrf_vals_rf_vals_4_9058_initial_block from directory .
+@W: CG532 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":17:0:17:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@N: CG179 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":107:25:107:29|Removing redundant assignment.
+Running optimization stage 1 on readrf_vals .......
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[15] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[14] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[13] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[12] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[11] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[10] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[9] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val1[8] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[15] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[14] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[13] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[12] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[11] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[10] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[9] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val2[8] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[15] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[14] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[13] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[12] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[11] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[10] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[9] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val3[8] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[15] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[14] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[13] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[12] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[11] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[10] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[9] is always 0.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Register bit val4[8] is always 0.
+@W: CL279 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val3[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/jessica/Desktop/Echo/ultrasound/hdl/readrf_vals.v":88:0:88:5|Pruning register bits 15 to 8 of val4[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on readrf_vals (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/coord_rom.v":1:7:1:15|Synthesizing module coord_rom in library work.
+
+	NUM_CHANNELS=32'b00000000000000000000000000010000
+	DATA_WIDTH=32'b00000000000000000000000000000100
+   Generated name = coord_rom_16s_4s
+Opening data file coord_rom_16s_4s_x_rom_9058_initial_block from directory .
+Opening data file coord_rom_16s_4s_z_rom_9058_initial_block from directory .
+@W: CG532 :"/home/jessica/Desktop/Echo/ultrasound/hdl/coord_rom.v":14:0:14:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on coord_rom_16s_4s .......
+Finished optimization stage 1 on coord_rom_16s_4s (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":1:7:1:15|Synthesizing module delay_con in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	NUM_CHANNELS=32'b00000000000000000000000000010000
+	MAX_DELAY=32'b00000000000000000000000100000000
+	IDLE=32'b00000000000000000000000000000000
+	LOAD_COORD=32'b00000000000000000000000000000001
+	START_CALC=32'b00000000000000000000000000000010
+	WAIT_VALID=32'b00000000000000000000000000000011
+	STORE=32'b00000000000000000000000000000100
+	INCREMENT=32'b00000000000000000000000000000101
+	DONE=32'b00000000000000000000000000000110
+   Generated name = delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":1:7:1:10|Synthesizing module sqrt in library work.
+@E: CS153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":53:18:53:18|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":54:17:54:17|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":55:14:55:14|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":58:18:58:18|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":60:18:60:18|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":62:14:62:14|Can't mix blocking and non-blocking assignments to a variable
+Running optimization stage 1 on sqrt .......
+@W: CL169 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":29:0:29:5|Pruning unused register left[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":29:0:29:5|Pruning unused register right[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":29:0:29:5|Removing unused bit 16 of r[17:0]. Either assign all bits or reduce the width of the signal.
+Finished optimization stage 1 on sqrt (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_calc.v":1:7:1:16|Synthesizing module delay_calc in library work.
+Running optimization stage 1 on delay_calc .......
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_calc.v":36:4:36:7|Latch generated from always block for signal next_state[3:0]; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on delay_calc (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 199MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sample_delay.v":1:7:1:18|Synthesizing module sample_delay in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	MAX_DELAY=32'b00000000000000000000000100000000
+	ADDR_WIDTH=32'b00000000000000000000000000001000
+   Generated name = sample_delay_16s_256s_8s
+Running optimization stage 1 on sample_delay_16s_256s_8s .......
+@N: CL134 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sample_delay.v":19:4:19:9|Found RAM buffer, depth=256, width=16
+Finished optimization stage 1 on sample_delay_16s_256s_8s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 1 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s .......
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[15][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[14][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[13][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[12][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[11][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[10][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[9][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[8][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[7][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[6][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[5][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[4][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[3][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[2][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[1][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal z_ic[0][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[15][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[14][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[13][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[12][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[11][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[10][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[9][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[8][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[7][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[6][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[5][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[4][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[3][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[2][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[1][15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":65:4:65:9|Latch generated from always block for signal x_ic[0][15:0]; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/summ_sa.v":1:7:1:13|Synthesizing module summ_sa in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	NUM_CHANNELS=32'b00000000000000000000000000010000
+	SUM_WIDTH=32'b00000000000000000000000000010010
+   Generated name = summ_sa_16s_16s_18s
+Running optimization stage 1 on summ_sa_16s_16s_18s .......
+Finished optimization stage 1 on summ_sa_16s_16s_18s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":1:7:1:12|Synthesizing module top_bf in library work.
+@W: CG133 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":13:15:13:21|Object x_f_reg is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":13:24:13:30|Object z_f_reg is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on top_bf .......
+Finished optimization stage 1 on top_bf (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v":1:7:1:14|Synthesizing module int_calc in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000110000
+	FRAC_WIDTH=32'b00000000000000000000000000010000
+	MIN_THRESHOLD=32'b00000000000000000000000000000001
+	NORM_WIDTH=32'b00000000000000000000000000010001
+	SHIFT_WIDTH=32'b00000000000000000000000000000110
+	IDLE=32'b00000000000000000000000000000000
+	CALC_ZP=32'b00000000000000000000000000000001
+	PROCESS=32'b00000000000000000000000000000010
+	CALC_SHIFT=32'b00000000000000000000000000000011
+	LOAD_DOUT=32'b00000000000000000000000000000100
+	SEND=32'b00000000000000000000000000000101
+   Generated name = int_calc_Z3_layer0
+Running optimization stage 1 on int_calc_Z3_layer0 .......
+@W: CL271 :"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v":40:4:40:9|Pruning unused bits 47 to 16 of shift_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v":30:8:30:11|Latch generated from always block for signal next_state[2:0]; possible missing assignment in an if or case statement.
+@N: CL189 :"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v":40:4:40:9|Register bit data_out[16] is always 1.
+@W: CL260 :"/home/jessica/Desktop/Echo/ultrasound/hdl/int_calc.v":40:4:40:9|Pruning register bit 16 of data_out[16:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on int_calc_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v":1:7:1:19|Synthesizing module log_frac_calc in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000110000
+	FRAC_WIDTH=32'b00000000000000000000000000010000
+	NORM_WIDTH=32'b00000000000000000000000000010001
+	IDLE=32'b00000000000000000000000000000000
+	CALC=32'b00000000000000000000000000000001
+	DONE=32'b00000000000000000000000000000010
+   Generated name = log_frac_calc_48s_16s_17s_0s_1s_2s
+Opening data file log_frac_calc_48s_16s_17s_0s_1s_2s_log2_constants_9058_initial_block from directory .
+Opening data file log_frac_calc_48s_16s_17s_0s_1s_2s_cordic_x_constants_9058_initial_block from directory .
+@W: CG532 :"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v":19:4:19:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG532 :"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v":38:4:38:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@N: CG179 :"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v":97:33:97:37|Removing redundant assignment.
+@N: CG179 :"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v":98:33:98:37|Removing redundant assignment.
+Running optimization stage 1 on log_frac_calc_48s_16s_17s_0s_1s_2s .......
+@W: CL118 :"/home/jessica/Desktop/Echo/ultrasound/hdl/log_frac_calc.v":65:8:65:11|Latch generated from always block for signal next_state[1:0]; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on log_frac_calc_48s_16s_17s_0s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_logc.v":1:7:1:14|Synthesizing module top_logc in library work.
+Running optimization stage 1 on top_logc .......
+Finished optimization stage 1 on top_logc (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+@N: CG364 :"/home/jessica/Desktop/Echo/ultrasound/component/work/top/top.v":9:7:9:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on top_logc .......
+Finished optimization stage 2 on top_logc (CPU Time 0h:00m:00s, Memory Used current: 200MB peak: 200MB)
+Running optimization stage 2 on log_frac_calc_48s_16s_17s_0s_1s_2s .......
+Finished optimization stage 2 on log_frac_calc_48s_16s_17s_0s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 201MB peak: 203MB)
+Running optimization stage 2 on int_calc_Z3_layer0 .......
+Finished optimization stage 2 on int_calc_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 204MB)
+Running optimization stage 2 on top_bf .......
+@W: CL177 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":39:4:39:9|Sharing sequential element sum_en_reg and merging start_sum_reg. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":39:4:39:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@A: CL153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":13:15:13:21|*Unassigned bits of x_f_reg[15:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"/home/jessica/Desktop/Echo/ultrasound/hdl/top_bf.v":13:24:13:30|*Unassigned bits of z_f_reg[15:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on top_bf (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 204MB)
+Running optimization stage 2 on summ_sa_16s_16s_18s .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/hdl/summ_sa.v":8:10:8:18|Input start_sum is unused.
+Finished optimization stage 2 on summ_sa_16s_16s_18s (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 204MB)
+Running optimization stage 2 on sample_delay_16s_256s_8s .......
+Finished optimization stage 2 on sample_delay_16s_256s_8s (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 204MB)
+Running optimization stage 2 on delay_calc .......
+Finished optimization stage 2 on delay_calc (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on sqrt .......
+@N: CL201 :"/home/jessica/Desktop/Echo/ultrasound/hdl/sqrt.v":29:0:29:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on sqrt (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s .......
+@N: CL201 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":42:4:42:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   110
+@W: CL279 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay_con.v":42:4:42:9|Pruning register bits 15 to 1 of enable_buff[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on coord_rom_16s_4s .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/hdl/coord_rom.v":5:10:5:12|Input clk is unused.
+Finished optimization stage 2 on coord_rom_16s_4s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on readrf_vals .......
+Finished optimization stage 2 on readrf_vals (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on start_pulse_generator .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/hdl/start_pulse_generator.v":2:10:2:12|Input clk is unused.
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/hdl/start_pulse_generator.v":3:10:3:14|Input reset is unused.
+Finished optimization stage 2 on start_pulse_generator (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on fifo_48s_30s_5s .......
+@N: CL134 :"/home/jessica/Desktop/Echo/ultrasound/hdl/fifo.v":41:4:41:9|Found RAM fifo_mem, depth=30, width=48
+Finished optimization stage 2 on fifo_48s_30s_5s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on envelope .......
+Finished optimization stage 2 on envelope (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on delay_line_signext .......
+@N: CL135 :"/home/jessica/Desktop/Echo/ultrasound/hdl/delay.v":32:4:32:9|Found sequential shift shift_reg with address depth of 9 words and data bit width of 48.
+Finished optimization stage 2 on delay_line_signext (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0 .......
+Finished optimization stage 2 on CORECORDIC_C0 (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_coarse_post_rotator_48_1_0s .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:8:716:12|Input nGrst is unused.
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:15:716:17|Input rst is unused.
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":716:20:716:22|Input clk is unused.
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":717:14:717:24|Input coarse_flag is unused.
+Finished optimization stage 2 on cordic_coarse_post_rotator_48_1_0s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_kitRoundTop_48_48_0s_0s .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":373:25:373:30|Input validi is unused.
+Finished optimization stage 2 on cordic_kitRoundTop_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_kitDelay_bit_reg_2s .......
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_2s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_kitDelay_reg_48_2s .......
+Finished optimization stage 2 on cordic_kitDelay_reg_48_2s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_signExt_48_48_0s_0s .......
+Finished optimization stage 2 on cordic_signExt_48_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_kitRoundTop_48_48_0s_1s .......
+Finished optimization stage 2 on cordic_kitRoundTop_48_48_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_15s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_15s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_15s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_14s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_14s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_14s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_13s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_13s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_13s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_12s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_12s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_12s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_11s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_11s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_11s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_10s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_10s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_10s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_9s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_9s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_9s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_8s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_8s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_8s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_7s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_7s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_7s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_6s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_6s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_6s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_5s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_5s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_5s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_4s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_4s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_4s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_3s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_3s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_3s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_2s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_2s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_2s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_1s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_1s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_1s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cROM_par_48_0s_48s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_par_calc_1_48_4_0s .......
+Finished optimization stage 2 on cordic_par_calc_1_48_4_0s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s .......
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_kitDelay_bit_reg_16s .......
+Finished optimization stage 2 on cordic_kitDelay_bit_reg_16s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_dp_bits_trans_48s_48 .......
+Finished optimization stage 2 on cordic_dp_bits_trans_48s_48 (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_signExt_48s_48_0s_0s .......
+Finished optimization stage 2 on cordic_signExt_48s_48_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_kitDelay_reg_2s_18s .......
+Finished optimization stage 2 on cordic_kitDelay_reg_2s_18s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_coarse_pre_rotator_48s_1_0s .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:8:615:12|Input nGrst is unused.
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:15:615:17|Input rst is unused.
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/Actel/DirectCore/CORECORDIC/4.1.100/rtl/vlog/core/cordic_kit.v":615:20:615:22|Input clk is unused.
+Finished optimization stage 2 on cordic_coarse_pre_rotator_48s_1_0s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 .......
+@N: CL159 :"/home/jessica/Desktop/Echo/ultrasound/component/work/CORECORDIC_C0/CORECORDIC_C0_0/rtl/vlog/core/CORECORDIC.v":116:37:116:41|Input DIN_A is unused.
+Finished optimization stage 2 on CORECORDIC_C0_CORECORDIC_C0_0_CORECORDIC_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_init_kickstart .......
+Finished optimization stage 2 on cordic_init_kickstart (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+Running optimization stage 2 on cordic_countS_4s_15s_1s .......
+Finished optimization stage 2 on cordic_countS_4s_15s_1s (CPU Time 0h:00m:00s, Memory Used current: 205MB peak: 205MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/jessica/Desktop/Echo/ultrasound/synthesis/synwork/layer0.duruntime
+
+
+# Thu Sep  4 22:52:09 2025
+
+###########################################################]
+@E::Errors while synthesizing top module top.
+@END
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Sep  4 22:52:09 2025
+
+###########################################################]

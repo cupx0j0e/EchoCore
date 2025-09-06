@@ -1,0 +1,12 @@
+@P:  Worst Slack : 5.455
+@P:  envelope|CLK - Estimated Frequency : 220.0 MHz
+@P:  envelope|CLK - Requested Frequency : 100.0 MHz
+@P:  envelope|CLK - Estimated Period : 4.545
+@P:  envelope|CLK - Requested Period : 10.000
+@P:  envelope|CLK - Slack : 5.455
+@P: envelope Part : mpfs025tfcvg484-1
+@P: envelope Register bits  : 1952 
+@P: envelope DSP Blocks  : 15
+@P: envelope I/O primitives : 69
+@P: envelope RAM64x12 :  10
+@P:  CPU Time : 0h:00m:08s

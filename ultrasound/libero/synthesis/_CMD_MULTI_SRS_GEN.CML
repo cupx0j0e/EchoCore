@@ -1,0 +1,1 @@
+ -link  -top  top  -multisrs  /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs  -osyn  /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_mult.srs  -log  /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synlog/top_multi_srs_gen.srr 

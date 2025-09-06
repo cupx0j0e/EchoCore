@@ -1,0 +1,150 @@
+<html> 
+ 			<head> 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>Project Status Summary Page</title>
+			<link rel="stylesheet" type="text/css" href="projectstatuspage.css" />
+			<script type = "text/javascript" src="projectstatuspage.js"></script>
+			</head>
+
+ 			<body style="background-color:#f0f0ff;">
+ 			
+<table style="border:none;" width="100%" ><tr> <td class="outline">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 	     <thead class="tablehead"><tr><th colspan="4">Project Settings</th><tr> 
+ <tr> <td class="optionTitle" align="left"> Project Name</td> <td> top_syn</td> <td class="optionTitle" align="left"> Device Name</td> <td> synthesis: Microchip PolarFireSoC : MPFS025T</td> </tr>
+<tr> <td class="optionTitle" align="left"> Implementation Name</td> <td> synthesis</td> <td class="optionTitle" align="left"> Top Module</td> <td> top</td> </tr>
+ 		 </thead> 
+		 <tbody> <tr> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> <td class="optionTitle" align="left"> Resource Sharing</td> <td> 1</td> </tr>
+<tr> <td class="optionTitle" align="left"> Fanout Guide</td> <td> 10000</td> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> </tr>
+<tr> <td class="optionTitle" align="left"> Disable Sequential Optimizations</td> <td> 0</td> <td class="optionTitle" align="left"> FSM Compiler</td> <td> 1</td> </tr>
+ 
+</tbody> 
+  </table><br>	 <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="9">Run Status</th></tr></thead>
+         <tbody>
+ 		<tr>
+ 			<th align="left" width="17%">Job Name</th>
+			<th align="left">Status</th>
+ 			<td class="lnote" align="center" title="Notes"></td>
+ 			<td class="lwarn" align="center" title="Warnings"></td>
+ 			<td class="lerror" align="center" title="Errors"></td>
+ 			<th align="left">CPU Time</th>
+ 			<th align="left">Real Time</th>
+ 			<th align="left">Memory</th>
+ 			<th align="left">Date/Time</th>
+         </tr>
+  <tr>
+  <td class="optionTitle"> (compiler)</td><td>Complete</td>
+ <td>296</td>
+ <td>528</td>
+<td>0</td>
+<td>-</td>
+<td>00m:03s</td>
+<td>-</td>
+<td><font size="-1">9/5/25</font><br/><font size="-2">1:24 AM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (premap)</td><td>Complete</td>
+ <td>133</td>
+ <td>569</td>
+<td>0</td>
+<td>0m:03s</td>
+<td>0m:03s</td>
+<td>629MB</td>
+<td><font size="-1">9/5/25</font><br/><font size="-2">1:25 AM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>69</td>
+ <td>629</td>
+<td>0</td>
+<td>0m:31s</td>
+<td>0m:19s</td>
+<td>684MB</td>
+<td><font size="-1">9/5/25</font><br/><font size="-2">1:25 AM</font></td>
+</tr> 
+
+<tr>
+  <td class="optionTitle">Multi-srs Generator</td>
+  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>00m:01s</td><td class="empty"></td><td class="empty"></td><td><font size="-1">9/5/25</font><br/><font size="-2">1:24 AM</font></td> 		</tbody>
+     </table>
+ <br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Area Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="2"></td><td class="optionTitle" colspan="2"></td></tr> 
+ </tfoot> 
+ <tbody> <tr> 
+<td title ="Total Carry Cells used" class="optionTitle" align="left">Carry Cells</td> <td>2558</td>
+<td title ="Total Sequential Cells used" class="optionTitle" align="left">Sequential Cells</td> <td>4703</td>
+</tr>
+<tr> 
+<td title ="Total DSP Blocks used" class="optionTitle" align="left">DSP Blocks
+(dsp_used)</td> <td>31</td>
+<td title ="Total I/O Cells used" class="optionTitle" align="left">I/O Cells</td> <td>26</td>
+</tr>
+<tr> 
+<td title ="Total Global Clock Buffers used" class="optionTitle" align="left">Global Clock Buffers</td> <td>34</td>
+<td title ="Total RAM64x12 used" class="optionTitle" align="left">RAM64x12
+(v_ram)</td> <td>26</td>
+</tr>
+<tr> 
+<td title ="Total LUTs used" class="optionTitle" align="left">LUTs
+(total_luts)</td> <td>4574</td>
+<td class="optionTitle"></td><td></td></tr> 
+</tbody>
+    </table><br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Timing Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
+ </tfoot> 
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
+<tr> <td  align="left">delay_calc_0|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_1|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_2|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_3|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_4|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_5|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_6|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_7|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_8|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_9|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_10|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_11|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_12|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_13|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_14|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_calc_15|N_20_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_725_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_726_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_727_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_728_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_729_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_730_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_731_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_732_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_733_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_734_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_735_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_736_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_737_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_738_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_739_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">delay_con_16s_16s_256s_0s_1s_2s_3s_4s_5s_6s|N_740_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">top|clk</td><td  align="left">100.0 MHz</td><td  align="left">155.6 MHz</td><td  align="left">3.573</td></tr> 
+</tbody> 
+ </table>
+<br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="5">Compile Points Summary</th></tr></thead>
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Name</th><th class="optionTitle" align= "left ">Status</th><th class="optionTitle" align= "left ">Reason</th><th class="optionTitle" align= "left ">Real Time</th><th class="optionTitle" align= "left ">CPU Time</th></tr> 
+<tr> <td  align="left">CORECORDIC_C0_CORECORDIC_C0_0_cordic_par_uRotator_48s_48_16s_4_1_2s</td><td  align="left">Remapped</td><td  align="left">Mapping options changed</td><td  align="left">0h:00m:04s</td><td  align="left">0h:00m:04s</td></tr> 
+<tr> <td  align="left">top</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:06s</td><td  align="left">0h:00m:06s</td></tr> 
+<tr> <td  align="left">top_bf</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:08s</td><td  align="left">0h:00m:08s</td></tr> 
+</tbody> 
+ </table>
+<br>
+<br> 
+</td></tr></table></body> 
+ </html>

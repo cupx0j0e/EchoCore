@@ -1,0 +1,8 @@
+/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter  -link  -top  top  -multisrs  /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_comp.srs  -osyn  /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synwork/top_mult.srs  -log  /home/jessica/GITHUB/EchoCore/ultrasound/libero/synthesis/synlog/top_multi_srs_gen.srr 
+relcom:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter -link -top top -multisrs ../synwork/top_comp.srs -osyn ../synwork/top_mult.srs -log ../synlog/top_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:../synwork/top_comp.srs|io:i|time:1757015697|size:224752|exec:0|csum:4E1067C3FBB430488D7F91C72441528C
+file:../synwork/top_mult.srs|io:o|time:1757015699|size:4771|exec:0|csum:
+file:../synlog/top_multi_srs_gen.srr|io:o|time:1757015699|size:1164|exec:0|csum:
+file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1721922082|size:18297968|exec:1|csum:B8A9CFE3048D668050D1DD180472B74E
+file:/usr/local/microchip/Libero_SoC_v2024.2/SynplifyPro/bin/syn_nfilter|io:i|time:1721921501|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

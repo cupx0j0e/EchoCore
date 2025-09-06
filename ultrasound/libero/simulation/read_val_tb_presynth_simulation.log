@@ -1,0 +1,134 @@
+# ERROR: No extended dataflow license exists
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap polarfire /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library CORECORDIC_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap CORECORDIC_LIB CORECORDIC_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREFIR_PF_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.2 Lib Mapping Utility 2024.05 May 20 2024
+# vmap COREFIR_PF_LIB COREFIR_PF_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:17 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/hdl/readrf_vals.v 
+# -- Compiling module readrf_vals
+# 
+# Top level modules:
+# 	readrf_vals
+# End time: 17:28:17 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:17 on Sep 03,2025
+# vlog -reportprogress 300 -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/component/work/read_val/read_val.v 
+# -- Compiling module read_val
+# 
+# Top level modules:
+# 	read_val
+# End time: 17:28:17 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:17 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package corefir_rtl_pack
+# -- Compiling package body corefir_rtl_pack
+# -- Loading package corefir_rtl_pack
+# ** Warning: /home/jessica/Desktop/EchoCore/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/corefir_rtl_pack.vhd(469): Function 'running_sum_basic' may complete without a RETURN at line 466.
+# End time: 17:28:17 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:17 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/Actel/DirectCore/COREFIR_PF/3.0.121/rtl/vhdl/core/enum_rtl_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package enum_rtl_pack
+# -- Compiling package body enum_rtl_pack
+# -- Loading package enum_rtl_pack
+# End time: 17:28:17 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:17 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enumFIR_coefs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fir_hilbert_fir_hilbert_0_enumFIR_coefs
+# End time: 17:28:17 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:17 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/core/enum_PF/fir_hilbert_fir_hilbert_0_enum_params.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fir_hilbert_fir_hilbert_0_enum_params
+# End time: 17:28:18 on Sep 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:18 on Sep 03,2025
+# vcom -reportprogress 300 -2008 -explicit -work COREFIR_PF_LIB /home/jessica/Desktop/EchoCore/envelope_detection/component/work/fir_hilbert/fir_hilbert_0/rtl/vhdl/test/user/coreparameters_tgi.vhd 
+# -- Loading package STANDARD
+# -- Compiling package coreparameters_tgi
+# End time: 17:28:18 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:28:18 on Sep 03,2025
+# vlog -reportprogress 300 "+incdir+/home/jessica/Desktop/EchoCore/envelope_detection/stimulus" -sv -work presynth /home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v 
+# -- Compiling module read_val_tb
+# 
+# Top level modules:
+# 	read_val_tb
+# End time: 17:28:18 on Sep 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L CORECORDIC_LIB -L COREFIR_PF_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" presynth.read_val_tb 
+# Start time: 17:28:18 on Sep 03,2025
+# //  ModelSim Microsemi Pro 2024.2 May 20 2024 Linux 6.8.0-65-generic
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading presynth.read_val_tb
+# Loading presynth.read_val
+# Loading presynth.readrf_vals
+# Loading /usr/local/microchip/Libero_SoC_v2024.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+# Time=0 | reset=1, inc_count=0 | val1=0xxxxx, val2=0xxxxx, val3=0xxxxx, val4=0xxxxx
+# Time=5000 | reset=1, inc_count=0 | val1=0x0000, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=10000 | reset=0, inc_count=0 | val1=0x0000, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=15000 | reset=0, inc_count=0 | val1=0x0050, val2=0x00ff, val3=0x00ff, val4=0x0010
+# Time=30000 | reset=0, inc_count=1 | val1=0x0050, val2=0x00ff, val3=0x00ff, val4=0x0010
+# Time=40000 | reset=0, inc_count=0 | val1=0x0050, val2=0x00ff, val3=0x00ff, val4=0x0010
+# Time=45000 | reset=0, inc_count=0 | val1=0x0001, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=60000 | reset=0, inc_count=1 | val1=0x0001, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=70000 | reset=0, inc_count=0 | val1=0x0001, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=75000 | reset=0, inc_count=0 | val1=0x0002, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=90000 | reset=1, inc_count=0 | val1=0x0002, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=95000 | reset=1, inc_count=0 | val1=0x0000, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=100000 | reset=0, inc_count=0 | val1=0x0000, val2=0x0000, val3=0x0000, val4=0x0000
+# Time=105000 | reset=0, inc_count=0 | val1=0x0050, val2=0x00ff, val3=0x00ff, val4=0x0010
+# ** Note: $finish    : /home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v(68)
+#    Time: 150 ns  Iteration: 0  Instance: /read_val_tb
+# 1
+# Break in Module read_val_tb at /home/jessica/Desktop/EchoCore/envelope_detection/stimulus/bf_tb.v line 68
+# End time: 17:28:59 on Sep 03,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
